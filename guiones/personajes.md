@@ -84,6 +84,20 @@ Elderly man stickman with the same round white head and line body, white
 mustache, straw sombrero, framed old photo style.
 ```
 
+## Imágenes ya generadas en Canva
+
+| Imagen | ID de Canva | Enlace |
+|---|---|---|
+| Hoja de Tú y Chispa | `MAHZiwDsmaY` | https://www.canva.com/M/MAHZiwDsmaY |
+| Hoja de Rosa, Memo e infectado | `MAHZi2QlCGQ` | https://www.canva.com/M/MAHZi2QlCGQ |
+| Prueba: parte 1, escena 3 | `MAHZi0yydK0` | https://www.canva.com/M/MAHZi0yydK0 |
+
+Notas de la primera tanda:
+
+1. En la hoja de Tú, los brazos y piernas salieron como tubos blancos con contorno. En las escenas hay que pedir "solid thin black single lines" para el cuerpo. Con eso la prueba salió bien.
+2. En la prueba, Chispa salió de un café más claro que en la hoja. Repite "small brown dog" en cada prompt.
+3. En la prueba apareció una calavera en un estante sin que nadie la pidiera. Revisa cada imagen antes de usarla.
+
 ## Cómo mantenerlos iguales
 
 1. Genera primero la hoja del personaje y elige la que más te guste.
