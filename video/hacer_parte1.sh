@@ -6,7 +6,7 @@ mkdir -p salida
 
 python3 -I parte1/linea_de_tiempo.py audio/palabras.json parte1/tl.js
 node render.js parte1/parte1.html salida/parte1_imagen.mp4 30
-python3 -I parte1/mezcla.py parte1/tl.js audio/narracion.wav salida/parte1_audio.m4a
+python3 -I parte1/mezcla.py parte1/tl.js audio/narracion.mp3 salida/parte1_audio.m4a
 ffmpeg -v error -y -i salida/parte1_imagen.mp4 -i salida/parte1_audio.m4a \
   -c:v copy -c:a copy -shortest -movflags +faststart salida/la_alerta_parte1.mp4
 echo "Video listo: salida/la_alerta_parte1.mp4"
