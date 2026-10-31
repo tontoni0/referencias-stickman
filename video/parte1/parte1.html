@@ -3,53 +3,14 @@
 <head>
 <meta charset="utf-8">
 <title>La alerta · Parte 1</title>
-<style>
-  @font-face { font-family: Caveat; src: url(../fonts/Caveat.ttf); font-weight: 400 700; }
-  @font-face { font-family: Oswald; src: url(../fonts/Oswald.ttf); font-weight: 200 700; }
-  html, body { margin: 0; background: #000; }
-  #stage { width: 1080px; height: 1920px; position: relative; overflow: hidden; background: #000; }
-  .escena, .cam, .full { position: absolute; inset: 0; }
-  .escena { display: none; }
-  .lienzo { position: absolute; left: 0; top: 0; }
-  #fade { position: absolute; inset: 0; background: #000; pointer-events: none; }
-  #sub {
-    position: absolute; left: 40px; right: 40px; top: 1560px; text-align: center;
-    font-family: Oswald; font-weight: 700; font-size: 100px; line-height: 1.05; letter-spacing: 1px;
-    color: #fff; -webkit-text-stroke: 7px #000; paint-order: stroke fill;
-    text-shadow: 0 8px 24px rgba(0,0,0,.65); transform-origin: 50% 50%;
-  }
-  #sub .hot { color: #e0312b; }
-
-  .ficcion { position: absolute; top: 70px; left: 60px; font: 600 30px Inter, sans-serif; letter-spacing: 3px; color: #8a8f98; }
-  .hora { position: absolute; top: 760px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 300px; color: #fff; line-height: 1; }
-  .hora small { font-size: 110px; }
-  .aviso { position: absolute; top: 1110px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 96px; letter-spacing: 6px; color: #e0312b; }
-
-  .chat { position: absolute; inset: 0; background: #0b141a; font-family: Inter, sans-serif; color: #e9edef; }
-  .status { height: 110px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 64px 18px; font-size: 40px; font-weight: 600; }
-  .head { height: 150px; background: #1f2c34; display: flex; align-items: center; gap: 28px; padding: 0 40px; }
-  .back { font-size: 64px; color: #aebac1; }
-  .avatar { width: 100px; height: 100px; border-radius: 50%; background: #2a3942; display: grid; place-items: center; font-size: 56px; font-family: "Noto Color Emoji"; }
-  .title { font-size: 46px; font-weight: 600; }
-  .members { font-size: 32px; color: #8696a0; margin-top: 4px; }
-  .msgs { padding: 40px; display: flex; flex-direction: column; gap: 28px; }
-  .pill { align-self: center; background: #182229; color: #8696a0; font-size: 32px; padding: 12px 28px; border-radius: 16px; }
-  .msg { align-self: flex-start; max-width: 82%; background: #1f2c34; border-radius: 0 24px 24px 24px; padding: 20px 28px 16px; font-size: 44px; line-height: 1.3; }
-  .msg .who { font-size: 34px; font-weight: 600; margin-bottom: 6px; }
-  .msg .t { font-size: 28px; color: #8696a0; text-align: right; margin-top: 6px; }
-  .new { align-self: center; background: #182229; color: #e9edef; font-size: 30px; padding: 10px 26px; border-radius: 16px; margin-top: 30px; }
-  .msg.last { outline: 4px solid #e0312b; }
-
-  .p2 { position: absolute; top: 1150px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 220px; color: #fff; line-height: 1; }
-  .p2 span { color: #e0312b; }
-  .p2b { position: absolute; top: 1420px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 110px; letter-spacing: 8px; color: #e0312b; }
-</style>
+<link rel="stylesheet" href="../lib/estilo.css">
 </head>
 <body>
 <div id="stage"><div id="fade"></div><div id="sub"></div></div>
 <script src="../lib/dibujo.js"></script>
 <script src="../lib/motor.js"></script>
 <script src="tl.js"></script>
+<script src="../lib/escena_base.js"></script>
 <script src="escenas.js"></script>
 <script>
   montar();

@@ -1,40 +1,6 @@
 // Escenas de "La alerta", parte 1. Cada escena trae su dibujo (html),
 // su cámara y su animación (update). Los tiempos salen de tl.js.
 
-const M = TL.marcas;
-const INI = Object.fromEntries(TL.escenas.map(e => [e.id, e.inicio]));
-const FIN = id => {
-  const i = TL.escenas.findIndex(e => e.id === id);
-  return i + 1 < TL.escenas.length ? TL.escenas[i + 1].inicio : TL.duracion;
-};
-const lienzo = c => `<svg class="lienzo" width="1080" height="1920" viewBox="0 0 1080 1920">${c}</svg>`;
-const viñeta = `<rect width="1080" height="1920" fill="url(#vignette)"/>`;
-const pulsoRojo = lt => 0.5 + 0.5 * Math.sin(2 * Math.PI * 1.1 * lt);
-
-// Poste de la alerta con sus bocinas. (x, y) es la punta del poste.
-function poste(x, y, s = 1, largo = 600) {
-  const b = (dx, dy, dir) => `<polygon points="${x + dir * 22 * s},${y + dy * s} ${x + dir * 120 * s},${y + (dy - 32) * s} ${x + dir * 120 * s},${y + (dy + 68) * s} ${x + dir * 22 * s},${y + (dy + 38) * s}" fill="#c9ccd2" stroke="${INK}" stroke-width="${6 * s}" stroke-linejoin="round"/>`;
-  const onda = (dir, k) => `<path class="onda" data-k="${k}" d="M${x + dir * (140 + k * 40) * s} ${y + (-10 - k * 18) * s} q${dir * (30 + k * 10) * s} ${(70 + k * 18) * s} 0 ${(140 + k * 36) * s}" fill="none" stroke="${ROJO}" stroke-width="${7 * s}" stroke-linecap="round"/>`;
-  return `<g filter="url(#ink)">
-    <line x1="${x}" y1="${y}" x2="${x}" y2="${y + largo * s}" stroke="${INK}" stroke-width="${26 * s}"/>
-    <line x1="${x}" y1="${y}" x2="${x}" y2="${y + largo * s}" stroke="#5b616b" stroke-width="${16 * s}"/>
-    ${b(0, 20, 1)}${b(0, 20, -1)}${b(0, 160, 1)}${b(0, 160, -1)}
-    <rect x="${x - 26 * s}" y="${y - 10 * s}" width="${52 * s}" height="${250 * s}" rx="${8 * s}" fill="#8b919a" stroke="${INK}" stroke-width="${6 * s}"/>
-    <circle cx="${x}" cy="${y - 34 * s}" r="${18 * s}" fill="${ROJO}" stroke="${INK}" stroke-width="${5 * s}" class="foco"/>
-  </g>
-  ${[0, 1, 2].map(k => onda(1, k) + onda(-1, k)).join('')}`;
-}
-
-function animaPoste(raiz, lt, encendido = true) {
-  raiz.querySelectorAll('.onda').forEach(o => {
-    const k = +o.dataset.k;
-    const f = (lt * 1.6 - k * 0.33) % 1;
-    o.style.opacity = encendido ? (f < 0 ? 0 : 0.9 * (1 - Math.abs(f * 2 - 1))) : 0;
-  });
-  raiz.querySelectorAll('.foco').forEach(f => f.style.opacity = encendido ? 0.4 + 0.6 * pulsoRojo(lt) : 0.3);
-}
-
-const ESCENAS = {};
 
 // 1. Tarjeta del gancho: 3:14 A. M.
 ESCENAS.alerta = {

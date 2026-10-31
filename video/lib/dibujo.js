@@ -13,6 +13,9 @@ const defsSVG = `
     <radialGradient id="headInfectado" cx="0.45" cy="0.35" r="0.75">
       <stop offset="0.4" stop-color="#9aa0a8"/><stop offset="1" stop-color="#5d636b"/>
     </radialGradient>
+    <radialGradient id="headInfectadoOscuro" cx="0.45" cy="0.35" r="0.75">
+      <stop offset="0.35" stop-color="#6b7079"/><stop offset="1" stop-color="#2e3237"/>
+    </radialGradient>
     <radialGradient id="vignette" cx="0.5" cy="0.48" r="0.75">
       <stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".78"/>
     </radialGradient>
@@ -21,6 +24,12 @@ const defsSVG = `
     <linearGradient id="paredNoche" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#1c2638"/><stop offset="1" stop-color="#121a28"/>
     </linearGradient>
+    <linearGradient id="paredDia" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34445e"/><stop offset="1" stop-color="#232f44"/>
+    </linearGradient>
+    <linearGradient id="ventanaDia" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b3c3d9"/><stop offset="1" stop-color="#7f93b0"/>
+    </linearGradient>
     <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#26385e"/><stop offset="1" stop-color="#121c36"/>
     </linearGradient>
@@ -28,7 +37,7 @@ const defsSVG = `
       <feTurbulence id="inkNoise" type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
       <feDisplacementMap in="SourceGraphic" scale="5"/>
     </filter>
-    <filter id="blur10"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="blur10" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
     <pattern id="paisley" width="36" height="36" patternUnits="userSpaceOnUse">
       <circle cx="9" cy="9" r="4" fill="#fff" opacity=".9"/>
       <path d="M24 22 q8 -2 6 8 q-5 3 -8 -2z" fill="none" stroke="#fff" stroke-width="2.5" opacity=".9"/>
@@ -54,6 +63,8 @@ function cabeza(cx, cy, r, o = {}) {
   const ex = r * 0.2, erx = r * 0.09 * es, ery = r * 0.165 * es;
   let s = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${fill}" stroke="${o.ink || INK}" stroke-width="${r * 0.08}"/>`;
   s += `<g class="ojos">`;
+  if (o.ojosBrillan) for (const x of [cx - ex + look, cx + ex + look])
+    s += `<ellipse cx="${x}" cy="${cy - r * 0.02 + lookY}" rx="${erx * 2.4}" ry="${ery * 1.7}" fill="#fff" opacity=".55" filter="url(#blur10)"/>`;
   for (const x of [cx - ex + look, cx + ex + look]) {
     s += `<ellipse cx="${x}" cy="${cy - r * 0.02 + lookY}" rx="${erx}" ry="${ery}" fill="${eyeFill}"/>`;
     if (!o.sinBrillo) s += punto(x + erx * 0.3, cy - r * 0.02 + lookY - ery * 0.4, erx * 0.32, '#fff');
@@ -75,27 +86,52 @@ function paliacate(cx, cy, r) {
 // o = { head:[x,y], r, neck, hip, armL:[codo, mano], armR, legL:[rodilla, pie], legR,
 //       footL, footR (dirección del pie: 1 o -1), look, lookY, eyeScale,
 //       paliacate (true por omisión), headFill, eyeFill, ink, sinBrillo }
+//       gris (color de relleno para extremidades con contorno, para que se vean en lo oscuro),
+//       antesCabeza / despuesCabeza (SVG extra: chongo, rebozo, lentes) }
 function stick(o) {
   const r = o.r, w = r * 0.085, ink = o.ink || INK;
+  const L = pts => o.gris ? linea(pts, w * 1.9, '#050608') + linea(pts, w, o.gris) : linea(pts, w, ink);
   let s = '';
   const pierna = (lg, dir) => {
     if (!lg) return;
-    s += linea([o.hip, lg[0], lg[1]], w, ink);
-    if (dir) s += linea([lg[1], [lg[1][0] + dir * r * 0.24, lg[1][1] + r * 0.02]], w, ink);
+    s += L([o.hip, lg[0], lg[1]]);
+    if (dir) s += L([lg[1], [lg[1][0] + dir * r * 0.24, lg[1][1] + r * 0.02]]);
   };
   pierna(o.legL, o.footL);
   pierna(o.legR, o.footR);
-  s += linea([o.neck, o.hip], w, ink);
+  s += L([o.neck, o.hip]);
   const brazo = a => {
     if (!a) return;
-    s += linea([[o.neck[0], o.neck[1] + r * 0.4], a[0], a[1]], w, ink);
-    if (!o.sinManos) s += punto(a[1][0], a[1][1], r * 0.1, ink);
+    s += L([[o.neck[0], o.neck[1] + r * 0.4], a[0], a[1]]);
+    if (!o.sinManos) s += punto(a[1][0], a[1][1], r * 0.1, o.gris || ink);
   };
   if (!o.brazosAlFrente) { brazo(o.armL); brazo(o.armR); }
   if (o.paliacate !== false) s += paliacate(o.head[0], o.head[1], r);
+  s += o.antesCabeza || '';
   s += cabeza(o.head[0], o.head[1], r, o);
+  s += o.despuesCabeza || '';
   if (o.brazosAlFrente) { brazo(o.armL); brazo(o.armR); }
   return s;
+}
+
+// Doña Rosa: chongo gris, lentes redondos y rebozo. Mismos parámetros que stick().
+function rosa(o) {
+  const [cx, cy] = o.head, r = o.r, [nx, ny] = o.neck, look = o.look || 0;
+  const chongo = `<circle cx="${cx - r * 0.35}" cy="${cy - r * 0.85}" r="${r * 0.36}" fill="#b8bcc4" stroke="${INK}" stroke-width="${r * 0.07}"/>`;
+  const rebozo = `<path d="M${nx - r * 0.95} ${ny + r * 0.15} Q${nx} ${ny - r * 0.1} ${nx + r * 0.95} ${ny + r * 0.15} L${nx + r * 0.75} ${ny + r * 1.55} Q${nx} ${ny + r * 1.95} ${nx - r * 0.75} ${ny + r * 1.55} Z"
+      fill="#8d8f96" stroke="${INK}" stroke-width="${r * 0.07}" stroke-linejoin="round"/>
+    <path d="M${nx - r * 0.85} ${ny + r * 0.55} Q${nx} ${ny + r * 0.75} ${nx + r * 0.85} ${ny + r * 0.55} M${nx - r * 0.8} ${ny + r * 0.95} Q${nx} ${ny + r * 1.15} ${nx + r * 0.8} ${ny + r * 0.95}" fill="none" stroke="#6b6d74" stroke-width="${r * 0.06}"/>
+    ${[...Array(9)].map((_, i) => { const x = nx - r * 0.7 + i * r * 0.175, y = ny + r * 1.6 + Math.sin(i / 8 * Math.PI) * r * 0.32; return linea([[x, y], [x, y + r * 0.22]], r * 0.04); }).join('')}`;
+  const pelo = `<path d="M${cx - r * 0.93} ${cy - r * 0.35} A${r} ${r} 0 0 1 ${cx + r * 0.93} ${cy - r * 0.35} Q${cx + r * 0.3} ${cy - r * 0.55} ${cx - r * 0.1} ${cy - r * 0.42} Q${cx - r * 0.5} ${cy - r * 0.55} ${cx - r * 0.93} ${cy - r * 0.35} Z" fill="#b8bcc4" stroke="${INK}" stroke-width="${r * 0.07}"/>`;
+  const ex = r * 0.2;
+  const lentes = [cx - ex + look, cx + ex + look].map(x => `<circle cx="${x}" cy="${cy - r * 0.02}" r="${r * 0.2}" fill="none" stroke="${INK}" stroke-width="${r * 0.05}"/>`).join('')
+    + linea([[cx - ex + look + r * 0.2, cy - r * 0.04], [cx + ex + look - r * 0.2, cy - r * 0.04]], r * 0.05);
+  return stick({ ...o, paliacate: false, antesCabeza: chongo + rebozo, despuesCabeza: pelo + lentes });
+}
+
+// Infectado parado, quieto. Mismos parámetros que stick().
+function infectado(o) {
+  return stick({ ...o, paliacate: false, headFill: 'url(#headInfectado)', eyeFill: '#f2f2f2', sinBrillo: true, gris: o.gris || '#8a9099' });
 }
 
 // Chispa. Dibujada con el centro del cuerpo en (0,0), mirando a la derecha.
