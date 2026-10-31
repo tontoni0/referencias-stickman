@@ -37,6 +37,10 @@ const defsSVG = `
       <feTurbulence id="inkNoise" type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
       <feDisplacementMap in="SourceGraphic" scale="5"/>
     </filter>
+    <filter id="tiembla" x="-5%" y="-20%" width="110%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.09" numOctaves="2" seed="3"/>
+      <feDisplacementMap in="SourceGraphic" scale="7"/>
+    </filter>
     <filter id="blur10" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
     <pattern id="paisley" width="36" height="36" patternUnits="userSpaceOnUse">
       <circle cx="9" cy="9" r="4" fill="#fff" opacity=".9"/>
@@ -127,6 +131,19 @@ function rosa(o) {
   const lentes = [cx - ex + look, cx + ex + look].map(x => `<circle cx="${x}" cy="${cy - r * 0.02}" r="${r * 0.2}" fill="none" stroke="${INK}" stroke-width="${r * 0.05}"/>`).join('')
     + linea([[cx - ex + look + r * 0.2, cy - r * 0.04], [cx + ex + look - r * 0.2, cy - r * 0.04]], r * 0.05);
   return stick({ ...o, paliacate: false, antesCabeza: chongo + rebozo, despuesCabeza: pelo + lentes });
+}
+
+// Memo, el administrador: bigote, chaleco y llavero. Mismos parámetros que stick().
+function memo(o) {
+  const [cx, cy] = o.head, r = o.r, [nx, ny] = o.neck, [hx, hy] = o.hip, look = o.look || 0;
+  const bigote = `<path d="M${cx + look - r * 0.42} ${cy + r * 0.32} Q${cx + look - r * 0.2} ${cy + r * 0.12} ${cx + look} ${cy + r * 0.26} Q${cx + look + r * 0.2} ${cy + r * 0.12} ${cx + look + r * 0.42} ${cy + r * 0.32} Q${cx + look + r * 0.2} ${cy + r * 0.42} ${cx + look} ${cy + r * 0.34} Q${cx + look - r * 0.2} ${cy + r * 0.42} ${cx + look - r * 0.42} ${cy + r * 0.32} Z" fill="${INK}"/>`;
+  const chaleco = `<path d="M${nx - r * 0.55} ${ny + r * 0.2} L${nx - r * 0.12} ${ny + r * 0.1} L${nx} ${ny + r * 0.9} L${nx + r * 0.12} ${ny + r * 0.1} L${nx + r * 0.55} ${ny + r * 0.2} L${hx + r * 0.5} ${hy - r * 0.15} L${hx - r * 0.5} ${hy - r * 0.15} Z"
+      fill="#c8b48e" stroke="${INK}" stroke-width="${r * 0.07}" stroke-linejoin="round"/>
+    <rect x="${nx - r * 0.42}" y="${(ny + hy) / 2}" width="${r * 0.3}" height="${r * 0.22}" fill="none" stroke="${INK}" stroke-width="${r * 0.05}"/>
+    <rect x="${nx + r * 0.12}" y="${(ny + hy) / 2}" width="${r * 0.3}" height="${r * 0.22}" fill="none" stroke="${INK}" stroke-width="${r * 0.05}"/>`;
+  const llaves = `<circle cx="${hx + r * 0.35}" cy="${hy + r * 0.15}" r="${r * 0.16}" fill="none" stroke="#b8bec6" stroke-width="${r * 0.06}"/>
+    ${[-0.1, 0.05, 0.2].map(d => linea([[hx + r * (0.35 + d), hy + r * 0.3], [hx + r * (0.35 + d * 1.6), hy + r * 0.62]], r * 0.07, '#c9a43a')).join('')}`;
+  return stick({ ...o, paliacate: false, antesCabeza: chaleco + llaves, despuesCabeza: bigote });
 }
 
 // Infectado parado, quieto. Mismos parámetros que stick().

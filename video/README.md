@@ -30,6 +30,18 @@ Todo se dibuja con código, sin generador de imágenes. Las escenas son SVG que 
    `ffmpeg -i take1.mp3 -af "silenceremove=stop_periods=-1:stop_duration=0.42:stop_threshold=-38dB:stop_silence=0.3,atempo=1.12" narracion.mp3`
 3. `palabras.json` son los tiempos por palabra que da ElevenLabs Scribe al transcribir `narracion.mp3`.
 
+Si las pausas largas no se recortan bien con ffmpeg, usa `lib/recorta_pausas.py` (deja cada pausa en un máximo fijo). Para devolver una pausa dramática exacta sin volver a transcribir, usa `lib/inserta_silencios.py`, que también corre los tiempos de `palabras.json`. La parte 3 usó los dos:
+
+```
+python3 -I lib/recorta_pausas.py audio/parte3/take1.mp3 audio/parte3/narracion_sin_pausas.mp3 0.32 1.15
+python3 -I lib/inserta_silencios.py audio/parte3/narracion_sin_pausas.mp3 audio/parte3/palabras_sin_pausas.json \
+  audio/parte3/narracion.mp3 audio/parte3/palabras.json 5.75:0.6 34.05:0.7 43.3:0.5
+```
+
+## Gancho al inicio
+
+Desde la parte 3, cada parte puede abrir con su momento más tenso, congelarlo y rebobinar ("10 minutos antes"). En `escenas.js` son tres escenas cortas (`gancho`, `ganchoAbajo`, `ganchoVidrio`) más `rebobina`. Los letreros que no deben moverse con la cámara van en `fijo` en vez de `html`.
+
 ## Revisar sin renderizar todo
 
 ```

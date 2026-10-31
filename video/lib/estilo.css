@@ -53,3 +53,23 @@ html, body { margin: 0; background: #000; }
 .inv-fila svg { flex: none; }
 .dia-titulo { position: absolute; top: 170px; width: 100%; text-align: center; font-family: Caveat; font-weight: 700; font-size: 250px; color: #f4f1e8; text-shadow: 0 6px 26px rgba(0,0,0,.7); }
 .recuerdo { position: absolute; top: 150px; width: 100%; text-align: center; font-family: Caveat; font-weight: 700; font-size: 120px; color: #fff3d6; text-shadow: 0 4px 18px rgba(0,0,0,.6); }
+
+/* Rebobinado tipo VHS */
+.vhs { position: absolute; font-family: Oswald; font-weight: 700; font-size: 64px; color: #fff; letter-spacing: 3px; text-shadow: 4px 0 rgba(255,0,180,.7), -4px 0 rgba(0,230,255,.7); }
+.vhs.grande { top: 860px; left: 0; width: 100%; text-align: center; font-size: 104px; }
+
+/* Cuenta regresiva grande */
+.cuenta { position: absolute; top: 640px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 420px; color: #fff; -webkit-text-stroke: 14px #e0312b; paint-order: stroke fill; opacity: 0; }
+
+/* Papelito arrancado de cuaderno */
+.papel {
+  position: absolute; left: 90px; top: 430px; width: 900px; height: 1000px; overflow: hidden; transform: rotate(-3deg);
+  clip-path: polygon(0 3%, 6% 0, 12% 2.5%, 19% 0.5%, 26% 3%, 33% 0, 41% 2%, 48% 0.5%, 56% 3%, 63% 0, 71% 2.5%, 78% 0.5%, 86% 3%, 93% 0, 100% 2%, 100% 100%, 0 100%);
+  box-shadow: 0 20px 60px rgba(0,0,0,.6);
+}
+.temblor { filter: url(#tiembla); }
+
+/* Presentación de personaje */
+.presenta { position: absolute; top: 150px; left: 70px; }
+.presenta .nombre { font-family: Oswald; font-weight: 700; font-size: 190px; line-height: .95; color: #fff; display: inline-block; border-bottom: 16px solid #e0312b; text-shadow: 0 8px 30px rgba(0,0,0,.6); }
+.presenta .cargo { font-family: Oswald; font-weight: 600; font-size: 62px; color: #e5a83b; margin-top: 14px; letter-spacing: 2px; text-shadow: 0 4px 18px rgba(0,0,0,.7); }

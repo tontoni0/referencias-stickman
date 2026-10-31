@@ -2,7 +2,7 @@
 // pone los subtítulos y anima el trazo de tinta. Se controla con render(t).
 //
 // Cada parte define:
-//   ESCENAS = { id: { html, camara: {de:{s,x,y}, a:{s,x,y}, origen:'x y'}, update(lt, dur, t) } }
+//   ESCENAS = { id: { html, fijo (capa que no mueve la cámara), camara: {de:{s,x,y}, a:{s,x,y}, origen:'x y'}, update(lt, dur, t) } }
 //   TL = { duracion, escenas:[{id, inicio}], subs:[{s, e, html}], marcas:{nombre: t}, sinSubs:[[a,b]] }
 
 const $ = sel => document.querySelector(sel);
@@ -16,7 +16,7 @@ function montar() {
     const div = document.createElement('div');
     div.className = 'escena';
     div.id = 'esc-' + e.id;
-    div.innerHTML = `<div class="cam">${ESCENAS[e.id].html}</div>`;
+    div.innerHTML = `<div class="cam">${ESCENAS[e.id].html}</div>${ESCENAS[e.id].fijo || ''}`;
     stage.appendChild(div);
     e.el = div;
     e.cam = div.querySelector('.cam');

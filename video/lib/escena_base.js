@@ -40,4 +40,8 @@ function escribe(el, t, inicio, dur) {
   el.style.clipPath = `inset(-30% ${100 - p * 100}% -30% -5%)`;
 }
 
+// Subrayado rojo a mano que se dibuja solo (pathLength=1).
+const subrayado = (id, d) => `<svg class="lienzo" width="1080" height="1920"><path id="${id}" d="${d}" pathLength="1" fill="none" stroke="#c62828" stroke-width="12" stroke-linecap="round" stroke-dasharray="1" stroke-dashoffset="1"/></svg>`;
+const trazo = (el, t, inicio, dur) => el.setAttribute('stroke-dashoffset', 1 - clamp((t - inicio) / dur));
+
 const ESCENAS = {};

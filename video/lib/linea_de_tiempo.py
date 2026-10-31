@@ -46,6 +46,9 @@ def main(config, entrada, salida):
     norm = [limpia(t["text"]) for t in toks]
 
     def busca(frase):
+        # "frase@2" busca la segunda vez que aparece
+        frase, _, vez = frase.partition("@")
+        vez = int(vez or 1)
         ws, objetivo, j = [limpia(x) for x in frase.split()], [], 0
         while j < len(ws):
             for palabras_r, texto in reemplazos:
@@ -58,7 +61,9 @@ def main(config, entrada, salida):
                 j += 1
         for k in range(len(norm)):
             if norm[k:k + len(objetivo)] == objetivo:
-                return toks[k]["start"]
+                vez -= 1
+                if vez == 0:
+                    return toks[k]["start"]
         raise SystemExit(f"No encontré la frase: {frase}")
 
     escenas = [{"id": idx, "inicio": 0.0 if f is None else round(busca(f) - ANTES, 3)} for idx, f in cfg["cortes"]]

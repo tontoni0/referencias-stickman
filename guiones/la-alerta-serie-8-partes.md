@@ -121,10 +121,20 @@ Voz: "Parte 3."
 
 ## Parte 3 · El mecate
 
-**Título:** Doña Rosa lleva dos días sin agua | Parte 3
-**Portada:** NO PUEDES BAJAR POR LA ESCALERA.
+**Título:** Si esta botella toca el vidrio, te encuentran | Parte 3
+**Portada:** SI TOCA EL VIDRIO...
 
-**1 (0:00)**
+Esta parte abre con el momento más tenso (gancho), se congela, se rebobina y luego cuenta cómo se llegó ahí. Cuando la historia vuelve a ese momento, la gente ya lo reconoce y se queda a ver cómo termina.
+
+**Gancho (0:00)**
+Imagen: tres tomas rápidas. La botella colgada del mecate junto al vidrio del 402. Vista desde arriba: veinte infectados mirando hacia ti. Otra vez la botella, a 3 px del vidrio. La imagen se congela en gris con un golpe.
+Voz: "Si esta botella toca el vidrio... veinte de ellos van a saber en qué piso vives."
+
+**Rebobinado (0:06)**
+Imagen: efecto de cinta VHS, la botella sube de regreso a la ventana. Letrero: "◀◀ 10 MINUTOS ANTES".
+Voz: "Diez minutos antes."
+
+**1 (0:08)**
 Imagen: tarjeta "DÍA 2".
 Voz: "Día 2. Doña Rosa lleva dos días sin agua. Y por la escalera no se puede bajar."
 
