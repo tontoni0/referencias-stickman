@@ -86,6 +86,8 @@ mustache, straw sombrero, framed old photo style.
 
 ## Imágenes ya generadas en Canva
 
+Estas fueron pruebas. La producción final dibuja todo con código; la referencia oficial de cómo se ven los personajes es `referencias/personajes/hoja_personajes.png`. Las miniaturas de estas imágenes están en `referencias/canva/`.
+
 | Imagen | ID de Canva | Enlace |
 |---|---|---|
 | Hoja de Tú y Chispa | `MAHZiwDsmaY` | https://www.canva.com/M/MAHZiwDsmaY |

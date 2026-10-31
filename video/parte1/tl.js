@@ -1,4 +1,4 @@
-// Generado por linea_de_tiempo.py. No editar a mano.
+// Generado por lib/linea_de_tiempo.py. No editar a mano.
 const TL = {
  "duracion": 70.36,
  "intro": 1.2,
