@@ -62,8 +62,10 @@ function render(t) {
 
   // subtítulos
   const sub = $('#sub');
-  const oculto = (TL.sinSubs || []).some(([a, b]) => t >= a && t < b);
-  const chunk = oculto ? null : TL.subs.find(s => t >= s.s && t < s.e);
+  // se oculta si estamos en una zona sin subtítulos o si el subtítulo empezó dentro de una
+  const dentro = x => (TL.sinSubs || []).some(([a, b]) => x >= a && x < b);
+  let chunk = TL.subs.find(s => t >= s.s && t < s.e);
+  if (dentro(t) || (chunk && dentro(chunk.s))) chunk = null;
   if (chunk) {
     if (sub.dataset.k !== String(chunk.s)) { sub.innerHTML = chunk.html; sub.dataset.k = chunk.s; }
     const p = clamp((t - chunk.s) / 0.09);
