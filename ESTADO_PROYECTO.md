@@ -73,3 +73,4 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 31/10 | Parte 2 terminada; piezas compartidas pasan a `video/lib/` |
 | 31/10 | Parte 3 terminada con gancho al inicio; corrección de subtítulos; partes 2 y 3 re-renderizadas |
 | 31/10 | Organización del repo: `episodios/`, `referencias/`, CLAUDE.md, este archivo, fichas por episodio, hoja de personajes |
+| 31/10 | Verificado: `hacer_parte1.sh` regenera la parte 1 desde cero igual a la publicada (2,111 cuadros, diferencia media 0.00 sobre 255). Partes 2 y 3: línea de tiempo idéntica y cuadros de muestra iguales. PR #1 abierto hacia `main` |
