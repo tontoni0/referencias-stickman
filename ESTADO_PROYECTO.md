@@ -42,12 +42,13 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 
 ## Errores conocidos y limitaciones
 
-1. **Claude no puede escuchar el audio.** Los niveles se midieron (efectos 10 dB o más debajo de la voz, mezcla a -14 LUFS), pero el usuario no ha confirmado cómo suenan las partes 1 a 5. En la parte 5 los aullidos de Chispa son sintetizados y pueden sonar artificiales; la silla, la lata y el último aullido quedan a unos 6 dB de la voz a propósito.
+1. **Claude no puede escuchar el audio.** Los niveles se midieron (efectos 10 dB o más debajo de la voz), pero el usuario no ha confirmado cómo suenan las partes 1 a 5. En la parte 5 los aullidos de Chispa son sintetizados y pueden sonar artificiales; la silla, la lata y el último aullido quedan a unos 6 dB de la voz a propósito.
 2. **Las partes 1 y 2 no tienen el gancho con flash-forward.** Se hicieron antes de esa decisión. Se podrían rehacer (pendiente de decidir).
 3. **Duraciones**: 63 a 71 s. TikTok y Reels lo aceptan; si se quiere 60 s exactos hay que recortar texto.
 4. **Imágenes de Canva**: en el repo solo están las miniaturas; los originales (1680x944) siguen en la cuenta de Canva (enlaces en `referencias/README.md`).
 5. **Videos de referencia**: son de otros creadores (`referencias/videos/`). No se publican ni se copian sus dibujos.
-6. **Historial pesado**: cada video re-subido agrega unos 22 MB. El repo pesaba unos 122 MB al 31/10.
+6. **Historial pesado**: cada video re-subido agrega de 22 a 37 MB (la parte 5 pesa 37 MB por sus escenas de noche). El repo pesaba unos 122 MB al 31/10.
+11. **Volumen final**: la mezcla usa `loudnorm` a -14 LUFS en una sola pasada y los videos quedan entre -16.1 y -16.5 LUFS (medido en las partes 3 a 5). Las plataformas normalizan solas; si se quiere -14 exacto, hay que hacer `loudnorm` en dos pasadas y volver a mezclar.
 7. **Escenas mejorables** en la parte 3: `chillido` (Chispa) se ve vacía y en `sacude` los brazos parecen una tienda de campaña.
 8. **Se corrigió** una falla del motor que dejaba un subtítulo asomándose 2 a 4 cuadros en la escena siguiente (partes 2 y 3 se volvieron a renderizar).
 9. **Subida de audio a ElevenLabs bloqueada** por permisos desde el 01/11. Se resolvió transcribiendo la toma original desde el flujo (ver CLAUDE.md, paso 5).

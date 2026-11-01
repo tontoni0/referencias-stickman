@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_parte5.mp4` · 71.4 s · 1080x1920 · 30 fps · H.264 + AAC |
+| **Video** | `la_alerta_parte5.mp4` · 71.4 s · 1080x1920 · 30 fps · H.264 + AAC · 37 MB |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 17 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Sin flash-forward (pedido del usuario). Abre directo con el celular en "3:14", la alerta sonando y Chispa con las orejas paradas; a los 3 s empieza a aullar |
@@ -56,7 +56,7 @@ Las tres pausas: antes de "La alerta se calla", después de "La alerta se calla"
 
 Sirena desde el primer cuadro hasta que la alerta se calla, con corte seco (más fuerte en la toma junto al poste); aullidos de Chispa sintetizados (tono que sube y baja con vibrato), apagados cuando le tapas el hocico; el último aullido sale limpio en el silencio con eco largo; soplido y golpe sordo cuando te lanzas; estampida cuando corren al poste; bip del temporizador; silla que raspa el piso; lata con golpe metálico, rebote y rodada; latidos que suben en la cuenta regresiva; viento en el silencio; golpe grave y zumbido cuando giran las cabezas; vibración del celular con cada mensaje de Memo.
 
-Niveles medidos antes de normalizar (voz contra efectos, por tramo): la mayoría de los tramos quedan de 8 a 10 dB debajo de la voz. Dos tramos quedan más cerca a propósito: la silla y la lata (6.5 dB, suenan en los huecos de la voz) y el último aullido (6.3 dB, suena en la pausa después de "La alerta se calla"). Mezcla final normalizada a -14 LUFS.
+Niveles medidos antes de normalizar (voz contra efectos, por tramo): la mayoría de los tramos quedan de 8 a 10 dB debajo de la voz. Dos tramos quedan más cerca a propósito: la silla y la lata (6.5 dB, suenan en los huecos de la voz) y el último aullido (6.3 dB, suena en la pausa después de "La alerta se calla"). La mezcla pasa por `loudnorm` a -14 LUFS; el video final mide -16.4 LUFS integrados, igual que las partes 3 y 4.
 
 ## Personajes y recursos
 

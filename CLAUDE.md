@@ -70,7 +70,7 @@ video/                     código para generar los episodios
 6. Chats: pantalla de celular genérica oscura, sin logo de WhatsApp, mensajes en minúsculas y casi sin acentos.
 7. Cámara: zoom lento en cada escena; en momentos fuertes, `claves` que acercan a la acción. Escenas de 2 a 7 segundos.
 8. Gancho: las partes 3 y 4 abren con su momento más tenso, lo congelan y rebobinan ("10 MINUTOS ANTES", "20 MINUTOS ANTES"). Ver `video/parte3/escenas.js` y `video/parte4/escenas.js`. La parte 5 no lo usa (pedido del usuario): abre directo con la alerta sonando. Pregunta antes de decidir en las partes siguientes.
-9. Sonido sintetizado con ffmpeg (sirena, viento, latidos, golpes). Nunca la grabación oficial de la alerta sísmica. Volumen de efectos 10 dB o más debajo de la voz; la mezcla final se normaliza a -14 LUFS.
+9. Sonido sintetizado con ffmpeg (sirena, viento, latidos, golpes). Nunca la grabación oficial de la alerta sísmica. Volumen de efectos 10 dB o más debajo de la voz; la mezcla pasa por `loudnorm` con objetivo -14 LUFS (en una sola pasada; el video final mide entre -16.1 y -16.5 LUFS).
 
 ## Personajes
 
@@ -154,8 +154,8 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 ## Git
 
 1. Trabaja en una rama `claude/...` y abre un PR a `main`. No hagas force push ni borres trabajos anteriores.
-2. Los videos finales solo cambian con `--publicar` y después de revisarlos. Cada video re-subido agrega unos 22 MB al historial: no subas pruebas.
-3. Límite de GitHub: 100 MB por archivo. Hoy el más grande pesa 24 MB, así que no se usa Git LFS. Si un archivo pasa de 50 MB, usa Git LFS o súbelo como asset de un GitHub Release y deja el enlace en la FICHA.
+2. Los videos finales solo cambian con `--publicar` y después de revisarlos. Cada video re-subido agrega de 22 a 37 MB al historial: no subas pruebas.
+3. Límite de GitHub: 100 MB por archivo. Hoy el más grande pesa 37 MB (parte 5, con muchas escenas de noche), así que no se usa Git LFS. Si un archivo pasa de 50 MB, usa Git LFS o súbelo como asset de un GitHub Release y deja el enlace en la FICHA.
 4. El contenedor de la nube se borra al cerrar la sesión: haz commit y push seguido.
 
 ## Después de cada episodio terminado
