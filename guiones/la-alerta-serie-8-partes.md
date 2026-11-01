@@ -179,56 +179,68 @@ Imagen: "PARTE 4 →"
 
 ---
 
-## Parte 4 · Memo
+## Parte 4 · La cornisa
 
-**Título:** El administrador cerró la puerta con todos afuera | Parte 4
-**Portada:** NO LE ABRAS A MEMO.
+**Título:** Mi perrita saltó a la cornisa del quinto piso | Parte 4
+**Portada:** SI LADRA, LA ESCUCHAN.
 
-**1 (0:00)**
-Imagen: tarjeta "DÍA 3".
-Voz: "Día 3. Memo, el administrador, sabe que tienes agua."
+Se reescribió para tener más adrenalina con Chispa en peligro. Conserva lo que pide la historia (inventario del día 3, el trato de Memo, Rosa revela que Memo cerró la puerta, Regla 3 y la alerta de las 3:14) y agrega el rescate en la cornisa. Abre con el momento más tenso, se congela y rebobina.
 
-**2 (0:05)**
-Imagen: Memo en el 101. Bigote, chaleco, llavero enorme, rodeado de cajas de latas y una planta de luz.
-Voz: "Memo es el que cobraba el mantenimiento. El que nunca arregló la bomba del agua. Y ahora te escribe todos los días."
+**Gancho (0:00)**
+Imagen: tres tomas. Chispa temblando en la cornisa del quinto piso, tú estirando la mano desde la ventana y una paloma a un lado. Vista hacia abajo: las patas de Chispa en la orilla y veinte infectados mirando hacia arriba. Primer plano de la pata que se resbala por la orilla. Se congela en gris con un golpe.
+Voz: "Chispa está en la cornisa del quinto piso. Abajo hay veinte. Si ladra, la escuchan. Si resbala... la pierdes."
 
-**3 (0:13)**
-Imagen: chat: "Memo 101: tengo latas y planta de luz. te cambio comida x un garrafon 👍".
-Voz: "Te ofrece un trato: latas a cambio de un garrafón."
+**Rebobinado (0:09)**
+Imagen: cinta VHS; Chispa regresa por la ventana y la paloma se va. Letrero "◀◀ 20 MINUTOS ANTES".
+Voz: "Veinte minutos antes."
 
-**4 (0:17)**
-Imagen: la hoja de inventario con números tachados y corregidos.
-```
-INVENTARIO · DÍA 3
-Agua ............ 30 L → 18 L
-Comida .......... 5 días → 3 días
-Croquetas ....... 12 días → 10 días
-Batería ......... 41 % → 22 %
-```
-Voz: "Y te hace falta. Desde que le mandas a Rosa, solo te quedan tres días de comida."
+**1 (0:10)** Hoja de cuaderno "INVENTARIO · DÍA 3" con los números de antes tachados: agua 30 → 18 L, comida 5 → 3 días, croquetas 12 → 10 días, batería 41 → 22 %.
+Voz: "Día tres. Dieciocho litros de agua. Comida para tres días."
 
-**5 (0:24)**
-Imagen: chat con Rosa: "Rosa 402: la noche de la alerta memo cerro la puerta del edificio. con la gente afuera. yo lo vi".
-Voz: "Le preguntas a Rosa. Tarda en contestar. La noche de la alerta, Memo cerró la puerta del edificio. Con los vecinos afuera."
+**2 (0:15)** Chat privado con Memo: "tengo latas y planta de luz", "te cambio comida x un garrafon 👍".
+Voz: "Memo insiste: latas a cambio de un garrafón."
 
-**6 (0:33)**
-Imagen: recuerdo en tonos rojos. Memo del lado de adentro de la puerta de vidrio, echando llave. Del otro lado, manos golpeando el vidrio.
-Voz: "Tocaban. Gritaban su nombre. Y no les abrió."
+**3 (0:18)** Chat privado con Rosa: "la noche de la alerta memo cerro la puerta del edificio", "con la gente afuera. yo lo vi".
+Voz: "Y Rosa te escribe: la noche de la alerta, Memo cerró la puerta del edificio."
 
-**7 (0:39)**
-Imagen: hoja de cuaderno: "REGLA 3: Desconfía de quien sobrevivió demasiado fácil."
+**4 (0:21)** Recuerdo en rojo: Memo echa llave a la puerta de vidrio mientras los vecinos golpean del otro lado.
+Voz: "Con los vecinos afuera."
+
+**5 (0:25)** Hoja de cuaderno: "REGLA 3: Desconfía de quien sobrevivió demasiado fácil."
 Voz: "Regla tres: desconfía de quien sobrevivió demasiado fácil."
 
-**8 (0:44)**
-Imagen: el stickman acostado con los ojos abiertos. El celular marca 3:14.
-Voz: "No le contestas. Esa noche, a las 3:14, te despierta un sonido que ya conoces."
+**6 (0:29)** Una paloma aterriza en el marco de la ventana abierta (la del mecate). Chispa la ve: "!".
+Voz: "Entonces, una paloma se para en la ventana."
 
-**9 (0:51)**
-Imagen: el poste de la esquina con sus bocinas, sonando.
-Voz: "La alerta sísmica. Otra vez. Y otra vez, el piso no se mueve."
+**7 (0:32)** Chispa salta por la ventana detrás de la paloma; tu brazo llega tarde.
+Voz: "Y Chispa salta."
 
-**10 (0:57)**
-Imagen: "PARTE 5 →"
+**8 (0:33)** Fachada de frente: Chispa en la cornisa, temblando.
+Voz: "Ahora está en la cornisa. Tiembla."
+
+**9 (0:36)** Vista hacia abajo: veinte cabezas giran hacia arriba.
+Voz: "Abajo, veinte cabezas giran hacia arriba."
+
+**10 (0:39)** Sacas medio cuerpo por la ventana y estiras la mano. Chispa da un pasito hacia ti.
+Voz: "Sacas medio cuerpo por la ventana. Chispa, ven. Despacio."
+
+**11 (0:43)** Primer plano de Chispa: gruñe y abre el hocico; la paloma aletea encima.
+Voz: "La paloma aletea. Chispa gruñe. Va a ladrar."
+
+**12 (0:47)** Primer plano de la pata: da un paso y se resbala por la orilla; caen migajas de concreto.
+Voz: "Da un paso. La pata resbala."
+
+**13 (0:50)** Tu mano agarra el collar. La placa con cinta (desde el día 1) brilla y no suena.
+Voz: "La agarras del collar. La placa con cinta no hace ni un ruido."
+
+**14 (0:55)** Adentro: Chispa te lame la cara; tú tiemblas.
+Voz: "La jalas hacia adentro. Te lame la cara. Y tú no puedes dejar de temblar."
+
+**15 (1:00)** De noche: el vaso de agua quieto, el celular marca 3:14 y el poste suena por la ventana.
+Voz: "Esa noche, a las tres catorce, la alerta suena otra vez. Y el piso no se mueve."
+
+**16 (1:07)** Tarjeta "PARTE 5 →".
+Voz: "Sígueme para la parte cinco."
 
 ---
 
@@ -434,7 +446,7 @@ Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
 0:00 La alerta
 1:00 Día 1
 2:00 El mecate
-3:00 Memo
+3:00 La cornisa
 4:00 3:14
 5:00 Noventa segundos
 6:00 La cortina

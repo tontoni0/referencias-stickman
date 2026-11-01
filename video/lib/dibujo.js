@@ -152,15 +152,16 @@ function infectado(o) {
 }
 
 // Chispa. Dibujada con el centro del cuerpo en (0,0), mirando a la derecha.
-// modo: 'gruñe' (de pie, enseña los dientes), 'echada' (acostada, alerta).
+// modo: 'gruñe' (de pie, enseña los dientes), 'parada' (de pie, con miedo, cola entre las patas),
+//       'echada' (acostada, alerta).
 function perro(modo = 'gruñe') {
   const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d';
   let s = `<g stroke="${INK}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">`;
-  if (modo === 'gruñe') {
-    s += `<path d="M-85 -20 q-40 -50 -10 -90" fill="none"/>`;
+  if (modo === 'gruñe' || modo === 'parada') {
+    s += modo === 'gruñe' ? `<path d="M-85 -20 q-40 -50 -10 -90" fill="none"/>` : `<path d="M-85 0 q-20 40 10 70" fill="none"/>`;
     s += linea([[-60, 30], [-70, 115]], 7) + linea([[-30, 35], [-25, 118]], 7) + linea([[35, 35], [27, 118]], 7) + linea([[63, 30], [75, 116]], 7);
     s += `<ellipse cx="0" cy="0" rx="92" ry="48" fill="${C}"/>`;
-    s += `<path d="M-65 -42 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18" fill="none" stroke-width="6"/>`;
+    if (modo === 'gruñe') s += `<path d="M-65 -42 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18" fill="none" stroke-width="6"/>`;
   } else {
     s += `<path d="M-88 10 q-50 10 -60 -30" fill="none"/>`;
     s += `<ellipse cx="0" cy="8" rx="95" ry="40" fill="${C}"/>`;
@@ -177,6 +178,69 @@ function perro(modo = 'gruñe') {
   s += punto(167, -42, 7) + punto(111, -58, 5);
   s += `<path d="M50 -25 q30 20 62 6" fill="none" stroke="#2f6fd6" stroke-width="14"/>`;
   s += `<circle cx="81" cy="0" r="11" fill="#9aa3ad" stroke-width="4"/>`;
+  return s + `</g>`;
+}
+
+// Cara de Chispa de frente, en primer plano, con collar y placa encintada. Centro de la cabeza en (0,0), radio 290.
+// o = { boca: 0..1 (abre para gruñir o ladrar), lengua: 0..1 (lame), ceno, orejasAtras, parpadeo }
+function caraChispa(o = {}) {
+  const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d', b = o.boca || 0, l = o.lengua || 0;
+  let s = `<g stroke="${INK}" stroke-linejoin="round" stroke-linecap="round">`;
+  s += `<path d="M-450 1320 C-420 700 -300 300 0 280 C300 300 420 700 450 1320 Z" fill="${C}" stroke-width="10"/>`;
+  if (o.orejasAtras) {
+    s += `<path d="M-180 -210 L-360 -150 L-150 -120 Z" fill="${OSC}" stroke-width="10"/>`;
+    s += `<path d="M180 -210 L360 -150 L150 -120 Z" fill="${OSC}" stroke-width="10"/>`;
+  } else {
+    s += `<path d="M-210 -180 L-290 -450 L-70 -270 Z" fill="${OSC}" stroke-width="10"/>`;
+    s += `<path d="M200 -270 Q360 -300 390 -80 Q310 -130 240 -130 Z" fill="${OSC}" stroke-width="10"/>`;
+  }
+  s += `<circle cx="0" cy="0" r="290" fill="${C}" stroke-width="10"/>`;
+  if (o.ceno) s += `<path d="M-150 -75 l95 35 M150 -75 l-95 35" fill="none" stroke-width="14"/>`;
+  for (const x of [-95, 95]) {
+    s += o.parpadeo ? `<path d="M${x - 28} -10 q28 16 56 0" fill="none" stroke-width="10"/>`
+      : punto(x, -10, 26) + punto(x + 8, -20, 8, '#fff');
+  }
+  s += `<ellipse cx="0" cy="160" rx="130" ry="92" fill="${HOC}" stroke-width="9"/>`;
+  if (b > 0) {
+    // boca abierta debajo del hocico, con colmillos arriba y abajo
+    const ancho = 80 + 40 * b, fondo = 228 + 330 * b, baja = 228 + 165 * b;
+    s += `<path d="M${-ancho} 228 Q0 250 ${ancho} 228 Q0 ${fondo} ${-ancho} 228 Z" fill="#5a1414" stroke-width="8"/>`;
+    for (let i = 0; i < 4; i++) {
+      const x = -ancho * 0.6 + i * ancho * 0.4;
+      s += `<path d="M${x - 13} 236 l13 ${30 * b} l13 ${-30 * b} Z" fill="#fff" stroke-width="3"/>`;
+    }
+    s += `<path d="M${-ancho * 0.45 - 13} ${baja + 4} l13 ${-26 * b} l13 ${26 * b} Z M${ancho * 0.45 - 13} ${baja + 4} l13 ${-26 * b} l13 ${26 * b} Z" fill="#fff" stroke-width="3"/>`;
+  } else {
+    s += `<path d="M0 142 v40 M-40 200 q40 22 80 0" fill="none" stroke-width="8"/>`;
+  }
+  if (l > 0) s += `<path d="M-52 215 Q-10 ${215 + 300 * l} 52 215 Z" fill="#e06b7a" stroke-width="7"/><path d="M0 225 v${120 * l}" stroke="#b84a5a" stroke-width="5"/>`;
+  s += `<ellipse cx="0" cy="112" rx="42" ry="30" fill="${INK}" stroke="none"/>`;
+  s += `<path d="M-370 360 Q0 450 370 360 L365 440 Q0 530 -365 440 Z" fill="#2f6fd6" stroke-width="9"/>`;
+  s += `<g class="placa"><circle cx="0" cy="505" r="22" fill="none" stroke-width="14"/><circle cx="0" cy="505" r="22" fill="none" stroke="#b8bec6" stroke-width="7"/>
+    <circle cx="0" cy="605" r="78" fill="#9aa3ad" stroke-width="9"/>
+    <path d="M-92 562 L100 550 L94 566 L106 582 L98 598 L110 614 L102 632 L114 650 L-88 662 L-80 646 L-94 630 L-84 614 L-96 596 L-86 580 Z" fill="#a7a69b" stroke-width="6"/>
+    <path d="M-70 590 L80 582 M-70 630 L80 622" stroke="#c9c8bc" stroke-width="6"/></g>`;
+  return s + `</g>`;
+}
+
+// Paloma. Patas en (0,0), mirando a la derecha. aleteo: 0 (alas cerradas) a 1 (alas arriba).
+function paloma(aleteo = 0) {
+  const G = '#8f96a3', OSC = '#6f7682';
+  let s = `<g stroke="${INK}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">`;
+  s += linea([[-8, -14], [-12, 0]], 5, '#c46a6a') + linea([[8, -14], [10, 0]], 5, '#c46a6a');
+  s += `<path d="M-55 -50 L-100 -38 L-55 -28 Z" fill="${OSC}"/>`;
+  s += `<ellipse cx="-5" cy="-42" rx="55" ry="30" fill="${G}"/>`;
+  if (aleteo > 0) {
+    const a = 90 * aleteo;
+    s += `<path d="M-10 -58 Q-40 ${-60 - a} -95 ${-50 - a * 1.1} Q-50 ${-40 - a * 0.3} 5 -48 Z" fill="${OSC}"/>`;
+    s += `<path d="M0 -58 Q20 ${-60 - a} 50 ${-55 - a * 1.2} Q30 ${-45 - a * 0.4} 10 -48 Z" fill="${G}"/>`;
+  } else {
+    s += `<path d="M-45 -55 Q0 -72 30 -46 Q0 -28 -45 -40 Z" fill="${OSC}"/>`;
+  }
+  s += `<path d="M26 -58 q14 -10 24 4" fill="none" stroke="#5f9e8a" stroke-width="10"/>`;
+  s += `<circle cx="40" cy="-78" r="20" fill="${OSC}"/>`;
+  s += `<path d="M58 -80 l18 4 l-18 6 Z" fill="#d9cfc0"/>`;
+  s += punto(46, -83, 5, '#e07b2b') + punto(46, -83, 2.4);
   return s + `</g>`;
 }
 

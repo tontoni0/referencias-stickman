@@ -50,13 +50,13 @@ video/                     código para generar los episodios
 
 | Archivo | Qué hace |
 |---|---|
-| `dibujo.js` | `stick()`, `paliacate()`, `perro()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `vecino()`, degradados y filtros (`#ink`, `#tiembla`, `#blur10`). |
+| `dibujo.js` | `stick()`, `paliacate()`, `perro('gruñe' \| 'parada' \| 'echada')`, `caraChispa()` (primer plano: gruñe, ladra, lame), `paloma()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `vecino()`, degradados y filtros (`#ink`, `#tiembla`, `#blur10`). |
 | `motor.js` | `montar()` y `render(t)`: muestra la escena, mueve la cámara (`de`/`a` o `claves`), subtítulos, fundido y trazo que "hierve". |
-| `escena_base.js` | `M` (marcas), `INI`, `FIN()`, `lienzo()`, `viñeta`, `poste()` de la alerta, `escribe()` (texto que se escribe solo), `subrayado()`, `trazo()`. |
+| `escena_base.js` | `M` (marcas), `INI`, `FIN()`, `lienzo()`, `viñeta`, `poste()` de la alerta, `escribe()` (texto que se escribe solo), `subrayado()`, `trazo()`, `hoja()` (cuaderno), `iconos` del inventario, `TINTA`. |
 | `edificio.js` | `corteEdificio(pre, extra)`: corte del Edificio C con 502, 402 y escalera. |
 | `estilo.css` | Fuentes, subtítulos, chat, cuaderno, VHS, cuenta regresiva, papel, presentación de personaje. |
 | `linea_de_tiempo.py` | De `palabras.json` + `cortes.json` saca `tl.js`: inicio de cada escena, marcas y subtítulos. |
-| `recorta_pausas.py` | Deja las pausas de la voz en un máximo y la acelera. |
+| `recorta_pausas.py` | Deja las pausas de la voz en un máximo y la acelera. Con `--palabras` también corre los tiempos de una transcripción hecha sobre la toma original. |
 | `inserta_silencios.py` | Mete silencios exactos y corre los tiempos de `palabras.json`. |
 | `resumen_episodio.py` | Genera `escenas.md` y `hoja_de_escenas.jpg` de un episodio. |
 
@@ -69,7 +69,7 @@ video/                     código para generar los episodios
 5. Tarjetas de reglas, inventario y notas: hoja de cuaderno de cuadrícula con letra Caveat azul, que se escribe sola.
 6. Chats: pantalla de celular genérica oscura, sin logo de WhatsApp, mensajes en minúsculas y casi sin acentos.
 7. Cámara: zoom lento en cada escena; en momentos fuertes, `claves` que acercan a la acción. Escenas de 2 a 7 segundos.
-8. Gancho: desde la parte 3, cada parte abre con su momento más tenso, lo congela y rebobina ("10 MINUTOS ANTES"). Ver `video/parte3/escenas.js`.
+8. Gancho: desde la parte 3, cada parte abre con su momento más tenso, lo congela y rebobina ("10 MINUTOS ANTES", "20 MINUTOS ANTES"). Ver `video/parte3/escenas.js` y `video/parte4/escenas.js`.
 9. Sonido sintetizado con ffmpeg (sirena, viento, latidos, golpes). Nunca la grabación oficial de la alerta sísmica. Volumen de efectos 10 dB o más debajo de la voz; la mezcla final se normaliza a -14 LUFS.
 
 ## Personajes
@@ -79,7 +79,7 @@ Ver `referencias/personajes/hoja_personajes.png`.
 | Personaje | Función | Cómo se ve | Dónde vive |
 |---|---|---|---|
 | Tú | `stick()` | Cabeza blanca redonda, dos ojos negros ovalados, sin boca ni nariz, cuerpo de líneas, paliacate rojo SIEMPRE | 502, quinto piso |
-| Chispa | `perro('gruñe' \| 'echada')` | Perrita café, una oreja parada y otra doblada, collar azul con placa | Contigo |
+| Chispa | `perro('gruñe' \| 'parada' \| 'echada')`, `caraChispa()` | Perrita café, una oreja parada y otra doblada, collar azul con placa (encintada desde el día 1) | Contigo |
 | Doña Rosa | `rosa()` | Chongo gris, lentes redondos, rebozo gris con flecos | 402, justo debajo |
 | Memo | `memo()` | Bigote negro, chaleco beige con bolsillos, llavero | 101, administrador |
 | Infectados | `infectado()`, `infectadoCorriendo()` | Cabeza gris, ojos blancos sin pupila, extremidades grises con contorno oscuro | Patio, escaleras, calle |
@@ -102,19 +102,20 @@ De la historia, ya mostrado en video:
 | Noche 0 (parte 1) | Alerta 3:14 a. m., no tiembla. Vecinos al punto de reunión del patio. 3:40: Lalo 305 escribe "no hagan ruido. estan en las escaleras" y no vuelve a escribir. Memo escribió a las 3:14 "bajen al punto de reunion. orden y calma". |
 | Día 1 (parte 2) | Reglas 1 y 2. Inventario: agua 30 L (garrafón y medio), comida 5 días, croquetas 12 días, batería 41 %, sin luz. Celular en silencio a las 9:47, sin señal. Pila fuera del reloj. Cinta en la placa de Chispa (desde aquí la placa va encintada). Chat: Memo 7:02 "la puerta de abajo ya esta cerrada. no le abran a nadie", Paty 9:15 "alguien vio a mi hijo??", Rosa 16:47 "hay alguien vivo? estoy sola. no tengo agua". Batería 33 % en la tarde. |
 | Día 2 (parte 3) | Rosa lleva 2 días sin agua. Hay infectados en la escalera. Botella de 2 L por el mecate del tendedero. Unos veinte infectados en el patio. Rosa atrapa la botella y manda la nota "Gracias, corazón. Dios te lo pague. No le abras a Memo." Memo tiene planta de luz y cajas de ATÚN, FRIJOL, SOPA y AGUA. 21:12: Memo escribe por privado "ya vi que tienes agua". Batería 29 %. |
-| Día 3 en adelante | Lo que dice el guion de las partes 4 a 8 (inventario del día 3: agua 18 L, comida 3 días, croquetas 10 días, batería 22 %). |
+| Día 3 (parte 4) | Inventario: agua 18 L, comida 3 días, croquetas 10 días, batería 22 %. 10:02: Memo por privado "tengo latas y planta de luz", "te cambio comida x un garrafon 👍". 10:09: Rosa por privado "la noche de la alerta memo cerro la puerta del edificio", "con la gente afuera. yo lo vi". Regla 3. Una paloma se para en la ventana del mecate; Chispa salta a la cornisa del quinto piso, casi ladra y casi cae; la agarras del collar y la placa encintada no suena. Esa noche (noche 3), 3:14: la alerta suena otra vez y no tiembla. |
+| Día 4 en adelante | Lo que dice el guion de las partes 5 a 8. |
 
 Del narrador: segunda persona, sin palabras con género para "tú" (nada de "dormido" o "solo"). Rosa le dice "corazón".
 
 ## Flujo para hacer un episodio
 
-Desde `video/`. La parte 3 es el mejor ejemplo a copiar.
+Desde `video/`. La parte 4 es el ejemplo más reciente a copiar.
 
 1. **Guion:** toma la parte del guion de la serie y define el gancho (momento más tenso para abrir).
 2. **Voz:** en ElevenLabs crea un flujo (`creative_create_flow`), genera la voz con `creative_generate_speech`: voz `lr39dERdpNg6kPUtWZTO` ("Alejandro - Horror y Misterio"), modelo `eleven_v4`, 2 tomas (el valor por omisión). Usa `[whispering]` antes de la última frase de suspenso. Escribe los números con letra ("tres catorce"). Guarda el texto en `audio/parteN/texto_voz.txt`.
 3. **Descarga** las tomas a `audio/parteN/take1.mp3` y `take2.mp3` de inmediato: las URLs firmadas caducan en 2 horas.
-4. **Procesa** la toma elegida hasta que dure unos 60 a 70 s: `python3 -I lib/recorta_pausas.py audio/parteN/take1.mp3 audio/parteN/narracion.mp3 0.32 1.15`. Si se pierde una pausa dramática, devuélvela con `lib/inserta_silencios.py` después de transcribir.
-5. **Transcribe** con ElevenLabs: `creative_create_asset_upload`, PUT del mp3, `creative_finalize_asset_upload` con el `flow_id`, `creative_transcribe_audio` (`eleven_scribe_v1`). Descarga `words_download_url` a `audio/parteN/palabras.json`.
+4. **Procesa** la toma elegida hasta que dure unos 60 a 70 s (ver paso 5 para los tiempos). Si se pierde una pausa dramática, devuélvela con `lib/inserta_silencios.py`, que también corre los tiempos de `palabras.json`. La parte 4 es el ejemplo más reciente.
+5. **Transcribe** con ElevenLabs la toma original, sin subir nada: `creative_add_flow_asset_node` con el `generation_id` de la toma y `modality: audio`, luego `creative_transcribe_audio` (`eleven_scribe_v1`) con ese nodo en `connect_from` (no cobró créditos en la parte 4). Descarga `words_download_url` a `audio/parteN/palabras_take1.json` y procesa con `recorta_pausas.py ... --palabras palabras_take1.json palabras_sin_pausas.json`, que corre los tiempos al audio recortado. Desde la parte 4 la subida de audio (`creative_create_asset_upload`) está bloqueada por permisos.
 6. **Cortes:** copia `parte3/cortes.json` a `parteN/` y define la frase donde empieza cada escena, las marcas, las palabras en rojo, los reemplazos ("cuatrocientos dos" → "402") y las zonas sin subtítulos. `"frase@2"` busca la segunda vez que aparece. Corre `python3 -I lib/linea_de_tiempo.py parteN/cortes.json audio/parteN/palabras.json parteN/tl.js`.
 7. **Escenas:** copia `parte3/parte3.html` como `parteN/parteN.html` (cambia el título) y escribe `parteN/escenas.js`. Letreros que no deben moverse con la cámara van en `fijo`.
 8. **Revisa cuadros sueltos** antes de renderizar todo: `node render.js parteN/parteN.html /tmp/cuadros --cuadros 1,5,12` y mira las imágenes. Revisa en especial el gancho, los textos que se salen del cuadro y los subtítulos sobre elementos importantes.
@@ -168,4 +169,4 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 
 ## Cómo trabaja el usuario
 
-Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.
+Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Quiere emoción y adrenalina en cada parte, y Chispa es el personaje más querido: ponerla en peligro engancha, pero no la mates. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.

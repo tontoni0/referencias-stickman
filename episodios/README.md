@@ -7,7 +7,7 @@ Videos terminados de la serie "La alerta", uno por carpeta. Cada carpeta trae el
 | 1 | La alerta | 70.4 s | 12 | Tarjeta 3:14 con sirena | `parte-01-la-alerta/` |
 | 2 | Día 1 | 63.0 s | 12 | "Día 1" en el cuaderno | `parte-02-dia-1/` |
 | 3 | El mecate | 71.0 s | 18 | Flash-forward + rebobinado | `parte-03-el-mecate/` |
-| 4 | Memo | pendiente | | | |
+| 4 | La cornisa | 70.6 s | 20 | Flash-forward: Chispa en la cornisa | `parte-04-la-cornisa/` |
 | 5 | 3:14 | pendiente | | | |
 | 6 | Noventa segundos | pendiente | | | |
 | 7 | La cortina | pendiente | | | |

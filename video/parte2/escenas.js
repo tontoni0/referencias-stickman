@@ -1,14 +1,6 @@
 // Escenas de "La alerta", parte 2: Día 1. Los tiempos salen de tl.js.
 
 const PARA_RELOJ = M.tambor + 0.45;  // cuando sale la pila y el reloj se calla (mezcla.py usa lo mismo)
-const TINTA = '#1d3a8a';
-
-// Hoja de cuaderno con renglones que se escriben solos.
-// renglones: [{id, texto, top, left, size, peso, rot, roja}]
-function hoja(renglones, extra = '') {
-  return `<div class="cuaderno"></div>${renglones.map(r =>
-    `<div class="tinta${r.roja ? ' roja' : ''}" id="${r.id}" style="top:${r.top}px;left:${r.left || 180}px;font-size:${r.size}px;font-weight:${r.peso || 600};transform:rotate(${r.rot || -1}deg)">${r.texto}</div>`).join('')}${extra}`;
-}
 
 
 // 1. Día 1: escribes en el cuaderno. Chispa te mira.
@@ -84,14 +76,6 @@ ESCENAS.regla2 = {
 
 // 4. Inventario con dibujitos.
 (() => {
-  const ic = c => `<svg width="120" height="120" viewBox="0 0 120 120" fill="none" stroke="${TINTA}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">${c}</svg>`;
-  const iconos = {
-    agua: ic(`<rect x="44" y="8" width="32" height="12" rx="3"/><path d="M50 20 v10 M70 20 v10"/><rect x="24" y="30" width="72" height="80" rx="16"/><path d="M28 66 q16 -8 32 0 t32 0" stroke-width="5"/>`),
-    lata: ic(`<ellipse cx="60" cy="26" rx="32" ry="10"/><path d="M28 26 v66 q32 18 64 0 v-66"/><path d="M28 50 q32 14 64 0 M28 72 q32 14 64 0"/>`),
-    hueso: ic(`<circle cx="24" cy="42" r="14"/><circle cx="24" cy="74" r="14"/><circle cx="96" cy="42" r="14"/><circle cx="96" cy="74" r="14"/><path d="M34 50 h52 M34 66 h52"/>`),
-    pila: ic(`<rect x="16" y="36" width="80" height="48" rx="8"/><rect x="96" y="50" width="10" height="20" rx="3"/><rect x="24" y="44" width="30" height="32" fill="${TINTA}" stroke="none"/>`),
-    foco: ic(`<path d="M60 14 a30 30 0 0 1 18 54 v14 h-36 v-14 a30 30 0 0 1 18 -54z"/><path d="M46 92 h28 M48 104 h24"/><path d="M14 14 l92 92 M106 14 l-92 92" stroke="#c62828" stroke-width="7"/>`),
-  };
   const filas = [
     ['agua', 'Agua', '30 litros', 'garrafon'], ['lata', 'Comida', '5 días', 'comida'], ['hueso', 'Croquetas', '12 días', 'croquetas'],
     ['pila', 'Batería', '41%', 'bateria'], ['foco', 'Luz', 'no hay', null],

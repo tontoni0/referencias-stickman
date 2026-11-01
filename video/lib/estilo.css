@@ -73,3 +73,6 @@ html, body { margin: 0; background: #000; }
 .presenta { position: absolute; top: 150px; left: 70px; }
 .presenta .nombre { font-family: Oswald; font-weight: 700; font-size: 190px; line-height: .95; color: #fff; display: inline-block; border-bottom: 16px solid #e0312b; text-shadow: 0 8px 30px rgba(0,0,0,.6); }
 .presenta .cargo { font-family: Oswald; font-weight: 600; font-size: 62px; color: #e5a83b; margin-top: 14px; letter-spacing: 2px; text-shadow: 0 4px 18px rgba(0,0,0,.7); }
+
+/* Valor anterior tachado en inventarios */
+.tachado { text-decoration: line-through; text-decoration-color: #c62828; text-decoration-thickness: 7px; opacity: .65; margin-right: 18px; }

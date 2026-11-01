@@ -5,7 +5,6 @@ const MECATE = '#d9c9a0';
 const P = [440, 562];           // donde tus manos sostienen el mecate
 const LARGO = 520;              // largo del mecate cuando la botella llega al 402
 const VIDRIO = 332;             // cara exterior del vidrio del 402
-const TINTA = '#1d3a8a';
 
 // Botella de 2 litros colgada de la tapa en (x, y), girada ang grados. brillo mueve el reflejo (gira sobre sí misma).
 function botella(x, y, ang, brillo = 0, s = 1, letrero = '') {
