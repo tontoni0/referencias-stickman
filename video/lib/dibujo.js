@@ -42,6 +42,12 @@ const defsSVG = `
       <feDisplacementMap in="SourceGraphic" scale="7"/>
     </filter>
     <filter id="blur10" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="contorno" x="-10%" y="-10%" width="120%" height="120%">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="3" result="d"/>
+      <feFlood flood-color="#9db0d4" flood-opacity=".7"/>
+      <feComposite in2="d" operator="in" result="borde"/>
+      <feMerge><feMergeNode in="borde"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
     <pattern id="paisley" width="36" height="36" patternUnits="userSpaceOnUse">
       <circle cx="9" cy="9" r="4" fill="#fff" opacity=".9"/>
       <path d="M24 22 q8 -2 6 8 q-5 3 -8 -2z" fill="none" stroke="#fff" stroke-width="2.5" opacity=".9"/>
@@ -181,8 +187,31 @@ function perro(modo = 'gruñe') {
   return s + `</g>`;
 }
 
+// Chispa sentada, de lado, mirando a la derecha. Centro del cuerpo en (0,0) y patas en y=118, como perro().
+// aulla: 0..1 levanta la cabeza; desde 0.2 abre el hocico y cierra los ojos.
+function perroSentada(aulla = 0) {
+  const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d';
+  let s = `<g stroke="${INK}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">`;
+  s += `<path d="M-70 110 q-50 8 -100 -12" fill="none"/>`;
+  s += linea([[30, 0], [34, 118]], 7) + linea([[58, -8], [64, 118]], 7);
+  s += `<ellipse cx="-8" cy="10" rx="86" ry="44" fill="${C}" transform="rotate(-52 -8 10)"/>`;
+  s += `<ellipse cx="-42" cy="74" rx="58" ry="44" fill="${C}"/>`;
+  s += `<path d="M-20 118 q30 -4 52 0" fill="none" stroke-width="10"/>`;
+  s += `<path d="M22 -70 q28 22 64 2" fill="none" stroke="#2f6fd6" stroke-width="14"/>`;
+  s += `<circle cx="56" cy="-50" r="11" fill="#9aa3ad" stroke-width="4"/>`;
+  s += `<g transform="translate(62 -112) rotate(${-38 * aulla})">`;
+  s += `<circle cx="0" cy="0" r="46" fill="${C}"/>`;
+  s += `<path d="M5 -40 l14 -58 l22 50 z" fill="${OSC}"/>`;
+  s += `<path d="M-27 -34 q-30 -10 -34 26 q18 -6 30 -12 z" fill="${OSC}"/>`;
+  s += `<path d="M27 0 q48 -6 52 22 q-6 22 -50 20 z" fill="${HOC}"/>`;
+  if (aulla > 0.2) s += `<ellipse cx="64" cy="36" rx="${6 + 6 * aulla}" ry="${7 + 9 * aulla}" fill="#1e0b0b" stroke-width="4"/>`;
+  s += punto(77, 8, 7) + (aulla > 0.2 ? `<path d="M13 -8 q8 6 16 0" fill="none" stroke-width="4"/>` : punto(21, -8, 5));
+  return s + `</g></g>`;
+}
+
 // Cara de Chispa de frente, en primer plano, con collar y placa encintada. Centro de la cabeza en (0,0), radio 290.
-// o = { boca: 0..1 (abre para gruñir o ladrar), lengua: 0..1 (lame), ceno, orejasAtras, parpadeo }
+// o = { boca: 0..1 (abre para gruñir o ladrar), aullido: 0..1 (boca redonda, sin colmillos), lengua: 0..1 (lame),
+//       ceno, orejasAtras, parpadeo }
 function caraChispa(o = {}) {
   const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d', b = o.boca || 0, l = o.lengua || 0;
   let s = `<g stroke="${INK}" stroke-linejoin="round" stroke-linecap="round">`;
@@ -210,6 +239,10 @@ function caraChispa(o = {}) {
       s += `<path d="M${x - 13} 236 l13 ${30 * b} l13 ${-30 * b} Z" fill="#fff" stroke-width="3"/>`;
     }
     s += `<path d="M${-ancho * 0.45 - 13} ${baja + 4} l13 ${-26 * b} l13 ${26 * b} Z M${ancho * 0.45 - 13} ${baja + 4} l13 ${-26 * b} l13 ${26 * b} Z" fill="#fff" stroke-width="3"/>`;
+  } else if (o.aullido > 0) {
+    const a = o.aullido, cy = 238 + 40 * a, rx = 38 + 22 * a, ry = 24 + 52 * a;
+    s += `<ellipse cx="0" cy="${cy}" rx="${rx}" ry="${ry}" fill="#1e0b0b" stroke-width="9"/>`;
+    s += `<ellipse cx="0" cy="${cy + ry * 0.55}" rx="${rx * 0.55}" ry="${ry * 0.3}" fill="#c75a6a" stroke="none"/>`;
   } else {
     s += `<path d="M0 142 v40 M-40 200 q40 22 80 0" fill="none" stroke-width="8"/>`;
   }
@@ -242,6 +275,39 @@ function paloma(aleteo = 0) {
   s += `<path d="M58 -80 l18 4 l-18 6 Z" fill="#d9cfc0"/>`;
   s += punto(46, -83, 5, '#e07b2b') + punto(46, -83, 2.4);
   return s + `</g>`;
+}
+
+// Infectado visto de lado, corriendo hacia la derecha. Pies en (0,0), altura 1 (se escala por fuera).
+function infectadoLado(fase) {
+  const p = Math.sin(fase), q = Math.cos(fase), w = 0.03, gris = '#9aa0a8';
+  const doble = pts => linea(pts, w * 1.9, '#050608') + linea(pts, w, gris);
+  const cad = [0.06, -0.44], cue = [0.16, -0.76];
+  let s = '';
+  s += doble([cad, [0.06 + 0.16 * p, -0.24], [0.02 + 0.24 * p, -0.02 + 0.06 * Math.max(0, -q)]]);
+  s += doble([cad, [0.06 - 0.16 * p, -0.24], [0.02 - 0.24 * p, -0.02 + 0.06 * Math.max(0, q)]]);
+  s += doble([cad, cue]);
+  s += doble([[0.15, -0.7], [0.34, -0.66 - 0.04 * p], [0.48, -0.7 - 0.05 * p]]);
+  s += doble([[0.15, -0.7], [0.3, -0.6 + 0.04 * p], [0.44, -0.62 + 0.05 * p]]);
+  s += `<path d="M0.08 -0.7 L0.2 -0.74 L0.17 -0.52 L0.12 -0.56 L0.08 -0.5 Z" fill="#4a4033" opacity=".9"/>`;
+  s += `<circle cx="0.24" cy="-0.86" r="0.11" fill="url(#headInfectado)" stroke="#15171b" stroke-width="${w}"/>`;
+  s += `<ellipse cx="0.29" cy="-0.865" rx="0.016" ry="0.026" fill="#f4f4f4"/><ellipse cx="0.32" cy="-0.865" rx="0.014" ry="0.024" fill="#f4f4f4"/>`;
+  return s;
+}
+
+// Infectado de frente, parado. Pies en (0,0), altura 1 (se escala por fuera).
+// brazos: 0 (abajo) a 1 (estirados hacia arriba). look y lookY mueven los ojos, en unidades de la altura.
+function infectadoQuieto(brazos = 0, look = 0, lookY = 0) {
+  const w = 0.026, gris = '#9aa0a8', u = brazos;
+  const doble = pts => linea(pts, w * 1.9, '#050608') + linea(pts, w, gris);
+  let s = '';
+  s += doble([[0, -0.42], [-0.06, -0.22], [-0.07, 0]]);
+  s += doble([[0, -0.42], [0.06, -0.22], [0.07, 0]]);
+  s += doble([[0, -0.75], [0, -0.42]]);
+  for (const l of [-1, 1]) s += doble([[0, -0.68], [l * lerp(0.13, 0.12, u), lerp(-0.5, -0.9, u)], [l * lerp(0.15, 0.08, u), lerp(-0.34, -1.1, u)]]);
+  s += `<path d="M-0.06 -0.7 L0.07 -0.7 L0.06 -0.52 L0.02 -0.56 L-0.01 -0.5 L-0.05 -0.55 Z" fill="#4a4033" opacity=".9"/>`;
+  s += `<circle cx="0" cy="-0.86" r="0.11" fill="url(#headInfectado)" stroke="#15171b" stroke-width="${w}"/>`;
+  s += `<ellipse cx="${-0.035 + look}" cy="${-0.865 + lookY}" rx="0.016" ry="0.026" fill="#f4f4f4"/><ellipse cx="${0.035 + look}" cy="${-0.865 + lookY}" rx="0.016" ry="0.026" fill="#f4f4f4"/>`;
+  return s;
 }
 
 // Infectado visto de frente, corriendo. Pies en (0,0), altura 1 (se escala por fuera).

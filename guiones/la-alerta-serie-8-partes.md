@@ -246,47 +246,61 @@ Voz: "Sígueme para la parte cinco."
 
 ## Parte 5 · 3:14
 
-**Título:** La alerta volvió a sonar a la misma hora | Parte 5
-**Portada:** OTRA VEZ A LAS 3:14.
+**Título:** Mi perrita aulló cuando sonó la alerta | Parte 5
+**Portada:** SI SE CALLA, LA ESCUCHAN.
 
-**1 (0:00)**
-Imagen: tarjeta "NOCHE 3".
-Voz: "Noche 3. La alerta volvió a sonar. A la misma hora. Sin sismo."
+Se reescribió para que Chispa esté en peligro: aúlla durante la alerta y tienes que callarla antes de que la alerta se calle. No abre con flash-forward (pedido del usuario): empieza directo con la alerta sonando. Conserva todo lo que necesitan las partes 6 a 8: los infectados van al poste, la prueba con la silla y la lata, la Regla 4 y el mensaje de Memo.
 
-**2 (0:05)**
-Imagen: desde la ventana, todos los infectados del patio corren hacia el poste de la esquina.
-Voz: "Te asomas, y lo que ves no tiene sentido. Todos los del patio corren a la esquina. Hacia el poste de la alerta."
+**1 (0:00)** Celular en el piso con "3:14"; la cámara se abre al cuarto: el poste suena por la ventana y Chispa, sentada, levanta las orejas. Letrero "Noche 3".
+Voz: "A las tres catorce, la alerta vuelve a sonar."
 
-**3 (0:12)**
-Imagen: un montón de infectados debajo de las bocinas, con los brazos estirados hacia arriba.
+**2 (0:03)** Primer plano de Chispa: levanta la cabeza y aúlla. "AUUUUU".
+Voz: "Y Chispa empieza a aullar."
+
+**3 (0:05)** El vaso de agua quieto con el reflejo rojo de la alerta.
+Voz: "No tiembla. Otra vez."
+
+**4 (0:07)** Te lanzas al piso y le tapas el hocico.
+Voz: "Te lanzas a taparle el hocico."
+
+**5 (0:09)** El patio desde tu ventana: los infectados miran hacia la esquina y corren al poste.
+Voz: "Pero allá abajo, nadie voltea hacia tu ventana. Todos corren a la esquina. Hacia el poste de la alerta."
+
+**6 (0:16)** Desde atrás: el montón debajo de las bocinas, empujándose, con los brazos estirados hacia el sonido.
 Voz: "Se amontonan debajo de las bocinas. Se empujan. Estiran los brazos hacia el sonido."
 
-**4 (0:18)**
-Imagen: el patio vacío bajo la luna.
+**7 (0:21)** El patio vacío, con una chancla tirada y el montón en la esquina.
 Voz: "El patio queda vacío. Por primera vez en tres días."
 
-**5 (0:22)**
-Imagen: el celular con un cronómetro en 1:30.
-Voz: "Tomas el tiempo. La alerta dura noventa segundos. Noventa segundos en los que el ruido no es tuyo."
+**8 (0:25)** Chispa aúlla hacia la ventana; tú, hincado junto a ella.
+Voz: "Y Chispa sigue aullando. Y nadie la escucha."
 
-**6 (0:29)**
-Imagen: el stickman arrastra una silla y tira una lata al piso a propósito.
-Voz: "Pruebas. Arrastras una silla. Nada. Tiras una lata. Nada. Siguen mirando el poste."
+**9 (0:28)** Temporizador del celular en 1:30 (batería 19 %). Desde aquí hay un reloj en pantalla.
+Voz: "Tomas el tiempo. Noventa segundos."
 
-**7 (0:36)**
-Imagen: la alerta se calla. Todas las cabezas giran hacia el edificio, con los ojos blancos.
-Voz: "La alerta se calla. Y en el mismo segundo, todas las cabezas giran hacia tu edificio."
+**10 (0:31)** Arrastras una silla ("RRRRRR"): el montón no voltea. Tiras una lata ("¡CLANK!"): tampoco.
+Voz: "Pruebas. Arrastras una silla. Nada. Tiras una lata. Nada."
 
-**8 (0:43)**
-Imagen: hoja de cuaderno: "REGLA 4: Mientras suena la alerta, el ruido es gratis."
-Voz: "Regla cuatro: mientras suena la alerta, el ruido es gratis."
+**11 (0:36)** Chispa aúlla; reloj grande en rojo "0:10".
+Voz: "Diez segundos. Chispa no se calla."
 
-**9 (0:48)**
-Imagen: chat: "Memo 101: mañana a las 3:14 bajo a la tienda de don chucho. 90 segundos. vienes o te mueres de hambre?"
+**12 (0:39)** Le tapas el hocico con la mano; se retuerce. "0:05", "0:03", "0:02".
+Voz: "Cinco. Le tapas el hocico. Se retuerce. Tres. Dos."
+
+**13 (0:45)** El poste se apaga en seco. Pausa: el último aullido sale por tu ventana y flota sobre el patio.
+Voz: "La alerta se calla. Y el último aullido de Chispa se queda flotando en el silencio."
+
+**14 (0:51)** Desde arriba: todas las cabezas giran hacia ti, con los ojos blancos.
+Voz: "Abajo, todas las cabezas giran hacia tu edificio."
+
+**15 (0:55)** Hoja de cuaderno: "REGLA 4: Mientras suena la alerta, el ruido es GRATIS. Cuando se calla, SE PAGA."
+Voz: "Regla cuatro: mientras suena la alerta, el ruido es gratis. Cuando se calla, se paga."
+
+**16 (1:02)** Chat privado con Memo, 3:17: "mañana a las 3:14 bajo a la tienda de don chucho", "90 segundos. vienes o te mueres de hambre?"
 Voz: "Alguien está activando la alerta a propósito. Y Memo ya se dio cuenta."
 
-**10 (0:56)**
-Imagen: "PARTE 6 →"
+**17 (1:07)** "PARTE 6 →"
+Voz: "Sígueme para la parte seis."
 
 ---
 

@@ -210,22 +210,7 @@ ESCENAS.rebobina = {
   };
 })();
 
-// 6. Memo insiste por privado.
-const chatPrivado = (pre, nombre, icono, hora, bateria, viejos, nuevos) => `<div class="chat">
-    <div class="status"><span>${hora}</span><span>▮▯▯ ${bateria}</span></div>
-    <div class="head"><span class="back">‹</span><div class="avatar">${icono}</div>
-      <div><div class="title">${nombre}</div><div class="members">en línea</div></div></div>
-    <div class="msgs" style="padding-top:110px">
-      ${viejos}
-      <div class="pill">HOY</div>
-      ${nuevos.map((n, i) => `<div class="msg" id="${pre}-m${i}" style="${n.borde ? `outline:4px solid ${n.borde}` : ''}"><div class="who" style="color:${n.color}">${nombre}</div>${n.texto}<div class="t">${n.hora}</div></div>`).join('')}
-    </div></div>`;
-const animaMensajes = (pre, t, marcas) => marcas.forEach((m, i) => {
-  const el = $(`#${pre}-m${i}`), p = clamp((t - m) / 0.25);
-  el.style.opacity = p;
-  el.style.transform = `translateY(${(1 - ease.outCubic(p)) * 50}px)`;
-});
-
+// 6. Memo insiste por privado (chatPrivado está en lib/escena_base.js).
 ESCENAS.chatMemo = {
   html: chatPrivado('cm', 'Memo 101', '🔑', '10:02', '22%',
     `<div class="pill">AYER</div><div class="msg"><div class="who" style="color:#e5a83b">Memo 101</div>ya vi que tienes agua<div class="t">21:12</div></div>`,

@@ -63,4 +63,20 @@ const iconos = {
   foco: ic(`<path d="M60 14 a30 30 0 0 1 18 54 v14 h-36 v-14 a30 30 0 0 1 18 -54z"/><path d="M46 92 h28 M48 104 h24"/><path d="M14 14 l92 92 M106 14 l-92 92" stroke="#c62828" stroke-width="7"/>`),
 };
 
+// Chat privado con mensajes que llegan uno por uno. nuevos: [{texto, hora, color, borde}]
+const chatPrivado = (pre, nombre, icono, hora, bateria, viejos, nuevos) => `<div class="chat">
+    <div class="status"><span>${hora}</span><span>▮▯▯ ${bateria}</span></div>
+    <div class="head"><span class="back">‹</span><div class="avatar">${icono}</div>
+      <div><div class="title">${nombre}</div><div class="members">en línea</div></div></div>
+    <div class="msgs" style="padding-top:110px">
+      ${viejos}
+      <div class="pill">HOY</div>
+      ${nuevos.map((n, i) => `<div class="msg" id="${pre}-m${i}" style="${n.borde ? `outline:4px solid ${n.borde}` : ''}"><div class="who" style="color:${n.color}">${nombre}</div>${n.texto}<div class="t">${n.hora}</div></div>`).join('')}
+    </div></div>`;
+const animaMensajes = (pre, t, marcas) => marcas.forEach((m, i) => {
+  const el = $(`#${pre}-m${i}`), p = clamp((t - m) / 0.25);
+  el.style.opacity = p;
+  el.style.transform = `translateY(${(1 - ease.outCubic(p)) * 50}px)`;
+});
+
 const ESCENAS = {};

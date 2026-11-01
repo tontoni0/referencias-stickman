@@ -76,3 +76,8 @@ html, body { margin: 0; background: #000; }
 
 /* Valor anterior tachado en inventarios */
 .tachado { text-decoration: line-through; text-decoration-color: #c62828; text-decoration-thickness: 7px; opacity: .65; margin-right: 18px; }
+
+/* Cronómetro en pantalla durante una cuenta regresiva */
+.reloj-mini { position: absolute; top: 90px; right: 60px; font-family: Oswald; font-weight: 700; font-size: 120px; color: #fff; -webkit-text-stroke: 8px #000; paint-order: stroke fill; opacity: 0; }
+.reloj-grande { position: absolute; top: 70px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 300px; color: #e0312b; -webkit-text-stroke: 12px #000; paint-order: stroke fill; }
+.onomato { position: absolute; font-family: Oswald; font-weight: 700; color: #fff; -webkit-text-stroke: 9px #000; paint-order: stroke fill; }
