@@ -21,6 +21,7 @@ Estas reglas son para ti, para que la historia no se contradiga. Algunas se dice
 2. Siempre van hacia el ruido más fuerte.
 3. La alerta dura 90 segundos. Mientras suena, todos van hacia los postes de la alerta.
 4. La primera noche nadie sabe quién activó la alerta. Ese es el misterio de la temporada.
+5. La parte 6 termina con una decisión para los comentarios; la parte 7 tiene dos versiones y se produce la que gane.
 
 ---
 
@@ -304,105 +305,107 @@ Voz: "Sígueme para la parte seis."
 
 ---
 
-## Parte 6 · Noventa segundos
+## Parte 6 · La bodega (interactiva)
 
-**Título:** Tienes 90 segundos de ruido gratis | Parte 6
-**Portada:** 90 SEGUNDOS.
+**Título:** Perdí a mi perrita y el vecino dice que la tiene | Parte 6
+**Portada:** TENGO A TU PERRA.
 
-Durante toda esta parte hay un contador rojo en una esquina de la pantalla.
+Se reescribió a pedido del usuario (2 de noviembre). Sigue sin pausa a la parte 5: misma noche, minutos después de que las cabezas giran hacia tu edificio. Los infectados suben, entran a tu casa, escapas a la bodega de la azotea y pierdes a Chispa. Termina con una decisión para los comentarios. La parte 7 sigue la opción que gane.
 
-**1 (0:00)**
-Imagen: tarjeta "NOCHE 4".
-Voz: "Noche 4. Tienes noventa segundos de ruido gratis."
+Lo que sabe el guion y el espectador todavía no: Memo no tiene a Chispa. La foto que manda es vieja, del directorio de mascotas del edificio: la placa brilla porque todavía no tenía cinta. Chispa bajó por la cornisa y se metió por la ventana de Rosa (402). La pista está en la foto para quien se acuerde de la cinta (parte 2).
 
-**2 (0:04)**
-Imagen: Chispa en la cama mira al stickman cerrar la puerta del cuarto.
-Voz: "Dejas a Chispa en tu cuarto, con agua y la puerta cerrada. Te mira como si supiera algo que tú no."
+**1 (0:00)** Las cabezas del patio, con los ojos blancos, miran hacia ti. Se lanzan hacia la entrada.
+Voz: "Cuando se calla, se paga."
 
-**3 (0:11)**
-Imagen: escalera oscura. Memo espera en el descanso del primer piso con una mochila vacía.
-Voz: "3:13. Estás en la escalera. Memo te espera abajo con una mochila vacía."
+**2 (0:02)** Desde el vestíbulo: la puerta de vidrio que Memo cerró la noche de la alerta, llena de manos. Se estrella y revienta.
+Voz: "Abajo, la puerta de vidrio que cerró Memo... revienta."
 
-**4 (0:17)**
-Imagen: contador en "90". Suena la sirena.
-Voz: "3:14. La alerta."
+**3 (0:07)** Corte de la escalera: los infectados suben. Letreros de piso 1, 2, 3.
+Voz: "Suben por la escalera. Primer piso. Segundo. Tercero."
 
-**5 (0:20)**
-Imagen: pasillo del segundo piso. Tres infectados de espaldas frente a la ventana. El stickman pasa detrás de ellos. Contador en "75".
-Voz: "En el pasillo del segundo piso hay tres vecinos. Bueno, eran vecinos. Están de espaldas, frente a la ventana. Miran hacia la esquina. Pasas a medio metro de ellos."
+**4 (0:12)** Rosa en el 402, a oscuras, con la mano en la boca. Por debajo de su puerta pasan sombras de pies.
+Voz: "Pasan frente a la puerta de Rosa. Y siguen subiendo."
 
-**6 (0:31)**
-Imagen: la tienda "Abarrotes Don Chucho" con la cortina de metal a medio subir. Contador en "55".
-Voz: "La tienda de don Chucho está a media cuadra. La cortina está a medio subir. Entran agachados."
+**5 (0:16)** Tu puerta brinca con cada golpe. Le pones la silla. Chispa tiembla en tus brazos.
+Voz: "Golpes en tu puerta. Le pones la silla. Chispa tiembla en tus brazos."
 
-**7 (0:37)**
-Imagen: adentro, el stickman mete latas y un costal de croquetas en su mochila. Memo mete cervezas, cigarros y billetes de la caja. Contador en "30".
-Voz: "Latas. Galletas. Croquetas para Chispa. Memo llena su mochila de cervezas, cigarros y el dinero de la caja."
+**6 (0:22)** La puerta se astilla y se abre de golpe. Brazos grises por el hueco.
+Voz: "La puerta cede."
 
-**8 (0:45)**
-Imagen: contador en "15". El stickman voltea hacia la entrada. Memo ya está afuera, con la mano en la cortina.
-Voz: "Quince segundos. Volteas para salir. Y Memo ya está afuera."
+**7 (0:24)** Fachada de noche: sales por la ventana a la cornisa con Chispa bajo el brazo.
+Voz: "Solo queda la ventana. La cornisa. Otra vez."
 
-**9 (0:50)**
-Imagen: Memo jala la cortina hacia abajo. Contador en "0".
-Voz: "Te mira. Y baja la cortina."
+**8 (0:28)** Una mano gris sale por la ventana detrás de ti. Chispa se zafa y corre por la cornisa hasta perderse en lo oscuro.
+Voz: "Atrás de ti, una mano sale por la ventana. Chispa se suelta. Corre por la cornisa... y se pierde en la oscuridad."
 
-**10 (0:53)**
-Imagen: negro. Un segundo de silencio total. Luego el zumbido de la lámina.
-Voz: "La alerta se calla. Y la cortina de metal sigue vibrando."
+**9 (0:36)** Primer plano: te tapas la cara para no gritar. Un globo de diálogo "¡CHIS..." se borra.
+Voz: "No puedes gritar su nombre."
 
-**11 (0:58)**
-Imagen: "PARTE 7 →"
+**10 (0:39)** Subes por la escalerita de fierro a la azotea: tinacos, tendederos y la fila de bodegas. Te encierras en la del 502.
+Voz: "Subes por la escalerita de fierro hasta la azotea. Te encierras en la bodega."
+
+**11 (0:44)** Adentro de la bodega, a oscuras. El celular marca 15 % de batería. Abajo, en corte, los infectados recorren tu departamento.
+Voz: "Oscuridad. Quince por ciento de batería. Abajo, ellos están en tu casa."
+
+**12 (0:50)** El celular vibra en lo oscuro. Chat privado de Memo 101: "tengo a tu perra" y una foto.
+Voz: "Entonces, el celular vibra. Memo. Tengo a tu perra."
+
+**13 (0:54)** La foto, de cerca: Chispa asustada, collar azul, la placa brilla con el flash (sin cinta). El llavero de Memo cuelga a un lado.
+Voz: "Y una foto. Es Chispa. Su collar azul. Su placa."
+
+**14 (0:59)** Chat: "baja al 101", "o subo yo. tengo llave de todas las bodegas".
+Voz: "Baja al ciento uno. O subo yo. Tengo llave de todas las bodegas."
+
+**15 (1:04)** El papelito de Rosa (parte 3): "No le abras a Memo."
+Voz: "Rosa te lo dijo: no le abras a Memo."
+
+**16 (1:07)** Tarjeta con la decisión.
+```
+¿QUÉ HACES?
+🔑 BAJAS CON MEMO
+🔦 BUSCAS A CHISPA
+```
+Voz: "¿Bajas con Memo... o buscas a Chispa por tu cuenta? Comenta llave o lámpara."
+
+**Comentario fijado:**
+```
+🔑 = bajas al 101 con Memo
+🔦 = buscas a Chispa por tu cuenta
+Gana lo que tenga más comentarios en 48 horas. La parte 7 sigue lo que elijan.
+```
 
 ---
 
-## Parte 7 · La cortina
+## Parte 7 · Dos versiones (según los comentarios)
 
-**Título:** Memo bajó la cortina conmigo adentro | Parte 7
-**Portada:** ME ENCERRÓ.
+Las dos terminan en el mismo lugar: la ventana del 402, donde está Chispa. Así la parte 8 sirve para cualquiera de las dos.
 
-**1 (0:00)**
-Imagen: el interior de la tienda a oscuras, con rayitas de luz entre la lámina.
-Voz: "Memo te encerró en la tienda. Y esa cortina hizo el ruido más fuerte de toda la cuadra."
+### Parte 7A · El 101 (si gana 🔑)
 
-**2 (0:07)**
-Imagen: sombras de pies bajo la cortina. Manos golpean la lámina y la abollan hacia adentro.
-Voz: "Los oyes llegar. Primero pasos. Luego uñas. Luego decenas de manos contra la lámina."
+**Título:** Bajé con el vecino que dice que tiene a mi perrita | Parte 7
+**Portada:** ERA UNA TRAMPA.
 
-**3 (0:14)**
-Imagen: el stickman detrás del mostrador. Celular al 9 %. Mensaje enviado: "estoy en la tienda. memo me encerro".
-Voz: "Te escondes detrás del mostrador. Le escribes a Rosa. Nueve por ciento de batería. No contesta."
+1. Bajas por la escalera de servicio, pegado a la pared. Los infectados siguen en el quinto piso, en tu casa.
+2. La puerta del 101 está entreabierta. Adentro, la planta de luz, las cajas de atún, frijol, sopa y agua. Memo te espera con una lámpara.
+3. No hay perra. En la mesa, el directorio de mascotas del edificio: la foto de Chispa, de antes de la alerta. La placa sin cinta.
+4. Memo quiere tu agua y la llave de tu bodega. Cuando le dices que no, abre la puerta del vestíbulo y te empuja hacia afuera, como hizo con los vecinos la primera noche. Cierra con llave.
+5. En el vestíbulo, el vidrio roto cruje bajo tus pies. Una cabeza voltea en la escalera.
+6. El celular vibra: "Rosa 402: corazon, tu perrita esta conmigo. ven por la ventana."
+7. Corres hacia el patio, a la parte de atrás del edificio. Del cuarto piso cuelga el mecate del tendedero.
+Cierre: "PARTE 8 →"
 
-**4 (0:22)**
-Imagen: la lámina se dobla hacia adentro.
-Voz: "La cortina se empieza a doblar."
+### Parte 7B · La cornisa otra vez (si gana 🔦)
 
-**5 (0:25)**
-Imagen: el edificio a lo lejos. En la ventana del quinto piso, la silueta de Chispa ladrando.
-Voz: "Y entonces, desde el edificio, un ladrido. Chispa. Ladra como nunca. Fuerte. Sin parar."
+**Título:** Mi perrita no está con él. La foto lo dice | Parte 7
+**Portada:** MIRA LA PLACA.
 
-**6 (0:32)**
-Imagen: bajo la cortina, los pies se alejan.
-Voz: "Los golpes se detienen. Los pasos se alejan. Todos van hacia el edificio."
-
-**7 (0:37)**
-Imagen: en la entrada del edificio, Memo pelea con la cerradura con la mochila llena. Detrás de él, la ola de infectados.
-Voz: "Hacia la entrada. Donde Memo pelea con la cerradura, con la mochila llena de cervezas."
-
-**8 (0:43)**
-Imagen: negro. Solo sonido.
-Voz: "No alcanzas a ver qué pasa. Pero lo oyes. Memo nunca entró."
-
-**9 (0:48)**
-Imagen: el stickman levanta la cortina y sale a la calle. A lo lejos, la entrada del edificio está llena de infectados.
-Voz: "Levantas la cortina mientras Chispa ladra. Su ruido tapa el tuyo. Pero la única entrada del edificio está llena."
-
-**10 (0:55)**
-Imagen: celular al 2 %. Mensaje: "Rosa 402: atras del edificio. te baje el mecate. SUBE".
-Voz: "Tu celular vibra por última vez."
-
-**11 (0:59)**
-Imagen: "PARTE 8 →"
+1. Vuelves a ver la foto. La placa brilla. La placa de Chispa tiene cinta desde el día 1. La foto es vieja: Memo te está mintiendo.
+2. Apagas la pantalla. Abajo, la escalera de servicio rechina: Memo viene subiendo con su llavero.
+3. Sales de la bodega por atrás de los tinacos y te asomas a la orilla de la azotea. Abajo, en la cornisa, un mechón de pelo café atorado en el concreto.
+4. Bajas por la escalerita hasta la cornisa. Las huellas de Chispa se acaban en la ventana del 402.
+5. Arriba, Memo abre tu bodega. Vacía. Se asoma por la orilla con la lámpara.
+6. La cortina del 402 se mueve. Una mano arrugada te hace señas.
+Cierre: "PARTE 8 →"
 
 ---
 
@@ -412,38 +415,34 @@ Imagen: "PARTE 8 →"
 **Portada:** EL FINAL.
 
 **1 (0:00)**
-Imagen: la parte trasera del edificio. Del cuarto piso cuelga el mecate del tendedero.
-Voz: "Atrás del edificio, colgando del cuarto piso, está el mecate del tendedero. El mismo con el que le bajaste agua a Rosa."
-
-**2 (0:08)**
-Imagen: el stickman trepa por el mecate. Abajo, un infectado da vuelta a la esquina.
-Voz: "Subes. Doce metros. Te queman las manos. Abajo, uno da vuelta a la esquina. No mires abajo."
-
-**3 (0:16)**
-Imagen: una mano arrugada lo agarra de la muñeca desde la ventana del 402.
+Imagen: la ventana del 402 desde afuera. El stickman entra (por el mecate en la versión A, por la cornisa en la B).
 Voz: "Una mano arrugada te agarra de la muñeca y te jala hacia adentro."
 
-**4 (0:21)**
-Imagen: doña Rosa de cerca, a la luz de una vela.
-Voz: "Doña Rosa. Es la primera vez que la ves desde la alerta."
+**2 (0:05)**
+Imagen: Chispa salta a tus brazos y te lame la cara. La placa encintada no hace ruido.
+Voz: "Chispa. Viva. Te lame la cara. Su placa con cinta no hace ni un ruido."
 
-**5 (0:25)**
+**3 (0:12)**
+Imagen: doña Rosa de cerca, a la luz de una vela.
+Voz: "Doña Rosa. Es la primera vez que la ves desde la alerta. Llegó por mi ventana, corazón. Igual que tu botella."
+
+**4 (0:20)**
 Imagen: la mesa de Rosa. Un radio viejo conectado a una antena hecha con ganchos de ropa. Una libreta con "3:14" escrito muchas veces.
 Voz: "En su mesa hay un radio viejo, conectado a una antena hecha con ganchos de ropa. Y una libreta con la misma hora escrita muchas veces. 3:14."
 
-**6 (0:34)**
+**5 (0:29)**
 Imagen: Rosa con la mano sobre el radio.
 Voz: "Trabajé treinta años en el sistema de la alerta, te dice. Sé cómo hacerla sonar. La alerta de cada noche era ella. Para vaciar el patio. Para que tú pudieras moverte."
 
-**7 (0:44)**
-Imagen: el techo del departamento. Arriba se oyen unas patitas.
-Voz: "Arriba, en el techo, oyes las patitas de Chispa. Está viva."
+**6 (0:39)**
+Imagen: por la ventana, abajo, Memo en el patio con la lámpara, rodeado de cabezas que voltean hacia él.
+Voz: "Abajo, la lámpara de Memo se queda quieta en medio del patio."
 
-**8 (0:48)**
+**7 (0:44)**
 Imagen: Rosa, seria, mirando por la ventana.
 Voz: "Le das las gracias. Pero Rosa no sonríe. Las otras noches sí fui yo, dice. Pero la primera noche... la primera noche yo no la activé."
 
-**9 (0:56)**
+**8 (0:53)**
 Imagen: tarjeta: "¿QUIÉN ACTIVÓ LA ALERTA LA PRIMERA NOCHE?"
 Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
 
@@ -462,8 +461,8 @@ Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
 2:00 El mecate
 3:00 La cornisa
 4:00 3:14
-5:00 Noventa segundos
-6:00 La cortina
+5:00 La bodega
+6:00 El 101 o La cornisa otra vez (la que hayan elegido)
 7:00 La primera noche
 ```
 
