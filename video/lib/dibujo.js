@@ -211,7 +211,7 @@ function perroSentada(aulla = 0) {
 
 // Cara de Chispa de frente, en primer plano, con collar y placa encintada. Centro de la cabeza en (0,0), radio 290.
 // o = { boca: 0..1 (abre para gruñir o ladrar), aullido: 0..1 (boca redonda, sin colmillos), lengua: 0..1 (lame),
-//       ceno, orejasAtras, parpadeo }
+//       ceno, orejasAtras, parpadeo, sinCinta (placa sin cinta, como antes del día 1) }
 function caraChispa(o = {}) {
   const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d', b = o.boca || 0, l = o.lengua || 0;
   let s = `<g stroke="${INK}" stroke-linejoin="round" stroke-linecap="round">`;
@@ -251,8 +251,9 @@ function caraChispa(o = {}) {
   s += `<path d="M-370 360 Q0 450 370 360 L365 440 Q0 530 -365 440 Z" fill="#2f6fd6" stroke-width="9"/>`;
   s += `<g class="placa"><circle cx="0" cy="505" r="22" fill="none" stroke-width="14"/><circle cx="0" cy="505" r="22" fill="none" stroke="#b8bec6" stroke-width="7"/>
     <circle cx="0" cy="605" r="78" fill="#9aa3ad" stroke-width="9"/>
-    <path d="M-92 562 L100 550 L94 566 L106 582 L98 598 L110 614 L102 632 L114 650 L-88 662 L-80 646 L-94 630 L-84 614 L-96 596 L-86 580 Z" fill="#a7a69b" stroke-width="6"/>
-    <path d="M-70 590 L80 582 M-70 630 L80 622" stroke="#c9c8bc" stroke-width="6"/></g>`;
+    ${o.sinCinta ? `<path d="M-40 560 a62 62 0 0 1 72 -2" fill="none" stroke="#fff" stroke-width="10" opacity=".85"/><circle cx="34" cy="578" r="9" fill="#fff"/>`
+    : `<path d="M-92 562 L100 550 L94 566 L106 582 L98 598 L110 614 L102 632 L114 650 L-88 662 L-80 646 L-94 630 L-84 614 L-96 596 L-86 580 Z" fill="#a7a69b" stroke-width="6"/>
+    <path d="M-70 590 L80 582 M-70 630 L80 622" stroke="#c9c8bc" stroke-width="6"/>`}</g>`;
   return s + `</g>`;
 }
 

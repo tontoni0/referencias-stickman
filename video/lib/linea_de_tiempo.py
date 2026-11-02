@@ -26,7 +26,9 @@ def main(config, entrada, salida):
     cfg = json.load(open(config))
     intro, cola = cfg["intro"], cfg["cola"]
     reemplazos = [(r[0].split(), r[1]) for r in cfg.get("reemplazos", [])]
-    palabras = [w for w in json.load(open(entrada))["words"] if w.get("type") == "word"]
+    # las etiquetas de ElevenLabs como [whispering] no son palabras dichas
+    palabras = [w for w in json.load(open(entrada))["words"]
+                if w.get("type") == "word" and not w["text"].startswith("[")]
 
     toks, i = [], 0
     while i < len(palabras):
