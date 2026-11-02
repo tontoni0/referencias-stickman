@@ -394,18 +394,48 @@ Las dos terminan en el mismo lugar: la ventana del 402, donde está Chispa. Así
 7. Corres hacia el patio, a la parte de atrás del edificio. Del cuarto piso cuelga el mecate del tendedero.
 Cierre: "PARTE 8 →"
 
-### Parte 7B · La cornisa otra vez (si gana 🔦)
+### Parte 7B · Las huellas (ganó 🔦, la versión que se produjo)
 
 **Título:** Mi perrita no está con él. La foto lo dice | Parte 7
 **Portada:** MIRA LA PLACA.
 
-1. Vuelves a ver la foto. La placa brilla. La placa de Chispa tiene cinta desde el día 1. La foto es vieja: Memo te está mintiendo.
-2. Apagas la pantalla. Abajo, la escalera de servicio rechina: Memo viene subiendo con su llavero.
-3. Sales de la bodega por atrás de los tinacos y te asomas a la orilla de la azotea. Abajo, en la cornisa, un mechón de pelo café atorado en el concreto.
-4. Bajas por la escalerita hasta la cornisa. Las huellas de Chispa se acaban en la ventana del 402.
-5. Arriba, Memo abre tu bodega. Vacía. Se asoma por la orilla con la lámpara.
-6. La cortina del 402 se mueve. Una mano arrugada te hace señas.
-Cierre: "PARTE 8 →"
+Ganó la lámpara con 87 % a la hora y media de publicada la parte 6. La gente notó que la placa de la foto no tenía cinta. La parte 7 abre dándoles la razón. Se le agregó peligro: Memo te delata haciendo ruido y las manos salen por tu ventana.
+
+**1 (0:00)** Tarjeta del voto: "GANÓ" con la opción 🔦 encendida y la 🔑 tachada.
+Voz: "Ganó la lámpara. Y tenían razón."
+
+**2 (0:03)** Dos placas lado a lado: la de la foto de Memo (brilla, sin cinta) y la de Chispa (con cinta desde el día 1). Una X roja sobre la foto.
+Voz: "La placa de Chispa tiene cinta desde el día uno. Esta foto es vieja. Memo te mintió."
+
+**3 (0:10)** La azotea de noche. La puerta de la azotea rechina y se abre: una lámpara, un llavero. Memo.
+Voz: "Entonces, rechina la puerta de la azotea. Una lámpara. Un llavero. Memo."
+
+**4 (0:16)** Sales de la bodega y te agachas detrás de los tinacos. Memo abre la bodega 502 con su llave y alumbra adentro: vacía.
+Voz: "Sales de la bodega y te escondes detrás de los tinacos. Memo abre tu bodega con su llave. Está vacía."
+
+**5 (0:23)** Vista desde la orilla: en la cornisa, pelitos cafés atorados en el concreto y huellas chiquitas de polvo hacia la derecha.
+Voz: "Te asomas a la orilla. En la cornisa hay pelitos cafés atorados en el concreto. Y huellas chiquitas. Chispa pasó por aquí."
+
+**6 (0:31)** Fachada de noche: bajas por la escalerita de fierro a la cornisa y sigues las huellas.
+Voz: "Bajas por la escalerita y sigues las huellas."
+
+**7 (0:34)** Desde abajo: Memo se asoma por la orilla de la azotea, te alumbra y golpea el barandal con la lámpara. "¡CLANG!"
+Voz: "Arriba, Memo te alumbra. Y golpea el barandal con la lámpara."
+
+**8 (0:39)** Adentro de tu departamento: los infectados quietos con la cara hacia arriba voltean todos hacia la ventana.
+Voz: "En tu departamento, todas las cabezas voltean hacia la ventana."
+
+**9 (0:43)** Fachada: brazos grises salen por tu ventana; corres por la cornisa y una mano casi te agarra el tobillo.
+Voz: "Las manos salen a buscarte. Corres por la cornisa."
+
+**10 (0:47)** La esquina del edificio: las huellas dan vuelta, bajan por la jaula del gas y llegan a la ventana de la cocina del 402, con luz de vela.
+Voz: "Las huellas dan vuelta en la esquina... y bajan por la jaula del gas. Hasta la ventana del 402."
+
+**11 (0:55)** La cortina rosa del 402 se mueve. Una mano arrugada, con la orilla del rebozo, te hace señas.
+Voz: "La cortina se mueve. Y una mano arrugada te hace señas."
+
+**12 (1:00)** "PARTE 8 → EL FINAL"
+Voz: "Sígueme para el final."
 
 ---
 
@@ -435,8 +465,8 @@ Imagen: Rosa con la mano sobre el radio.
 Voz: "Trabajé treinta años en el sistema de la alerta, te dice. Sé cómo hacerla sonar. La alerta de cada noche era ella. Para vaciar el patio. Para que tú pudieras moverte."
 
 **6 (0:39)**
-Imagen: por la ventana, abajo, Memo en el patio con la lámpara, rodeado de cabezas que voltean hacia él.
-Voz: "Abajo, la lámpara de Memo se queda quieta en medio del patio."
+Imagen: por la ventana, arriba, la lámpara de Memo en la orilla de la azotea. Se oyen pasos que suben por la escalera hacia él (Memo hizo ruido en la parte 7).
+Voz: "Arriba, la lámpara de Memo se queda quieta. Y en la escalera, algo sube hacia él."
 
 **7 (0:44)**
 Imagen: Rosa, seria, mirando por la ventana.
@@ -462,7 +492,7 @@ Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
 3:00 La cornisa
 4:00 3:14
 5:00 La bodega
-6:00 El 101 o La cornisa otra vez (la que hayan elegido)
+6:00 Las huellas
 7:00 La primera noche
 ```
 
