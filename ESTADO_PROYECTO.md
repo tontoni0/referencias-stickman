@@ -13,12 +13,13 @@ Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con tod
 | 4 | La cornisa | 70.6 s | 20 | `episodios/parte-04-la-cornisa/la_alerta_parte4.mp4` | ~1,848 |
 | 5 | 3:14 | 71.4 s | 17 | `episodios/parte-05-tres-catorce/la_alerta_parte5.mp4` | ~1,848 |
 | 6 | La bodega (interactiva) | 70.6 s | 17 | `episodios/parte-06-la-bodega/la_alerta_parte6.mp4` | ~1,836 |
+| 7 | Las huellas (interactiva) | 79.5 s | 19 | `episodios/parte-07-las-huellas/la_alerta_parte7.mp4` | ~2,374 |
 
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Parte 7** según lo que voten los comentarios de la parte 6: 🔑 "El 101" (versión A) o 🔦 "La cornisa otra vez" (versión B). Las dos están en el guion y terminan en la ventana del 402, donde está Chispa. Después, **parte 8** ("La primera noche"). Preguntar al usuario qué opción ganó antes de hacer la 7.
+1. **Parte 8** ("La primera noche") según lo que voten los comentarios de la parte 7: 🐕 entras con Chispa o 🔑 subes por Memo. Las dos versiones están en el guion. Preguntar al usuario qué opción ganó antes de hacerla.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -43,6 +44,9 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 02/11 | Las partes 6 a 8 se reescribieron: los infectados suben al edificio, escapas a la bodega de la azotea, pierdes a Chispa y Memo dice que la tiene. La parte 6 termina con una decisión para los comentarios y la parte 7 tiene dos versiones | Pedido del usuario. Se quitó la salida a la tienda de don Chucho ("Noventa segundos" y "La cortina") |
 | 02/11 | Memo miente: la foto de Chispa es vieja (la placa no tiene cinta). Chispa está con Rosa | Deja una pista para quien se acuerde de la cinta y une las dos versiones de la parte 7 en la parte 8 |
 | 02/11 | La parte 6 abre directo, sin flash-forward | Sigue sin pausa al final de la parte 5 y el usuario pidió quitar el flashback en la 5 |
+| 02/11 | En la parte 6 ganó 🔦 (87 %): se hizo la parte 7B, "Las huellas". Abre con la tarjeta del voto sin porcentaje | Pedido del usuario; el porcentaje podía cambiar antes de cerrar la votación |
+| 02/11 | La parte 7 también termina con una decisión, más difícil: Chispa o Memo y la comida. La parte 8 queda en dos versiones | Pedido del usuario |
+| 02/11 | El final nuevo de la parte 7 se generó aparte y se unió a la toma con `lib/une_tomas.py` | Rehacer toda la voz costaba unos 1,700 créditos más; el final solo costó 672 |
 
 ## Errores conocidos y limitaciones
 
@@ -58,6 +62,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 10. **Parte 5**: en el chat de Memo la cámara recorta la batería de la barra de estado (igual que en la parte 4). Los brazos del montón visto desde arriba (escena `prueba`) parecen patitas.
 11. **Volumen final**: la mezcla usa `loudnorm` a -14 LUFS en una sola pasada y los videos quedan entre -16.1 y -16.5 LUFS (medido en las partes 3 a 5). Las plataformas normalizan solas; si se quiere -14 exacto, hay que hacer `loudnorm` en dos pasadas y volver a mezclar.
 12. **Parte 6**: los brazos que entran por la puerta parecen tubos con bolitas (no tienen dedos). El vidrio que revienta y la puerta que cede quedan a unos 4 dB de la voz, a propósito, porque caen en pausas de la narración.
+13. **Descargas de ElevenLabs**: desde el 02/11 los archivos vienen de `elevenlabsusercontent.com`. El usuario lo agregó a los dominios permitidos del entorno. Si una sesión nueva no puede descargar, revisar Network access del entorno. Los tiempos por palabra también vienen en la respuesta de la transcripción.
+14. **Parte 7**: dura 79.5 s, más que las otras, por el final con la decisión. La voz del final es de otra generación (misma voz y modelo); pedir al usuario que revise que no se note el cambio.
 
 ## Lo que no está en GitHub
 
@@ -72,8 +78,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
 2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6.
-3. Publicar la parte 6 con el comentario fijado de su `FICHA.md` y contar los votos a las 48 horas.
-4. Parte 7 (versión A o B según los votos) y parte 8.
+3. Publicar la parte 7 con el comentario fijado de su `FICHA.md` y contar los votos a las 48 horas.
+4. Parte 8 (versión 🐕 o 🔑 según los votos).
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
@@ -92,4 +98,5 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 01/11 | Parte 4 terminada ("La cornisa"): 20 escenas, gancho con Chispa en la cornisa. Nuevas piezas en `lib/`: `caraChispa()`, `paloma()`, `perro('parada')`, `hoja()` e `iconos` en la base compartida. Partes 1 a 3 verificadas iguales después del cambio |
 | 01/11 | Parte 5 terminada ("3:14"): 17 escenas, sin flash-forward, Chispa aúlla durante la alerta. Nuevas piezas en `lib/`: `perroSentada()`, `infectadoLado()`, `infectadoQuieto()`, aullido en `caraChispa()`, filtro `#contorno`, `chatPrivado()` en la base compartida, clases de reloj y onomatopeyas |
 | 02/11 | Guion de las partes 6 a 8 reescrito (la bodega, Chispa perdida, decisión de los comentarios, parte 7 en dos versiones) |
+| 02/11 | Parte 7 terminada ("Las huellas", interactiva, ganó 🔦): 19 escenas, termina con la decisión 🐕 / 🔑. Nuevo en `lib/`: `une_tomas.py`; el degradado `#haz` pasa a `defsSVG` |
 | 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |
