@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_parte6.mp4` · 70.6 s · 1080x1920 · 30 fps · H.264 + AAC |
+| **Video** | `la_alerta_parte6.mp4` · 70.6 s · 1080x1920 · 30 fps · H.264 + AAC · 24 MB |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 17 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Sin flash-forward. Abre con las cabezas del patio mirando hacia ti con los ojos encendidos (el final de la parte 5) y "Cuando se calla, se paga" |
@@ -70,7 +70,7 @@ Las seis pausas: después de "revienta" (el vidrio), "La puerta cede", "se pierd
 
 Golpe de entrada; estampida hacia el edificio; manos que golpean el vidrio, tres grietas y el vidrio que revienta con tintineo; pasos rápidos en la escalera (apagados en el 402); golpes de madera en tu puerta con un retumbe; la silla que raspa; un chillido bajito de Chispa; la puerta que cruje y cede; viento en la cornisa; un gruñido cuando sale la mano; uñas de Chispa que se alejan; latido; la escalerita de fierro; la puerta de la bodega; pasos arrastrados abajo; vibraciones del celular; tensión que sube con la foto y un timbre agudo en la placa; pulso grave en la tarjeta de decisión.
 
-Niveles medidos antes de normalizar: donde habla la voz, los efectos quedan de 7 a 12 dB debajo. El vidrio que revienta y la puerta que cede suenan más fuerte a propósito porque caen en las pausas que se agregaron después de "revienta" y "cede". Video final: unos -16 LUFS integrados, como las partes anteriores.
+Niveles medidos antes de normalizar: donde habla la voz, los efectos quedan de 7 a 12 dB debajo. El vidrio que revienta y la puerta que cede suenan más fuerte a propósito porque caen en las pausas que se agregaron después de "revienta" y "cede". Video final: -16.5 LUFS integrados, como las partes anteriores.
 
 ## Personajes y recursos
 
