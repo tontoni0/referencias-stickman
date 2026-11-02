@@ -81,3 +81,13 @@ html, body { margin: 0; background: #000; }
 .reloj-mini { position: absolute; top: 90px; right: 60px; font-family: Oswald; font-weight: 700; font-size: 120px; color: #fff; -webkit-text-stroke: 8px #000; paint-order: stroke fill; opacity: 0; }
 .reloj-grande { position: absolute; top: 70px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 300px; color: #e0312b; -webkit-text-stroke: 12px #000; paint-order: stroke fill; }
 .onomato { position: absolute; font-family: Oswald; font-weight: 700; color: #fff; -webkit-text-stroke: 9px #000; paint-order: stroke fill; }
+
+/* Tarjeta de decisión para los comentarios (episodios interactivos) */
+.decide-tit { position: absolute; top: 210px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 160px; color: #fff; -webkit-text-stroke: 10px #000; paint-order: stroke fill; }
+.opcion { position: absolute; left: 70px; right: 70px; height: 250px; display: flex; align-items: center; gap: 30px; padding: 0 44px; box-sizing: border-box;
+  border: 9px solid #fff; border-radius: 40px; background: rgba(255,255,255,.06); font-family: Oswald; font-weight: 700; font-size: 84px; line-height: 1; color: #fff; transform-origin: 50% 50%; }
+.opcion .emo { font-family: "Noto Color Emoji"; font-size: 120px; }
+.opcion .txt { flex: 1; }
+.decide-com { position: absolute; top: 1290px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 120px; color: #e0312b; -webkit-text-stroke: 8px #000; paint-order: stroke fill; }
+.decide-com .emo { font-family: "Noto Color Emoji"; -webkit-text-stroke: 0; }
+.decide-pie { position: absolute; top: 1660px; width: 100%; text-align: center; font-family: Oswald; font-weight: 600; font-size: 64px; letter-spacing: 3px; color: #c9ccd2; }

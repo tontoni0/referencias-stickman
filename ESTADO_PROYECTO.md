@@ -1,6 +1,6 @@
 # Estado del proyecto
 
-Última actualización: 1 de noviembre de 2026.
+Última actualización: 2 de noviembre de 2026.
 Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con todo el trabajo; si ya se fusionó, todo está en `main`.
 
 ## Episodios terminados
@@ -12,12 +12,13 @@ Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con tod
 | 3 | El mecate | 71.0 s | 18 | `episodios/parte-03-el-mecate/la_alerta_parte3.mp4` | ~2,212 |
 | 4 | La cornisa | 70.6 s | 20 | `episodios/parte-04-la-cornisa/la_alerta_parte4.mp4` | ~1,848 |
 | 5 | 3:14 | 71.4 s | 17 | `episodios/parte-05-tres-catorce/la_alerta_parte5.mp4` | ~1,848 |
+| 6 | La bodega (interactiva) | 70.6 s | 17 | `episodios/parte-06-la-bodega/la_alerta_parte6.mp4` | ~1,836 |
 
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Partes 6 a 8** según el guion: Noventa segundos, La cortina, La primera noche. Con un momento de peligro para Chispa cuando se pueda (el usuario lo pidió para las partes 4 y 5). Preguntar si cada una abre con flash-forward o directo: la parte 5 abrió directo a pedido del usuario.
+1. **Parte 7** según lo que voten los comentarios de la parte 6: 🔑 "El 101" (versión A) o 🔦 "La cornisa otra vez" (versión B). Las dos están en el guion y terminan en la ventana del 402, donde está Chispa. Después, **parte 8** ("La primera noche"). Preguntar al usuario qué opción ganó antes de hacer la 7.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -39,20 +40,24 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 01/11 | La parte 5 no abre con flash-forward: empieza directo con la alerta sonando | Pedido del usuario |
 | 01/11 | En la parte 5 Chispa aúlla durante la alerta y hay que callarla antes de que se calle; se agregó la frase "Cuando se calla, se paga" a la Regla 4 | Mantener a Chispa en peligro, como pidió el usuario en la parte 4 |
 | 01/11 | Cuenta regresiva en pantalla comprimida: los 90 s de la alerta pasan en unos 15 s de narración | La voz no puede durar 90 s; el reloj corre rápido hasta 0:10 y luego va casi segundo a segundo |
+| 02/11 | Las partes 6 a 8 se reescribieron: los infectados suben al edificio, escapas a la bodega de la azotea, pierdes a Chispa y Memo dice que la tiene. La parte 6 termina con una decisión para los comentarios y la parte 7 tiene dos versiones | Pedido del usuario. Se quitó la salida a la tienda de don Chucho ("Noventa segundos" y "La cortina") |
+| 02/11 | Memo miente: la foto de Chispa es vieja (la placa no tiene cinta). Chispa está con Rosa | Deja una pista para quien se acuerde de la cinta y une las dos versiones de la parte 7 en la parte 8 |
+| 02/11 | La parte 6 abre directo, sin flash-forward | Sigue sin pausa al final de la parte 5 y el usuario pidió quitar el flashback en la 5 |
 
 ## Errores conocidos y limitaciones
 
-1. **Claude no puede escuchar el audio.** Los niveles se midieron (efectos 10 dB o más debajo de la voz), pero el usuario no ha confirmado cómo suenan las partes 1 a 5. En la parte 5 los aullidos de Chispa son sintetizados y pueden sonar artificiales; la silla, la lata y el último aullido quedan a unos 6 dB de la voz a propósito.
+1. **Claude no puede escuchar el audio.** Los niveles se midieron (efectos 10 dB o más debajo de la voz), pero el usuario no ha confirmado cómo suenan las partes 1 a 6. En la parte 5 los aullidos de Chispa son sintetizados y pueden sonar artificiales; la silla, la lata y el último aullido quedan a unos 6 dB de la voz a propósito.
 2. **Las partes 1 y 2 no tienen el gancho con flash-forward.** Se hicieron antes de esa decisión. Se podrían rehacer (pendiente de decidir).
 3. **Duraciones**: 63 a 71 s. TikTok y Reels lo aceptan; si se quiere 60 s exactos hay que recortar texto.
 4. **Imágenes de Canva**: en el repo solo están las miniaturas; los originales (1680x944) siguen en la cuenta de Canva (enlaces en `referencias/README.md`).
 5. **Videos de referencia**: son de otros creadores (`referencias/videos/`). No se publican ni se copian sus dibujos.
 6. **Historial pesado**: cada video re-subido agrega de 22 a 37 MB (la parte 5 pesa 37 MB por sus escenas de noche). El repo pesaba unos 122 MB al 31/10.
-11. **Volumen final**: la mezcla usa `loudnorm` a -14 LUFS en una sola pasada y los videos quedan entre -16.1 y -16.5 LUFS (medido en las partes 3 a 5). Las plataformas normalizan solas; si se quiere -14 exacto, hay que hacer `loudnorm` en dos pasadas y volver a mezclar.
 7. **Escenas mejorables** en la parte 3: `chillido` (Chispa) se ve vacía y en `sacude` los brazos parecen una tienda de campaña.
 8. **Se corrigió** una falla del motor que dejaba un subtítulo asomándose 2 a 4 cuadros en la escena siguiente (partes 2 y 3 se volvieron a renderizar).
 9. **Subida de audio a ElevenLabs bloqueada** por permisos desde el 01/11. Se resolvió transcribiendo la toma original desde el flujo (ver CLAUDE.md, paso 5).
 10. **Parte 5**: en el chat de Memo la cámara recorta la batería de la barra de estado (igual que en la parte 4). Los brazos del montón visto desde arriba (escena `prueba`) parecen patitas.
+11. **Volumen final**: la mezcla usa `loudnorm` a -14 LUFS en una sola pasada y los videos quedan entre -16.1 y -16.5 LUFS (medido en las partes 3 a 5). Las plataformas normalizan solas; si se quiere -14 exacto, hay que hacer `loudnorm` en dos pasadas y volver a mezclar.
+12. **Parte 6**: los brazos que entran por la puerta parecen tubos con bolitas (no tienen dedos). El vidrio que revienta y la puerta que cede quedan a unos 4 dB de la voz, a propósito, porque caen en pausas de la narración.
 
 ## Lo que no está en GitHub
 
@@ -66,10 +71,11 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 ## Próximos pasos
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
-2. Que el usuario revise el audio de las partes 1 a 5, sobre todo los aullidos de la parte 5.
-3. Parte 6 ("Noventa segundos"): contador rojo en una esquina toda la parte; puede reusar `animaReloj` de la parte 5.
-4. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
-5. Partes 7 y 8, versión larga y portadas.
+2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6.
+3. Publicar la parte 6 con el comentario fijado de su `FICHA.md` y contar los votos a las 48 horas.
+4. Parte 7 (versión A o B según los votos) y parte 8.
+5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
+6. Versión larga y portadas.
 
 ## Registro de cambios
 
@@ -85,3 +91,5 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 31/10 | Verificado: `hacer_parte1.sh` regenera la parte 1 desde cero igual a la publicada (2,111 cuadros, diferencia media 0.00 sobre 255). Partes 2 y 3: línea de tiempo idéntica y cuadros de muestra iguales. PR #1 abierto hacia `main` |
 | 01/11 | Parte 4 terminada ("La cornisa"): 20 escenas, gancho con Chispa en la cornisa. Nuevas piezas en `lib/`: `caraChispa()`, `paloma()`, `perro('parada')`, `hoja()` e `iconos` en la base compartida. Partes 1 a 3 verificadas iguales después del cambio |
 | 01/11 | Parte 5 terminada ("3:14"): 17 escenas, sin flash-forward, Chispa aúlla durante la alerta. Nuevas piezas en `lib/`: `perroSentada()`, `infectadoLado()`, `infectadoQuieto()`, aullido en `caraChispa()`, filtro `#contorno`, `chatPrivado()` en la base compartida, clases de reloj y onomatopeyas |
+| 02/11 | Guion de las partes 6 a 8 reescrito (la bodega, Chispa perdida, decisión de los comentarios, parte 7 en dos versiones) |
+| 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |

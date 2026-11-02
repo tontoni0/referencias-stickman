@@ -6,7 +6,7 @@ Lee este archivo y `ESTADO_PROYECTO.md` antes de hacer cualquier cosa. Juntos ex
 
 Serie de videos cortos verticales en español para TikTok, Reels y Shorts. Historia de zombies en una unidad habitacional de la Ciudad de México, narrada en segunda persona ("tú"). A las 3:14 a. m. suena la alerta sísmica pero no tiembla; los vecinos bajan al patio como en los simulacros y los infectados, que cazan por el sonido, llegan corriendo.
 
-La serie tiene 8 partes de 60 a 70 segundos. Unidas forman un video de unos 8 minutos. El guion completo está en `guiones/la-alerta-serie-8-partes.md`.
+La serie tiene 8 partes de 60 a 70 segundos. Unidas forman un video de unos 8 minutos. El guion completo está en `guiones/la-alerta-serie-8-partes.md`. La parte 6 es interactiva: termina con una decisión para los comentarios y la parte 7 tiene dos versiones (A y B); se produce la que gane.
 
 Todo se dibuja con código (SVG animado en Chromium). No se usan generadores de imágenes: Canva gasta créditos y no mantiene al personaje igual entre escenas. La voz es de ElevenLabs.
 
@@ -50,12 +50,12 @@ video/                     código para generar los episodios
 
 | Archivo | Qué hace |
 |---|---|
-| `dibujo.js` | `stick()`, `paliacate()`, `perro('gruñe' \| 'parada' \| 'echada')`, `perroSentada(aulla)`, `caraChispa()` (primer plano: gruñe, ladra, lame, aúlla), `paloma()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `infectadoLado()` (corre de lado), `infectadoQuieto()` (parado, brazos arriba o abajo), `vecino()`, degradados y filtros (`#ink`, `#tiembla`, `#blur10`, `#contorno` para que las figuras se vean de noche). |
+| `dibujo.js` | `stick()`, `paliacate()`, `perro('gruñe' \| 'parada' \| 'echada')`, `perroSentada(aulla)`, `caraChispa()` (primer plano: gruñe, ladra, lame, aúlla; `sinCinta` dibuja la placa como antes del día 1), `paloma()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `infectadoLado()` (corre de lado), `infectadoQuieto()` (parado, brazos arriba o abajo), `vecino()`, degradados y filtros (`#ink`, `#tiembla`, `#blur10`, `#contorno` para que las figuras se vean de noche). |
 | `motor.js` | `montar()` y `render(t)`: muestra la escena, mueve la cámara (`de`/`a` o `claves`), subtítulos, fundido y trazo que "hierve". |
 | `escena_base.js` | `M` (marcas), `INI`, `FIN()`, `lienzo()`, `viñeta`, `poste()` de la alerta, `escribe()` (texto que se escribe solo), `subrayado()`, `trazo()`, `hoja()` (cuaderno), `iconos` del inventario, `TINTA`, `chatPrivado()` y `animaMensajes()`. |
 | `edificio.js` | `corteEdificio(pre, extra)`: corte del Edificio C con 502, 402 y escalera. |
-| `estilo.css` | Fuentes, subtítulos, chat, cuaderno, VHS, cuenta regresiva, papel, presentación de personaje, reloj en pantalla (`.reloj-mini`, `.reloj-grande`), onomatopeyas (`.onomato`). |
-| `linea_de_tiempo.py` | De `palabras.json` + `cortes.json` saca `tl.js`: inicio de cada escena, marcas y subtítulos. |
+| `estilo.css` | Fuentes, subtítulos, chat, cuaderno, VHS, cuenta regresiva, papel, presentación de personaje, reloj en pantalla (`.reloj-mini`, `.reloj-grande`), onomatopeyas (`.onomato`), tarjeta de decisión para los comentarios (`.decide-tit`, `.opcion`, `.decide-com`, `.decide-pie`). |
+| `linea_de_tiempo.py` | De `palabras.json` + `cortes.json` saca `tl.js`: inicio de cada escena, marcas y subtítulos. Ignora etiquetas como `[whispering]`. |
 | `recorta_pausas.py` | Deja las pausas de la voz en un máximo y la acelera. Con `--palabras` también corre los tiempos de una transcripción hecha sobre la toma original. |
 | `inserta_silencios.py` | Mete silencios exactos y corre los tiempos de `palabras.json`. |
 | `resumen_episodio.py` | Genera `escenas.md` y `hoja_de_escenas.jpg` de un episodio. |
@@ -104,7 +104,8 @@ De la historia, ya mostrado en video:
 | Día 2 (parte 3) | Rosa lleva 2 días sin agua. Hay infectados en la escalera. Botella de 2 L por el mecate del tendedero. Unos veinte infectados en el patio. Rosa atrapa la botella y manda la nota "Gracias, corazón. Dios te lo pague. No le abras a Memo." Memo tiene planta de luz y cajas de ATÚN, FRIJOL, SOPA y AGUA. 21:12: Memo escribe por privado "ya vi que tienes agua". Batería 29 %. |
 | Día 3 (parte 4) | Inventario: agua 18 L, comida 3 días, croquetas 10 días, batería 22 %. 10:02: Memo por privado "tengo latas y planta de luz", "te cambio comida x un garrafon 👍". 10:09: Rosa por privado "la noche de la alerta memo cerro la puerta del edificio", "con la gente afuera. yo lo vi". Regla 3. Una paloma se para en la ventana del mecate; Chispa salta a la cornisa del quinto piso, casi ladra y casi cae; la agarras del collar y la placa encintada no suena. Esa noche (noche 3), 3:14: la alerta suena otra vez y no tiembla. |
 | Noche 3 (parte 5) | 3:14: la alerta suena, no tiembla. Chispa aúlla durante toda la alerta. Te lanzas a taparle el hocico. Los infectados no voltean a tu ventana: todos corren al poste de la esquina, se amontonan debajo de las bocinas y estiran los brazos. El patio queda vacío por primera vez en 3 días (queda una chancla rosa tirada). Tomas el tiempo: 90 segundos (temporizador, batería 19 %). Arrastras una silla y tiras una lata: nadie voltea. Con 5 segundos le tapas el hocico; se retuerce. La alerta se calla y el último aullido de Chispa se oye en el silencio: todas las cabezas giran hacia tu edificio. Regla 4: "Mientras suena la alerta, el ruido es gratis. Cuando se calla, se paga." 3:17: Memo por privado "mañana a las 3:14 bajo a la tienda de don chucho", "90 segundos. vienes o te mueres de hambre?". |
-| Día 4 en adelante | Lo que dice el guion de las partes 6 a 8. Pendiente: qué hacen los infectados después de girar hacia tu edificio en la noche 3. |
+| Noche 3, 3:18 a 3:27 (parte 6) | Los infectados revientan la puerta de vidrio del vestíbulo (la que cerró Memo; tenía cadena y candado) y suben por la escalera. Pasan frente al 402: Rosa, a oscuras con una vela, se tapa la boca. Golpean tu puerta (502); le pones la silla; la puerta cede. Sales por la ventana a la cornisa con Chispa bajo el brazo. Una mano gris sale por la ventana; Chispa se suelta y corre por la cornisa hasta perderse en lo oscuro. Subes por la escalerita de fierro a la azotea (tinacos, tendederos, bodegas 501, 502 y 503) y te encierras en la bodega del 502. Batería 15 %. Los infectados se quedan en tu departamento, quietos, con la cara hacia arriba. 3:26: Memo por privado "tengo a tu perra" y una foto de Chispa; 3:27: "baja al 101", "o subo yo", "tengo llave de todas las bodegas". La foto es vieja: la placa no tiene cinta. Chispa en realidad está con Rosa (no se ha dicho en video). |
+| Parte 7 en adelante | Lo que dice el guion: versión A (🔑, bajas al 101) o B (🔦, buscas a Chispa), según los comentarios; las dos terminan en la ventana del 402. Luego la parte 8. |
 
 Del narrador: segunda persona, sin palabras con género para "tú" (nada de "dormido" o "solo"). Rosa le dice "corazón".
 
@@ -170,4 +171,4 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 
 ## Cómo trabaja el usuario
 
-Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Quiere emoción y adrenalina en cada parte, y Chispa es el personaje más querido: ponerla en peligro engancha, pero no la mates. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.
+Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Quiere emoción y adrenalina en cada parte, y Chispa es el personaje más querido: ponerla en peligro engancha, pero no la mates. Le gustan los episodios que terminan con una pregunta para los comentarios. Memo es el malo de la historia. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.
