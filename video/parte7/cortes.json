@@ -1,0 +1,127 @@
+{
+  "intro": 0.15,
+  "cola": 2.4,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "placa",
+      "la placa de chispa"
+    ],
+    [
+      "azotea",
+      "entonces rechina"
+    ],
+    [
+      "tinacos",
+      "sales de la bodega"
+    ],
+    [
+      "abre",
+      "memo abre"
+    ],
+    [
+      "orilla",
+      "te asomas"
+    ],
+    [
+      "pelos",
+      "en la cornisa hay"
+    ],
+    [
+      "bajas",
+      "bajas por la escalerita"
+    ],
+    [
+      "alumbra",
+      "arriba memo"
+    ],
+    [
+      "voltean",
+      "en tu departamento"
+    ],
+    [
+      "manos",
+      "las manos salen"
+    ],
+    [
+      "esquina",
+      "las huellas dan vuelta"
+    ],
+    [
+      "jaula",
+      "y bajan por la jaula"
+    ],
+    [
+      "cortina",
+      "la cortina se mueve"
+    ],
+    [
+      "final",
+      "sígueme"
+    ]
+  ],
+  "marcas": {
+    "razon": "y tenían razón",
+    "cinta": "tiene cinta",
+    "vieja": "esta foto es vieja",
+    "mintio": "memo te mintió",
+    "rechina": "rechina",
+    "lampara": "una lámpara",
+    "llavero": "un llavero",
+    "memoA": "memo@2",
+    "escondes": "te escondes",
+    "abre": "memo abre",
+    "vacia": "está vacía",
+    "pelitos": "hay pelitos",
+    "huellas": "y huellas chiquitas",
+    "paso": "chispa pasó",
+    "sigues": "y sigues",
+    "alumbraM": "te alumbra",
+    "golpea": "y golpea",
+    "barandal": "barandal",
+    "cabezas": "todas las cabezas",
+    "ventanaM": "hacia la ventana",
+    "buscarte": "buscarte",
+    "corres": "corres por la cornisa",
+    "esquinaM": "la esquina",
+    "jaula": "la jaula del gas",
+    "hasta": "hasta la ventana",
+    "mano": "una mano arrugada",
+    "senas": "te hace señas"
+  },
+  "rojas": [
+    "lámpara.",
+    "razón.",
+    "uno.",
+    "vieja.",
+    "mintió.",
+    "memo.",
+    "vacía.",
+    "aquí.",
+    "barandal",
+    "ventana.",
+    "cornisa.",
+    "402.",
+    "señas.",
+    "final."
+  ],
+  "reemplazos": [
+    [
+      "día uno",
+      "día 1"
+    ],
+    [
+      "cuatrocientos dos",
+      "402"
+    ]
+  ],
+  "sin_subs": [
+    [
+      "escena:final",
+      "fin"
+    ]
+  ]
+}

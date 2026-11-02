@@ -33,6 +33,9 @@ const defsSVG = `
     <linearGradient id="cielo" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#26385e"/><stop offset="1" stop-color="#121c36"/>
     </linearGradient>
+    <linearGradient id="haz" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff6c8" stop-opacity=".9"/><stop offset="1" stop-color="#fff6c8" stop-opacity="0"/>
+    </linearGradient>
     <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
       <feTurbulence id="inkNoise" type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
       <feDisplacementMap in="SourceGraphic" scale="5"/>
