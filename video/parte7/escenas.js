@@ -493,21 +493,168 @@ ESCENAS.cortina = {
   },
 };
 
-// ---------- 15. Cierre: parte 8, el final. Sin Chispa a tu lado. ----------
-ESCENAS.final = {
+// ---------- 15 a 18. La decisión: Chispa adentro, Memo arriba, las llaves de la comida, Rosa en la ventana ----------
+// La ventana del 402 de cerca, como en la escena de la cortina.
+function ventana402(pre) {
+  return `
+    <rect width="1080" height="1920" fill="#090b10"/>
+    <g filter="url(#ink)">
+      <rect x="-20" y="-20" width="1120" height="1960" fill="#2f2b34"/>
+      <rect x="100" y="300" width="880" height="1060" fill="#2a1f22" stroke="${INK}" stroke-width="10"/>
+    </g>
+    <circle cx="540" cy="880" r="520" fill="url(#luzCalida)"/>
+    <g filter="url(#ink)"><rect x="700" y="1080" width="34" height="110" fill="#efe6cf" stroke="${INK}" stroke-width="5"/></g>
+    <path id="${pre}-llama" d="" fill="#f3c46a" stroke="#c9792b" stroke-width="3"/>
+    <g id="${pre}-atras" filter="url(#ink)"></g>
+    <g filter="url(#ink)">
+      <path d="M110 310 H970 V440 Q850 470 730 440 Q610 470 490 440 Q370 470 250 440 Q180 455 110 440 Z" fill="#d8a7b5" stroke="${INK}" stroke-width="6"/>
+      <path d="M110 440 H260 Q250 900 230 1350 H110 Z" fill="#d8a7b5" stroke="${INK}" stroke-width="6"/>
+      <path d="M970 440 H835 Q850 900 865 1350 H970 Z" fill="#c995a6" stroke="${INK}" stroke-width="6"/>
+    </g>
+    <g id="${pre}-frente" filter="url(#ink)"></g>
+    <g filter="url(#ink)"><rect x="100" y="300" width="880" height="1060" fill="none" stroke="#9aa3ad" stroke-width="16"/>
+      <rect x="70" y="1360" width="940" height="40" fill="#8a7f78" stroke="${INK}" stroke-width="7"/></g>
+    ${viñeta}`;
+}
+const llama402 = (pre, t) => { const fl = Math.sin(t * 17) * 4 + Math.sin(t * 11) * 3; $(`#${pre}-llama`).setAttribute('d', `M717 1080 q-17 -28 0 -${62 + fl} q17 ${34 + fl / 2} 0 ${62 + fl} z`); };
+// Mano de Rosa (arrugada, con la orilla del rebozo). (hx, hy) es la palma. dobla 0..1 cierra los dedos.
+const manoRosa = (hx, hy, dobla, ang = 0) => {
+  const PIEL = '#e9e2d6';
+  return `<g transform="rotate(${ang} ${hx} ${hy})">
+    <path d="M${hx - 260} ${hy - 25} L${hx - 40} ${hy - 45} L${hx - 40} ${hy + 45} L${hx - 260} ${hy + 75} Z" fill="#8d8f96" stroke="${INK}" stroke-width="7"/>
+    ${[...Array(5)].map((_, i) => linea([[hx - 70 - i * 30, hy + 55], [hx - 70 - i * 30, hy + 85]], 4)).join('')}
+    <ellipse cx="${hx + 20}" cy="${hy}" rx="80" ry="64" fill="${PIEL}" stroke="${INK}" stroke-width="7"/>
+    <path d="M${hx - 10} ${hy - 15} q20 10 40 0 M${hx} ${hy + 15} q20 8 36 -2" stroke="#b9ad9a" stroke-width="4" fill="none"/>
+    ${[-40, -13, 14, 41].map((dy, i) => {
+      const L = 95 - Math.abs(dy) * 0.6, a = -0.1 + dobla * (1.6 + i * 0.1);
+      const x1 = hx + 85, y1 = hy + dy * 0.9, x2 = x1 + Math.cos(a) * L * 0.55, y2 = y1 + Math.sin(a) * L * 0.55, x3 = x2 + Math.cos(a * 1.8) * L * 0.45, y3 = y2 + Math.sin(a * 1.8) * L * 0.45;
+      return linea([[x1, y1], [x2, y2], [x3, y3]], 30, INK) + linea([[x1, y1], [x2, y2], [x3, y3]], 20, PIEL);
+    }).join('')}
+    ${linea([[hx + 10, hy - 55], [hx + 50, hy - 95]], 30, INK)}${linea([[hx + 10, hy - 55], [hx + 50, hy - 95]], 20, PIEL)}</g>`;
+};
+
+// Detrás de la cortina se asoma una cola café que se mueve: Chispa.
+ESCENAS.cola = {
+  html: lienzo(ventana402('cl')),
+  camara: { claves: [[INI.cola, 1.0, 0, 0], [M.chispaC, 1.25, -170, -120], [FIN('cola'), 1.32, -180, -140]], origen: '540px 900px' },
+  update(lt, dur, t) {
+    llama402('cl', t);
+    const sale = ease.outCubic(clamp((t - INI.cola - 0.3) / 0.6)), mueve = Math.sin(t * 11) * 22 * sale;
+    // la cola sale de atrás de la cortina derecha y se menea: una cola peluda que se angosta
+    const L = 270 * sale, ang = -1.15 + Math.sin(t * 11) * 0.38 * sale;
+    const cx = 850, cy = 1330, ex = cx - Math.cos(ang) * L, ey = cy + Math.sin(ang) * L;
+    const mx = cx - Math.cos(ang) * L * 0.55 + 45, my = cy + Math.sin(ang) * L * 0.55;
+    $('#cl-atras').innerHTML = sale > 0 ? `<path d="M${cx - 46} ${cy} Q${mx - 40} ${my} ${ex} ${ey} Q${mx + 40} ${my + 10} ${cx + 46} ${cy} Z" fill="#6e4325" stroke="${INK}" stroke-width="8"/>
+      <path d="M${ex} ${ey} l14 -14 M${ex} ${ey} l18 6 M${ex} ${ey} l4 18" stroke="${INK}" stroke-width="6" stroke-linecap="round"/>
+      <path d="M${(cx + mx) / 2} ${(cy + my) / 2 - 30} l-10 -18 M${mx} ${my - 26} l-12 -16" stroke="#5a361d" stroke-width="6" stroke-linecap="round"/>` : '';
+    $('#cl-frente').innerHTML = manoRosa(380, 860, 0.5 + 0.5 * Math.sin((t - INI.cola) * 7));
+  },
+};
+
+// Arriba, Memo grita en la orilla de la azotea. Detrás de él, cabezas y brazos grises.
+ESCENAS.grita = {
+  html: lienzo(`
+    <defs><linearGradient id="gr-cono" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff6c8" stop-opacity=".7"/><stop offset="1" stop-color="#fff6c8" stop-opacity="0"/></linearGradient></defs>
+    <rect width="1080" height="1920" fill="url(#cielo)"/>
+    <g filter="url(#ink)"><polygon points="-200,1920 1280,1920 900,420 180,420" fill="#4b4550" stroke="${INK}" stroke-width="8"/></g>
+    <g id="gr-detras" filter="url(#ink)"></g>
+    <g id="gr-memo"></g>
+    <g filter="url(#ink)">
+      <polygon points="150,420 930,420 950,540 130,540" fill="#5e5960" stroke="${INK}" stroke-width="8"/>
+      <line x1="140" y1="420" x2="940" y2="420" stroke="#9aa3ad" stroke-width="14"/>
+      ${[200, 330, 460, 590, 720, 850].map(x => `<line x1="${x}" y1="420" x2="${x}" y2="480" stroke="#9aa3ad" stroke-width="10"/>`).join('')}
+    </g>
+    <g id="gr-luz"></g>
+    ${viñeta}`),
+  fijo: `<div class="onomato" id="gr-grito" style="top:110px;left:120px;font-size:120px;opacity:0">¡AYÚDAME!</div>`,
+  camara: { claves: [[INI.grita, 1.1, 0, 180], [M.golpeM, 1.15, 0, 200], [FIN('grita'), 1.3, 0, 240]], origen: '540px 500px' },
+  update(lt, dur, t) {
+    const tiembla = Math.sin(t * 40) * 5;
+    $('#gr-memo').innerHTML = `<g filter="url(#contorno)">${memo({ head: [540 + tiembla, 340], r: 85, neck: [540, 420], hip: [540, 470], look: -20 * Math.sin(t * 3), lookY: -6, eyeScale: 1.6 })}</g>`;
+    const llegan = ease.outCubic(clamp((t - M.golpeM + 0.2) / 1.0));
+    let d = '';
+    [[300, 0], [760, 0.2], [430, 0.4], [650, 0.3]].forEach(([x, dl], i) => {
+      const k = ease.outCubic(clamp((t - M.golpeM + 0.3 - dl) / 0.6));
+      if (k <= 0) return;
+      const y = 380 - 60 * k;
+      d += `<circle cx="${x}" cy="${y}" r="58" fill="url(#headInfectado)" stroke="#050608" stroke-width="7"/>
+        <ellipse cx="${x - 20}" cy="${y}" rx="8" ry="13" fill="#f2f2f2"/><ellipse cx="${x + 20}" cy="${y}" rx="8" ry="13" fill="#f2f2f2"/>
+        ${linea([[x + 30, y + 40], [x + 90 * (x < 540 ? 1 : -1), y + 10 + Math.sin(t * 9 + i) * 15], [540 + (x < 540 ? -70 : 70), 400]], 28, '#050608')}
+        ${linea([[x + 30, y + 40], [x + 90 * (x < 540 ? 1 : -1), y + 10 + Math.sin(t * 9 + i) * 15], [540 + (x < 540 ? -70 : 70), 400]], 16, '#9aa0a8')}`;
+    });
+    $('#gr-detras').innerHTML = d;
+    const a = Math.PI / 2 + Math.sin(t * 7) * 0.7;
+    $('#gr-luz').innerHTML = `<polygon points="680,480 ${680 + Math.cos(a - 0.2) * 1600},${480 + Math.sin(a - 0.2) * 1600} ${680 + Math.cos(a + 0.2) * 1600},${480 + Math.sin(a + 0.2) * 1600}" fill="url(#gr-cono)" opacity=".5"/>`;
+    const g = $('#gr-grito');
+    g.style.opacity = t > INI.grita + 0.2 ? 1 : 0;
+    g.style.transform = `rotate(-6deg) translate(${Math.sin(t * 50) * 6}px, 0)`;
+  },
+};
+
+// Las llaves de Memo: la de la tienda. Sin él, no hay comida. Ni croquetas: el plato de Chispa vacío.
+ESCENAS.llaves = {
+  html: lienzo(`
+    <rect width="1080" height="1920" fill="#0b0f17"/>
+    <circle cx="540" cy="620" r="520" fill="url(#luzLuna)" opacity=".3"/>
+    <g id="ll-llavero" filter="url(#ink)"></g>
+    <g filter="url(#ink)">
+      <rect y="1250" width="1080" height="700" fill="#1a130e"/>
+      <ellipse cx="540" cy="1420" rx="250" ry="70" fill="#2f6fd6" stroke="${INK}" stroke-width="9"/>
+      <ellipse cx="540" cy="1400" rx="190" ry="44" fill="#1d4a99" stroke="${INK}" stroke-width="6"/>
+      <text x="540" y="1480" text-anchor="middle" font-family="Caveat" font-weight="700" font-size="64" fill="#fff">Chispa</text>
+      <circle cx="610" cy="1398" r="9" fill="#8a603f"/>
+    </g>
+    ${viñeta}`),
+  camara: { claves: [[INI.llaves, 1.3, 0, 330], [M.comida - 0.2, 1.25, 0, 300], [M.croquetas, 1.2, 0, -300], [FIN('llaves'), 1.25, 0, -330]], origen: '540px 960px' },
+  update(lt, dur, t) {
+    const a = Math.sin(t * 2.4) * 8;
+    const llave = (i, txt) => `<g transform="rotate(${-30 + i * 22} 540 420)"><rect x="530" y="430" width="22" height="200" rx="6" fill="#c9a43a" stroke="${INK}" stroke-width="5"/>
+      <path d="M552 590 h22 v14 h-12 v12 h14 v14 h-24" fill="#c9a43a" stroke="${INK}" stroke-width="4"/>${txt}</g>`;
+    $('#ll-llavero').innerHTML = `<g transform="rotate(${a} 540 300)">
+      <line x1="540" y1="-20" x2="540" y2="350" stroke="#9aa3ad" stroke-width="8"/>
+      <circle cx="540" cy="400" r="58" fill="none" stroke="#b8bec6" stroke-width="12"/>
+      ${llave(0, '')}${llave(1, '')}${llave(3, '')}
+      ${llave(2, `<g transform="translate(560 640) rotate(12)"><rect x="-10" y="0" width="190" height="80" rx="8" fill="#efe6cf" stroke="${INK}" stroke-width="5"/>
+        <text x="85" y="56" text-anchor="middle" font-family="Caveat" font-weight="700" font-size="56" fill="${TINTA}">TIENDA</text></g>`)}</g>`;
+  },
+};
+
+// La mano de Rosa en la manija de la ventana. Si entras, cierra y no vuelve a abrir.
+ESCENAS.cierra = {
+  html: lienzo(ventana402('ci')),
+  camara: { claves: [[INI.cierra, 1.0, 0, 0], [M.noabre, 1.18, 60, 40], [FIN('cierra'), 1.25, 70, 50]], origen: '540px 900px' },
+  update(lt, dur, t) {
+    llama402('ci', t);
+    const asoma = Math.sin(t * 1.5) * 6;
+    $('#ci-atras').innerHTML = `<g transform="translate(${asoma} 0)"><circle cx="860" cy="1000" r="70" fill="#6e4325" stroke="${INK}" stroke-width="8"/>
+      <path d="M835 940 l22 -80 l34 70 z" fill="#5a361d" stroke="${INK}" stroke-width="7"/>
+      <path d="M800 1010 q-50 4 -54 30 q8 22 54 18 z" fill="#7d4f2d" stroke="${INK}" stroke-width="7"/>
+      <circle cx="752" cy="1026" r="10" fill="${INK}"/><circle cx="820" cy="985" r="9" fill="${INK}"/><circle cx="823" cy="982" r="3" fill="#fff"/></g>`;
+    const baja = ease.inOut(clamp((t - M.noabre) / 0.6));
+    $('#ci-frente').innerHTML = `<rect x="470" y="780" width="70" height="26" rx="8" fill="#9aa3ad" stroke="${INK}" stroke-width="5" transform="rotate(${-40 * baja} 480 793)"/>` +
+      manoRosa(470, 800 + 40 * baja, 0.85, -10);
+  },
+};
+
+// La decisión para los comentarios.
+ESCENAS.decide = {
   html: `<div class="full" style="background:#0b0f17"></div>
-    ${lienzo(`<g filter="url(#ink)" id="fi-mono"></g>`)}
-    <div class="p2" id="fi-txt">PARTE 8 <span>→</span></div>
-    <div class="p2b" id="fi-sig">EL FINAL</div>
-    <div class="decide-pie" id="fi-pie" style="top:1620px">SÍGUEME</div>`,
-  update(lt) {
-    $('#fi-mono').innerHTML = stick({ head: [540, 470], r: 110, neck: [540, 580], hip: [540, 830],
-      legL: [[515, 950], [500, 1060]], legR: [[565, 950], [580, 1060]], footL: -1, footR: 1,
-      armL: [[495, 730], [470, 830]], armR: [[585, 730], [610, 830]], look: 26, lookY: 14 }) +
-      `<g transform="translate(760 1000) scale(-0.7 0.7)" opacity=".18">${perro('echada')}</g>
-      <text x="760" y="930" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="120" fill="#e0312b">?</text>`;
-    $('#fi-txt').style.transform = `scale(${lerp(0.6, 1, ease.outBack(clamp(lt / 0.35)))})`;
-    $('#fi-sig').style.opacity = clamp((lt - 0.3) / 0.25);
-    $('#fi-pie').style.opacity = clamp((lt - 0.6) / 0.25);
+    ${lienzo(`<circle cx="540" cy="960" r="900" fill="url(#luzLuna)" opacity=".12"/>`)}
+    <div class="decide-tit" id="de-tit">¿QUÉ HACES?</div>
+    <div class="opcion" id="de-a" style="top:560px;font-size:74px"><span class="emo">🐕</span><span class="txt">ENTRAS CON CHISPA</span></div>
+    <div class="opcion" id="de-b" style="top:900px;font-size:74px"><span class="emo">🔑</span><span class="txt">SUBES POR MEMO</span></div>
+    <div class="decide-com" id="de-com">COMENTA <span class="emo">🐕</span> O <span class="emo">🔑</span></div>
+    <div class="decide-pie" id="de-pie">EL FINAL LO ELIGEN USTEDES</div>`,
+  update(lt, dur, t) {
+    pop($('#de-tit'), t, INI.decide);
+    pop($('#de-a'), t, INI.decide + 0.15);
+    pop($('#de-b'), t, M.subes - 0.1);
+    pop($('#de-com'), t, M.comentaM);
+    $('#de-pie').style.opacity = clamp((t - M.comentaM - 0.6) / 0.3);
+    const a = t < M.subes - 0.1, b = t >= M.subes - 0.1 && t < M.comentaM;
+    $('#de-a').style.borderColor = a ? '#e5a83b' : '#fff';
+    $('#de-b').style.borderColor = b ? '#9fd0ff' : '#fff';
+    if (a) $('#de-a').style.transform += ` scale(${1 + 0.03 * Math.sin(t * 8)})`;
+    if (b) $('#de-b').style.transform += ` scale(${1 + 0.03 * Math.sin(t * 8)})`;
   },
 };

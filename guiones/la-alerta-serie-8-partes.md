@@ -399,7 +399,7 @@ Cierre: "PARTE 8 →"
 **Título:** Mi perrita no está con él. La foto lo dice | Parte 7
 **Portada:** MIRA LA PLACA.
 
-Ganó la lámpara con 87 % a la hora y media de publicada la parte 6. La gente notó que la placa de la foto no tenía cinta. La parte 7 abre dándoles la razón. Se le agregó peligro: Memo te delata haciendo ruido y las manos salen por tu ventana.
+Ganó la lámpara con 87 % a la hora y media de publicada la parte 6. La gente notó que la placa de la foto no tenía cinta. La parte 7 abre dándoles la razón. Se le agregó peligro: Memo te delata haciendo ruido y las manos salen por tu ventana. Termina con otra decisión para los comentarios, más difícil (pedido del usuario): Chispa o Memo y la comida. La parte 8 tendrá dos versiones.
 
 **1 (0:00)** Tarjeta del voto: "GANÓ" con la opción 🔦 encendida y la 🔑 tachada.
 Voz: "Ganó la lámpara. Y tenían razón."
@@ -434,8 +434,32 @@ Voz: "Las huellas dan vuelta en la esquina... y bajan por la jaula del gas. Hast
 **11 (0:55)** La cortina rosa del 402 se mueve. Una mano arrugada, con la orilla del rebozo, te hace señas.
 Voz: "La cortina se mueve. Y una mano arrugada te hace señas."
 
-**12 (1:00)** "PARTE 8 → EL FINAL"
-Voz: "Sígueme para el final."
+**12 (1:00)** Detrás de la cortina se asoma una cola café que se mueve.
+Voz: "Detrás de la cortina, se asoma una cola café. Chispa."
+
+**13 (1:03)** Desde abajo: en la orilla de la azotea, Memo grita con la lámpara; detrás de él, cabezas grises. Su golpe los llevó hasta allá.
+Voz: "Pero arriba, Memo grita. Su golpe los llevó a la azotea."
+
+**14 (1:07)** El llavero de Memo, de cerca: la llave de la tienda. La lata de croquetas casi vacía.
+Voz: "Memo tiene las llaves de la tienda. Sin él, no hay comida. Ni croquetas para Chispa."
+
+**15 (1:12)** La mano de Rosa en la manija de la ventana.
+Voz: "Si entras, Rosa cierra la ventana. Y no la vuelve a abrir."
+
+**16 (1:16)** Tarjeta con la decisión.
+```
+¿QUÉ HACES?
+🐕 ENTRAS CON CHISPA
+🔑 SUBES POR MEMO
+```
+Voz: "¿Entras con Chispa... o subes por Memo? Comenta perrito o llave."
+
+**Comentario fijado:**
+```
+🐕 = entras al 402 con Chispa y dejas a Memo
+🔑 = subes a la azotea por Memo (y por las llaves de la comida)
+Gana lo que tenga más comentarios en 48 horas. El final sigue lo que elijan.
+```
 
 ---
 
@@ -443,6 +467,13 @@ Voz: "Sígueme para el final."
 
 **Título:** ¿Quién activó la alerta la primera noche? | Parte 8 (final)
 **Portada:** EL FINAL.
+
+Tiene dos versiones según el voto de la parte 7. Las dos terminan con Rosa revelando que ella activa la alerta, menos la primera noche.
+
+1. **Si gana 🐕 (entras con Chispa):** Rosa cierra la ventana. Chispa te lame la cara. Arriba, los gritos de Memo se apagan. Al rato, algo pasa cayendo frente a la ventana y se oye en el patio: el llavero de Memo. La comida está ahí abajo, entre ellos. Sigue la revelación de Rosa (escenas 3 a 8).
+2. **Si gana 🔑 (subes por Memo):** subes por la escalerita mientras Rosa cierra la ventana con Chispa adentro. En la azotea, Memo pelea con la puerta de la caseta. Lo jalas a la bodega y la cierran por dentro. A oscuras, Memo te debe la vida y te dice algo que no esperabas: "yo sé quién activó la alerta la primera noche". Con la luz del celular ves, enfrente, la ventana del 402: Rosa con Chispa en brazos y el radio. La revelación de Rosa queda para el final (escenas 4 a 8, contadas a la mañana siguiente).
+
+Versión base (sirve para la 🐕):
 
 **1 (0:00)**
 Imagen: la ventana del 402 desde afuera. El stickman entra (por el mecate en la versión A, por la cornisa en la B).

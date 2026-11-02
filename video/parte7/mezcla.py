@@ -1,6 +1,6 @@
 """Mezcla el audio de la parte 7: voz, campanita del voto, sello y tachón, viento en la azotea, la puerta
 que rechina, llaves, pasos, la llave en la cerradura, la escalerita, el clic de la lámpara, el CLANG del barandal,
-el golpe cuando voltean, gruñidos, pasos corriendo, latidos y el cierre.
+el golpe cuando voltean, gruñidos, pasos corriendo, latidos, Memo en la azotea, las llaves y la decisión.
 
 Uso: python3 -I mezcla.py tl.js ../audio/parte7/narracion.mp3 salida.m4a
 """
@@ -84,7 +84,15 @@ def main(tl_js, voz, salida):
     ruido("cor2", 0.9, "pink", "bandpass=f=1500:width_type=h:w=1500,afade=t=in:d=0.3,afade=t=out:st=0.4:d=0.5,volume=0.2", ini["cortina"] + 0.2)
     d_no = dur - m["mano"]
     f.append(("not", f"aevalsrc='0.028*(sin(2*PI*220*t)+sin(2*PI*261.6*t)+sin(2*PI*329.6*t))*min(1,t/1.2)':s=44100:d={d_no:.3f},afade=t=out:st={d_no - 1:.2f}:d=1", m["mano"]))
-    f.append(("fin", f"{golpe},volume=0.18", ini["final"]))
+    # 15 a 19. El final: gruñidos y gritos ahogados en la azotea, llaves, la manija, la decisión
+    d_az = fin["grita"] - ini["grita"]
+    ruido("gr2", d_az, "brown", f"lowpass=f=300,volume='0.4*(0.5+0.5*sin(2*PI*21*t))':eval=frame,afade=t=in:d=0.3,afade=t=out:st={d_az - 0.4:.2f}:d=0.4", ini["grita"])
+    ruido("aux", 0.9, "white", "bandpass=f=1100:width_type=h:w=700,volume='0.25*(0.6+0.4*sin(2*PI*9*t))':eval=frame,afade=t=out:st=0.5:d=0.4", ini["grita"] + 0.15)
+    f.append(("lla4", "aevalsrc='0.15*(2*random(0)-1)*lt(mod(t*9,1),0.12)*(sin(2*PI*4200*t)+sin(2*PI*5600*t))':s=44100:d=1.2,highpass=f=3000", ini["llaves"] + 0.2))
+    f.append(("man", f"{clic},volume=0.5", m["noabre"]))
+    f.append(("g3", f"{golpe},volume=0.15", ini["decide"]))
+    d_de = dur - ini["decide"]
+    f.append(("pul", f"aevalsrc='0.04*sin(2*PI*55*t)*(0.5+0.5*sin(2*PI*1.2*t))':s=44100:d={d_de:.3f},afade=t=in:d=0.5,afade=t=out:st={d_de - 1:.2f}:d=1", ini["decide"]))
 
     filtros = [f"[0:a]adelay={int(tl['intro'] * 1000)}:all=1[voz]"]
     etiquetas = ["[voz]"]

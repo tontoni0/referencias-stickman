@@ -1,6 +1,6 @@
-// Generado por lib/linea_de_tiempo.py. No editar a mano. PROVISIONAL: sale de la toma sin procesar; hacer_parte7.sh lo regenera con audio/parte7/palabras.json.
+// Generado por lib/linea_de_tiempo.py. No editar a mano.
 const TL = {
- "duracion": 71.59,
+ "duracion": 99.09,
  "intro": 0.15,
  "escenas": [
   {
@@ -60,8 +60,24 @@ const TL = {
    "inicio": 62.19
   },
   {
-   "id": "final",
-   "inicio": 67.31
+   "id": "cola",
+   "inicio": 67.65
+  },
+  {
+   "id": "grita",
+   "inicio": 72.77
+  },
+  {
+   "id": "llaves",
+   "inicio": 77.73
+  },
+  {
+   "id": "cierra",
+   "inicio": 85.01
+  },
+  {
+   "id": "decide",
+   "inicio": 90.279
   }
  ],
  "marcas": {
@@ -91,7 +107,15 @@ const TL = {
   "jaula": 57.59,
   "hasta": 59.35,
   "mano": 64.31,
-  "senas": 65.83
+  "senas": 65.83,
+  "chispaC": 71.93,
+  "golpeM": 75.37,
+  "comida": 81.45,
+  "croquetas": 82.97,
+  "cierraM": 86.41,
+  "noabre": 88.41,
+  "subes": 92.17,
+  "comentaM": 93.85
  },
  "subs": [
   {
@@ -112,7 +136,7 @@ const TL = {
   {
    "s": 4.15,
    "e": 5.71,
-   "html": "CHISPA TIENE CINTA"
+   "html": "<span class=\"hot\">CHISPA</span> TIENE CINTA"
   },
   {
    "s": 5.71,
@@ -147,7 +171,7 @@ const TL = {
   {
    "s": 12.79,
    "e": 14.02,
-   "html": "DE LA AZOTEA."
+   "html": "DE LA <span class=\"hot\">AZOTEA.</span>"
   },
   {
    "s": 14.15,
@@ -242,7 +266,7 @@ const TL = {
   {
    "s": 34.23,
    "e": 35.35,
-   "html": "CHISPA PASÓ POR"
+   "html": "<span class=\"hot\">CHISPA</span> PASÓ POR"
   },
   {
    "s": 35.35,
@@ -391,24 +415,149 @@ const TL = {
   },
   {
    "s": 66.39,
-   "e": 67.51,
+   "e": 67.54,
    "html": "<span class=\"hot\">SEÑAS.</span>"
   },
   {
-   "s": 67.51,
-   "e": 68.47,
-   "html": "SÍGUEME PARA EL"
+   "s": 67.85,
+   "e": 68.57,
+   "html": "DETRÁS DE LA"
   },
   {
-   "s": 68.47,
-   "e": 69.54,
-   "html": "<span class=\"hot\">FINAL.</span>"
+   "s": 68.57,
+   "e": 69.61,
+   "html": "CORTINA"
+  },
+  {
+   "s": 69.61,
+   "e": 70.65,
+   "html": "SE ASOMA UNA"
+  },
+  {
+   "s": 70.65,
+   "e": 71.8,
+   "html": "COLA CAFÉ."
+  },
+  {
+   "s": 71.93,
+   "e": 72.97,
+   "html": "<span class=\"hot\">CHISPA.</span>"
+  },
+  {
+   "s": 72.97,
+   "e": 74.09,
+   "html": "PERO ARRIBA"
+  },
+  {
+   "s": 74.09,
+   "e": 75.37,
+   "html": "<span class=\"hot\">MEMO</span> GRITA."
+  },
+  {
+   "s": 75.37,
+   "e": 76.17,
+   "html": "SU GOLPE LOS"
+  },
+  {
+   "s": 76.17,
+   "e": 76.89,
+   "html": "LLEVÓ A LA"
+  },
+  {
+   "s": 76.89,
+   "e": 77.8,
+   "html": "<span class=\"hot\">AZOTEA.</span>"
+  },
+  {
+   "s": 77.93,
+   "e": 78.89,
+   "html": "<span class=\"hot\">MEMO</span> TIENE LAS"
+  },
+  {
+   "s": 78.89,
+   "e": 79.53,
+   "html": "LLAVES DE LA"
+  },
+  {
+   "s": 79.53,
+   "e": 80.36,
+   "html": "TIENDA."
+  },
+  {
+   "s": 80.49,
+   "e": 81.45,
+   "html": "SIN ÉL"
+  },
+  {
+   "s": 81.45,
+   "e": 82.84,
+   "html": "NO HAY <span class=\"hot\">COMIDA.</span>"
+  },
+  {
+   "s": 82.97,
+   "e": 84.09,
+   "html": "NI CROQUETAS PARA"
+  },
+  {
+   "s": 84.09,
+   "e": 85.21,
+   "html": "<span class=\"hot\">CHISPA.</span>"
+  },
+  {
+   "s": 85.21,
+   "e": 86.41,
+   "html": "SI ENTRAS"
+  },
+  {
+   "s": 86.41,
+   "e": 87.37,
+   "html": "ROSA CIERRA LA"
+  },
+  {
+   "s": 87.37,
+   "e": 88.41,
+   "html": "<span class=\"hot\">VENTANA.</span>"
+  },
+  {
+   "s": 88.41,
+   "e": 89.13,
+   "html": "Y NO LA"
+  },
+  {
+   "s": 89.13,
+   "e": 90.479,
+   "html": "VUELVE A <span class=\"hot\">ABRIR.</span>"
+  },
+  {
+   "s": 90.479,
+   "e": 92.17,
+   "html": "¿ENTRAS CON <span class=\"hot\">CHISPA...</span>"
+  },
+  {
+   "s": 92.17,
+   "e": 93.17,
+   "html": "O SUBES POR"
+  },
+  {
+   "s": 93.17,
+   "e": 93.85,
+   "html": "<span class=\"hot\">MEMO?</span>"
+  },
+  {
+   "s": 93.85,
+   "e": 95.37,
+   "html": "COMENTA PERRITO O"
+  },
+  {
+   "s": 95.37,
+   "e": 96.44,
+   "html": "LLAVE."
   }
  ],
  "sinSubs": [
   [
-   67.31,
-   72.59
+   90.279,
+   100.09
   ]
  ]
 };

@@ -1,6 +1,6 @@
 {
   "intro": 0.15,
-  "cola": 2.4,
+  "cola": 3.0,
   "cortes": [
     [
       "gano",
@@ -59,8 +59,24 @@
       "la cortina se mueve"
     ],
     [
-      "final",
-      "sígueme"
+      "cola",
+      "detrás de la cortina"
+    ],
+    [
+      "grita",
+      "pero arriba memo grita"
+    ],
+    [
+      "llaves",
+      "memo tiene las llaves"
+    ],
+    [
+      "cierra",
+      "si entras"
+    ],
+    [
+      "decide",
+      "entras con chispa"
     ]
   ],
   "marcas": {
@@ -90,7 +106,15 @@
     "jaula": "la jaula del gas",
     "hasta": "hasta la ventana",
     "mano": "una mano arrugada",
-    "senas": "te hace señas"
+    "senas": "te hace señas",
+    "chispaC": "chispa@3",
+    "golpeM": "su golpe",
+    "comida": "no hay comida",
+    "croquetas": "ni croquetas",
+    "cierraM": "rosa cierra",
+    "noabre": "y no la vuelve",
+    "subes": "o subes por memo",
+    "comentaM": "comenta perrito"
   },
   "rojas": [
     "lámpara.",
@@ -106,7 +130,10 @@
     "cornisa.",
     "402.",
     "señas.",
-    "final."
+    "comida.",
+    "abrir.",
+    "chispa.",
+    "azotea."
   ],
   "reemplazos": [
     [
@@ -120,7 +147,7 @@
   ],
   "sin_subs": [
     [
-      "escena:final",
+      "escena:decide",
       "fin"
     ]
   ]
