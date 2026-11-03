@@ -17,10 +17,11 @@ Videos terminados de la serie "La alerta", uno por carpeta. Cada carpeta trae el
 
 ## Temporada 2
 
-Diseño completo en `guiones/la-alerta-temporada-2.md`.
+Diseño completo en `guiones/la-alerta-temporada-2.md`. Son 10 partes y la historia termina en la última.
 
 | Parte | Título | Duración | Escenas | Inicio | Carpeta |
 |---|---|---|---|---|---|
 | 1 | Evelin | 69.3 s | 12 | Tarjeta de sospechosos de la parte 8: "Ustedes votaron por Memo" y el sello "CASI". Termina con la pregunta "¿Quién hizo que sonara para todos?" | `t2-parte-01-evelin/` |
+| 2 | La puerta (interactiva) | 66.4 s | 14 | Tres toques en la puerta del 402. Memo está mordido. Termina con decisión: 🚪 le abres o 🔒 no le abres | `t2-parte-02-la-puerta/` |
 
 Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar` (temporada 2: `./hacer_t2parteN.sh --publicar`).
