@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_parte8.mp4` · 75.4 s · 1080x1920 · 30 fps · H.264 + AAC |
+| **Video** | `la_alerta_parte8.mp4` · 75.4 s · 1080x1920 · 30 fps · H.264 + AAC · 30 MB · -16.5 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 16 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta del voto de la parte 7: "GANÓ" con 🐕 encendida y 🔑 tachada |
