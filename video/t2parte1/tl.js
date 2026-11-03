@@ -1,6 +1,6 @@
 // Generado por lib/linea_de_tiempo.py. No editar a mano.
 const TL = {
- "duracion": 67.653,
+ "duracion": 69.253,
  "intro": 0.15,
  "escenas": [
   {
@@ -45,11 +45,11 @@ const TL = {
   },
   {
    "id": "centro",
-   "inicio": 54.169
+   "inicio": 55.769
   },
   {
    "id": "pregunta",
-   "inicio": 60.455
+   "inicio": 62.055
   }
  ],
  "marcas": {
@@ -76,10 +76,10 @@ const TL = {
   "luz": 46.32,
   "otravez": 50.542,
   "fui": 51.724,
-  "perdon": 52.781,
-  "salvar": 55.102,
-  "toda": 58.732,
-  "comenta": 62.768
+  "perdon": 53.281,
+  "salvar": 56.702,
+  "toda": 60.332,
+  "comenta": 64.368
  },
  "subs": [
   {
@@ -353,70 +353,70 @@ const TL = {
    "html": "FUI <span class=\"hot\">YO.</span>"
   },
   {
-   "s": 52.781,
-   "e": 53.403,
+   "s": 53.281,
+   "e": 53.903,
    "html": "PERDÓNAME"
   },
   {
-   "s": 53.403,
-   "e": 54.131,
+   "s": 53.903,
+   "e": 54.631,
    "html": "<span class=\"hot\">ABUELA.</span>"
   },
   {
-   "s": 54.369,
-   "e": 55.702,
+   "s": 55.969,
+   "e": 57.302,
    "html": "<span class=\"hot\">EVELIN</span> QUERÍA SALVAR"
   },
   {
-   "s": 55.702,
-   "e": 56.502,
+   "s": 57.302,
+   "e": 58.102,
    "html": "A UNA SOLA"
   },
   {
-   "s": 56.502,
-   "e": 57.132,
+   "s": 58.102,
+   "e": 58.732,
    "html": "PERSONA."
   },
   {
-   "s": 57.132,
-   "e": 58.332,
+   "s": 58.732,
+   "e": 59.932,
    "html": "PERO LA ALERTA"
   },
   {
-   "s": 58.332,
-   "e": 59.332,
+   "s": 59.932,
+   "e": 60.932,
    "html": "SONÓ EN TODA"
   },
   {
-   "s": 59.332,
-   "e": 60.282,
+   "s": 60.932,
+   "e": 61.882,
    "html": "LA <span class=\"hot\">CIUDAD.</span>"
   },
   {
-   "s": 60.655,
-   "e": 61.355,
+   "s": 62.255,
+   "e": 62.955,
    "html": "¿QUIÉN HIZO QUE"
   },
   {
-   "s": 61.355,
-   "e": 62.768,
+   "s": 62.955,
+   "e": 64.368,
    "html": "SONARA PARA TODOS?"
   },
   {
-   "s": 62.768,
-   "e": 63.562,
+   "s": 64.368,
+   "e": 65.162,
    "html": "COMENTA."
   },
   {
-   "s": 63.562,
-   "e": 65.003,
+   "s": 65.162,
+   "e": 66.603,
    "html": "PARTE DOS."
   }
  ],
  "sinSubs": [
   [
-   60.455,
-   68.653
+   62.055,
+   70.253
   ]
  ]
 };
