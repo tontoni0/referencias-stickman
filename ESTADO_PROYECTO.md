@@ -1,6 +1,6 @@
 # Estado del proyecto
 
-Última actualización: 2 de noviembre de 2026.
+Última actualización: 3 de noviembre de 2026.
 Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con todo el trabajo; si ya se fusionó, todo está en `main`.
 
 ## Episodios terminados
@@ -14,12 +14,15 @@ Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con tod
 | 5 | 3:14 | 71.4 s | 17 | `episodios/parte-05-tres-catorce/la_alerta_parte5.mp4` | ~1,848 |
 | 6 | La bodega (interactiva) | 70.6 s | 17 | `episodios/parte-06-la-bodega/la_alerta_parte6.mp4` | ~1,836 |
 | 7 | Las huellas (interactiva) | 79.5 s | 19 | `episodios/parte-07-las-huellas/la_alerta_parte7.mp4` | ~2,374 |
+| 8 | La primera noche (final) | 75.4 s | 16 | `episodios/parte-08-la-primera-noche/la_alerta_parte8.mp4` | ~2,056 |
+
+La temporada 1 está completa: 8 partes.
 
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Parte 8** ("La primera noche") según lo que voten los comentarios de la parte 7: 🐕 entras con Chispa o 🔑 subes por Memo. Las dos versiones están en el guion. Preguntar al usuario qué opción ganó antes de hacerla.
+1. **Temporada 2**: no está escrita. Ganchos que dejó la parte 8: la alerta suena sin que Rosa toque el radio (alguien más la controla) y una lámpara se prende en la azotea (Memo podría seguir vivo). Los comentarios de la parte 8 dicen a quién sospecha la gente (Memo, Lalo, Paty o alguien de afuera). La versión 🔑 de la parte 8 (Memo te debe la vida y sabe quién activó la alerta) queda como idea.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -47,6 +50,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 02/11 | En la parte 6 ganó 🔦 (87 %): se hizo la parte 7B, "Las huellas". Abre con la tarjeta del voto sin porcentaje | Pedido del usuario; el porcentaje podía cambiar antes de cerrar la votación |
 | 02/11 | La parte 7 también termina con una decisión, más difícil: Chispa o Memo y la comida. La parte 8 queda en dos versiones | Pedido del usuario |
 | 02/11 | El final nuevo de la parte 7 se generó aparte y se unió a la toma con `lib/une_tomas.py` | Rehacer toda la voz costaba unos 1,700 créditos más; el final solo costó 672 |
+| 03/11 | En la parte 7 ganó 🐕 (70 % de 559 votos): la parte 8 es la versión en la que entras con Chispa y dejas a Memo | Votación en TikTok |
+| 03/11 | El final deja dos ganchos (la alerta suena sola y una lámpara se prende en la azotea) y pide a los comentarios su sospechoso | Cierre de temporada que invita a seguir; pedido del usuario de "hazla buena, hazla interesante" |
 
 ## Errores conocidos y limitaciones
 
@@ -78,8 +83,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
 2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6.
-3. Publicar la parte 7 con el comentario fijado de su `FICHA.md` y contar los votos a las 48 horas.
-4. Parte 8 (versión 🐕 o 🔑 según los votos).
+3. Publicar la parte 8 con el comentario fijado de su `FICHA.md`.
+4. Escribir la temporada 2 con lo que comente la gente.
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
@@ -98,5 +103,6 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 01/11 | Parte 4 terminada ("La cornisa"): 20 escenas, gancho con Chispa en la cornisa. Nuevas piezas en `lib/`: `caraChispa()`, `paloma()`, `perro('parada')`, `hoja()` e `iconos` en la base compartida. Partes 1 a 3 verificadas iguales después del cambio |
 | 01/11 | Parte 5 terminada ("3:14"): 17 escenas, sin flash-forward, Chispa aúlla durante la alerta. Nuevas piezas en `lib/`: `perroSentada()`, `infectadoLado()`, `infectadoQuieto()`, aullido en `caraChispa()`, filtro `#contorno`, `chatPrivado()` en la base compartida, clases de reloj y onomatopeyas |
 | 02/11 | Guion de las partes 6 a 8 reescrito (la bodega, Chispa perdida, decisión de los comentarios, parte 7 en dos versiones) |
+| 03/11 | Parte 8 terminada ("La primera noche", final de temporada, ganó 🐕): 16 escenas. La temporada 1 queda completa |
 | 02/11 | Parte 7 terminada ("Las huellas", interactiva, ganó 🔦): 19 escenas, termina con la decisión 🐕 / 🔑. Nuevo en `lib/`: `une_tomas.py`; el degradado `#haz` pasa a `defsSVG` |
 | 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |

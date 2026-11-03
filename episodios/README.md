@@ -11,6 +11,6 @@ Videos terminados de la serie "La alerta", uno por carpeta. Cada carpeta trae el
 | 5 | 3:14 | 71.4 s | 17 | Sin flash-forward: abre con la alerta sonando y Chispa aullando | `parte-05-tres-catorce/` |
 | 6 | La bodega (interactiva) | 70.6 s | 17 | Directo: las cabezas te miran y "Cuando se calla, se paga". Termina con decisión para los comentarios | `parte-06-la-bodega/` |
 | 7 | Las huellas (interactiva, ganó 🔦) | 79.5 s | 19 | Tarjeta del voto: "GANÓ" 🔦. Termina con otra decisión: 🐕 Chispa o 🔑 Memo | `parte-07-las-huellas/` |
-| 8 | La primera noche (según el voto de la parte 7) | pendiente | | | |
+| 8 | La primera noche (final, ganó 🐕) | 75.4 s | 16 | Tarjeta del voto: "GANÓ" 🐕. Termina con la tarjeta de sospechosos y "TEMPORADA 2" | `parte-08-la-primera-noche/` |
 
 Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar`.
