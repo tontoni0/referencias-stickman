@@ -155,6 +155,36 @@ function memo(o) {
   return stick({ ...o, paliacate: false, antesCabeza: chaleco + llaves, despuesCabeza: bigote });
 }
 
+// Evelin, nieta de Rosa, operadora de noche del centro de alerta (temporada 2). Mismos parámetros que stick().
+// Pelo negro con fleco y coleta, audífonos de operadora, chamarra verde azulado con franja reflejante y gafete.
+// o.audifonos: 'cuello' (por omisión) o 'puestos'. o.nina: Evelin de niña (dos coletas, playera amarilla, sin audífonos).
+function evelin(o) {
+  const [cx, cy] = o.head, r = o.r, [nx, ny] = o.neck, [hx, hy] = o.hip, k = r * 0.06;
+  const PELO = '#1d1a1f';
+  const coleta = o.nina
+    ? [-1, 1].map(l => `<path d="M${cx + l * r * 0.8} ${cy - r * 0.45} q${l * r * 0.75} ${r * 0.05} ${l * r * 0.6} ${r * 0.9} q${-l * r * 0.3} ${-r * 0.3} ${-l * r * 0.55} ${-r * 0.7} z" fill="${PELO}" stroke="${INK}" stroke-width="${k}"/>`).join('')
+    : `<path d="M${cx + r * 0.55} ${cy - r * 0.8} q${r * 0.95} ${r * 0.05} ${r * 0.8} ${r * 1.45} q${-r * 0.2} ${r * 0.3} ${-r * 0.45} ${r * 0.12} q${r * 0.28} ${-r * 0.6} ${-r * 0.38} ${-r * 1.3} z" fill="${PELO}" stroke="${INK}" stroke-width="${k}"/>`;
+  const ropa = o.nina
+    ? `<path d="M${nx - r * 0.5} ${ny + r * 0.15} L${nx + r * 0.5} ${ny + r * 0.15} L${hx + r * 0.45} ${hy} L${hx - r * 0.45} ${hy} Z" fill="#e5a83b" stroke="${INK}" stroke-width="${k}" stroke-linejoin="round"/>`
+    : `<path d="M${nx - r * 0.62} ${ny + r * 0.22} L${nx + r * 0.62} ${ny + r * 0.22} L${hx + r * 0.58} ${hy + r * 0.05} L${hx - r * 0.58} ${hy + r * 0.05} Z" fill="#2f6f6a" stroke="${INK}" stroke-width="${k}" stroke-linejoin="round"/>
+      <path d="M${nx - r * 0.22} ${ny + r * 0.18} L${nx} ${ny + r * 0.65} L${nx + r * 0.22} ${ny + r * 0.18}" fill="#24524f" stroke="${INK}" stroke-width="${k * 0.8}"/>
+      <rect x="${hx - r * 0.58}" y="${(ny + hy) / 2 + r * 0.25}" width="${r * 1.16}" height="${r * 0.16}" fill="#d9dee6" stroke="${INK}" stroke-width="${k * 0.6}"/>
+      <rect x="${nx - r * 0.5}" y="${ny + r * 0.75}" width="${r * 0.32}" height="${r * 0.42}" rx="${r * 0.04}" fill="#f4f1e8" stroke="${INK}" stroke-width="${k * 0.6}"/>
+      <rect x="${nx - r * 0.46}" y="${ny + r * 0.8}" width="${r * 0.24}" height="${r * 0.08}" fill="#e0312b"/>`;
+  const pelo = `<path d="M${cx - r * 0.95} ${cy - r * 0.2} A${r} ${r} 0 0 1 ${cx + r * 0.95} ${cy - r * 0.25}
+      Q${cx + r * 0.55} ${cy - r * 0.5} ${cx + r * 0.25} ${cy - r * 0.38} L${cx + r * 0.1} ${cy - r * 0.55} L${cx - r * 0.1} ${cy - r * 0.36}
+      L${cx - r * 0.3} ${cy - r * 0.52} L${cx - r * 0.5} ${cy - r * 0.34} Q${cx - r * 0.8} ${cy - r * 0.42} ${cx - r * 0.95} ${cy - r * 0.2} Z" fill="${PELO}" stroke="${INK}" stroke-width="${k}"/>`;
+  let audifonos = '';
+  if (!o.nina && o.audifonos === 'puestos') {
+    audifonos = `<path d="M${cx - r * 0.98} ${cy} A${r * 1.02} ${r * 1.05} 0 0 1 ${cx + r * 0.98} ${cy}" fill="none" stroke="#2a2d33" stroke-width="${r * 0.12}"/>
+      ${[-1, 1].map(l => `<rect x="${cx + l * r * 0.98 - r * 0.15}" y="${cy - r * 0.25}" width="${r * 0.3}" height="${r * 0.5}" rx="${r * 0.1}" fill="#2a2d33" stroke="${INK}" stroke-width="${k}"/>`).join('')}`;
+  } else if (!o.nina) {
+    audifonos = `<path d="M${cx - r * 0.6} ${cy + r * 0.95} Q${cx} ${cy + r * 1.35} ${cx + r * 0.6} ${cy + r * 0.95}" fill="none" stroke="#2a2d33" stroke-width="${r * 0.11}"/>
+      ${[-1, 1].map(l => `<rect x="${cx + l * r * 0.62 - r * 0.14}" y="${cy + r * 0.8}" width="${r * 0.28}" height="${r * 0.38}" rx="${r * 0.1}" fill="#2a2d33" stroke="${INK}" stroke-width="${k}"/>`).join('')}`;
+  }
+  return stick({ ...o, paliacate: false, antesCabeza: coleta + ropa, despuesCabeza: pelo + audifonos });
+}
+
 // Infectado parado, quieto. Mismos parámetros que stick().
 function infectado(o) {
   return stick({ ...o, paliacate: false, headFill: 'url(#headInfectado)', eyeFill: '#f2f2f2', sinBrillo: true, gris: o.gris || '#8a9099' });
