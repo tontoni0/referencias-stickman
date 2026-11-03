@@ -463,49 +463,71 @@ Gana lo que tenga más comentarios en 48 horas. El final sigue lo que elijan.
 
 ---
 
-## Parte 8 · La primera noche
+## Parte 8 · La primera noche (final de temporada)
 
 **Título:** ¿Quién activó la alerta la primera noche? | Parte 8 (final)
-**Portada:** EL FINAL.
+**Portada:** NO FUE ELLA.
 
-Tiene dos versiones según el voto de la parte 7. Las dos terminan con Rosa revelando que ella activa la alerta, menos la primera noche.
+En la parte 7 ganó 🐕 (70 % con 559 votos): entras con Chispa y dejas a Memo. Esta es la versión que se produjo. La versión 🔑 (subes por Memo y te dice "yo sé quién activó la alerta la primera noche") queda como idea para la temporada 2.
 
-1. **Si gana 🐕 (entras con Chispa):** Rosa cierra la ventana. Chispa te lame la cara. Arriba, los gritos de Memo se apagan. Al rato, algo pasa cayendo frente a la ventana y se oye en el patio: el llavero de Memo. La comida está ahí abajo, entre ellos. Sigue la revelación de Rosa (escenas 3 a 8).
-2. **Si gana 🔑 (subes por Memo):** subes por la escalerita mientras Rosa cierra la ventana con Chispa adentro. En la azotea, Memo pelea con la puerta de la caseta. Lo jalas a la bodega y la cierran por dentro. A oscuras, Memo te debe la vida y te dice algo que no esperabas: "yo sé quién activó la alerta la primera noche". Con la luz del celular ves, enfrente, la ventana del 402: Rosa con Chispa en brazos y el radio. La revelación de Rosa queda para el final (escenas 4 a 8, contadas a la mañana siguiente).
+Abre con la tarjeta del voto. Cierra con dos ganchos para la temporada 2: la alerta empieza a sonar sin que Rosa toque el radio, y en la azotea una lámpara se vuelve a prender (Memo podría seguir vivo). La última tarjeta pide a los comentarios su sospechoso.
 
-Versión base (sirve para la 🐕):
+**1 (0:00)** Tarjeta del voto: "GANÓ", 🐕 encendida y 🔑 tachada.
+Voz: "Ganó Chispa."
 
-**1 (0:00)**
-Imagen: la ventana del 402 desde afuera. El stickman entra (por el mecate en la versión A, por la cornisa en la B).
-Voz: "Una mano arrugada te agarra de la muñeca y te jala hacia adentro."
+**2 (0:02)** Adentro de la cocina del 402: entras por la ventana; Rosa la cierra y le pone el seguro.
+Voz: "Rosa te jala hacia adentro y cierra la ventana."
 
-**2 (0:05)**
-Imagen: Chispa salta a tus brazos y te lame la cara. La placa encintada no hace ruido.
-Voz: "Chispa. Viva. Te lame la cara. Su placa con cinta no hace ni un ruido."
+**3 (0:05)** Primer plano: Chispa te lame la cara. La placa con cinta brilla y no suena.
+Voz: "Chispa se te echa encima. Te lame la cara. Su placa con cinta no hace ni un ruido."
 
-**3 (0:12)**
-Imagen: doña Rosa de cerca, a la luz de una vela.
-Voz: "Doña Rosa. Es la primera vez que la ves desde la alerta. Llegó por mi ventana, corazón. Igual que tu botella."
+**4 (0:12)** La ventana desde adentro: arriba se apagan los gritos; el llavero de Memo pasa cayendo frente al vidrio.
+Voz: "Arriba, los gritos de Memo se apagan. Algo pasa cayendo frente a la ventana. Su llavero."
 
-**4 (0:20)**
-Imagen: la mesa de Rosa. Un radio viejo conectado a una antena hecha con ganchos de ropa. Una libreta con "3:14" escrito muchas veces.
-Voz: "En su mesa hay un radio viejo, conectado a una antena hecha con ganchos de ropa. Y una libreta con la misma hora escrita muchas veces. 3:14."
+**5 (0:18)** Vista hacia el patio: el llavero cae entre las cabezas, la etiqueta TIENDA hacia arriba.
+Voz: "La llave de la tienda se queda en el patio. Entre ellos."
 
-**5 (0:29)**
-Imagen: Rosa con la mano sobre el radio.
-Voz: "Trabajé treinta años en el sistema de la alerta, te dice. Sé cómo hacerla sonar. La alerta de cada noche era ella. Para vaciar el patio. Para que tú pudieras moverte."
+**6 (0:22)** Rosa prende una vela. Su cara de cerca. En la repisa, la botella de 2 L de la parte 3.
+Voz: "Rosa prende una vela. Es la primera vez que le ves la cara desde la alerta. Llegó por mi ventana, corazón. Igual que tu botella."
 
-**6 (0:39)**
-Imagen: por la ventana, arriba, la lámpara de Memo en la orilla de la azotea. Se oyen pasos que suben por la escalera hacia él (Memo hizo ruido en la parte 7).
-Voz: "Arriba, la lámpara de Memo se queda quieta. Y en la escalera, algo sube hacia él."
+**7 (0:32)** La mesa: un radio viejo con antena de ganchos de ropa y una libreta con "3:14" escrito muchas veces.
+Voz: "En su mesa hay un radio viejo, con una antena de ganchos de ropa. Y una libreta con la misma hora, escrita muchas veces. Tres catorce."
 
-**7 (0:44)**
-Imagen: Rosa, seria, mirando por la ventana.
-Voz: "Le das las gracias. Pero Rosa no sonríe. Las otras noches sí fui yo, dice. Pero la primera noche... la primera noche yo no la activé."
+**8 (0:41)** Foto vieja de Rosa joven frente a un tablero de la alerta. Su mano en la perilla del radio.
+Voz: "Trabajé treinta años en el sistema de la alerta, te dice. Sé cómo hacerla sonar."
 
-**8 (0:53)**
-Imagen: tarjeta: "¿QUIÉN ACTIVÓ LA ALERTA LA PRIMERA NOCHE?"
-Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
+**9 (0:46)** Recuerdo de la parte 5: el poste suena y el patio se vacía.
+Voz: "La de hace rato fui yo. Para vaciar el patio. Para que pudieras salir."
+
+**10 (0:52)** Tú con Chispa en brazos frente a Rosa. Ella no sonríe.
+Voz: "Le das las gracias. Pero Rosa no sonríe."
+
+**11 (0:55)** Rosa de cerca, seria, mirando la ventana.
+Voz: "La primera noche... la primera noche yo no la activé."
+
+**12 (1:00)** La cocina se pinta de rojo: la alerta suena. Las manos de Rosa están lejos del radio.
+Voz: "Y entonces, la alerta empieza a sonar. Rosa no ha tocado el radio."
+
+**13 (1:05)** Por la ventana, arriba: en la orilla de la azotea, una lámpara se vuelve a prender.
+Voz: "Arriba, en la azotea, una lámpara se vuelve a prender."
+
+**14 (1:08)** Tarjeta de sospechosos.
+```
+¿QUIÉN ACTIVÓ LA ALERTA LA PRIMERA NOCHE?
+🔑 MEMO (101)
+📱 LALO (305)
+👩 PATY (203)
+❓ ALGUIEN DE AFUERA
+TEMPORADA 2
+```
+Voz: "¿Quién activó la alerta la primera noche? Comenta tu sospechoso. Temporada dos."
+
+**Comentario fijado:**
+```
+¿Quién activó la alerta la primera noche?
+🔑 Memo · 📱 Lalo · 👩 Paty · ❓ alguien de afuera
+La temporada 2 empieza con lo que comenten.
+```
 
 ---
 
@@ -524,7 +546,7 @@ Voz: "Entonces, ¿quién? Comenta quién crees que fue. Temporada 2."
 4:00 3:14
 5:00 La bodega
 6:00 Las huellas
-7:00 La primera noche
+7:00 La primera noche (final)
 ```
 
 Ajusta los tiempos cuando tengas el video armado.
