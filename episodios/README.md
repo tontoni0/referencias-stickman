@@ -1,5 +1,7 @@
 # Episodios
 
+## Temporada 1
+
 Videos terminados de la serie "La alerta", uno por carpeta. Cada carpeta trae el video, su `FICHA.md` (código, voz, recursos y cómo regenerarlo), `escenas.md` (tabla de escenas con tiempos) y `hoja_de_escenas.jpg` (un cuadro por escena).
 
 | Parte | Título | Duración | Escenas | Gancho al inicio | Carpeta |
@@ -13,4 +15,12 @@ Videos terminados de la serie "La alerta", uno por carpeta. Cada carpeta trae el
 | 7 | Las huellas (interactiva, ganó 🔦) | 79.5 s | 19 | Tarjeta del voto: "GANÓ" 🔦. Termina con otra decisión: 🐕 Chispa o 🔑 Memo | `parte-07-las-huellas/` |
 | 8 | La primera noche (final, ganó 🐕) | 75.4 s | 16 | Tarjeta del voto: "GANÓ" 🐕. Termina con la tarjeta de sospechosos y "TEMPORADA 2" | `parte-08-la-primera-noche/` |
 
-Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar`.
+## Temporada 2
+
+Diseño completo en `guiones/la-alerta-temporada-2.md`.
+
+| Parte | Título | Duración | Escenas | Inicio | Carpeta |
+|---|---|---|---|---|---|
+| 1 | Evelin | 69.3 s | 12 | Tarjeta de sospechosos de la parte 8: "Ustedes votaron por Memo" y el sello "CASI". Termina con la pregunta "¿Quién hizo que sonara para todos?" | `t2-parte-01-evelin/` |
+
+Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar` (temporada 2: `./hacer_t2parteN.sh --publicar`).

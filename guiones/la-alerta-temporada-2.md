@@ -48,6 +48,8 @@ Las partes 2 y 7 terminan con una decisión para los comentarios; la siguiente s
 
 ## Parte 1 · Evelin
 
+**Estado:** terminada. Video en `episodios/t2-parte-01-evelin/` (69.3 s, 12 escenas).
+
 **Título:** La alerta sonó sola. Solo una persona sabe hacer eso | Temporada 2, parte 1
 **Portada:** FUE ELLA.
 
@@ -65,7 +67,7 @@ Voz: "Rosa se queda blanca. Esta no la hice yo, dice. Solo una persona sabe hace
 **4 (0:13)** Presentación del personaje: "EVELIN · Nieta de Rosa · Operadora de noche". Evelin en el centro de alerta, con audífonos y gafete.
 Voz: "Evelin. Su nieta. Operadora de noche en el centro de alerta."
 
-**5 (0:18)** Recuerdo cálido: Rosa y Evelin niña en la mesa, escribiendo "3:14" en un cuaderno. "3:14 = escóndete".
+**5 (0:18)** Recuerdo cálido ("Hace 15 años"): Rosa y Evelin niña en la mesa, con "3:14" en un cuaderno. Luego la hoja: "3:14 = peligro", "¡la otra se esconde!".
 Voz: "Cuando Evelin era niña, inventaron una clave. Si hay peligro, se avisan a las tres catorce. Y la otra se esconde."
 
 **6 (0:26)** Recuerdo de la noche 0: los vecinos bajan al patio; en la ventana del 402, Rosa apaga la vela y se esconde.
@@ -80,13 +82,13 @@ Voz: "Arriba, la lámpara de Memo se mueve. Baja por la escalera. Viene hacia la
 **9 (0:47)** Chispa le gruñe a la puerta; por debajo entra la luz de la lámpara.
 Voz: "Chispa le gruñe a la puerta."
 
-**10 (0:49)** El radio pita otra vez. Rosa escribe, temblando: "FUI YO. PERDÓNAME, ABUELA".
+**10 (0:49)** El radio pita otra vez. Rosa escribe, temblando: "FUI YO" en rojo y "PERDONAME ABUELA". El radio sigue pitando en la pausa y cae una lágrima en la hoja.
 Voz: "El radio pita otra vez. Fui yo. Perdóname, abuela."
 
-**11 (0:56)** Recuerdo en el centro de alerta, noche 0, 3:14: Evelin aprieta "PRUEBA · ZONA U.H. EDIFICIO C". En el mapa, una zona se prende. Luego se prenden todas.
+**11 (0:55)** Recuerdo en el centro de alerta, noche 0, 3:14: Evelin aprieta el botón de "PRUEBA · ZONA U.H. EDIFICIO C". En el mapa, una zona se prende. Luego se prenden todas en oleada y aparece "TODAS LAS ZONAS"; Evelin se lleva las manos a la cabeza.
 Voz: "Evelin quería salvar a una sola persona. Pero la alerta sonó en toda la ciudad."
 
-**12 (1:03)** Tarjeta: "¿QUIÉN HIZO QUE SONARA PARA TODOS?" y "PARTE 2 →".
+**12 (1:02)** Tarjeta: "¿QUIÉN HIZO QUE SONARA PARA TODOS?", una silueta con un celular prendido, "COMENTA TU TEORÍA" y "PARTE 2 →".
 Voz: "¿Quién hizo que sonara para todos? Comenta. Parte dos."
 
 **Comentario fijado:**

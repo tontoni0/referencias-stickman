@@ -1,6 +1,6 @@
 # Estado del proyecto
 
-Última actualización: 3 de noviembre de 2026.
+Última actualización: 3 de noviembre de 2026 (temporada 2, parte 1).
 Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con todo el trabajo; si ya se fusionó, todo está en `main`.
 
 ## Episodios terminados
@@ -18,11 +18,17 @@ Rama de trabajo: `claude/guiones-stickman`. Se abrió un PR hacia `main` con tod
 
 La temporada 1 está completa: 8 partes.
 
+Temporada 2 (diseño en `guiones/la-alerta-temporada-2.md`):
+
+| Parte | Título | Duración | Escenas | Video | Créditos ElevenLabs |
+|---|---|---|---|---|---|
+| 1 | Evelin | 69.3 s | 12 | `episodios/t2-parte-01-evelin/la_alerta_t2_parte1.mp4` | ~1,724 |
+
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Temporada 2**: no está escrita. Ganchos que dejó la parte 8: la alerta suena sin que Rosa toque el radio (alguien más la controla) y una lámpara se prende en la azotea (Memo podría seguir vivo). Los comentarios de la parte 8 dicen a quién sospecha la gente (Memo, Lalo, Paty o alguien de afuera). La versión 🔑 de la parte 8 (Memo te debe la vida y sabe quién activó la alerta) queda como idea.
+1. **Temporada 2**: diseñada (8 capítulos) y con la parte 1 terminada. Sigue la parte 2, "La puerta": Memo toca herido, dice que sabe por qué sonó en toda la ciudad y dónde está Evelin; termina con una decisión para los comentarios (¿le abres o no?). Las ideas de cada capítulo pueden cambiar según lo que pida el público.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -52,6 +58,10 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 02/11 | El final nuevo de la parte 7 se generó aparte y se unió a la toma con `lib/une_tomas.py` | Rehacer toda la voz costaba unos 1,700 créditos más; el final solo costó 672 |
 | 03/11 | En la parte 7 ganó 🐕 (70 % de 559 votos): la parte 8 es la versión en la que entras con Chispa y dejas a Memo | Votación en TikTok |
 | 03/11 | El final deja dos ganchos (la alerta suena sola y una lámpara se prende en la azotea) y pide a los comentarios su sospechoso | Cierre de temporada que invita a seguir; pedido del usuario de "hazla buena, hazla interesante" |
+| 03/11 | Temporada 2 con un personaje nuevo, Evelin (nieta de Rosa, operadora de noche del centro de alerta). La respuesta al voto "Memo" es "casi": Evelin hizo sonar la alerta solo para su edificio, alguien la hizo sonar en toda la ciudad y Memo sabía que iba a sonar | El usuario pidió a Evelin y no quería que la respuesta fuera simplemente Memo. Así se respeta el voto sin regalar el misterio |
+| 03/11 | La temporada 2 sale de la unidad: tienda de don Chucho, metro, centro de alerta, antena | Pedido del usuario ("no forzoso tiene que ser todo en el mismo edificio") |
+| 03/11 | Historias de fondo de Evelin, Rosa, Memo y Chispa en el guion de la temporada 2; se cuentan poco a poco en los capítulos | Pedido del usuario, "si es necesario" |
+| 03/11 | El radio se comunica con pitidos en clave Morse reales, sincronizados con las letras que escribe Rosa | Da un momento de suspenso propio de la temporada; la misma función `morse()` está en `escenas.js` y en `mezcla.py` |
 
 ## Errores conocidos y limitaciones
 
@@ -69,6 +79,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 12. **Parte 6**: los brazos que entran por la puerta parecen tubos con bolitas (no tienen dedos). El vidrio que revienta y la puerta que cede quedan a unos 4 dB de la voz, a propósito, porque caen en pausas de la narración.
 13. **Descargas de ElevenLabs**: desde el 02/11 los archivos vienen de `elevenlabsusercontent.com`. El usuario lo agregó a los dominios permitidos del entorno. Si una sesión nueva no puede descargar, revisar Network access del entorno. Los tiempos por palabra también vienen en la respuesta de la transcripción.
 14. **Parte 7**: dura 79.5 s, más que las otras, por el final con la decisión. La voz del final es de otra generación (misma voz y modelo); pedir al usuario que revise que no se note el cambio.
+15. **Temporada 2, parte 1**: "PERDONAME ABUELA" pita muy rápido (cada punto dura unos 21 ms) para caber en la pausa que sigue a "abuela"; puede sonar como un operador experto o como un chirrido. Pedir al usuario que lo revise. Los pasos de Memo y los latidos en la escalera son sintetizados.
 
 ## Lo que no está en GitHub
 
@@ -82,9 +93,9 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 ## Próximos pasos
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
-2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6.
-3. Publicar la parte 8 con el comentario fijado de su `FICHA.md`.
-4. Escribir la temporada 2 con lo que comente la gente.
+2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6, y los pitidos en clave de la temporada 2, parte 1.
+3. Publicar la temporada 2, parte 1 con el comentario fijado de su `FICHA.md`.
+4. Hacer la temporada 2, parte 2 ("La puerta"), con decisión para los comentarios.
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
@@ -104,5 +115,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 01/11 | Parte 5 terminada ("3:14"): 17 escenas, sin flash-forward, Chispa aúlla durante la alerta. Nuevas piezas en `lib/`: `perroSentada()`, `infectadoLado()`, `infectadoQuieto()`, aullido en `caraChispa()`, filtro `#contorno`, `chatPrivado()` en la base compartida, clases de reloj y onomatopeyas |
 | 02/11 | Guion de las partes 6 a 8 reescrito (la bodega, Chispa perdida, decisión de los comentarios, parte 7 en dos versiones) |
 | 03/11 | Parte 8 terminada ("La primera noche", final de temporada, ganó 🐕): 16 escenas. La temporada 1 queda completa |
+| 03/11 | Temporada 2 diseñada (`guiones/la-alerta-temporada-2.md`). Personaje nuevo: Evelin, con `evelin()` en `lib/dibujo.js` y en la hoja de personajes |
+| 03/11 | Temporada 2, parte 1 terminada ("Evelin"): 12 escenas, pitidos en clave Morse sincronizados con la escritura de Rosa |
 | 02/11 | Parte 7 terminada ("Las huellas", interactiva, ganó 🔦): 19 escenas, termina con la decisión 🐕 / 🔑. Nuevo en `lib/`: `une_tomas.py`; el degradado `#haz` pasa a `defsSVG` |
 | 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |

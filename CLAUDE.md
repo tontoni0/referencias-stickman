@@ -8,6 +8,8 @@ Serie de videos cortos verticales en español para TikTok, Reels y Shorts. Histo
 
 La temporada 1 tiene 8 partes de 60 a 80 segundos y ya está completa. Unidas forman un video de unos 8 minutos. El guion completo está en `guiones/la-alerta-serie-8-partes.md`. Las partes 6 y 7 son interactivas: terminan con una decisión para los comentarios y la parte siguiente se hace con la opción que gane (en la 6 ganó 🔦; la 8 depende del voto de la 7).
 
+La temporada 2 está en curso. Su diseño está en `guiones/la-alerta-temporada-2.md`: 8 capítulos, un personaje nuevo (Evelin, la nieta de Rosa), la verdad de la primera noche y las historias de fondo. Lo que ahí se marca "solo para quien escribe" todavía no se cuenta en video. La parte 1 ("Evelin") ya está terminada.
+
 Todo se dibuja con código (SVG animado en Chromium). No se usan generadores de imágenes: Canva gasta créditos y no mantiene al personaje igual entre escenas. La voz es de ElevenLabs.
 
 ## Cómo empezar una sesión nueva
@@ -25,11 +27,13 @@ ESTADO_PROYECTO.md         estado, pendientes, decisiones, errores, próximos pa
 README.md                  presentación corta del repo
 guiones/                   guiones y guías escritas
   la-alerta-serie-8-partes.md   guion completo de las 8 partes
+  la-alerta-temporada-2.md      temporada 2: verdad oculta, historias de fondo, 8 capítulos y guion de la parte 1
   la-ofrenda-short-interactivo.md  short paranormal interactivo (no producido)
   guia-de-estilo.md        estilo del canal
   personajes.md            fichas y prompts de personajes (de cuando se probó Canva)
 episodios/                 videos terminados, uno por carpeta
   parte-0N-nombre/         video .mp4, FICHA.md, escenas.md, hoja_de_escenas.jpg
+  t2-parte-0N-nombre/      lo mismo para la temporada 2
 referencias/               inspiración y pruebas (no se publica)
   videos/                  2 videos de otros creadores que se usaron de referencia
   personajes/              hoja oficial de personajes dibujada con el código
@@ -38,11 +42,12 @@ referencias/               inspiración y pruebas (no se publica)
 video/                     código para generar los episodios
   lib/                     piezas compartidas (ver abajo)
   parteN/                  escenas, cortes, mezcla y página de cada parte
-  audio/parteN/            tomas de voz, narración procesada, tiempos por palabra, texto de la voz
+  t2parteN/                lo mismo para la temporada 2
+  audio/parteN/            tomas de voz, narración procesada, tiempos por palabra, texto de la voz (temporada 2: audio/t2parteN/)
   fonts/                   Oswald y Caveat (licencia OFL)
   personajes/hoja.html     hoja de personajes
   render.js                convierte una página en video o en cuadros sueltos
-  hacer_parteN.sh          regenera la parte N
+  hacer_parteN.sh          regenera la parte N (temporada 2: hacer_t2parteN.sh)
   salida/                  resultados temporales (no se sube a git)
 ```
 
@@ -50,7 +55,7 @@ video/                     código para generar los episodios
 
 | Archivo | Qué hace |
 |---|---|
-| `dibujo.js` | `stick()`, `paliacate()`, `perro('gruñe' \| 'parada' \| 'echada')`, `perroSentada(aulla)`, `caraChispa()` (primer plano: gruñe, ladra, lame, aúlla; `sinCinta` dibuja la placa como antes del día 1), `paloma()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `infectadoLado()` (corre de lado), `infectadoQuieto()` (parado, brazos arriba o abajo), `vecino()`, degradados (`#haz` para el haz de una lámpara) y filtros (`#ink`, `#tiembla`, `#blur10`, `#contorno` para que las figuras se vean de noche). |
+| `dibujo.js` | `stick()`, `paliacate()`, `perro('gruñe' \| 'parada' \| 'echada')`, `perroSentada(aulla)`, `caraChispa()` (primer plano: gruñe, ladra, lame, aúlla; `sinCinta` dibuja la placa como antes del día 1), `paloma()`, `rosa()`, `memo()`, `infectado()`, `infectadoCorriendo()`, `infectadoLado()` (corre de lado), `infectadoQuieto()` (parado, brazos arriba o abajo), `vecino()`, `evelin()` (temporada 2; `audifonos: 'cuello' | 'puestos'`, `nina: true` para Evelin de niña), degradados (`#haz` para el haz de una lámpara) y filtros (`#ink`, `#tiembla`, `#blur10`, `#contorno` para que las figuras se vean de noche). |
 | `motor.js` | `montar()` y `render(t)`: muestra la escena, mueve la cámara (`de`/`a` o `claves`), subtítulos, fundido y trazo que "hierve". |
 | `escena_base.js` | `M` (marcas), `INI`, `FIN()`, `lienzo()`, `viñeta`, `poste()` de la alerta, `escribe()` (texto que se escribe solo), `subrayado()`, `trazo()`, `hoja()` (cuaderno), `iconos` del inventario, `TINTA`, `chatPrivado()` y `animaMensajes()`. |
 | `edificio.js` | `corteEdificio(pre, extra)`: corte del Edificio C con 502, 402 y escalera. |
@@ -85,6 +90,7 @@ Ver `referencias/personajes/hoja_personajes.png`.
 | Memo | `memo()` | Bigote negro, chaleco beige con bolsillos, llavero | 101, administrador |
 | Infectados | `infectado()`, `infectadoCorriendo()`, `infectadoLado()`, `infectadoQuieto()` | Cabeza gris, ojos blancos sin pupila, extremidades grises con contorno oscuro | Patio, escaleras, calle |
 | Vecinos | `vecino()` | Stickman chico con pijama de color | Unidad |
+| Evelin (temporada 2) | `evelin()` | Pelo negro con fleco y cola de caballo, chamarra verde azulado con franja reflejante, gafete, audífonos al cuello o puestos. Sin paliacate. De niña: dos coletas y playera amarilla | Centro de alerta (nieta de Rosa, operadora de noche) |
 
 Lalo (305) y Paty (203) solo aparecen en el chat.
 
@@ -94,7 +100,9 @@ Del mundo:
 
 1. Los infectados cazan por el sonido. En silencio se quedan quietos con la cara hacia arriba. Siempre van hacia el ruido más fuerte.
 2. La alerta sísmica dura 90 segundos. Mientras suena, todos van a los postes y "el ruido es gratis".
-3. La primera noche nadie sabe quién activó la alerta. La de la noche 3 la activó Rosa (trabajó 30 años en el sistema de la alerta); se reveló en la parte 8. La primera noche no fue ella, y al final de la parte 8 la alerta suena sin que ella la toque: es el misterio de la temporada 2.
+3. La de la noche 3 la activó Rosa (trabajó 30 años en el sistema de la alerta); se reveló en la parte 8. La primera noche la activó Evelin con una prueba solo para la zona del Edificio C, para avisarle a su abuela con la clave del 3:14; alguien la hizo sonar en toda la ciudad (se mostró en la temporada 2, parte 1). La alerta del final de la temporada 1 también fue Evelin: era su señal de que sigue viva. Quién la hizo sonar para todos todavía no se dice en video (ver `guiones/la-alerta-temporada-2.md`).
+4. La clave del 3:14: si hay peligro, Rosa y Evelin se avisan a las 3:14 y la otra se esconde. Por eso Rosa no bajó al patio la primera noche.
+5. El radio de Rosa recibe pitidos cortos y largos de Evelin (clave Morse). Rosa los entiende y los escribe letra por letra; tú no.
 
 De la historia, ya mostrado en video:
 
@@ -108,13 +116,14 @@ De la historia, ya mostrado en video:
 | Noche 3, 3:18 a 3:27 (parte 6) | Los infectados revientan la puerta de vidrio del vestíbulo (la que cerró Memo; tenía cadena y candado) y suben por la escalera. Pasan frente al 402: Rosa, a oscuras con una vela, se tapa la boca. Golpean tu puerta (502); le pones la silla; la puerta cede. Sales por la ventana a la cornisa con Chispa bajo el brazo. Una mano gris sale por la ventana; Chispa se suelta y corre por la cornisa hasta perderse en lo oscuro. Subes por la escalerita de fierro a la azotea (tinacos, tendederos, bodegas 501, 502 y 503) y te encierras en la bodega del 502. Batería 15 %. Los infectados se quedan en tu departamento, quietos, con la cara hacia arriba. 3:26: Memo por privado "tengo a tu perra" y una foto de Chispa; 3:27: "baja al 101", "o subo yo", "tengo llave de todas las bodegas". La foto es vieja: la placa no tiene cinta. Chispa en realidad está con Rosa (no se ha dicho en video). |
 | Noche 3, parte 7 (ganó 🔦) | La foto de Memo es vieja: la placa no tiene cinta. Memo sube por la puerta de la azotea (caseta a la derecha de las bodegas) con lámpara y llavero. Te escondes detrás de los tinacos; Memo abre la bodega 502 con su llave: vacía. En la cornisa hay pelitos cafés y huellas chiquitas. Bajas por la escalerita (en la fachada, a la derecha de tu ventana). Memo te alumbra y golpea el barandal con la lámpara (CLANG): las cabezas de tu departamento voltean a la ventana y salen brazos. Corres por la cornisa; las huellas dan vuelta en la esquina, bajan por la jaula del gas (dos cilindros) y llegan a la ventana de la cocina del 402 (cortina rosa, vela). Una mano arrugada con el rebozo te hace señas. Detrás de la cortina se asoma la cola de Chispa. Arriba, Memo grita "¡AYÚDAME!": su golpe llevó a los infectados a la azotea. Memo tiene las llaves de la tienda (llave con etiqueta TIENDA); sin él no hay comida ni croquetas (plato de Chispa vacío). Si entras, Rosa cierra la ventana y no la vuelve a abrir. Decisión: 🐕 entras con Chispa o 🔑 subes por Memo. |
 | Noche 3, parte 8 (ganó 🐕, final de temporada) | Rosa te jala por la ventana de la cocina del 402 y le pone el seguro. Chispa te lame la cara; la placa con cinta no suena. Los gritos de Memo se apagan y su llavero (llave con etiqueta TIENDA) cae al patio, entre unos 24 infectados. Rosa prende una vela; en su repisa está la botella de 2 L de la parte 3, con el mecate. En su mesa: radio viejo con antena de ganchos de ropa y una libreta con "3:14" escrito muchas veces. Rosa trabajó treinta años en el sistema de la alerta (foto "Centro de alerta, 1995"); la alerta de la noche 3 la activó ella para vaciar el patio. La primera noche no fue ella. Entonces la alerta empieza a sonar y Rosa no ha tocado el radio (el radio se ilumina solo). En la azotea, una lámpara se vuelve a prender. Tarjeta final: ¿quién activó la alerta la primera noche? Memo 101, Lalo 305, Paty 203 o alguien de afuera. Temporada 2. |
-| Temporada 2 | No está escrita. Respetar los dos ganchos: alguien más controla la alerta y Memo podría seguir vivo (la llave de la tienda está en el patio). |
+| T2, parte 1 (Evelin) | Sigue sin pausa al final de la parte 8. Abre con la tarjeta de sospechosos: "Ustedes votaron por Memo" y un sello rojo "CASI". La alerta sigue sonando y el radio de Rosa se prende solo, con estática. Rosa se pone pálida: "Esta no la hice yo. Solo una persona sabe hacer esto." Evelin, su nieta, operadora de noche en el centro de alerta (audífonos, gafete, chamarra verde). Recuerdo de hace 15 años: Rosa y Evelin niña inventan la clave del 3:14 en un cuaderno ("3:14 = peligro, ¡la otra se esconde!"). La primera noche Rosa vio a todos bajar al patio, apagó la vela y se escondió. El radio pita y Rosa escribe ESTOY VIVA. Arriba, la lámpara de Memo baja por la escalera del quinto al cuarto piso, hacia la luz del radio. Chispa le gruñe a la puerta del 402; por debajo entra la luz de la lámpara y la sombra de dos pies. El radio pita otra vez: FUI YO. PERDONAME ABUELA (una lágrima cae en la hoja). Recuerdo en el centro de alerta, primera noche, 3:14: Evelin aprieta el botón "PRUEBA · ZONA U.H. EDIFICIO C", se prende esa zona en el mapa y luego "TODAS LAS ZONAS". Tarjeta final: ¿quién hizo que sonara para todos? Memo está afuera de la puerta del 402 cuando termina. |
+| Temporada 2, lo que sigue | Ver los capítulos de `guiones/la-alerta-temporada-2.md`. La parte 2 ("La puerta") empieza con Memo tocando la puerta del 402 y termina con una decisión para los comentarios. |
 
 Del narrador: segunda persona, sin palabras con género para "tú" (nada de "dormido" o "solo"). Rosa le dice "corazón".
 
 ## Flujo para hacer un episodio
 
-Desde `video/`. La parte 5 es el ejemplo más reciente a copiar (sin gancho con rebobinado); la parte 4 es el ejemplo con gancho.
+Desde `video/`. La temporada 2, parte 1 (`t2parte1/`) es el ejemplo más reciente a copiar (sin gancho con rebobinado); la parte 4 es el ejemplo con gancho.
 
 1. **Guion:** toma la parte del guion de la serie y define el gancho (momento más tenso para abrir).
 2. **Voz:** en ElevenLabs crea un flujo (`creative_create_flow`), genera la voz con `creative_generate_speech`: voz `lr39dERdpNg6kPUtWZTO` ("Alejandro - Horror y Misterio"), modelo `eleven_v4`, 2 tomas (el valor por omisión). Usa `[whispering]` antes de la última frase de suspenso. Escribe los números con letra ("tres catorce"). Guarda el texto en `audio/parteN/texto_voz.txt`.
@@ -152,7 +161,7 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 3. Los filtros con desenfoque necesitan región amplia (`x="-100%" width="300%"`) o se recortan.
 4. Las escenas con cámara mueven todo su `html`. Títulos fijos van en `fijo`.
 5. Si cambias `lib/`, revisa que las partes ya hechas sigan iguales: renderiza un cuadro y compáralo con el video publicado.
-6. Si dos escenas deben coincidir con el audio (reloj de la parte 2, congelado de la parte 3), la constante está en `escenas.js` y en `mezcla.py`; cámbialas juntas.
+6. Si dos escenas deben coincidir con el audio (reloj de la parte 2, congelado de la parte 3, pitidos en clave de la temporada 2), la constante está en `escenas.js` y en `mezcla.py`; cámbialas juntas. En `t2parte1` los dos archivos tienen la misma función `morse()`: si cambias un mensaje o sus tiempos, cámbialo en los dos.
 7. El proxy del entorno bloquea Hugging Face y la descarga de imágenes de Canva. GitHub sí funciona.
 
 ## Git
