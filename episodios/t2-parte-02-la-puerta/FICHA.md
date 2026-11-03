@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte2.mp4` · 66.4 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte2.mp4` · 66.4 s · 1080x1920 · 30 fps · H.264 + AAC · 22 MB · -16.5 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 14 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | La puerta del 402 desde adentro: tres toques despacio antes de la voz ("TOC") |
