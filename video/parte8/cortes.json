@@ -1,0 +1,127 @@
+{
+  "intro": 0.15,
+  "cola": 3.2,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "entras",
+      "rosa te jala"
+    ],
+    [
+      "lame",
+      "chispa se te echa"
+    ],
+    [
+      "cae",
+      "arriba los gritos"
+    ],
+    [
+      "patio",
+      "la llave de la tienda"
+    ],
+    [
+      "vela",
+      "rosa prende una vela"
+    ],
+    [
+      "botella",
+      "llegó por mi"
+    ],
+    [
+      "mesa",
+      "en su mesa"
+    ],
+    [
+      "libreta",
+      "y una libreta"
+    ],
+    [
+      "treinta",
+      "trabajé treinta años"
+    ],
+    [
+      "rato",
+      "la de hace rato"
+    ],
+    [
+      "gracias",
+      "le das las gracias"
+    ],
+    [
+      "primera",
+      "la primera noche"
+    ],
+    [
+      "suena",
+      "y entonces la alerta"
+    ],
+    [
+      "lampara",
+      "arriba en la azotea"
+    ],
+    [
+      "sospechosos",
+      "quién activó"
+    ]
+  ],
+  "marcas": {
+    "jala": "te jala",
+    "cierraV": "cierra la ventana",
+    "lameM": "te lame",
+    "placa": "su placa",
+    "apagan": "se apagan",
+    "cayendo": "pasa cayendo",
+    "llavero": "su llavero",
+    "entre": "entre ellos",
+    "cara": "le ves la cara",
+    "llego": "llegó por mi",
+    "botella": "tu botella",
+    "radio": "un radio viejo",
+    "libreta": "y una libreta",
+    "tres": "3:14",
+    "dice": "te dice",
+    "sonar": "hacerla sonar",
+    "yo": "fui yo",
+    "vaciar": "vaciar el patio",
+    "salir": "pudieras salir",
+    "nosonrie": "no sonríe",
+    "primera2": "la primera noche@2",
+    "noactive": "no la activé",
+    "suenaM": "empieza a sonar",
+    "notocado": "no ha tocado",
+    "prende": "se vuelve a prender",
+    "sospechoso": "tu sospechoso",
+    "temporada": "temporada dos"
+  },
+  "rojas": [
+    "chispa.",
+    "ruido.",
+    "apagan.",
+    "llavero.",
+    "ellos.",
+    "corazón.",
+    "botella.",
+    "3:14.",
+    "sonar.",
+    "yo.",
+    "sonríe.",
+    "activé.",
+    "radio.",
+    "prender."
+  ],
+  "reemplazos": [
+    [
+      "tres catorce",
+      "3:14"
+    ]
+  ],
+  "sin_subs": [
+    [
+      "escena:sospechosos",
+      "fin"
+    ]
+  ]
+}
