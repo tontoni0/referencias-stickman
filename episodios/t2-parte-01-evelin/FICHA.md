@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte1.mp4` · 69.3 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte1.mp4` · 69.3 s · 1080x1920 · 30 fps · H.264 + AAC · 31 MB · -16.7 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 12 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta de sospechosos de la parte 8: "USTEDES VOTARON" con Memo encendido y un sello rojo "CASI" |
