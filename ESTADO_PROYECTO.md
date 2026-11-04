@@ -24,12 +24,13 @@ Temporada 2 (diseño en `guiones/la-alerta-temporada-2.md`):
 |---|---|---|---|---|---|
 | 1 | Evelin | 69.3 s | 12 | `episodios/t2-parte-01-evelin/la_alerta_t2_parte1.mp4` | ~1,724 |
 | 2 | La puerta (interactiva) | 66.4 s | 14 | `episodios/t2-parte-02-la-puerta/la_alerta_t2_parte2.mp4` | ~1,528 |
+| 3 | La tienda (interactiva, ganó 🔒) | 75.6 s | 15 | `episodios/t2-parte-03-la-tienda/la_alerta_t2_parte3.mp4` | ~1,928 |
 
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 y 2 terminadas. De la 2 a la 9 todas terminan con una decisión; la tabla "Cómo se respeta cada voto" del guion dice cómo empieza la parte siguiente con cada opción. Sigue la parte 3 ("La tienda") con lo que gane en la parte 2 (🚪 o 🔒). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
+1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 a 3 terminadas. De la 2 a la 9 todas terminan con una decisión; la tabla "Cómo se respeta cada voto" del guion dice cómo empieza la parte siguiente con cada opción. Sigue la parte 4 ("Los escombros") con lo que gane en la parte 3 (🏃 o ⏳). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -66,6 +67,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 03/11 | "La alerta" termina en la temporada 2, que pasa de 8 a 10 partes con un final cerrado (ver "Cómo termina" en el guion). No hay temporada 3 | Pedido del usuario: quiere empezar una historia nueva y que no se vuelva repetitiva |
 | 03/11 | A Memo lo mordieron en la azotea y se transforma poco a poco durante la temporada (mordida en el brazo: días). Sigue siendo el malo hasta el final | Idea del usuario. Una mordida lenta lo deja como villano y es un reloj en cada episodio |
 | 04/11 | En la temporada 2, de la parte 2 a la 9 todas terminan con una decisión. El voto cambia cómo empieza la parte siguiente; los hechos de cada capítulo y el final no cambian | Pedido del usuario: más interacción en TikTok aunque todo lleve al mismo final |
+| 04/11 | En la parte 2 ganó 🔒: la parte 3 abre con la tarjeta "GANÓ" y Memo huye a la azotea dejando su celular, con los mensajes de la Coordinación | Votación en TikTok, cerca de 80 % |
 | 04/11 | Memo ya no solo se roba la consola: se lleva a Evelin para entregarla a la Coordinación a cambio de que lo curen. Rosa y Evelin se reencuentran hasta el final de la parte 10 | Responde a la pregunta del usuario ("¿Memo se va a llevar a Evelin?"); sube lo que está en juego en la parte 8 (Chispa o Evelin) |
 
 ## Errores conocidos y limitaciones
@@ -99,8 +101,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
 2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6, y los pitidos en clave de la temporada 2, parte 1.
-3. Publicar las partes 1 y 2 de la temporada 2 con el comentario fijado de cada `FICHA.md`.
-4. Con el voto de la parte 2 (🚪 o 🔒), hacer la parte 3, "La tienda".
+3. Publicar las partes 1 a 3 de la temporada 2 con el comentario fijado de cada `FICHA.md`.
+4. Con el voto de la parte 3 (🏃 o ⏳), hacer la parte 4, "Los escombros".
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
@@ -124,5 +126,6 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 03/11 | Temporada 2, parte 1 terminada ("Evelin"): 12 escenas, pitidos en clave Morse sincronizados con la escritura de Rosa |
 | 03/11 | Temporada 2 rehecha en 10 partes con final cerrado. Parte 2 terminada ("La puerta", interactiva): 14 escenas, Memo mordido, decisión 🚪 / 🔒 |
 | 04/11 | Guion de la temporada 2: decisión al final de cada parte (2 a 9), tabla de qué cambia con cada voto, y Memo se lleva a Evelin en la parte 8 |
+| 04/11 | En la parte 2 ganó 🔒 (cerca de 80 %). Temporada 2, parte 3 terminada ("La tienda"): 15 escenas, el celular de Memo, la alerta que se corta a los 60 segundos, decisión 🏃 / ⏳ |
 | 02/11 | Parte 7 terminada ("Las huellas", interactiva, ganó 🔦): 19 escenas, termina con la decisión 🐕 / 🔑. Nuevo en `lib/`: `une_tomas.py`; el degradado `#haz` pasa a `defsSVG` |
 | 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |

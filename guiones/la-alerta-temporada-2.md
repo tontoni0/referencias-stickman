@@ -202,7 +202,7 @@ Las dos llevan a lo mismo: sabes que Memo era parte del plan y dónde está Evel
 
 ## Parte 3 · La tienda (ganó 🔒)
 
-**Estado:** en producción.
+**Estado:** terminada. Video en `episodios/t2-parte-03-la-tienda/` (75.6 s, 15 escenas).
 **Título:** No le abrimos a Memo. Esto dejó debajo de la puerta | Temporada 2, parte 3
 **Portada:** NOS VENDIÓ.
 
