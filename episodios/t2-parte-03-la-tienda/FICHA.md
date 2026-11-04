@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte3.mp4` · 75.6 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte3.mp4` · 75.6 s · 1080x1920 · 30 fps · H.264 + AAC · 26 MB · -16.7 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 15 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta del voto de la parte 2: "GANÓ" con 🔒 NO LE ABRO encendida y 🚪 SÍ, LE ABRO tachada |
