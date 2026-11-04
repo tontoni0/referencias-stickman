@@ -1,0 +1,36 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    ["gano", null],
+    ["celular", "los golpes paran"],
+    ["arriba", "arriba sus pasos"],
+    ["mensaje", "en el celular hay"],
+    ["otro", "y otro de ayer"],
+    ["vendio", "rosa aprieta el celular"],
+    ["amanece", "amanece"],
+    ["plan", "la tienda de don chucho"],
+    ["pide", "rosa le pide a evelin"],
+    ["corre", "suena corres"],
+    ["avenida", "la avenida@2"],
+    ["cortina", "la cortina"],
+    ["calla", "sesenta segundos"],
+    ["chispa", "volteas"],
+    ["decide", "cruzas por ella"]
+  ],
+  "marcas": {
+    "candado": "ganó el candado", "noabres": "no le abres", "paran": "golpes paran", "algo": "entra algo", "celularM": "el celular de memo",
+    "azotea": "corren a la azotea", "todos": "y todos los pasos", "detras": "detrás de él",
+    "primera": "la primera noche", "bajalos": "bájalos", "lugar": "tienes lugar", "ayer": "de ayer", "operadora": "la operadora",
+    "traela": "tráela", "vendio": "nos vendió", "nina": "mi niña", "plato": "el plato", "croquetas": "las croquetas", "arribaC": "arriba con ellos",
+    "llaveM": "la llave de memo", "patio": "en el patio", "noventa": "noventa segundos", "suena": "suena", "corres": "corres",
+    "llave": "la llave@2", "avenidaM": "la avenida@2", "cortinaM": "la cortina", "sesenta": "sesenta segundos", "calla": "se calla", "apago": "la apagó",
+    "volteas": "volteas", "siguio": "te siguió", "otrolado": "del otro lado", "entre": "entre ellos",
+    "cruzas": "cruzas por ella", "esperas": "esperas otra alerta", "comenta": "comenta"
+  },
+  "rojas": ["candado", "memo", "vendió", "niña", "vacío", "ellos", "llave", "evelin", "calla", "apagó", "chispa"],
+  "reemplazos": [["tres catorce", "3:14"]],
+  "sin_subs": [
+    ["escena:decide", "fin"]
+  ]
+}

@@ -197,3 +197,59 @@ La parte 3 se hace con lo que gane.
 Con 🚪, Memo se queda en el 402 con Rosa cuando sales a la tienda y aparece en el centro de alerta en la parte 6 (el ruido lo jala detrás de ti).
 
 Las dos llevan a lo mismo: sabes que Memo era parte del plan y dónde está Evelin, y al amanecer sales a la tienda.
+
+---
+
+## Parte 3 · La tienda (ganó 🔒)
+
+**Estado:** en producción.
+**Título:** No le abrimos a Memo. Esto dejó debajo de la puerta | Temporada 2, parte 3
+**Portada:** NOS VENDIÓ.
+
+En los comentarios de la parte 2 ganó 🔒 (no le abres), con cerca de 80 %. Memo deja su celular y huye a la azotea. Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": 🔒 NO LE ABRO encendida, 🚪 SÍ, LE ABRO tachada.
+Voz: "Ganó el candado. No le abres."
+
+**2** La puerta del 402 desde adentro. Los golpes paran. Por debajo de la puerta entra un celular prendido.
+Voz: "Los golpes paran. Por debajo de la puerta entra algo. El celular de Memo."
+
+**3** Corte del edificio: Memo sube corriendo a la azotea y los infectados de la escalera se van detrás de él.
+Voz: "Arriba, sus pasos corren a la azotea. Y todos los pasos de la escalera se van detrás de él."
+
+**4** El celular: chat con un número desconocido. Mensaje de la primera noche, 3:00: "a las 3:14 bajalos a todos y cierra la puerta. tienes lugar en la evacuacion".
+Voz: "En el celular hay un mensaje de la primera noche. A las tres catorce, bájalos a todos y cierra la puerta. Tienes lugar en la evacuación."
+
+**5** Otro mensaje, de ayer: "la operadora esta en la antena del centro de alerta. traela".
+Voz: "Y otro, de ayer. La operadora está en la antena del centro de alerta. Tráela."
+
+**6** Rosa de cerca con el celular en la mano.
+Voz: "Rosa aprieta el celular. Memo nos vendió. Y ahora quiere a mi niña."
+
+**7** Amanece. Corte del edificio: abajo, en el 402, Chispa junto a su plato vacío; arriba, en el 502, la bolsa de croquetas entre los infectados quietos.
+Voz: "Amanece. El plato de Chispa está vacío. Las croquetas se quedaron arriba, con ellos."
+
+**8** El plan en la libreta de Rosa: Edificio C, el patio con la llave (una X), la avenida y la tienda de don Chucho.
+Voz: "La tienda de don Chucho está cruzando la avenida. Y la llave de Memo sigue tirada en el patio."
+
+**9** Rosa pita en el radio. Reloj grande: 1:30.
+Voz: "Rosa le pide a Evelin una alerta. Noventa segundos."
+
+**10 a 12** Suena la alerta y el reloj corre arriba. Corres por el patio vacío; levantas el llavero con la etiqueta TIENDA junto a la chancla rosa; cruzas la avenida; subes la cortina de la tienda (el ruido es gratis): croquetas y latas.
+Voz: "Suena. Corres. La llave. La avenida. La cortina."
+
+**13** El reloj llega a 0:30 y la alerta se calla de golpe. El poste se apaga.
+Voz: "Sesenta segundos. Y la alerta se calla. Alguien más la apagó."
+
+**14** Desde la tienda volteas: del otro lado de la avenida, Chispa, quieta entre los infectados que regresaron del poste.
+Voz: "Volteas. Chispa te siguió. Está del otro lado de la avenida. Entre ellos."
+
+**15** Tarjeta de decisión: "¿QUÉ HACES?", 🏃 CRUZAS POR ELLA · ⏳ ESPERAS OTRA ALERTA.
+Voz: "¿Cruzas por ella ahora, o esperas otra alerta? Comenta."
+
+**Comentario fijado:**
+```
+Chispa está sola entre ellos. ¿Qué haces?
+🏃 Cruzo por ella ahora · ⏳ Espero otra alerta
+La parte 4 se hace con lo que gane.
+```
