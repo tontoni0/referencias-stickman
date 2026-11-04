@@ -29,7 +29,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 
 ## Pendiente
 
-1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 y 2 terminadas. La parte 2 termina con la decisión 🚪 le abres a Memo o 🔒 no le abres; la parte 3 ("La tienda") se hace con lo que gane (el guion de la temporada dice cómo sigue cada opción). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
+1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 y 2 terminadas. De la 2 a la 9 todas terminan con una decisión; la tabla "Cómo se respeta cada voto" del guion dice cómo empieza la parte siguiente con cada opción. Sigue la parte 3 ("La tienda") con lo que gane en la parte 2 (🚪 o 🔒). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -65,7 +65,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 03/11 | El radio se comunica con pitidos en clave Morse reales, sincronizados con las letras que escribe Rosa | Da un momento de suspenso propio de la temporada; la misma función `morse()` está en `escenas.js` y en `mezcla.py` |
 | 03/11 | "La alerta" termina en la temporada 2, que pasa de 8 a 10 partes con un final cerrado (ver "Cómo termina" en el guion). No hay temporada 3 | Pedido del usuario: quiere empezar una historia nueva y que no se vuelva repetitiva |
 | 03/11 | A Memo lo mordieron en la azotea y se transforma poco a poco durante la temporada (mordida en el brazo: días). Sigue siendo el malo hasta el final | Idea del usuario. Una mordida lenta lo deja como villano y es un reloj en cada episodio |
-| 03/11 | Decisiones para los comentarios en las partes 2, 5 y 8 de la temporada 2 | Al usuario le gustan; con 10 partes caben tres |
+| 04/11 | En la temporada 2, de la parte 2 a la 9 todas terminan con una decisión. El voto cambia cómo empieza la parte siguiente; los hechos de cada capítulo y el final no cambian | Pedido del usuario: más interacción en TikTok aunque todo lleve al mismo final |
+| 04/11 | Memo ya no solo se roba la consola: se lleva a Evelin para entregarla a la Coordinación a cambio de que lo curen. Rosa y Evelin se reencuentran hasta el final de la parte 10 | Responde a la pregunta del usuario ("¿Memo se va a llevar a Evelin?"); sube lo que está en juego en la parte 8 (Chispa o Evelin) |
 
 ## Errores conocidos y limitaciones
 
@@ -122,5 +123,6 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 03/11 | Temporada 2 diseñada (`guiones/la-alerta-temporada-2.md`). Personaje nuevo: Evelin, con `evelin()` en `lib/dibujo.js` y en la hoja de personajes |
 | 03/11 | Temporada 2, parte 1 terminada ("Evelin"): 12 escenas, pitidos en clave Morse sincronizados con la escritura de Rosa |
 | 03/11 | Temporada 2 rehecha en 10 partes con final cerrado. Parte 2 terminada ("La puerta", interactiva): 14 escenas, Memo mordido, decisión 🚪 / 🔒 |
+| 04/11 | Guion de la temporada 2: decisión al final de cada parte (2 a 9), tabla de qué cambia con cada voto, y Memo se lleva a Evelin en la parte 8 |
 | 02/11 | Parte 7 terminada ("Las huellas", interactiva, ganó 🔦): 19 escenas, termina con la decisión 🐕 / 🔑. Nuevo en `lib/`: `une_tomas.py`; el degradado `#haz` pasa a `defsSVG` |
 | 02/11 | Parte 6 terminada ("La bodega", interactiva): 17 escenas. Nuevas piezas en `lib/`: `sinCinta` en `caraChispa()`, clases de la tarjeta de decisión; `linea_de_tiempo.py` ignora etiquetas como `[whispering]`. Partes 3 a 5 dan la misma línea de tiempo después del cambio |

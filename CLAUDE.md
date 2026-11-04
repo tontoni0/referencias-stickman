@@ -8,7 +8,7 @@ Serie de videos cortos verticales en español para TikTok, Reels y Shorts. Histo
 
 La temporada 1 tiene 8 partes de 60 a 80 segundos y ya está completa. Unidas forman un video de unos 8 minutos. El guion completo está en `guiones/la-alerta-serie-8-partes.md`. Las partes 6 y 7 son interactivas: terminan con una decisión para los comentarios y la parte siguiente se hace con la opción que gane (en la 6 ganó 🔦; la 8 depende del voto de la 7).
 
-La temporada 2 está en curso y es la última: la historia de "La alerta" termina en su parte 10 (pedido del usuario, para empezar después una historia nueva). Su diseño está en `guiones/la-alerta-temporada-2.md`: 10 capítulos, un personaje nuevo (Evelin, la nieta de Rosa), la verdad de la primera noche, cómo termina y las historias de fondo. Lo que ahí se marca "solo para quien escribe" todavía no se cuenta en video. Las partes 2, 5 y 8 terminan con una decisión para los comentarios. Terminadas: parte 1 ("Evelin") y parte 2 ("La puerta").
+La temporada 2 está en curso y es la última: la historia de "La alerta" termina en su parte 10 (pedido del usuario, para empezar después una historia nueva). Su diseño está en `guiones/la-alerta-temporada-2.md`: 10 capítulos, un personaje nuevo (Evelin, la nieta de Rosa), la verdad de la primera noche, cómo termina y las historias de fondo. Lo que ahí se marca "solo para quien escribe" todavía no se cuenta en video. De la parte 2 a la 9, todas terminan con una decisión para los comentarios; lo que gane cambia cómo empieza la parte siguiente, pero los hechos de cada capítulo y el final son los mismos (tabla "Cómo se respeta cada voto" del guion). La 10 pregunta de qué quieren la siguiente historia. Terminadas: parte 1 ("Evelin") y parte 2 ("La puerta").
 
 Todo se dibuja con código (SVG animado en Chromium). No se usan generadores de imágenes: Canva gasta créditos y no mantiene al personaje igual entre escenas. La voz es de ElevenLabs.
 
@@ -27,7 +27,7 @@ ESTADO_PROYECTO.md         estado, pendientes, decisiones, errores, próximos pa
 README.md                  presentación corta del repo
 guiones/                   guiones y guías escritas
   la-alerta-serie-8-partes.md   guion completo de las 8 partes
-  la-alerta-temporada-2.md      temporada 2: verdad oculta, historias de fondo, 8 capítulos y guion de la parte 1
+  la-alerta-temporada-2.md      temporada 2: verdad oculta, cómo termina, historias de fondo, 10 capítulos, qué cambia con cada voto y guiones de las partes ya hechas
   la-ofrenda-short-interactivo.md  short paranormal interactivo (no producido)
   guia-de-estilo.md        estilo del canal
   personajes.md            fichas y prompts de personajes (de cuando se probó Canva)
@@ -185,4 +185,4 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 
 ## Cómo trabaja el usuario
 
-Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Quiere emoción y adrenalina en cada parte, y Chispa es el personaje más querido: ponerla en peligro engancha, pero no la mates. Le gustan los episodios que terminan con una pregunta para los comentarios. Memo es el malo de la historia. Quiere que "La alerta" termine en la temporada 2 (10 partes, final cerrado) para empezar una historia nueva y no repetirse. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.
+Habla español de México. Prefiere respuestas directas en español. Revisa los videos en su celular. Quiere emoción y adrenalina en cada parte, y Chispa es el personaje más querido: ponerla en peligro engancha, pero no la mates. Le gustan los episodios que terminan con una pregunta para los comentarios. Memo es el malo de la historia. Quiere una decisión para los comentarios al final de cada parte, aunque todas las opciones lleven al mismo final. Quiere que "La alerta" termine en la temporada 2 (10 partes, final cerrado) para empezar una historia nueva y no repetirse. Aprobó gastar créditos de ElevenLabs para voz y transcripción (unos 2,000 créditos por parte) y prefiere no gastar créditos de Canva.

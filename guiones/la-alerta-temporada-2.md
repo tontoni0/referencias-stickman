@@ -17,20 +17,22 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 
 ## Cómo termina (solo para quien escribe)
 
-1. La Coordinación se queda con la consola de Evelin (se la entrega Memo) y anuncia otra alerta en toda la ciudad a las 3:14, con el mismo mensaje de Memo: "Bajen al punto de reunión. Orden y calma." Quieren vaciar las avenidas otra vez para su última evacuación desde el estadio.
-2. El tablero viejo del centro de alerta (el de la foto de 1995) puede hablar por las bocinas de los postes, pero se opera entre dos: una persona en el micrófono y otra en la señal. Rosa sale del 402 por primera vez en toda la historia para llegar a él. Rosa y Evelin se vuelven a ver.
-3. A las 3:14 suena la alerta de la Coordinación. Rosa toma las bocinas y la ciudad oye su voz en lugar de la sirena: "No bajen. Quédense en silencio. Esta alerta es mentira." Evelin manda la última alerta a una sola zona: el estadio. Todos los infectados de la ciudad caminan hacia allá. La Coordinación huye en helicópteros.
-4. Entre los infectados que caminan al estadio va Memo, con la llave de la tienda colgando del cinturón.
-5. Amanece. Las calles están vacías por primera vez desde la noche 0 y los vecinos se asoman. Le quitas la cinta a la placa de Chispa. Suena. No viene nadie. Fin.
-6. Chispa vive. Tú vives. Rosa y Evelin viven.
+1. La Coordinación quiere a Evelin: es la única que vio lo que hicieron la primera noche y la única que sabe manejar el sistema. A Memo le prometen un lugar en el helicóptero y algo que detiene la mordida si se la entrega.
+2. En la parte 8 Memo se lleva a Evelin y su consola. En la parte 9 la entrega en el estadio; la Coordinación se queda con ella y con la consola, y a él lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo.
+3. La Coordinación anuncia otra alerta en toda la ciudad a las 3:14, con el mismo mensaje de Memo: "Bajen al punto de reunión. Orden y calma." Quieren vaciar las avenidas otra vez para su última evacuación desde el estadio.
+4. Desde el estadio, Evelin le manda a Rosa pitidos en clave: "EL TABLERO VIEJO." El tablero del centro de alerta (el de la foto de 1995) puede hablar por las bocinas de los postes, pero se opera entre dos: una persona en el micrófono y otra en la señal. Rosa sale del 402 por primera vez en toda la historia.
+5. A las 3:14 suena la alerta de la Coordinación. Rosa toma las bocinas y la ciudad oye su voz en lugar de la sirena: "No bajen. Quédense en silencio. Esta alerta es mentira." Tú estás en la señal.
+6. Para salvar a la ciudad hay que mandar la última alerta a una sola zona: el estadio, donde está Evelin. Rosa duda. Llegan pitidos: "MANDALA ABUELA." Rosa la manda. Todos los infectados de la ciudad caminan al estadio, Memo entre ellos, con la llave de la tienda colgando del cinturón. Los helicópteros de la Coordinación huyen.
+7. Amanece. Las calles están vacías por primera vez desde la noche 0 y los vecinos se asoman. Evelin llega caminando al patio: se escondió en silencio. Rosa y Evelin se abrazan por primera vez en toda la historia. Le quitas la cinta a la placa de Chispa. Suena. No viene nadie. Fin.
+8. Chispa vive. Tú vives. Rosa y Evelin viven.
 
 ## Historias de fondo
 
 | Personaje | Lo que se cuenta en la temporada 2 |
 |---|---|
-| **Evelin** | 22 años. Rosa la crió después de que murió su mamá. Estudió electrónica y entró de operadora nocturna al centro de alerta por recomendación de su abuela. Le encantan los radios. Carga con la culpa: quiso salvar a una sola persona y su alerta se usó para matar a miles. |
+| **Evelin** | 22 años. Rosa la crió después de que murió su mamá. Estudió electrónica y entró de operadora nocturna al centro de alerta por recomendación de su abuela. Le encantan los radios. Carga con la culpa: quiso salvar a una sola persona y su alerta se usó para matar a miles. Al final pide que la alerta caiga donde está ella. |
 | **Rosa** | 71 años. Treinta años de técnica en el centro de alerta; se jubiló hace dos. Le enseñó a Evelin el 3.14 como "el número que nunca se acaba, como nosotras". Su libreta llena de "3:14" es porque cada noche esperaba la señal de su nieta. También carga culpa: entendió la clave y no les avisó a los vecinos. En la parte 10 les avisa a todos. |
-| **Memo** | 55 años. Antes de administrador fue guardia de seguridad en el centro de alerta; lo corrieron por vender equipo. Rosa lo sabe, por eso desconfía de él. Lo mordieron en la azotea y se está transformando. Quiere la consola de Evelin para cambiarla por un lugar en la evacuación y por lo que, según la Coordinación, detiene la mordida. Es el malo hasta el final. |
+| **Memo** | 55 años. Antes de administrador fue guardia de seguridad en el centro de alerta; lo corrieron por vender equipo. Rosa lo sabe, por eso desconfía de él. Lo mordieron en la azotea y se está transformando. La Coordinación le promete curarlo si les lleva a Evelin, y él se la lleva. Es el malo hasta el final, y al final también lo traicionan a él. |
 | **Chispa** | La encontraste entre los escombros después del último gran sismo. Por eso aúlla cuando suena la alerta (temporada 1, parte 5). Se cuenta en la parte 4. |
 | **La Coordinación** | No se ven. Solo se oyen por radio y dejan mensajes. Evacúan a unos cuantos desde el estadio y usan la alerta para mover a los infectados. Pierden en la parte 10. |
 
@@ -44,20 +46,36 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 
 ## Capítulos
 
-| Parte | Título | Dónde | Qué pasa | Peligro y gancho |
+| Parte | Título | Dónde | Qué pasa (igual gane lo que gane) | Decisión al final |
 |---|---|---|---|---|
-| 1 | Evelin | 402 | La alerta suena sin que Rosa toque el radio. Rosa: "Solo una persona sabe hacer esto". Evelin, su nieta. La clave del 3:14. La primera noche Rosa no bajó porque entendió. El radio pita: "estoy viva". Memo baja con su lámpara hacia la luz del radio. "Fui yo. Perdóname, abuela." | Memo en la escalera, Chispa gruñe a la puerta. Pregunta: ¿quién hizo que sonara para todos? |
-| 2 | La puerta | 402 | Memo toca. Está mordido: gris hasta la muñeca. "Sé por qué sonó en toda la ciudad. Y sé dónde está tu nieta." Rosa: "No le abras, corazón". Chispa gruñe y la cabeza de Memo voltea hacia el ruido, como la de ellos. La alerta se calla; los infectados regresan de los postes y los golpes de Memo los llaman. | Decisión: 🚪 le abres o 🔒 no le abres. |
-| 3 | La tienda | 402, patio y avenida | Con lo que ganó en la parte 2, Memo enseña el mensaje de las 3:00 y dice que Evelin está en la antena del centro de alerta. Rosa le pide a Evelin una alerta por radio: 90 segundos para cruzar el patio, recoger la llave de la tienda (cayó ahí en la temporada 1) y llegar con don Chucho. Croquetas para Chispa. | La alerta se corta a los 60 segundos: alguien más la apagó. Chispa se queda del otro lado de la avenida. |
-| 4 | Los escombros | Avenida | Chispa sola entre infectados quietos. Recuerdo: así la encontraste, entre los escombros del último gran sismo; por eso aúlla con la alerta. Tienes que traerla sin hacer ruido. | La recuperas, pero el camino de regreso a la unidad quedó lleno. La única salida es bajar al metro. |
-| 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. | La placa suena una vez. Cientos de cabezas giran. Decisión: 🏃 corres por el túnel o 🤫 te quedas quieto. |
-| 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). | Memo los siguió por el ruido. Tiene una tarjeta de acceso y el gris ya le llega al cuello. |
-| 7 | La antena | Azotea del centro | Encuentras a Evelin en la antena. Desconfía de ti. Chispa la reconoce por el olor del rebozo de Rosa. Evelin cuenta la primera noche desde su lado. Memo pide la consola: "En el estadio me pueden curar". | La Coordinación habla por la radio: "Sabemos que tienes la consola. Y sabemos dónde vive tu abuela." |
-| 8 | Noventa segundos | Avenidas | Plan: encadenar alertas zona por zona para llevar a los infectados lejos y abrir un camino de regreso con Rosa. A la mitad, Memo se roba la consola. | Chispa atrapada en el camino de los infectados. Decisión: 🐕 salvas a Chispa o 📟 persigues la consola. |
-| 9 | Bajen al patio | Estadio y unidad | Memo llega al estadio con la consola. La Coordinación se la quita y lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo. Por todos los radios: "Mañana a las 3:14, bajen al punto de reunión. Orden y calma." Rosa sale del 402 por primera vez y Rosa y Evelin se vuelven a ver. | Solo el tablero viejo del centro puede ganarle a la alerta de la Coordinación, y está del otro lado de la ciudad. |
-| 10 | La última alerta | Centro de alerta, ciudad y unidad | 3:14. Suena la alerta de la Coordinación. Rosa toma las bocinas: "No bajen. Quédense en silencio. Esta alerta es mentira." Evelin manda la última alerta solo al estadio. Todos los infectados caminan hacia allá, Memo entre ellos. Los helicópteros huyen. Amanece; le quitas la cinta a la placa de Chispa y no viene nadie. | Fin de la historia. Pregunta para los comentarios: ¿de qué quieren la siguiente historia? |
+| 1 | Evelin | 402 | La alerta suena sin que Rosa toque el radio. Rosa: "Solo una persona sabe hacer esto". Evelin, su nieta. La clave del 3:14. La primera noche Rosa no bajó porque entendió. El radio pita: "estoy viva". Memo baja con su lámpara hacia la luz del radio. "Fui yo. Perdóname, abuela." | Pregunta: ¿quién hizo que sonara para todos? |
+| 2 | La puerta | 402 | Memo toca. Está mordido: gris hasta la muñeca. "Sé por qué sonó en toda la ciudad. Y sé dónde está tu nieta." Rosa: "No le abras, corazón". Chispa gruñe y la cabeza de Memo voltea hacia el ruido, como la de ellos. La alerta se calla; los infectados regresan de los postes y los golpes de Memo los llaman. | 🚪 le abres · 🔒 no le abres |
+| 3 | La tienda | 402, patio y avenida | Memo enseña el mensaje de las 3:00 (era parte del plan) y dice que Evelin está en la antena del centro de alerta. Ya no hay croquetas. Rosa le pide a Evelin una alerta por radio: 90 segundos para cruzar el patio, recoger la llave de la tienda (cayó ahí en la temporada 1) y llegar con don Chucho. La alerta se corta a los 60 segundos: alguien más la apagó. Chispa se queda del otro lado de la avenida, entre ellos. | 🏃 cruzas por Chispa ahora · ⏳ esperas otra alerta |
+| 4 | Los escombros | Avenida | Recuperas a Chispa sin hacer ruido. Recuerdo: así la encontraste, entre los escombros del último gran sismo; por eso aúlla con la alerta. El camino de regreso a la unidad quedó lleno. Hay que ir al centro de alerta por abajo. | 🚇 bajas por la estación del metro · 🏚️ bajas por los escombros del edificio caído |
+| 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. La placa suena una vez. Cientos de cabezas giran. | 🏃 corres por el túnel · 🤫 te quedas quieto |
+| 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). Memo aparece: los siguió por el ruido, tiene tarjeta de acceso y el gris ya le llega al cuello. Dice que conoce el camino a la antena. | 🤝 lo dejas venir · 🔐 lo encierras en la sala de control |
+| 7 | La antena | Azotea del centro | Encuentras a Evelin. Desconfía de ti hasta que Chispa la reconoce por el olor del rebozo de Rosa. Evelin cuenta la primera noche desde su lado. La Coordinación habla por el radio: "Tráenos a la operadora y te curamos." Memo lo oye. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
+| 8 | Noventa segundos | Avenidas | Plan: encadenar alertas zona por zona para alejar a los infectados y abrir un camino de regreso con Rosa. A la mitad, Memo agarra a Evelin y se la lleva con la consola. Chispa queda atrapada en el camino de los infectados. | 🐕 salvas a Chispa · 👩 vas por Evelin |
+| 9 | Bajen al patio | Estadio y unidad | Memo entrega a Evelin en el estadio. La Coordinación se queda con ella y con la consola, y a él lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo. Por todos los radios: "Mañana a las 3:14, bajen al punto de reunión. Orden y calma." Evelin le manda a Rosa pitidos: "EL TABLERO VIEJO." Rosa decide salir del 402 por primera vez, pero la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
+| 10 | La última alerta | Centro de alerta, ciudad y unidad | Llegan al tablero viejo: Rosa en el micrófono, tú en la señal. 3:14. Suena la alerta de la Coordinación, pero la ciudad oye la voz de Rosa: "No bajen. Quédense en silencio. Esta alerta es mentira." La última alerta tiene que ir al estadio, donde está Evelin. Pitidos: "MANDALA ABUELA." Rosa la manda. Los infectados caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: Evelin llega al patio y se abraza con Rosa. Le quitas la cinta a la placa de Chispa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? |
 
-Las partes 2, 5 y 8 terminan con una decisión para los comentarios; la siguiente se hace con lo que gane (igual que en la temporada 1). Cada decisión cambia cómo pasa la parte siguiente, pero todas llegan al mismo final. Los títulos y lugares pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
+De la parte 2 a la 9, todas terminan con una decisión para los comentarios, y la parte siguiente se hace con lo que gane. Lo que cambia es cómo pasa el principio de la parte siguiente: el camino, el peligro, quién está dónde. Lo que está en la columna "Qué pasa" ocurre igual gane lo que gane, así que todas las opciones llegan al mismo final. La 10 cierra preguntando de qué quieren la siguiente historia.
+
+## Cómo se respeta cada voto
+
+| Voto | Si gana la primera | Si gana la segunda | Las dos llegan a |
+|---|---|---|---|
+| Parte 2 | 🚪 Memo entra. Rosa le apunta con un cuchillo de cocina. Memo se queda en el 402 con Rosa cuando tú sales a la tienda (Rosa no le quita los ojos de encima). | 🔒 Memo mete su celular por debajo de la puerta y corre escaleras arriba; los infectados lo siguen por el ruido. | Sabes que Memo era parte del plan y dónde está Evelin. Al amanecer sales a la tienda. |
+| Parte 3 | 🏃 Cruzas la avenida en silencio, entre infectados quietos, sin alerta. Uno te huele de cerca. | ⏳ Esperas. Evelin manda otra alerta, pero dura solo 20 segundos y Chispa corre hacia ti entre ellos. | Tienes a Chispa, pero no puedes volver a la unidad. |
+| Parte 4 | 🚇 Bajas por las escaleras de la estación, a oscuras. | 🏚️ Te metes por el sótano del edificio caído; una losa cede y caes al túnel del metro haciendo ruido. | Estás en el metro, sin postes. |
+| Parte 5 | 🏃 Corres por el túnel con ellos detrás hasta una salida de emergencia. | 🤫 Te quedas quieto con Chispa temblando; te rozan, te huelen y siguen de largo. | Sales junto al centro de alerta. |
+| Parte 6 | 🤝 Memo te guía a la azotea por las escaleras de servicio. Evelin lo ve llegar contigo y desconfía de los dos. | 🔐 Lo encierras, pero tiene la tarjeta. Aparece en la antena cuando menos lo esperas. | Memo está en la antena cuando habla la Coordinación. |
+| Parte 7 | 🗣️ Evelin lo sabe y no suelta la consola. Memo finge que se rinde. | 🤐 Evelin no sabe nada; Memo la ayuda con el plan y ella le agarra confianza. | Memo se lleva a Evelin en la parte 8. |
+| Parte 8 | 🐕 Sacas a Chispa del camino. Ves a Memo arrastrar a Evelin hacia el estadio. | 👩 Corres tras Memo y casi lo alcanzas en la puerta del estadio; te cierran en la cara. Chispa se salva sola: corre de regreso al 402 (se sabe el camino). | Evelin está en el estadio con la Coordinación. Tú y Chispa vuelven con Rosa. |
+| Parte 9 | 🪢 Rosa baja por la ventana con el mecate del tendedero (el de la botella de la temporada 1). | 🚪 Bajan por la escalera, entre los infectados quietos, sin respirar. | Llegan al tablero viejo justo antes de las 3:14. |
+
+Para que el público sienta que su voto cuenta, cada parte abre con la tarjeta "GANÓ" y la opción ganadora, como en la temporada 1 (partes 7 y 8).
+
 
 ---
 
@@ -171,9 +189,11 @@ Voz: "¿Le abres? Puerta o candado. Comenta."
 La parte 3 se hace con lo que gane.
 ```
 
-**Cómo sigue cada opción (parte 3):**
+**Cómo sigue cada opción (parte 3, ver también "Cómo se respeta cada voto"):**
 
 1. **🚪 Le abres.** Memo entra; Rosa le apunta con un cuchillo de cocina. Los infectados llegan al pasillo y se quedan quietos frente a la puerta cerrada. Memo enseña su celular: el mensaje de las 3:00 y dónde está Evelin (la antena del centro de alerta). Desde ese momento está adentro con ustedes y la mordida avanza.
 2. **🔒 No le abres.** Memo mete su celular por debajo de la puerta y corre escaleras arriba; los infectados lo siguen por el ruido. En el celular está el mensaje de las 3:00 y dónde está Evelin. Memo desaparece hasta la parte 6.
+
+Con 🚪, Memo se queda en el 402 con Rosa cuando sales a la tienda y aparece en el centro de alerta en la parte 6 (el ruido lo jala detrás de ti).
 
 Las dos llevan a lo mismo: sabes que Memo era parte del plan y dónde está Evelin, y al amanecer sales a la tienda.
