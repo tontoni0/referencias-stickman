@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte5.mp4` · 65.4 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte5.mp4` · 65.4 s · 1080x1920 · 30 fps · H.264 + AAC · 17 MB · -17.0 LUFS (más bajo que las otras partes por los silencios) |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 15 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta del voto de la parte 4: "GANÓ" con 🏚️ POR LOS ESCOMBROS encendida y 🚇 POR EL METRO tachada |
