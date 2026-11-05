@@ -305,7 +305,7 @@ La parte 5 se hace con lo que gane.
 
 ## Parte 5 · El metro (ganó 🏚️)
 
-**Estado:** en producción.
+**Estado:** terminada. Video en `episodios/t2-parte-05-el-metro/` (65.4 s, 15 escenas).
 **Título:** Bajamos por los escombros. Abajo nos estaban esperando | Temporada 2, parte 5
 **Portada:** UNA SOLA VEZ.
 
