@@ -1,0 +1,129 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "reconoce",
+      "el mismo donde"
+    ],
+    [
+      "sotano",
+      "el sótano"
+    ],
+    [
+      "cede",
+      "pisas una losa"
+    ],
+    [
+      "caes",
+      "caes"
+    ],
+    [
+      "silencio",
+      "silencio"
+    ],
+    [
+      "sinpostes",
+      "aquí abajo"
+    ],
+    [
+      "ruido",
+      "el único ruido"
+    ],
+    [
+      "vias",
+      "caminas por las vías"
+    ],
+    [
+      "anden",
+      "y ahí están"
+    ],
+    [
+      "pasas",
+      "pasas entre ellos"
+    ],
+    [
+      "cinta",
+      "entonces sientes"
+    ],
+    [
+      "suena",
+      "la placa suena"
+    ],
+    [
+      "giran",
+      "y cientos de cabezas"
+    ],
+    [
+      "decide",
+      "corres por el túnel"
+    ]
+  ],
+  "marcas": {
+    "escombros": "ganaron los escombros",
+    "bajas": "bajas por",
+    "mismo": "el mismo",
+    "quieta": "se queda quieta",
+    "reconoce": "lo reconoce",
+    "sotano": "el sótano",
+    "abajo": "abajo se ve",
+    "pisas": "pisas una losa",
+    "cede": "la losa cede",
+    "caes": "caes",
+    "piedras": "y piedras",
+    "rebota": "rebota",
+    "silencio": "silencio",
+    "sigue": "chispa sigue",
+    "postes": "no hay postes",
+    "ninguna": "ninguna alerta",
+    "unico": "el único ruido",
+    "haces": "tú haces",
+    "caminas": "caminas",
+    "oscuras": "a oscuras",
+    "anden": "hasta el andén",
+    "ahi": "ahí están",
+    "cientos": "cientos",
+    "parados": "parados",
+    "arriba": "hacia arriba",
+    "esperando": "esperando un ruido",
+    "pasas": "pasas entre ellos",
+    "respirar": "sin respirar",
+    "entonces": "entonces",
+    "dedos": "los dedos",
+    "cintaM": "la cinta",
+    "despego": "se despegó",
+    "suenaM": "placa suena",
+    "unavez": "una sola vez",
+    "cabezas": "cientos de cabezas",
+    "giran": "giran hacia ti",
+    "corres": "corres por el túnel",
+    "mueves": "no te mueves",
+    "comenta": "comenta"
+  },
+  "rojas": [
+    "escombros",
+    "chispa",
+    "cede",
+    "caes",
+    "silencio",
+    "postes",
+    "tú",
+    "cientos",
+    "respirar",
+    "cinta",
+    "suena",
+    "vez",
+    "ti"
+  ],
+  "reemplazos": [],
+  "sin_subs": [
+    [
+      "escena:decide",
+      "fin"
+    ]
+  ]
+}

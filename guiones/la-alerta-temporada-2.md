@@ -52,7 +52,7 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 | 2 | La puerta | 402 | Memo toca. Está mordido: gris hasta la muñeca. "Sé por qué sonó en toda la ciudad. Y sé dónde está tu nieta." Rosa: "No le abras, corazón". Chispa gruñe y la cabeza de Memo voltea hacia el ruido, como la de ellos. La alerta se calla; los infectados regresan de los postes y los golpes de Memo los llaman. | 🚪 le abres · 🔒 no le abres |
 | 3 | La tienda | 402, patio y avenida | Memo enseña el mensaje de las 3:00 (era parte del plan) y dice que Evelin está en la antena del centro de alerta. Ya no hay croquetas. Rosa le pide a Evelin una alerta por radio: 90 segundos para cruzar el patio, recoger la llave de la tienda (cayó ahí en la temporada 1) y llegar con don Chucho. La alerta se corta a los 60 segundos: alguien más la apagó. Chispa se queda del otro lado de la avenida, entre ellos. | 🏃 cruzas por Chispa ahora · ⏳ esperas otra alerta |
 | 4 | Los escombros | Avenida | Recuperas a Chispa sin hacer ruido. Recuerdo: así la encontraste, entre los escombros del último gran sismo; por eso aúlla con la alerta. El camino de regreso a la unidad quedó lleno. Hay que ir al centro de alerta por abajo. | 🚇 bajas por la estación del metro · 🏚️ bajas por los escombros del edificio caído |
-| 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. La placa suena una vez. Cientos de cabezas giran. | 🏃 corres por el túnel · 🤫 te quedas quieto |
+| 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. La placa suena una vez. Cientos de cabezas giran. | 🏃 corres por el túnel · 🤫 no te mueves |
 | 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). Memo aparece: los siguió por el ruido, tiene tarjeta de acceso y el gris ya le llega al cuello. Dice que conoce el camino a la antena. | 🤝 lo dejas venir · 🔐 lo encierras en la sala de control |
 | 7 | La antena | Azotea del centro | Encuentras a Evelin. Desconfía de ti hasta que Chispa la reconoce por el olor del rebozo de Rosa. Evelin cuenta la primera noche desde su lado. La Coordinación habla por el radio: "Tráenos a la operadora y te curamos." Memo lo oye. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
 | 8 | Noventa segundos | Avenidas | Plan: encadenar alertas zona por zona para alejar a los infectados y abrir un camino de regreso con Rosa. A la mitad, Memo agarra a Evelin y se la lleva con la consola. Chispa queda atrapada en el camino de los infectados. | 🐕 salvas a Chispa · 👩 vas por Evelin |
@@ -68,7 +68,7 @@ De la parte 2 a la 9, todas terminan con una decisión para los comentarios, y l
 | Parte 2 | 🚪 Memo entra. Rosa le apunta con un cuchillo de cocina. Memo se queda en el 402 con Rosa cuando tú sales a la tienda (Rosa no le quita los ojos de encima). | 🔒 Memo mete su celular por debajo de la puerta y corre escaleras arriba; los infectados lo siguen por el ruido. | Sabes que Memo era parte del plan y dónde está Evelin. Al amanecer sales a la tienda. |
 | Parte 3 | 🏃 Cruzas la avenida en silencio, entre infectados quietos, sin alerta. Uno te huele de cerca. | ⏳ Esperas. Evelin manda otra alerta, pero dura solo 20 segundos y Chispa corre hacia ti entre ellos. | Tienes a Chispa, pero no puedes volver a la unidad. |
 | Parte 4 | 🚇 Bajas por las escaleras de la estación, a oscuras. | 🏚️ Te metes por el sótano del edificio caído; una losa cede y caes al túnel del metro haciendo ruido. | Estás en el metro, sin postes. |
-| Parte 5 | 🏃 Corres por el túnel con ellos detrás hasta una salida de emergencia. | 🤫 Te quedas quieto con Chispa temblando; te rozan, te huelen y siguen de largo. | Sales junto al centro de alerta. |
+| Parte 5 | 🏃 Corres por el túnel con ellos detrás hasta una salida de emergencia. | 🤫 No te mueves, con Chispa temblando; te rozan, te huelen y siguen de largo. | Sales junto al centro de alerta. |
 | Parte 6 | 🤝 Memo te guía a la azotea por las escaleras de servicio. Evelin lo ve llegar contigo y desconfía de los dos. | 🔐 Lo encierras, pero tiene la tarjeta. Aparece en la antena cuando menos lo esperas. | Memo está en la antena cuando habla la Coordinación. |
 | Parte 7 | 🗣️ Evelin lo sabe y no suelta la consola. Memo finge que se rinde. | 🤐 Evelin no sabe nada; Memo la ayuda con el plan y ella le agarra confianza. | Memo se lleva a Evelin en la parte 8. |
 | Parte 8 | 🐕 Sacas a Chispa del camino. Ves a Memo arrastrar a Evelin hacia el estadio. | 👩 Corres tras Memo y casi lo alcanzas en la puerta del estadio; te cierran en la cara. Chispa se salva sola: corre de regreso al 402 (se sabe el camino). | Evelin está en el estadio con la Coordinación. Tú y Chispa vuelven con Rosa. |
@@ -299,4 +299,63 @@ Voz: "¿Bajas por el metro, o por los escombros? Comenta."
 ¿Por dónde bajas al túnel?
 🚇 Por el metro · 🏚️ Por los escombros
 La parte 5 se hace con lo que gane.
+```
+
+---
+
+## Parte 5 · El metro (ganó 🏚️)
+
+**Estado:** en producción.
+**Título:** Bajamos por los escombros. Abajo nos estaban esperando | Temporada 2, parte 5
+**Portada:** UNA SOLA VEZ.
+
+En los comentarios de la parte 4 ganó 🏚️ (por los escombros). Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": 🏚️ POR LOS ESCOMBROS encendida, 🚇 POR EL METRO tachada.
+Voz: "Ganaron los escombros. Bajas por el edificio caído."
+
+**2** El edificio caído de día. Chispa, en tus brazos, se queda quieta con las orejas hacia atrás.
+Voz: "El mismo donde encontraste a Chispa. Ella se queda quieta. Lo reconoce."
+
+**3** Corte del sótano partido: abajo, por la grieta, el túnel del metro.
+Voz: "El sótano está partido. Abajo se ve el túnel."
+
+**4** Pisas una losa; se agrieta ("¡CRAC!") y cede.
+Voz: "Pisas una losa. Y la losa cede."
+
+**5** Caes con las piedras a las vías. Ondas del golpe que corren por el túnel.
+Voz: "Caes. Con todo y piedras. El ruido rebota por el túnel."
+
+**6** A oscuras, solo la luz de tu celular (9 %). Chispa sigue en tus brazos, con los ojos abiertos.
+Voz: "Silencio. Chispa sigue en tus brazos."
+
+**7** El túnel sin postes; un poste tachado.
+Voz: "Aquí abajo no hay postes. Ninguna alerta te va a salvar. El único ruido es el que tú haces."
+
+**8** Caminas por las vías con la luz del celular hasta el borde del andén.
+Voz: "Caminas por las vías, a oscuras, hasta el andén."
+
+**9** La luz descubre el andén lleno: filas de infectados quietos con la cara hacia arriba.
+Voz: "Y ahí están. Cientos. Parados, con la cara hacia arriba. Esperando un ruido."
+
+**10** Pasas entre sus piernas de puntitas, con Chispa en brazos.
+Voz: "Pasas entre ellos sin respirar."
+
+**11** De cerca: la cinta de la placa de Chispa se despega entre tus dedos.
+Voz: "Entonces sientes algo en los dedos. La cinta de la placa de Chispa. Se despegó en la caída."
+
+**12** La placa choca con el aro del collar: "tin". Una sola vez.
+Voz: "La placa suena. Una sola vez."
+
+**13** Desde arriba: cientos de cabezas giran hacia ti, con los ojos blancos.
+Voz: "Y cientos de cabezas giran hacia ti."
+
+**14** Tarjeta de decisión: "¿QUÉ HACES?", 🏃 CORRES POR EL TÚNEL · 🤫 NO TE MUEVES.
+Voz: "¿Corres por el túnel, o no te mueves? Comenta."
+
+**Comentario fijado:**
+```
+Cientos de cabezas te miran. ¿Qué haces?
+🏃 Corro por el túnel · 🤫 No me muevo
+La parte 6 se hace con lo que gane.
 ```
