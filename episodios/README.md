@@ -24,5 +24,6 @@ Diseño completo en `guiones/la-alerta-temporada-2.md`. Son 10 partes y la histo
 | 1 | Evelin | 69.3 s | 12 | Tarjeta de sospechosos de la parte 8: "Ustedes votaron por Memo" y el sello "CASI". Termina con la pregunta "¿Quién hizo que sonara para todos?" | `t2-parte-01-evelin/` |
 | 2 | La puerta (interactiva) | 66.4 s | 14 | Tres toques en la puerta del 402. Memo está mordido. Termina con decisión: 🚪 le abres o 🔒 no le abres | `t2-parte-02-la-puerta/` |
 | 3 | La tienda (interactiva, ganó 🔒) | 75.6 s | 15 | Tarjeta del voto: "GANÓ" 🔒. Termina con decisión: 🏃 cruzas por Chispa o ⏳ esperas otra alerta | `t2-parte-03-la-tienda/` |
+| 4 | Los escombros (interactiva, ganó ⏳) | 68.1 s | 14 | Tarjeta del voto: "GANÓ" ⏳. Recuerdo de cómo encontraste a Chispa. Termina con decisión: 🚇 por el metro o 🏚️ por los escombros | `t2-parte-04-los-escombros/` |
 
 Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar` (temporada 2: `./hacer_t2parteN.sh --publicar`).

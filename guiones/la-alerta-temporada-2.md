@@ -258,7 +258,7 @@ La parte 4 se hace con lo que gane.
 
 ## Parte 4 · Los escombros (ganó ⏳)
 
-**Estado:** en producción.
+**Estado:** terminada. Video en `episodios/t2-parte-04-los-escombros/` (68.1 s, 14 escenas).
 **Título:** Chispa se quedó sola entre ellos. Así la encontré | Temporada 2, parte 4
 **Portada:** AÚLLA.
 
