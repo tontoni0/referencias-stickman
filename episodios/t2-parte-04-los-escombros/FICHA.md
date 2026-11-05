@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte4.mp4` · 68.1 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte4.mp4` · 68.1 s · 1080x1920 · 30 fps · H.264 + AAC · 28 MB · -16.2 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 14 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta del voto de la parte 3: "GANÓ" con ⏳ ESPERAS OTRA ALERTA encendida y 🏃 CRUZAS POR ELLA tachada |
