@@ -253,3 +253,50 @@ Chispa está sola entre ellos. ¿Qué haces?
 🏃 Cruzo por ella ahora · ⏳ Espero otra alerta
 La parte 4 se hace con lo que gane.
 ```
+
+---
+
+## Parte 4 · Los escombros (ganó ⏳)
+
+**Estado:** en producción.
+**Título:** Chispa se quedó sola entre ellos. Así la encontré | Temporada 2, parte 4
+**Portada:** AÚLLA.
+
+En los comentarios de la parte 3 ganó ⏳ (esperas otra alerta), con 60 % de 912 votos. Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": ⏳ ESPERAS OTRA ALERTA encendida, 🏃 CRUZAS POR ELLA tachada.
+Voz: "Ganó esperar. Te escondes detrás del mostrador. Chispa tiembla del otro lado. Nadie se mueve."
+
+**2** Detrás del mostrador de la tienda; por la cortina abierta se ve la avenida, y Chispa chiquita entre ellos. El reloj de la pared avanza diez minutos, veinte.
+Voz: "Diez minutos. Veinte."
+
+**3** La alerta vuelve a sonar. Los infectados corren al poste. Chispa no se mueve: aúlla.
+Voz: "Entonces, la alerta vuelve a sonar. Evelin. Ellos corren al poste. Pero Chispa no. Chispa aúlla."
+
+**4** Recuerdo ("Hace tres años"): un edificio caído después del gran sismo, el poste sonando, tú levantando una losa; debajo, Chispa cachorra aullando.
+Voz: "Siempre aúlla con la alerta. Así la encontraste. Hace tres años, después del gran sismo. Entre los escombros de un edificio. Sonaba la alerta, y debajo de una losa, algo aullaba."
+
+**5** Silbas desde la tienda (el ruido es gratis). Chispa corre hacia ti entre los que van al poste. Reloj: 0:20.
+Voz: "Silbas. Chispa corre hacia ti, entre ellos. Esta vez, la alerta dura veinte segundos."
+
+**6** Reloj: 0:05, 0:04. Chispa salta el mostrador.
+Voz: "Cinco. Cuatro. Chispa salta el mostrador."
+
+**7** La alerta se calla. Le tapas el hocico a Chispa.
+Voz: "La alerta se calla. Le tapas el hocico."
+
+**8** Los infectados regresan del poste y se quedan en la avenida, entre la tienda y la unidad.
+Voz: "Ellos regresan del poste. Ahora están entre la tienda y tu casa. No puedes volver."
+
+**9** A media cuadra: la entrada del metro y, al lado, el edificio caído del recuerdo. Corte bajo la calle: el túnel pasa debajo de los dos y llega al centro de alerta.
+Voz: "Pero a media cuadra está la entrada del metro. Y al lado, el edificio caído donde encontraste a Chispa. Debajo de los dos pasa el túnel que llega al centro de alerta."
+
+**10** Tarjeta de decisión: "¿POR DÓNDE BAJAS?", 🚇 POR EL METRO · 🏚️ POR LOS ESCOMBROS.
+Voz: "¿Bajas por el metro, o por los escombros? Comenta."
+
+**Comentario fijado:**
+```
+¿Por dónde bajas al túnel?
+🚇 Por el metro · 🏚️ Por los escombros
+La parte 5 se hace con lo que gane.
+```
