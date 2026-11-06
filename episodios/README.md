@@ -27,5 +27,6 @@ Diseño completo en `guiones/la-alerta-temporada-2.md`. Son 10 partes y la histo
 | 4 | Los escombros (interactiva, ganó ⏳) | 68.1 s | 14 | Tarjeta del voto: "GANÓ" ⏳. Recuerdo de cómo encontraste a Chispa. Termina con decisión: 🚇 por el metro o 🏚️ por los escombros | `t2-parte-04-los-escombros/` |
 | 5 | El metro (interactiva, ganó 🏚️) | 65.4 s | 15 | Tarjeta del voto: "GANÓ" 🏚️. Caes al túnel; el andén está lleno. Termina con decisión: 🏃 corres por el túnel o 🤫 no te mueves | `t2-parte-05-el-metro/` |
 | 6 | El centro de alerta (interactiva, ganó 🤫) | 70.7 s | 16 | Tarjeta del voto: "GANÓ" 🤫. Muerden a Chispa; el registro de la primera noche; Memo. Termina con decisión: 🤝 lo dejas venir o 🔐 lo encierras aquí | `t2-parte-06-el-centro-de-alerta/` |
+| 7 | La antena (interactiva, ganó 🔐) | 67.7 s | 17 | Tarjeta del voto: "GANÓ" 🔐. Evelin en la azotea; los ojos blancos de Chispa y los audífonos; Memo detrás del tinaco. Termina con decisión: 🗣️ le cuentas a Evelin o 🤐 te lo callas | `t2-parte-07-la-antena/` |
 
 Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar` (temporada 2: `./hacer_t2parteN.sh --publicar`).

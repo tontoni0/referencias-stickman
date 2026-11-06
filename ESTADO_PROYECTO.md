@@ -28,12 +28,13 @@ Temporada 2 (diseño en `guiones/la-alerta-temporada-2.md`):
 | 4 | Los escombros (interactiva, ganó ⏳) | 68.1 s | 14 | `episodios/t2-parte-04-los-escombros/la_alerta_t2_parte4.mp4` | ~1,746 |
 | 5 | El metro (interactiva, ganó 🏚️) | 65.4 s | 15 | `episodios/t2-parte-05-el-metro/la_alerta_t2_parte5.mp4` | ~1,528 |
 | 6 | El centro de alerta (interactiva, ganó 🤫) | 70.7 s | 16 | `episodios/t2-parte-06-el-centro-de-alerta/la_alerta_t2_parte6.mp4` | ~1,660 |
+| 7 | La antena (interactiva, ganó 🔐) | 67.7 s | 17 | `episodios/t2-parte-07-la-antena/la_alerta_t2_parte7.mp4` | ~1,658 |
 
 Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comandos que se usaron.
 
 ## Pendiente
 
-1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 a 6 terminadas. De la 2 a la 9 todas terminan con una decisión; la tabla "Cómo se respeta cada voto" del guion dice cómo empieza la parte siguiente con cada opción. Sigue la parte 7 ("La antena") con lo que gane en la parte 6 (🤝 o 🔐). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
+1. **Temporada 2**: diseñada en 10 partes con final cerrado; es la última temporada de "La alerta". Partes 1 a 7 terminadas. De la 2 a la 9 todas terminan con una decisión; la tabla "Cómo se respeta cada voto" del guion dice cómo empieza la parte siguiente con cada opción. Sigue la parte 8 ("Noventa segundos") con lo que gane en la parte 7 (🗣️ o 🤐). Las ideas de cada capítulo pueden cambiar según lo que pida el público, siempre que la historia cierre en la parte 10.
 2. **Versión larga de 8 minutos**: no está armada. Hay que unir las partes quitando las tarjetas "PARTE N →" y agregar capítulos (ver el final del guion de la serie).
 3. **Short "La ofrenda"** (`guiones/la-ofrenda-short-interactivo.md`): escrito, no producido. Pensado para el 1 y 2 de noviembre.
 4. **Portadas y títulos para publicar**: el guion trae título y texto de portada por parte; no se han hecho imágenes de portada.
@@ -74,6 +75,8 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 05/11 | En la parte 3 ganó ⏳: Evelin manda otra alerta de solo 20 segundos; Chispa aúlla, silbas y corre hacia ti. Se cuenta que la encontraste entre los escombros del gran sismo, hace tres años | Votación en TikTok (60 % de 912 votos). Un comentario temía que Chispa muriera: se mantiene en peligro, pero viva |
 | 06/11 | En la parte 6 muerden a Chispa en una pata trasera. Se pone agresiva por el ruido, la calman los audífonos de operadora de Evelin, ayuda aullando para llevarse a los infectados y en la parte 10 se cura con el suero que la Coordinación guarda en el estadio (Evelin se roba un frasco) | Idea del usuario para darle más trama. Chispa no muere; la cura también le da sentido a lo que busca Memo |
 | 04/11 | En la parte 2 ganó 🔒: la parte 3 abre con la tarjeta "GANÓ" y Memo huye a la azotea dejando su celular, con los mensajes de la Coordinación | Votación en TikTok, cerca de 80 % |
+| 06/11 | En la parte 6 ganó 🔐: encierras a Memo, pero sale con su tarjeta y aparece detrás del tinaco de la azotea con un radio de la Coordinación. Solo tú lo ves. Evelin cuenta la primera noche desde su lado en la parte 8 y no en la 7 | Votación en TikTok. La parte 7 ya tenía mucho (Evelin, la mordida, los audífonos, el radio) |
+| 06/11 | Regla 5 en video: "A los mordidos los jala el ruido. Sin ruido, se calman." Desde la parte 7 Chispa trae los audífonos de Evelin | Es la regla 6 del guion de la temporada 2 contada con la hoja de cuaderno de las reglas 1 a 4 |
 | 04/11 | Memo ya no solo se roba la consola: se lleva a Evelin para entregarla a la Coordinación a cambio de que lo curen. Rosa y Evelin se reencuentran hasta el final de la parte 10 | Responde a la pregunta del usuario ("¿Memo se va a llevar a Evelin?"); sube lo que está en juego en la parte 8 (Chispa o Evelin) |
 
 ## Errores conocidos y limitaciones
@@ -94,6 +97,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 14. **Parte 7**: dura 79.5 s, más que las otras, por el final con la decisión. La voz del final es de otra generación (misma voz y modelo); pedir al usuario que revise que no se note el cambio.
 15. **Temporada 2, parte 1**: "PERDONAME ABUELA" pita muy rápido (cada punto dura unos 21 ms) para caber en la pausa que sigue a "abuela"; puede sonar como un operador experto o como un chirrido. Pedir al usuario que lo revise. Los pasos de Memo y los latidos en la escalera son sintetizados.
 16. **Audio más corto que el video** (temporada 2, parte 6): la mezcla terminaba antes del final y el video salía de 69 s en vez de 70.7 s. Se corrigió rellenando el audio con silencio (`apad`) y volviendo a unir sin repetir el render de imagen. Las partes anteriores tienen un ambiente que dura todo el video y no tienen el problema.
+17. **Temporada 2, parte 7**: la voz de la Coordinación ("Tráenos a la operadora" y "Y te curamos") es la misma voz del narrador con un filtro de radio. Pedir al usuario que revise si se entiende y si el cambio de filtro no se oye cortado. El ¡CLAC! cae en la pausa después de "mordida".
 
 ## Lo que no está en GitHub
 
@@ -107,9 +111,9 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 ## Próximos pasos
 
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
-2. Que el usuario revise el audio de las partes 1 a 6, sobre todo los aullidos de la parte 5 y los golpes de la parte 6, y los pitidos en clave de la temporada 2, parte 1.
-3. Publicar las partes 1 a 6 de la temporada 2 con el comentario fijado de cada `FICHA.md`.
-4. Con el voto de la parte 6 (🤝 o 🔐), hacer la parte 7, "La antena".
+2. Que el usuario revise el audio de las partes 1 a 7, sobre todo los aullidos de la parte 5, los golpes de la parte 6, los pitidos en clave de la temporada 2, parte 1, y la voz de radio de la temporada 2, parte 7.
+3. Publicar las partes 1 a 7 de la temporada 2 con el comentario fijado de cada `FICHA.md`.
+4. Con el voto de la parte 7 (🗣️ o 🤐), hacer la parte 8, "Noventa segundos".
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
@@ -133,6 +137,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 | 03/11 | Temporada 2, parte 1 terminada ("Evelin"): 12 escenas, pitidos en clave Morse sincronizados con la escritura de Rosa |
 | 03/11 | Temporada 2 rehecha en 10 partes con final cerrado. Parte 2 terminada ("La puerta", interactiva): 14 escenas, Memo mordido, decisión 🚪 / 🔒 |
 | 04/11 | Guion de la temporada 2: decisión al final de cada parte (2 a 9), tabla de qué cambia con cada voto, y Memo se lleva a Evelin en la parte 8 |
+| 06/11 | En la parte 6 ganó 🔐. Temporada 2, parte 7 terminada ("La antena"): 17 escenas, Evelin con la llave de tuercas, los ojos blancos de Chispa y sus audífonos, la regla 5, el radio de la Coordinación y Memo detrás del tinaco; decisión 🗣️ / 🤐. En `lib/dibujo.js`: `evelin()` acepta `audifonos: 'no'` y `perro()` tiene el modo `'contenta'` |
 | 06/11 | En la parte 5 ganó 🤫. Temporada 2, parte 6 terminada ("El centro de alerta"): 16 escenas, muerden a Chispa en la pata trasera, el registro de la primera noche en pantalla, Memo con su tarjeta de acceso; decisión 🤝 / 🔐 |
 | 06/11 | Guion de la temporada 2: la mordida de Chispa (partes 6 a 10), la cura en el estadio y dos reglas nuevas (el silencio calma a los mordidos; el suero funciona antes de que los ojos pierdan la pupila) |
 | 06/11 | En la parte 4 ganó 🏚️. Temporada 2, parte 5 terminada ("El metro"): 15 escenas a oscuras con la luz del celular, la caída al túnel, el andén lleno y la placa que suena; decisión 🏃 / 🤫 |

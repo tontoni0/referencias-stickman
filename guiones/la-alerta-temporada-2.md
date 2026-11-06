@@ -65,8 +65,8 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 | 4 | Los escombros | Avenida | Recuperas a Chispa sin hacer ruido. Recuerdo: así la encontraste, entre los escombros del último gran sismo; por eso aúlla con la alerta. El camino de regreso a la unidad quedó lleno. Hay que ir al centro de alerta por abajo. | 🚇 bajas por la estación del metro · 🏚️ bajas por los escombros del edificio caído |
 | 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. La placa suena una vez. Cientos de cabezas giran. | 🏃 corres por el túnel · 🤫 no te mueves |
 | 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). Antes, en el túnel, un infectado le muerde a Chispa una pata trasera; al llegar, la pata ya está gris. Memo aparece: los siguió por el ruido, tiene tarjeta de acceso y el gris ya le llega al cuello. Ve la pata de Chispa: "Ya somos dos." Dice que conoce el camino a la antena. | 🤝 lo dejas venir · 🔐 lo encierras en la sala de control |
-| 7 | La antena | Azotea del centro | Encuentras a Evelin. Desconfía de ti hasta que Chispa la reconoce por el olor del rebozo de Rosa. Entonces el ruido del viento y del radio jala a Chispa: ojos blancos, te tira una mordida. Evelin le pone sus audífonos de operadora y se calma. Evelin cuenta la primera noche desde su lado. La Coordinación habla por el radio: "Tráenos a la operadora y te curamos." Memo lo oye. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
-| 8 | Noventa segundos | Avenidas | Plan: encadenar alertas zona por zona para alejar a los infectados y abrir un camino de regreso con Rosa. Chispa ayuda: sin audífonos aúlla y se los lleva. A la mitad, Memo agarra a Evelin y se la lleva con la consola. Chispa queda atrapada en el camino de los infectados. | 🐕 salvas a Chispa · 👩 vas por Evelin |
+| 7 | La antena | Azotea del centro | Encuentras a Evelin. Te apunta con una llave de tuercas hasta que Chispa la huele y la reconoce: huele a la casa de Rosa. Entonces el ruido del viento jala a Chispa: ojos blancos, te tira una mordida. Evelin le pone sus audífonos de operadora y se calma (regla 5: sin ruido, se calman). Detrás del tinaco, el radio de Memo truena con la voz de la Coordinación: "Tráenos a la operadora y te curamos." Solo tú ves a Memo. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
+| 8 | Noventa segundos | Avenidas | Evelin cuenta la primera noche desde su lado. Plan: encadenar alertas zona por zona para alejar a los infectados y abrir un camino de regreso con Rosa. Chispa ayuda: sin audífonos aúlla y se los lleva. A la mitad, Memo agarra a Evelin y se la lleva con la consola. Chispa queda atrapada en el camino de los infectados. | 🐕 salvas a Chispa · 👩 vas por Evelin |
 | 9 | Bajen al patio | Estadio y unidad | Memo entrega a Evelin en el estadio. La Coordinación se queda con ella y con la consola, y a él lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo. Por todos los radios: "Mañana a las 3:14, bajen al punto de reunión. Orden y calma." Evelin le manda a Rosa pitidos: "EL TABLERO VIEJO. HAY CURA." El gris de Chispa ya le pasa la cadera. Rosa decide salir del 402 por primera vez, pero la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
 | 10 | La última alerta | Centro de alerta, ciudad y unidad | Llegan al tablero viejo: Rosa en el micrófono, tú en la señal. 3:14. Suena la alerta de la Coordinación, pero la ciudad oye la voz de Rosa: "No bajen. Quédense en silencio. Esta alerta es mentira." La última alerta tiene que ir al estadio, donde está Evelin. Pitidos: "MANDALA ABUELA." Rosa la manda. Los infectados caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: Evelin llega al patio con un frasco del suero y se abraza con Rosa. Le pone la cura a Chispa: el gris se retira. Le quitas los audífonos, le mueves la placa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? |
 
@@ -426,3 +426,71 @@ Memo sabe llegar a la antena. ¿Qué haces?
 🤝 Lo dejo venir · 🔐 Lo encierro aquí
 La parte 7 se hace con lo que gane.
 ```
+
+## Parte 7 · La antena (ganó 🔐)
+
+**Estado:** terminada. Video en `episodios/t2-parte-07-la-antena/` (67.7 s, 17 escenas).
+**Título:** Lo encerramos. Igual subió a la antena | Temporada 2, parte 7
+**Portada:** NADIE LO VIO.
+
+En los comentarios de la parte 6 ganó 🔐 (lo encierras aquí). Abre con la tarjeta del voto. Evelin todavía no cuenta la primera noche desde su lado: eso pasa a la parte 8.
+
+**1** Tarjeta "GANÓ": 🔐 LO ENCIERRAS AQUÍ encendida, 🤝 LO DEJAS VENIR tachada.
+Voz: "Ganó el candado."
+
+**2** La puerta corrediza de la sala de control se cierra ("¡PAM!"). Memo, del otro lado del vidrio, golpea con las dos manos y enseña su tarjeta de acceso. El lector de afuera sigue en rojo.
+Voz: "Lo encierras en la sala de control. Memo golpea el vidrio. Pero tiene la tarjeta."
+
+**3** La azotea del centro de alerta: la caseta de la escalera, un gabinete de equipo, el tinaco negro y la torre de la antena con su luz roja. Viento. Sales de la caseta con Chispa en brazos.
+Voz: "Subes a la azotea con Chispa. Viento. La antena."
+
+**4** Desde atrás del gabinete sale un brazo con manga verde y una llave de tuercas que te apunta a la cara.
+Voz: "Y alguien te apunta con una llave de tuercas."
+
+**5** Evelin (letrero "EVELIN · LA NIETA DE ROSA"): audífonos al cuello, la llave en una mano y una consola portátil con antena en la otra.
+Voz: "Evelin. Audífonos al cuello. Una consola en la mano. ¿Quién eres?, susurra."
+
+**6** Chispa, en el piso, le huele la pierna y mueve la cola. En una burbuja, la cocina de Rosa con la vela.
+Voz: "Chispa la huele. Y mueve la cola. Huele a la casa de Rosa."
+
+**7** Evelin baja la llave y te mira.
+Voz: "Evelin baja la llave. Te mandó mi abuela."
+
+**8** Una ráfaga: papeles que vuelan, la torre que silba. Chispa voltea hacia el ruido.
+Voz: "Entonces el viento sopla fuerte. Y Chispa voltea hacia el ruido."
+
+**9** La cara de Chispa de cerca: se le ponen los ojos blancos, sin pupila, con el ceño fruncido y las orejas hacia atrás.
+Voz: "Los ojos blancos."
+
+**10** Chispa se lanza hacia tu mano: "¡CLAC!" (destello rojo). Quitas la mano a tiempo.
+Voz: "Te tira una mordida."
+
+**11** Evelin se quita los audífonos del cuello y se los pone a Chispa, que gruñe con los ojos blancos.
+Voz: "Evelin se quita los audífonos y se los pone a Chispa."
+
+**12** Todo se apaga. Chispa con los audífonos: el gruñido se va, los ojos vuelven a ser negros y te saca la lengua. La mano de Evelin en su cabeza.
+Voz: "Silencio. Chispa vuelve a ser Chispa."
+
+**13** Hoja de cuaderno: "REGLA 5. A los mordidos los jala el ruido. Sin ruido, se calman." y unos audífonos dibujados.
+Voz: "A los mordidos los jala el ruido, dice Evelin. Sin ruido, se calman."
+
+**14** El tinaco negro. Detrás, la punta de una antena y estática ("KSSHH").
+Voz: "Detrás del tinaco, un radio truena."
+
+**15** El radio de cerca, en pantalla "CANAL 3 · COORDINACIÓN". Lo sostiene una mano gris con una venda con sangre. La voz suena con filtro de radio.
+Voz: "Tráenos a la operadora, dice una voz. Y te curamos."
+
+**16** Memo se asoma detrás del tinaco, gris hasta la quijada, con el radio. Evelin, agachada con Chispa, le da la espalda. Memo te mira y se lleva un dedo a la boca.
+Voz: "Es Memo. Ya salió. Y nadie lo vio más que tú."
+
+**17** Tarjeta de decisión: "¿QUÉ HACES?", 🗣️ LE CUENTAS A EVELIN · 🤐 TE LO CALLAS.
+Voz: "¿Le cuentas a Evelin, o te lo callas? Comenta."
+
+**Comentario fijado:**
+```
+Memo quiere cambiar a Evelin por su cura. ¿Qué haces?
+🗣️ Le cuento a Evelin · 🤐 Me lo callo
+La parte 8 se hace con lo que gane.
+```
+
+Desde esta parte Chispa trae puestos los audífonos de Evelin y Evelin ya no los tiene.
