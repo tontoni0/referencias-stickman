@@ -375,7 +375,7 @@ La parte 6 se hace con lo que gane.
 
 ## Parte 6 · El centro de alerta (ganó 🤫)
 
-**Estado:** en producción.
+**Estado:** terminada. Video en `episodios/t2-parte-06-el-centro-de-alerta/` (70.7 s, 16 escenas).
 **Título:** No me moví. Igual la mordieron | Temporada 2, parte 6
 **Portada:** YA SOMOS DOS.
 
