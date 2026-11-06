@@ -93,6 +93,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 13. **Descargas de ElevenLabs**: desde el 02/11 los archivos vienen de `elevenlabsusercontent.com`. El usuario lo agregó a los dominios permitidos del entorno. Si una sesión nueva no puede descargar, revisar Network access del entorno. Los tiempos por palabra también vienen en la respuesta de la transcripción.
 14. **Parte 7**: dura 79.5 s, más que las otras, por el final con la decisión. La voz del final es de otra generación (misma voz y modelo); pedir al usuario que revise que no se note el cambio.
 15. **Temporada 2, parte 1**: "PERDONAME ABUELA" pita muy rápido (cada punto dura unos 21 ms) para caber en la pausa que sigue a "abuela"; puede sonar como un operador experto o como un chirrido. Pedir al usuario que lo revise. Los pasos de Memo y los latidos en la escalera son sintetizados.
+16. **Audio más corto que el video** (temporada 2, parte 6): la mezcla terminaba antes del final y el video salía de 69 s en vez de 70.7 s. Se corrigió rellenando el audio con silencio (`apad`) y volviendo a unir sin repetir el render de imagen. Las partes anteriores tienen un ambiente que dura todo el video y no tienen el problema.
 
 ## Lo que no está en GitHub
 

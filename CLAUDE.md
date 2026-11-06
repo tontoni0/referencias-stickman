@@ -169,6 +169,7 @@ npm run hoja-personajes           # vuelve a dibujar referencias/personajes/hoja
 5. Si cambias `lib/`, revisa que las partes ya hechas sigan iguales: renderiza un cuadro y compáralo con el video publicado.
 6. Si dos escenas deben coincidir con el audio (reloj de la parte 2, congelado de la parte 3, pitidos en clave de la temporada 2), la constante está en `escenas.js` y en `mezcla.py`; cámbialas juntas. En `t2parte1` los dos archivos tienen la misma función `morse()`: si cambias un mensaje o sus tiempos, cámbialo en los dos.
 7. El proxy del entorno bloquea Hugging Face y la descarga de imágenes de Canva. GitHub sí funciona.
+8. El audio de `mezcla.py` tiene que durar todo el video: si ningún efecto llega al final, `-shortest` recorta el video. Desde la temporada 2, parte 6, la mezcla pasa por `apad=whole_dur={dur}` antes de `atrim`. Revisa que la duración del video final sea la de `tl.js`.
 
 ## Git
 

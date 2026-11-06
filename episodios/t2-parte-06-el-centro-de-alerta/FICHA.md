@@ -2,7 +2,7 @@
 
 | | |
 |---|---|
-| **Video** | `la_alerta_t2_parte6.mp4` · 70.7 s · 1080x1920 · 30 fps · H.264 + AAC · TAMANO · LUFS |
+| **Video** | `la_alerta_t2_parte6.mp4` · 70.7 s · 1080x1920 · 30 fps · H.264 + AAC · 17 MB · -16.6 LUFS |
 | **Estado** | Terminado y publicado en el repo |
 | **Escenas** | 16 · ver `escenas.md` y `hoja_de_escenas.jpg` |
 | **Inicio** | Tarjeta del voto de la parte 5: "GANÓ" con 🤫 NO TE MUEVES encendida y 🏃 CORRES POR EL TÚNEL tachada |
@@ -66,6 +66,8 @@ python3 -I lib/inserta_silencios.py audio/t2parte6/narracion_sin_pausas.mp3 audi
 ## Sonido
 
 Campanita del voto; el retumbe y las goteras del túnel; latidos y olfateos; una tensión que sube mientras se agacha; la mordida, un golpe y el chillido de Chispa (otro más largo en "Chispa chilla"); gruñidos y estampida que crecen; la carrera, la escalera de metal, la puerta y un soplido de luz; viento afuera; un gemido de Chispa, latidos lentos y el reloj; el zumbido de la sala de control; un bip de la pantalla y el teclado del registro, con una nota aguda en "Coordinación"; el "bip" de la tarjeta y la puerta que se abre; un zumbido grave con Memo, su risa y una nota aguda en "Ya somos dos"; golpes de cierre.
+
+La mezcla rellena con silencio hasta el final (`apad`): sin eso el audio terminaba 1.7 s antes y el video salía recortado.
 
 Niveles medidos antes de normalizar: efectos de 7 a 15 dB debajo de la voz (la mordida queda a 7 dB porque cae en una pausa). Afuera del centro de alerta solo se oye el viento.
 

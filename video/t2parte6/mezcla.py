@@ -106,7 +106,7 @@ def main(tl_js, voz, salida):
         filtros.append(f"{src},adelay={int(t0 * 1000)}:all=1[{nombre}]")
         etiquetas.append(f"[{nombre}]")
     filtros.append(f"{''.join(etiquetas)}amix=inputs={len(etiquetas)}:normalize=0:duration=longest,"
-                   f"atrim=0:{dur},loudnorm=I=-14:TP=-1.5:LRA=11[out]")
+                   f"apad=whole_dur={dur},atrim=0:{dur},loudnorm=I=-14:TP=-1.5:LRA=11[out]")
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", voz, "-filter_complex", ";".join(filtros),
                     "-map", "[out]", "-ar", "44100", "-c:a", "aac", "-b:a", "192k", salida], check=True)
     print("Audio listo:", salida)
