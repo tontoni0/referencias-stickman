@@ -157,7 +157,7 @@ function memo(o) {
 
 // Evelin, nieta de Rosa, operadora de noche del centro de alerta (temporada 2). Mismos parámetros que stick().
 // Pelo negro con fleco y coleta, audífonos de operadora, chamarra verde azulado con franja reflejante y gafete.
-// o.audifonos: 'cuello' (por omisión) o 'puestos'. o.nina: Evelin de niña (dos coletas, playera amarilla, sin audífonos).
+// o.audifonos: 'cuello' (por omisión), 'puestos' o 'no' (sin audífonos, temporada 2, parte 7). o.nina: Evelin de niña (dos coletas, playera amarilla, sin audífonos).
 function evelin(o) {
   const [cx, cy] = o.head, r = o.r, [nx, ny] = o.neck, [hx, hy] = o.hip, k = r * 0.06;
   const PELO = '#1d1a1f';
@@ -178,7 +178,7 @@ function evelin(o) {
   if (!o.nina && o.audifonos === 'puestos') {
     audifonos = `<path d="M${cx - r * 0.98} ${cy} A${r * 1.02} ${r * 1.05} 0 0 1 ${cx + r * 0.98} ${cy}" fill="none" stroke="#2a2d33" stroke-width="${r * 0.12}"/>
       ${[-1, 1].map(l => `<rect x="${cx + l * r * 0.98 - r * 0.15}" y="${cy - r * 0.25}" width="${r * 0.3}" height="${r * 0.5}" rx="${r * 0.1}" fill="#2a2d33" stroke="${INK}" stroke-width="${k}"/>`).join('')}`;
-  } else if (!o.nina) {
+  } else if (!o.nina && o.audifonos !== 'no') {
     audifonos = `<path d="M${cx - r * 0.6} ${cy + r * 0.95} Q${cx} ${cy + r * 1.35} ${cx + r * 0.6} ${cy + r * 0.95}" fill="none" stroke="#2a2d33" stroke-width="${r * 0.11}"/>
       ${[-1, 1].map(l => `<rect x="${cx + l * r * 0.62 - r * 0.14}" y="${cy + r * 0.8}" width="${r * 0.28}" height="${r * 0.38}" rx="${r * 0.1}" fill="#2a2d33" stroke="${INK}" stroke-width="${k}"/>`).join('')}`;
   }
@@ -192,12 +192,13 @@ function infectado(o) {
 
 // Chispa. Dibujada con el centro del cuerpo en (0,0), mirando a la derecha.
 // modo: 'gruñe' (de pie, enseña los dientes), 'parada' (de pie, con miedo, cola entre las patas),
-//       'echada' (acostada, alerta).
-function perro(modo = 'gruñe') {
+//       'contenta' (de pie, cola arriba; cola: grados que se mueve la cola), 'echada' (acostada, alerta).
+function perro(modo = 'gruñe', cola = 0) {
   const C = '#6e4325', OSC = '#5a361d', HOC = '#7d4f2d';
   let s = `<g stroke="${INK}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">`;
-  if (modo === 'gruñe' || modo === 'parada') {
-    s += modo === 'gruñe' ? `<path d="M-85 -20 q-40 -50 -10 -90" fill="none"/>` : `<path d="M-85 0 q-20 40 10 70" fill="none"/>`;
+  if (modo === 'gruñe' || modo === 'parada' || modo === 'contenta') {
+    s += modo === 'gruñe' ? `<path d="M-85 -20 q-40 -50 -10 -90" fill="none"/>`
+      : modo === 'contenta' ? `<path d="M-85 -15 q-50 -20 -45 -85" fill="none" transform="rotate(${cola} -85 -15)"/>` : `<path d="M-85 0 q-20 40 10 70" fill="none"/>`;
     s += linea([[-60, 30], [-70, 115]], 7) + linea([[-30, 35], [-25, 118]], 7) + linea([[35, 35], [27, 118]], 7) + linea([[63, 30], [75, 116]], 7);
     s += `<ellipse cx="0" cy="0" rx="92" ry="48" fill="${C}"/>`;
     if (modo === 'gruñe') s += `<path d="M-65 -42 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18" fill="none" stroke-width="6"/>`;
