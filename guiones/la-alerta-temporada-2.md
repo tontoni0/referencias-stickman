@@ -370,3 +370,59 @@ Cientos de cabezas te miran. ¿Qué haces?
 🏃 Corro por el túnel · 🤫 No me muevo
 La parte 6 se hace con lo que gane.
 ```
+
+---
+
+## Parte 6 · El centro de alerta (ganó 🤫)
+
+**Estado:** en producción.
+**Título:** No me moví. Igual la mordieron | Temporada 2, parte 6
+**Portada:** YA SOMOS DOS.
+
+En los comentarios de la parte 5 ganó 🤫 (no te mueves). Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": 🤫 NO TE MUEVES encendida, 🏃 CORRES POR EL TÚNEL tachada.
+Voz: "Ganó no moverte. Te quedas como piedra."
+
+**2** En el andén, a oscuras: ellos se acercan, te rozan y te huelen. Uno pega la cara a Chispa.
+Voz: "Ellos se acercan. Te rozan. Te huelen. Uno pega la cara a Chispa."
+
+**3** Se agacha hacia la pata trasera de Chispa, que cuelga de tus brazos, y la muerde (destello rojo).
+Voz: "Y se agacha. A la pata que cuelga de tus brazos. La muerde."
+
+**4** Chispa chilla; todas las cabezas giran y el túnel se te viene encima.
+Voz: "Chispa chilla. Y el túnel entero se te viene encima."
+
+**5** Corres con Chispa en brazos: escalera de emergencia, una puerta, luz.
+Voz: "Corres. Una escalera de emergencia. Una puerta. Luz."
+
+**6** Entras al centro de alerta (letrero en la pared).
+Voz: "Estás en el centro de alerta."
+
+**7** La pata trasera de Chispa, de cerca: gris, con venas oscuras.
+Voz: "Chispa tiembla. La pata de atrás ya está gris. En una pata, la mordida tarda días. Días."
+
+**8** La sala de control abandonada: sillas tiradas, papeles, el mapa apagado. Una pantalla prendida.
+Voz: "En la sala de control, una pantalla sigue prendida. El registro de la primera noche."
+
+**9** El registro en la pantalla: "03:14:02 PRUEBA · ZONA U.H. EDIFICIO C · USUARIO: EVELIN" y "03:14:05 TODAS LAS ZONAS · USUARIO: COORDINACIÓN".
+Voz: "Tres catorce con dos segundos: prueba, zona Edificio C. Usuario: Evelin. Tres catorce con cinco segundos: todas las zonas. Usuario: Coordinación."
+
+**10** Detrás de ti, el lector de tarjetas de la puerta se pone verde ("BIP") y la puerta se abre.
+Voz: "Detrás de ti, una tarjeta abre la puerta."
+
+**11** Memo, con la tarjeta en la mano, gris hasta el cuello. Ve la pata de Chispa y se ríe; su brazo gris junto a la pata gris.
+Voz: "Memo. Gris hasta el cuello. Mira la pata de Chispa y se ríe. Ya somos dos."
+
+**12** Memo señala hacia arriba: por el tragaluz se ve la antena del centro.
+Voz: "Yo sé llegar a la antena, dice."
+
+**13** Tarjeta de decisión: "¿QUÉ HACES?", 🤝 LO DEJAS VENIR · 🔐 LO ENCIERRAS AQUÍ.
+Voz: "¿Lo dejas venir, o lo encierras aquí? Comenta."
+
+**Comentario fijado:**
+```
+Memo sabe llegar a la antena. ¿Qué haces?
+🤝 Lo dejo venir · 🔐 Lo encierro aquí
+La parte 7 se hace con lo que gane.
+```
