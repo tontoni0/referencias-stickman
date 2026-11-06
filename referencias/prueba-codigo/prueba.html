@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: Caveat; src: url(../../video/fonts/Caveat.ttf); font-weight: 400 700; }
+  @font-face { font-family: Oswald; src: url(../../video/fonts/Oswald.ttf); font-weight: 200 700; }
+  body { margin: 0; background: #000; }
+  .frame { width: 1080px; height: 1920px; position: relative; overflow: hidden; }
+  .sub {
+    position: absolute; left: 0; right: 0; top: 1560px; text-align: center; line-height: 1.05;
+    font-family: Oswald; font-weight: 700; font-size: 98px; letter-spacing: 1px;
+    color: #fff; -webkit-text-stroke: 6px #000; paint-order: stroke fill;
+    text-shadow: 0 8px 24px rgba(0,0,0,.6);
+  }
+  .sub .hot { color: #e0312b; }
+
+  /* cuaderno */
+  .paper {
+    position: absolute; inset: 0; background-color: #f6f3ea;
+    background-image:
+      linear-gradient(#b8cde4 1.5px, transparent 1.5px),
+      linear-gradient(90deg, #b8cde4 1.5px, transparent 1.5px);
+    background-size: 44px 44px;
+  }
+  .paper::before { content: ""; position: absolute; top: 0; bottom: 0; left: 150px; width: 3px; background: #e06a6a; }
+  .ink { position: absolute; font-family: Caveat; color: #1d3a8a; }
+  .day { top: 120px; right: 90px; font-size: 90px; font-weight: 700; transform: rotate(-3deg); }
+  .rule { left: 200px; top: 640px; font-size: 200px; font-weight: 700; transform: rotate(-2deg); }
+  .text { left: 200px; top: 900px; font-size: 128px; line-height: 1.15; font-weight: 600; transform: rotate(-1deg); }
+  .text u { text-decoration: none; background: linear-gradient(transparent 78%, rgba(224,49,43,.55) 78%, rgba(224,49,43,.55) 90%, transparent 90%); }
+
+  /* chat */
+  .chat { position: absolute; inset: 0; background: #0b141a; font-family: Inter, sans-serif; color: #e9edef; }
+  .status { height: 110px; display: flex; align-items: flex-end; justify-content: space-between; padding: 0 64px 18px; font-size: 40px; font-weight: 600; }
+  .head { height: 150px; background: #1f2c34; display: flex; align-items: center; gap: 28px; padding: 0 40px; }
+  .back { font-size: 64px; color: #aebac1; }
+  .avatar { width: 100px; height: 100px; border-radius: 50%; background: #2a3942; display: grid; place-items: center; font-size: 56px; font-family: "Noto Color Emoji"; }
+  .title { font-size: 46px; font-weight: 600; }
+  .members { font-size: 32px; color: #8696a0; margin-top: 4px; }
+  .msgs { padding: 40px 40px; display: flex; flex-direction: column; gap: 28px; }
+  .pill { align-self: center; background: #182229; color: #8696a0; font-size: 32px; padding: 12px 28px; border-radius: 16px; }
+  .msg { align-self: flex-start; max-width: 82%; background: #1f2c34; border-radius: 0 24px 24px 24px; padding: 20px 28px 16px; font-size: 44px; line-height: 1.3; }
+  .msg .who { font-size: 34px; font-weight: 600; margin-bottom: 6px; }
+  .msg .t { font-size: 28px; color: #8696a0; text-align: right; margin-top: 6px; }
+  .new { align-self: center; background: #182229; color: #e9edef; font-size: 30px; padding: 10px 26px; border-radius: 16px; margin-top: 30px; }
+  .msg.last { outline: 4px solid #e0312b; }
+</style>
+</head>
+<body>
+
+<!-- Escena: Chispa le gruñe a la puerta -->
+<div class="frame" id="scene">
+<svg width="1080" height="1920" viewBox="0 0 1080 1920" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c2638"/><stop offset="1" stop-color="#121a28"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26385e"/><stop offset="1" stop-color="#121c36"/>
+    </linearGradient>
+    <radialGradient id="headShade" cx="0.45" cy="0.35" r="0.75">
+      <stop offset="0.55" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c0cc"/>
+    </radialGradient>
+    <radialGradient id="moonGlow"><stop offset="0" stop-color="#e9eef7" stop-opacity=".55"/><stop offset="1" stop-color="#e9eef7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.48" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/>
+    </radialGradient>
+    <linearGradient id="gap" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3c46a" stop-opacity=".9"/><stop offset="1" stop-color="#f3c46a" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ink" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="5"/>
+    </filter>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+    <pattern id="paisley" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r="4" fill="#fff" opacity=".9"/>
+      <path d="M24 22 q8 -2 6 8 q-5 3 -8 -2z" fill="none" stroke="#fff" stroke-width="2.5" opacity=".9"/>
+    </pattern>
+  </defs>
+
+  <!-- cuarto -->
+  <rect width="1080" height="1920" fill="url(#wall)"/>
+  <rect y="1470" width="1080" height="450" fill="#0d121b"/>
+  <g stroke="#182131" stroke-width="4">
+    <line x1="0" y1="1560" x2="1080" y2="1560"/><line x1="0" y1="1680" x2="1080" y2="1680"/><line x1="0" y1="1820" x2="1080" y2="1820"/>
+  </g>
+  <line x1="0" y1="1470" x2="1080" y2="1470" stroke="#0a0e15" stroke-width="10"/>
+
+  <!-- ventana -->
+  <g filter="url(#ink)">
+    <rect x="80" y="360" width="400" height="640" fill="url(#sky)"/>
+    <circle cx="380" cy="470" r="110" fill="url(#moonGlow)"/>
+    <circle cx="380" cy="470" r="42" fill="#e9eef7"/>
+    <path d="M80 1000 V820 h50 v-60 h60 v90 h40 v-140 h70 v120 h50 v-70 h60 v80 h70 V1000z" fill="#0c1324"/>
+    <g fill="#f3c46a"><rect x="148" y="790" width="10" height="14"/><rect x="250" y="740" width="10" height="14"/><rect x="270" y="790" width="10" height="14"/><rect x="420" y="860" width="10" height="14"/></g>
+    <rect x="80" y="360" width="400" height="640" fill="none" stroke="#0a0e15" stroke-width="16"/>
+    <line x1="280" y1="360" x2="280" y2="1000" stroke="#0a0e15" stroke-width="12"/>
+    <line x1="80" y1="680" x2="480" y2="680" stroke="#0a0e15" stroke-width="12"/>
+  </g>
+  <polygon points="80,1000 480,1000 760,1470 260,1470" fill="#c9d6f0" opacity=".05"/>
+
+  <!-- puerta -->
+  <g filter="url(#ink)">
+    <rect x="690" y="520" width="320" height="950" fill="#2b2119" stroke="#0a0e15" stroke-width="12"/>
+    <rect x="735" y="580" width="230" height="360" fill="none" stroke="#1d1611" stroke-width="8"/>
+    <rect x="735" y="1000" width="230" height="400" fill="none" stroke="#1d1611" stroke-width="8"/>
+    <circle cx="735" cy="980" r="14" fill="#8a7a62" stroke="#0a0e15" stroke-width="5"/>
+  </g>
+  <rect x="700" y="1462" width="300" height="10" fill="#f3c46a"/>
+  <rect x="680" y="1470" width="340" height="60" fill="url(#gap)" opacity=".35" filter="url(#blur)"/>
+
+  <!-- stickman -->
+  <g filter="url(#ink)" stroke="#111" stroke-linecap="round" stroke-linejoin="round">
+    <!-- piernas y cuerpo -->
+    <line x1="360" y1="1020" x2="360" y2="1300" stroke-width="10"/>
+    <line x1="360" y1="1300" x2="318" y2="1600" stroke-width="10"/>
+    <line x1="360" y1="1300" x2="408" y2="1600" stroke-width="10"/>
+    <line x1="318" y1="1600" x2="290" y2="1604" stroke-width="10"/>
+    <line x1="408" y1="1600" x2="436" y2="1604" stroke-width="10"/>
+    <!-- brazo con celular -->
+    <line x1="360" y1="1070" x2="300" y2="1160" stroke-width="10"/>
+    <line x1="300" y1="1160" x2="318" y2="1240" stroke-width="10"/>
+    <circle cx="302" cy="1258" r="13" fill="#111"/>
+    <rect x="304" y="1222" width="40" height="70" rx="8" fill="#0b0f17" stroke-width="6"/>
+    <rect x="310" y="1230" width="28" height="52" rx="4" fill="#9fd0ff" stroke="none" opacity=".9"/>
+    <!-- brazo con llaves -->
+    <line x1="360" y1="1070" x2="430" y2="1170" stroke-width="10"/>
+    <line x1="430" y1="1170" x2="452" y2="1250" stroke-width="10"/>
+    <circle cx="454" cy="1256" r="13" fill="#111"/>
+    <g stroke-width="4" fill="none"><circle cx="458" cy="1286" r="14"/><line x1="452" y1="1298" x2="446" y2="1330"/><line x1="464" y1="1298" x2="472" y2="1326"/></g>
+    <!-- paliacate -->
+    <path d="M300 1004 Q360 1030 422 1004 L372 1104 Z" fill="#c8282e" stroke-width="7"/>
+    <path d="M300 1004 Q360 1030 422 1004 L372 1104 Z" fill="url(#paisley)" stroke="none"/>
+    <path d="M398 1012 l30 34 l-8 6 z M398 1012 l40 16 l-4 9 z" fill="#c8282e" stroke-width="5"/>
+    <!-- cabeza -->
+    <circle cx="360" cy="890" r="122" fill="url(#headShade)" stroke-width="10"/>
+    <ellipse cx="392" cy="886" rx="11" ry="20" fill="#111" stroke="none"/>
+    <ellipse cx="440" cy="886" rx="11" ry="20" fill="#111" stroke="none"/>
+    <circle cx="395" cy="878" r="3.5" fill="#fff" stroke="none"/>
+    <circle cx="443" cy="878" r="3.5" fill="#fff" stroke="none"/>
+  </g>
+
+  <!-- Chispa -->
+  <g filter="url(#ink)" stroke="#111" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M520 1450 q-40 -50 -10 -90" fill="none"/>
+    <line x1="545" y1="1500" x2="535" y2="1585"/><line x1="575" y1="1505" x2="580" y2="1588"/>
+    <line x1="640" y1="1505" x2="632" y2="1588"/><line x1="668" y1="1500" x2="680" y2="1586"/>
+    <ellipse cx="605" cy="1470" rx="92" ry="48" fill="#6e4325"/>
+    <path d="M540 1428 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18 l12 -20 l12 18" fill="none" stroke-width="6"/>
+    <circle cx="695" cy="1420" r="46" fill="#6e4325"/>
+    <path d="M700 1380 l14 -58 l22 50 z" fill="#5a361d"/>
+    <path d="M668 1386 q-30 -10 -34 26 q18 -6 30 -12 z" fill="#5a361d"/>
+    <path d="M722 1420 q48 -6 52 22 q-6 22 -50 20 z" fill="#7d4f2d"/>
+    <path d="M736 1448 l8 -10 l8 10 l8 -10 l8 10" fill="#fff" stroke-width="3"/>
+    <circle cx="772" cy="1428" r="7" fill="#111" stroke="none"/>
+    <path d="M708 1402 l16 6" stroke-width="5"/>
+    <circle cx="716" cy="1412" r="5" fill="#111" stroke="none"/>
+    <path d="M655 1445 q30 20 62 6" fill="none" stroke="#2f6fd6" stroke-width="14"/>
+    <circle cx="686" cy="1470" r="11" fill="#9aa3ad" stroke-width="4"/>
+    <rect x="677" y="1465" width="18" height="10" fill="#c9c9b8" stroke="none" opacity=".9"/>
+  </g>
+  <g stroke="#e9edef" stroke-width="5" stroke-linecap="round" opacity=".8">
+    <path d="M800 1380 l26 -14"/><path d="M806 1420 l30 0"/><path d="M800 1460 l26 14"/>
+  </g>
+
+  <rect width="1080" height="1920" fill="url(#vignette)"/>
+</svg>
+<div class="sub">CHISPA NUNCA <span class="hot">GRUÑE.</span></div>
+</div>
+
+<!-- Tarjeta de cuaderno -->
+<div class="frame" id="card">
+  <div class="paper"></div>
+  <div class="ink day">Día 1</div>
+  <div class="ink rule">REGLA 1</div>
+  <div class="ink text">Si suena<br>la alerta,<br><u>no salgas.</u></div>
+</div>
+
+<!-- Chat del edificio -->
+<div class="frame" id="chat">
+  <div class="chat">
+    <div class="status"><span>3:40</span><span>▮▮▮ 41%</span></div>
+    <div class="head">
+      <span class="back">‹</span>
+      <div class="avatar">🏢</div>
+      <div><div class="title">Vecinos Edificio C</div><div class="members">86 participantes</div></div>
+    </div>
+    <div class="msgs">
+      <div class="pill">HOY</div>
+      <div class="msg"><div class="who" style="color:#e5a83b">Memo 101</div>bajen al punto de reunion. orden y calma 🙏<div class="t">3:14</div></div>
+      <div class="msg"><div class="who" style="color:#d78bd1">Rosa 402</div>que fue eso?? no temblo<div class="t">3:16</div></div>
+      <div class="msg"><div class="who" style="color:#6cc3a0">Paty 203</div>alguien vio a mi hijo??<div class="t">3:21</div></div>
+      <div class="new">1 MENSAJE NO LEÍDO</div>
+      <div class="msg last"><div class="who" style="color:#53bdeb">Lalo 305</div>no hagan ruido. estan en las escaleras<div class="t">3:40</div></div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

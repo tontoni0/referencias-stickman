@@ -1,0 +1,35 @@
+{
+  "intro": 1.8,
+  "cola": 3.0,
+  "cortes": [
+    ["golpes", null],
+    ["mirilla", "rosa se asoma por la mirilla"],
+    ["brazo", "tiene el brazo vendado"],
+    ["azotea", "en la azotea lo mordieron"],
+    ["abre", "abre rosa susurra"],
+    ["rosa", "rosa te agarra del brazo"],
+    ["grune", "chispa gruñe"],
+    ["tapa", "memo se tapa la cara"],
+    ["calla", "entonces la alerta se calla"],
+    ["pasos", "y en el silencio"],
+    ["golpea", "memo golpea la puerta"],
+    ["edificio", "cada golpe se oye"],
+    ["dilema", "si le abres sabes la verdad"],
+    ["decide", "le abres puerta o candado"]
+  ],
+  "marcas": {
+    "despacio": "despacio", "memoM": "es memo", "vendado": "vendado", "gris": "piel gris", "muneca": "muñeca",
+    "mordieron": "lo mordieron", "susurra": "susurra", "ciudad": "toda la ciudad", "nieta": "tu nieta",
+    "noabras": "no le abras", "corazon": "corazón", "voltea": "voltea de golpe", "ruido": "hacia el ruido", "ellos": "como ellos",
+    "todavia": "todavía soy yo", "todavia2": "todavía@2", "calla": "se calla", "silencio": "en el silencio",
+    "pasosM": "se oyen pasos", "muchos": "muchos", "postes": "de los postes", "golpeaM": "golpea la puerta",
+    "abreme": "ábreme", "yavienen": "ya vienen", "edificioM": "todo el edificio", "verdad": "sabes la verdad",
+    "mordido": "un mordido", "sino": "si no le abres", "afuera": "se queda afuera", "sabe": "lo que sabe",
+    "puerta": "puerta o candado", "candado": "candado", "comenta": "comenta"
+  },
+  "rojas": ["memo", "gris", "mordieron", "nieta", "corazón", "ellos", "calla", "muchos", "ábreme", "edificio", "verdad", "chispa", "afuera"],
+  "reemplazos": [],
+  "sin_subs": [
+    ["escena:decide", "fin"]
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "intro": 0.2,
+  "cola": 1.8,
+  "cortes": [
+    ["gancho", null],
+    ["ganchoAbajo", "veinte de ellos"],
+    ["ganchoVidrio", "en qué piso vives"],
+    ["rebobina", "diez minutos antes"],
+    ["dia2", "día dos"],
+    ["mecate", "pero tienes el mecate"],
+    ["amarra", "amarras una botella"],
+    ["baja", "y la bajas"],
+    ["patio", "abajo en el patio"],
+    ["giro", "el viento hace girar"],
+    ["chillido", "chispa suelta"],
+    ["cabeza", "abajo una cabeza"],
+    ["mano", "y una mano arrugada"],
+    ["sacude", "el mecate se sacude"],
+    ["nota", "gracias corazón"],
+    ["memo", "memo el administrador"],
+    ["chatmemo", "esa noche te escribe"],
+    ["parte4", "sígueme"]
+  ],
+  "marcas": {
+    "vidrio": "toca el vidrio", "veinte": "veinte de ellos", "piso": "en qué piso vives",
+    "sinagua": "sin agua", "escalera": "por la escalera",
+    "despacio": "despacio", "quietos": "quietos", "arriba": "cara hacia arriba",
+    "acerca": "se acerca", "pega": "si pega en el vidrio",
+    "chillido": "un chillido", "pequeno": "pequeño",
+    "mueve": "una cabeza se mueve", "aguantas": "aguantas", "cinco": "cinco segundos", "diez": "diez",
+    "atrapa": "atrapa la botella",
+    "dosveces": "dos veces", "subes": "lo subes", "papelito": "un papelito",
+    "dios": "dios te lo pague", "noabras": "no le abras",
+    "noche": "esa noche"
+  },
+  "rojas": ["vidrio", "veinte", "piso", "agua", "despacio", "arriba", "chillido", "respiración", "diez", "atrapa", "memo"],
+  "reemplazos": [
+    ["diez minutos antes", "10 minutos antes"], ["día dos", "día 2"], ["dos litros", "2 litros"],
+    ["cuatrocientos dos", "402"], ["parte cuatro", "parte 4"]
+  ],
+  "sin_subs": [
+    ["escena:rebobina", "escena:dia2"],
+    ["escena:nota", "escena:memo"],
+    ["escena:parte4", "fin"]
+  ]
+}

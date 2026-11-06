@@ -1,0 +1,14 @@
+{
+  "name": "la-alerta-video",
+  "private": true,
+  "description": "Render de la serie stickman La alerta: escenas SVG animadas en Chromium con Playwright, video con ffmpeg.",
+  "scripts": {
+    "parte1": "./hacer_parte1.sh",
+    "parte2": "./hacer_parte2.sh",
+    "parte3": "./hacer_parte3.sh",
+    "hoja-personajes": "node render.js personajes/hoja.html salida/hoja --cuadros 0 && cp salida/hoja/t0.00.png ../referencias/personajes/hoja_personajes.png"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

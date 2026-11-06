@@ -1,0 +1,45 @@
+{
+  "intro": 0.15,
+  "cola": 2.6,
+  "cortes": [
+    ["giran", null],
+    ["vidrio", "abajo la puerta"],
+    ["escalera", "suben por la escalera"],
+    ["rosa", "pasan frente"],
+    ["golpes", "golpes en tu puerta"],
+    ["cede", "la puerta cede"],
+    ["ventana", "solo queda"],
+    ["mano", "atrás de ti"],
+    ["pierde", "corre por la cornisa"],
+    ["nombre", "no puedes gritar"],
+    ["azotea", "subes por la escalerita"],
+    ["bodega", "oscuridad@2"],
+    ["vibra", "entonces el celular"],
+    ["foto", "y una foto"],
+    ["baja", "baja al 101"],
+    ["nota", "rosa te lo dijo"],
+    ["decide", "bajas con memo"]
+  ],
+  "marcas": {
+    "paga": "se paga", "revienta": "revienta",
+    "primer": "primer piso", "segundo": "segundo", "tercero": "tercero",
+    "rosaM": "de rosa", "siguen": "y siguen",
+    "silla": "le pones la silla", "tiembla": "chispa tiembla", "cede": "cede",
+    "ventanaM": "la ventana", "cornisa": "la cornisa", "otravez": "otra vez",
+    "manoM": "una mano", "suelta": "se suelta", "pierde": "se pierde",
+    "azoteaM": "hasta la azotea", "encierras": "te encierras",
+    "quince": "15%", "casa": "ellos están",
+    "vibra": "vibra", "memoN": "memo@2", "tengo": "tengo a tu perra",
+    "escha": "es chispa", "collar": "su collar", "placa": "su placa",
+    "subo": "o subo yo", "llave": "tengo llave",
+    "noabras": "no le abras",
+    "buscas": "o buscas", "comenta": "comenta"
+  },
+  "rojas": ["paga.", "revienta.", "tercero.", "cede.", "oscuridad.", "nombre.", "casa.", "perra.", "placa.", "101.", "bodegas.", "memo."],
+  "reemplazos": [
+    ["ciento uno", "101"], ["quince por ciento", "15%"]
+  ],
+  "sin_subs": [
+    ["escena:decide", "fin"]
+  ]
+}
