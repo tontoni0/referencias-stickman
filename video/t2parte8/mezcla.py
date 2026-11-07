@@ -105,7 +105,7 @@ def main(tl_js, voz, salida):
     ruido("qui", 0.5, "pink", "highpass=f=1500,afade=t=in:d=0.15,afade=t=out:st=0.25:d=0.25,volume=0.12", m["quitas"] + 0.1)
     d_au = ini["ultima"] - aullido_t
     f.append(("aul", f"{aullido(d_au, 2.6, 2.2)},aecho=0.8:0.7:300|600:0.45|0.3,volume=0.25,afade=t=out:st={d_au - 0.5:.2f}:d=0.5", aullido_t))
-    estampida("es2", m["lleva"] - 0.2, ini["ultima"] - m["lleva"], 0.3)
+    estampida("es2", m["lleva"] - 0.2, ini["ultima"] - m["lleva"], 0.24)
     f.append(("pat", f"aevalsrc='0.3*(2*random(0)-1)*exp(-60*mod(t,0.13))':s=44100:d=1.4,bandpass=f=1200:width_type=h:w=1500,volume=0.22", m["regresaM"] - 0.3))
     # 13. Última zona: el botón y la alerta, que sigue hasta el final
     f.append(("bt", "aevalsrc='0.4*(2*random(0)-1)*exp(-120*t)':s=44100:d=0.08,highpass=f=2000,volume=0.6", boton))

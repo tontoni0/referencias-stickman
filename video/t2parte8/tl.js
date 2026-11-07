@@ -1,6 +1,6 @@
 // Generado por lib/linea_de_tiempo.py. No editar a mano.
 const TL = {
- "duracion": 68.998,
+ "duracion": 75.79,
  "intro": 0.15,
  "escenas": [
   {
@@ -9,502 +9,502 @@ const TL = {
   },
   {
    "id": "cuentas",
-   "inicio": 1.72
+   "inicio": 1.988
   },
   {
    "id": "rinde",
-   "inicio": 6.976
+   "inicio": 7.317
   },
   {
    "id": "nocree",
-   "inicio": 11.902
+   "inicio": 12.861
   },
   {
    "id": "prueba",
-   "inicio": 15.306
+   "inicio": 16.607
   },
   {
    "id": "sistema",
-   "inicio": 19.784
+   "inicio": 21.622
   },
   {
    "id": "patios",
-   "inicio": 23.886
+   "inicio": 26.086
   },
   {
    "id": "plan",
-   "inicio": 27.474
+   "inicio": 30.169
   },
   {
    "id": "primera",
-   "inicio": 32.16
+   "inicio": 35.371
   },
   {
    "id": "puente",
-   "inicio": 35.422
+   "inicio": 38.598
   },
   {
    "id": "aulla",
-   "inicio": 38.6
+   "inicio": 41.872
   },
   {
    "id": "regresa",
-   "inicio": 42.432
+   "inicio": 45.843
   },
   {
    "id": "ultima",
-   "inicio": 45.588
+   "inicio": 48.777
   },
   {
    "id": "agarra",
-   "inicio": 49.24
+   "inicio": 52.802
   },
   {
    "id": "jala",
-   "inicio": 56.538
+   "inicio": 61.507
   },
   {
    "id": "entre",
-   "inicio": 60.052
+   "inicio": 65.694
   },
   {
    "id": "decide",
-   "inicio": 63.304
+   "inicio": 69.568
   }
  ],
  "marcas": {
-  "contarle": 0.408,
-  "tinaco": 2.436,
-  "ledices": 3.478,
-  "aprieta": 4.806,
-  "pecho": 5.748,
-  "sale": 7.176,
-  "manos": 7.908,
-  "rindo": 9.278,
-  "llevenme": 10.364,
-  "nocree": 12.444,
-  "cuenta": 13.52,
-  "noche": 14.036,
-  "catorce": 15.638,
-  "prueba": 16.796,
-  "solo": 17.566,
-  "abuela": 18.856,
-  "tresSeg": 19.984,
-  "tomo": 21.578,
-  "coord": 22.606,
-  "querian": 24.086,
-  "patios": 24.902,
-  "avenidas": 25.978,
-  "vacias": 26.62,
-  "planM": 27.674,
-  "noventa": 28.806,
-  "zona": 29.758,
-  "llegar": 30.632,
-  "rosa": 31.274,
-  "primeraM": 32.36,
-  "corren": 33.298,
-  "pasan": 34.326,
-  "puenteM": 35.622,
-  "nohay": 36.396,
-  "lleno": 37.43,
-  "quitas": 38.8,
-  "aullaM": 40.686,
-  "lleva": 41.33,
-  "rapida": 42.806,
-  "regresaM": 44.692,
-  "ultimaM": 45.788,
-  "boton": 47.326,
-  "suena": 48.012,
-  "yaNo": 49.83,
-  "agarraM": 51.848,
-  "suelta": 53.476,
-  "seLleva": 54.762,
-  "dos": 55.494,
-  "todavia": 57.08,
-  "jalaM": 58.792,
-  "ojos": 60.252,
-  "correPoste": 61.106,
-  "entreM": 62.092,
-  "salvas": 63.504,
-  "vas": 64.636,
-  "comenta": 65.622
+  "contarle": 0.583,
+  "tinaco": 2.744,
+  "ledices": 3.855,
+  "aprieta": 5.089,
+  "pecho": 6.022,
+  "sale": 7.517,
+  "manos": 8.317,
+  "rindo": 9.583,
+  "llevenme": 11.25,
+  "nocree": 13.528,
+  "cuenta": 14.705,
+  "noche": 15.238,
+  "catorce": 16.94,
+  "prueba": 18.34,
+  "solo": 19.272,
+  "abuela": 20.539,
+  "tresSeg": 21.822,
+  "tomo": 23.488,
+  "coord": 24.631,
+  "querian": 26.286,
+  "patios": 27.119,
+  "avenidas": 28.386,
+  "vacias": 29.086,
+  "planM": 30.369,
+  "noventa": 31.661,
+  "zona": 32.794,
+  "llegar": 33.861,
+  "rosa": 34.527,
+  "primeraM": 35.571,
+  "corren": 36.675,
+  "pasan": 37.732,
+  "puenteM": 38.798,
+  "nohay": 39.532,
+  "lleno": 40.709,
+  "quitas": 42.072,
+  "aullaM": 44.001,
+  "lleva": 44.827,
+  "rapida": 46.243,
+  "regresaM": 47.778,
+  "ultimaM": 48.977,
+  "boton": 50.729,
+  "suena": 51.503,
+  "yaNo": 53.802,
+  "agarraM": 55.949,
+  "suelta": 57.948,
+  "seLleva": 59.509,
+  "dos": 60.409,
+  "todavia": 62.373,
+  "jalaM": 64.281,
+  "ojos": 65.894,
+  "correPoste": 67.052,
+  "entreM": 68.052,
+  "salvas": 69.768,
+  "vas": 71.024,
+  "comenta": 72.135
  },
  "subs": [
   {
    "s": 0.15,
-   "e": 0.966,
+   "e": 1.15,
    "html": "GANÓ CONTARLE A"
   },
   {
-   "s": 0.966,
-   "e": 1.65,
+   "s": 1.15,
+   "e": 1.9,
    "html": "<span class=\"hot\">EVELIN.</span>"
   },
   {
-   "s": 1.92,
-   "e": 2.778,
+   "s": 2.188,
+   "e": 3.055,
    "html": "<span class=\"hot\">MEMO</span> ESTÁ DETRÁS"
   },
   {
-   "s": 2.778,
-   "e": 3.478,
+   "s": 3.055,
+   "e": 3.855,
    "html": "DEL TINACO"
   },
   {
-   "s": 3.478,
-   "e": 4.294,
+   "s": 3.855,
+   "e": 4.689,
    "html": "LE DICES."
   },
   {
-   "s": 4.464,
-   "e": 5.364,
+   "s": 4.689,
+   "e": 5.656,
    "html": "<span class=\"hot\">EVELIN</span> APRIETA LA"
   },
   {
-   "s": 5.364,
-   "e": 6.264,
+   "s": 5.656,
+   "e": 6.356,
    "html": "CONSOLA CONTRA EL"
   },
   {
-   "s": 6.264,
-   "e": 6.906,
+   "s": 6.356,
+   "e": 7.039,
    "html": "PECHO."
   },
   {
-   "s": 7.176,
-   "e": 7.908,
+   "s": 7.517,
+   "e": 8.317,
    "html": "<span class=\"hot\">MEMO</span> SALE CON"
   },
   {
-   "s": 7.908,
-   "e": 9.108,
+   "s": 8.317,
+   "e": 9.583,
    "html": "LAS MANOS ARRIBA."
   },
   {
-   "s": 9.278,
-   "e": 9.894,
+   "s": 9.583,
+   "e": 10.45,
    "html": "ME <span class=\"hot\">RINDO</span>"
   },
   {
-   "s": 9.894,
-   "e": 10.364,
+   "s": 10.45,
+   "e": 11.2,
    "html": "DICE."
   },
   {
-   "s": 10.364,
-   "e": 11.732,
+   "s": 11.25,
+   "e": 12.667,
    "html": "LLÉVENME CON USTEDES."
   },
   {
-   "s": 12.102,
-   "e": 12.792,
+   "s": 13.061,
+   "e": 13.827,
    "html": "<span class=\"hot\">EVELIN</span> NO LE"
   },
   {
-   "s": 12.792,
-   "e": 13.262,
+   "s": 13.827,
+   "e": 14.438,
    "html": "CREE."
   },
   {
-   "s": 13.262,
-   "e": 14.036,
+   "s": 14.438,
+   "e": 15.238,
    "html": "PERO TE CUENTA"
   },
   {
-   "s": 14.036,
-   "e": 15.236,
+   "s": 15.238,
+   "e": 16.659,
    "html": "LA PRIMERA NOCHE."
   },
   {
-   "s": 15.506,
-   "e": 16.496,
+   "s": 16.807,
+   "e": 18.007,
    "html": "A LAS <span class=\"hot\">3:14</span>"
   },
   {
-   "s": 16.496,
-   "e": 17.566,
+   "s": 18.007,
+   "e": 19.223,
    "html": "MANDÉ UNA PRUEBA."
   },
   {
-   "s": 17.566,
-   "e": 18.256,
+   "s": 19.272,
+   "e": 19.873,
    "html": "SOLO PARA EL"
   },
   {
-   "s": 18.256,
-   "e": 19.03,
+   "s": 19.873,
+   "e": 20.672,
    "html": "EDIFICIO DE MI"
   },
   {
-   "s": 19.03,
-   "e": 19.714,
+   "s": 20.672,
+   "e": 21.422,
    "html": "ABUELA."
   },
   {
-   "s": 19.984,
-   "e": 21.194,
+   "s": 21.822,
+   "e": 23.155,
    "html": "TRES SEGUNDOS DESPUÉS"
   },
   {
-   "s": 21.194,
-   "e": 22.01,
+   "s": 23.155,
+   "e": 23.888,
    "html": "ALGUIEN TOMÓ EL"
   },
   {
-   "s": 22.01,
-   "e": 22.606,
+   "s": 23.888,
+   "e": 24.631,
    "html": "SISTEMA."
   },
   {
-   "s": 22.606,
-   "e": 23.716,
+   "s": 24.631,
+   "e": 25.914,
    "html": "LA <span class=\"hot\">COORDINACIÓN.</span>"
   },
   {
-   "s": 24.086,
-   "e": 24.902,
+   "s": 26.286,
+   "e": 27.119,
    "html": "QUERÍAN A TODOS"
   },
   {
-   "s": 24.902,
-   "e": 25.846,
+   "s": 27.119,
+   "e": 28.169,
    "html": "EN LOS <span class=\"hot\">PATIOS.</span>"
   },
   {
-   "s": 25.846,
-   "e": 26.62,
+   "s": 28.219,
+   "e": 29.086,
    "html": "Y LAS AVENIDAS"
   },
   {
-   "s": 26.62,
-   "e": 27.304,
+   "s": 29.086,
+   "e": 29.969,
    "html": "<span class=\"hot\">VACÍAS.</span>"
   },
   {
-   "s": 27.674,
-   "e": 28.248,
+   "s": 30.369,
+   "e": 31.227,
    "html": "EL PLAN"
   },
   {
-   "s": 28.248,
-   "e": 29.19,
+   "s": 31.227,
+   "e": 31.994,
    "html": "ALERTAS DE <span class=\"hot\">90</span>"
   },
   {
-   "s": 29.19,
-   "e": 29.758,
+   "s": 31.994,
+   "e": 32.794,
    "html": "SEGUNDOS"
   },
   {
-   "s": 29.758,
-   "e": 30.632,
+   "s": 32.794,
+   "e": 33.861,
    "html": "ZONA POR ZONA"
   },
   {
-   "s": 30.632,
-   "e": 31.49,
+   "s": 33.861,
+   "e": 34.728,
    "html": "HASTA LLEGAR CON"
   },
   {
-   "s": 31.49,
-   "e": 32.09,
+   "s": 34.728,
+   "e": 35.411,
    "html": "<span class=\"hot\">ROSA.</span>"
   },
   {
-   "s": 32.36,
-   "e": 33.298,
+   "s": 35.571,
+   "e": 36.675,
    "html": "PRIMERA ALERTA."
   },
   {
-   "s": 33.298,
-   "e": 34.326,
+   "s": 36.675,
+   "e": 37.732,
    "html": "CORREN AL POSTE."
   },
   {
-   "s": 34.326,
-   "e": 35.352,
+   "s": 37.732,
+   "e": 38.798,
    "html": "USTEDES PASAN."
   },
   {
-   "s": 35.622,
-   "e": 36.396,
+   "s": 38.798,
+   "e": 39.532,
    "html": "BAJO EL PUENTE"
   },
   {
-   "s": 36.396,
-   "e": 37.298,
+   "s": 39.532,
+   "e": 40.509,
    "html": "NO HAY POSTE."
   },
   {
-   "s": 37.298,
-   "e": 38.33,
+   "s": 40.509,
+   "e": 41.659,
    "html": "Y ESTÁ <span class=\"hot\">LLENO.</span>"
   },
   {
-   "s": 38.8,
-   "e": 39.532,
+   "s": 42.072,
+   "e": 42.772,
    "html": "LE QUITAS LOS"
   },
   {
-   "s": 39.532,
-   "e": 40.686,
+   "s": 42.772,
+   "e": 44.001,
    "html": "AUDÍFONOS A CHISPA."
   },
   {
-   "s": 40.686,
-   "e": 41.198,
+   "s": 44.001,
+   "e": 44.76,
    "html": "<span class=\"hot\">AÚLLA.</span>"
   },
   {
-   "s": 41.198,
-   "e": 41.72,
+   "s": 44.76,
+   "e": 45.193,
    "html": "Y SE LOS"
   },
   {
-   "s": 41.72,
-   "e": 42.362,
+   "s": 45.193,
+   "e": 45.843,
    "html": "LLEVA."
   },
   {
-   "s": 42.632,
-   "e": 43.364,
+   "s": 46.043,
+   "e": 46.91,
    "html": "ES MÁS RÁPIDA"
   },
   {
-   "s": 43.364,
-   "e": 44.222,
+   "s": 46.91,
+   "e": 47.778,
    "html": "QUE <span class=\"hot\">ELLOS.</span>"
   },
   {
-   "s": 44.692,
-   "e": 45.418,
+   "s": 47.778,
+   "e": 48.662,
    "html": "REGRESA."
   },
   {
-   "s": 45.788,
-   "e": 46.6,
+   "s": 48.977,
+   "e": 49.963,
    "html": "ÚLTIMA ZONA."
   },
   {
-   "s": 46.6,
-   "e": 47.5,
+   "s": 49.963,
+   "e": 50.829,
    "html": "<span class=\"hot\">EVELIN</span> APRIETA EL"
   },
   {
-   "s": 47.5,
-   "e": 48.012,
+   "s": 50.829,
+   "e": 51.503,
    "html": "<span class=\"hot\">BOTÓN.</span>"
   },
   {
-   "s": 48.012,
-   "e": 49.17,
+   "s": 51.503,
+   "e": 52.921,
    "html": "LA ALERTA SUENA."
   },
   {
-   "s": 49.44,
-   "e": 50.004,
+   "s": 53.002,
+   "e": 53.935,
    "html": "Y <span class=\"hot\">MEMO</span> YA"
   },
   {
-   "s": 50.004,
-   "e": 50.694,
+   "s": 53.935,
+   "e": 54.602,
    "html": "NO TIENE LAS"
   },
   {
-   "s": 50.694,
-   "e": 51.678,
+   "s": 54.602,
+   "e": 55.835,
    "html": "MANOS ARRIBA."
   },
   {
-   "s": 51.848,
-   "e": 52.58,
+   "s": 55.949,
+   "e": 56.749,
    "html": "LA AGARRA POR"
   },
   {
-   "s": 52.58,
-   "e": 53.134,
+   "s": 56.749,
+   "e": 57.482,
    "html": "DETRÁS."
   },
   {
-   "s": 53.134,
-   "e": 53.992,
+   "s": 57.482,
+   "e": 58.415,
    "html": "<span class=\"hot\">EVELIN</span> NO SUELTA"
   },
   {
-   "s": 53.992,
-   "e": 54.762,
+   "s": 58.415,
+   "e": 59.432,
    "html": "LA CONSOLA."
   },
   {
-   "s": 54.762,
-   "e": 55.494,
+   "s": 59.509,
+   "e": 60.409,
    "html": "<span class=\"hot\">MEMO</span> SE LLEVA"
   },
   {
-   "s": 55.494,
-   "e": 56.268,
+   "s": 60.409,
+   "e": 61.193,
    "html": "LAS <span class=\"hot\">DOS.</span>"
   },
   {
-   "s": 56.738,
-   "e": 57.638,
+   "s": 61.707,
+   "e": 62.907,
    "html": "CHISPA TODAVÍA NO"
   },
   {
-   "s": 57.638,
-   "e": 58.792,
+   "s": 62.907,
+   "e": 64.281,
    "html": "TRAE LOS AUDÍFONOS."
   },
   {
-   "s": 58.792,
-   "e": 59.482,
+   "s": 64.281,
+   "e": 65.014,
    "html": "LA ALERTA LA"
   },
   {
-   "s": 59.482,
-   "e": 60.082,
+   "s": 65.014,
+   "e": 65.698,
    "html": "<span class=\"hot\">JALA.</span>"
   },
   {
-   "s": 60.252,
-   "e": 61.106,
+   "s": 65.894,
+   "e": 67.052,
    "html": "OJOS <span class=\"hot\">BLANCOS.</span>"
   },
   {
-   "s": 61.106,
-   "e": 62.092,
+   "s": 67.052,
+   "e": 68.052,
    "html": "CORRE AL POSTE."
   },
   {
-   "s": 62.092,
-   "e": 63.034,
+   "s": 68.052,
+   "e": 69.202,
    "html": "ENTRE <span class=\"hot\">ELLOS.</span>"
   },
   {
-   "s": 63.504,
-   "e": 64.504,
+   "s": 69.768,
+   "e": 70.891,
    "html": "¿SALVAS A CHISPA"
   },
   {
-   "s": 64.504,
-   "e": 65.068,
+   "s": 70.891,
+   "e": 71.491,
    "html": "O VAS POR"
   },
   {
-   "s": 65.068,
-   "e": 65.622,
+   "s": 71.491,
+   "e": 72.135,
    "html": "<span class=\"hot\">EVELIN?</span>"
   },
   {
-   "s": 65.622,
-   "e": 66.348,
+   "s": 72.135,
+   "e": 73.14,
    "html": "COMENTA."
   }
  ],
  "sinSubs": [
   [
-   63.304,
-   69.998
+   69.568,
+   76.79
   ]
  ]
 };
