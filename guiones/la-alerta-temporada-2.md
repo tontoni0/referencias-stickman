@@ -66,7 +66,7 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 | 5 | El metro | Metro | Oscuridad total, sin postes. Infectados quietos en el andén con la cara hacia arriba. La cinta de la placa de Chispa se despega. La placa suena una vez. Cientos de cabezas giran. | 🏃 corres por el túnel · 🤫 no te mueves |
 | 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). Antes, en el túnel, un infectado le muerde a Chispa una pata trasera; al llegar, la pata ya está gris. Memo aparece: los siguió por el ruido, tiene tarjeta de acceso y el gris ya le llega al cuello. Ve la pata de Chispa: "Ya somos dos." Dice que conoce el camino a la antena. | 🤝 lo dejas venir · 🔐 lo encierras en la sala de control |
 | 7 | La antena | Azotea del centro | Encuentras a Evelin. Te apunta con una llave de tuercas hasta que Chispa la huele y la reconoce: huele a la casa de Rosa. Entonces el ruido del viento jala a Chispa: ojos blancos, te tira una mordida. Evelin le pone sus audífonos de operadora y se calma (regla 5: sin ruido, se calman). Detrás del tinaco, el radio de Memo truena con la voz de la Coordinación: "Tráenos a la operadora y te curamos." Solo tú ves a Memo. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
-| 8 | Noventa segundos | Avenidas | Evelin cuenta la primera noche desde su lado. Plan: encadenar alertas zona por zona para alejar a los infectados y abrir un camino de regreso con Rosa. Chispa ayuda: sin audífonos aúlla y se los lleva. A la mitad, Memo agarra a Evelin y se la lleva con la consola. Chispa queda atrapada en el camino de los infectados. | 🐕 salvas a Chispa · 👩 vas por Evelin |
+| 8 | Noventa segundos | Azotea y avenidas | Evelin cuenta la primera noche desde su lado: a las 3:14 mandó una prueba solo para el edificio de su abuela y tres segundos después la Coordinación tomó el sistema; querían a todos en los patios y las avenidas vacías. Plan: alertas de 90 segundos con la consola, zona por zona, hasta llegar con Rosa. Bajo el puente no hay poste: Chispa, sin audífonos, aúlla y se los lleva; es más rápida y regresa. En la última zona Memo agarra a Evelin y se la lleva con la consola. Chispa todavía no trae los audífonos: la alerta la jala, ojos blancos, corre al poste entre ellos. | 🐕 salvas a Chispa · 👩 vas por Evelin |
 | 9 | Bajen al patio | Estadio y unidad | Memo entrega a Evelin en el estadio. La Coordinación se queda con ella y con la consola, y a él lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo. Por todos los radios: "Mañana a las 3:14, bajen al punto de reunión. Orden y calma." Evelin le manda a Rosa pitidos: "EL TABLERO VIEJO. HAY CURA." El gris de Chispa ya le pasa la cadera. Rosa decide salir del 402 por primera vez, pero la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
 | 10 | La última alerta | Centro de alerta, ciudad y unidad | Llegan al tablero viejo: Rosa en el micrófono, tú en la señal. 3:14. Suena la alerta de la Coordinación, pero la ciudad oye la voz de Rosa: "No bajen. Quédense en silencio. Esta alerta es mentira." La última alerta tiene que ir al estadio, donde está Evelin. Pitidos: "MANDALA ABUELA." Rosa la manda. Los infectados caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: Evelin llega al patio con un frasco del suero y se abraza con Rosa. Le pone la cura a Chispa: el gris se retira. Le quitas los audífonos, le mueves la placa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? |
 
@@ -82,7 +82,7 @@ De la parte 2 a la 9, todas terminan con una decisión para los comentarios, y l
 | Parte 5 | 🏃 Corres por el túnel con ellos detrás; una mano agarra a Chispa de la pata y la muerde antes de que llegues a la salida de emergencia. | 🤫 No te mueves, con Chispa temblando; te rozan y te huelen. Uno se agacha y le muerde la pata que cuelga de tus brazos; Chispa chilla y tienes que correr. | A Chispa la mordieron en una pata trasera. Sales junto al centro de alerta. |
 | Parte 6 | 🤝 Memo te guía a la azotea por las escaleras de servicio. Evelin lo ve llegar contigo y desconfía de los dos. | 🔐 Lo encierras, pero tiene la tarjeta. Aparece en la antena cuando menos lo esperas. | Memo está en la antena cuando habla la Coordinación. |
 | Parte 7 | 🗣️ Evelin lo sabe y no suelta la consola. Memo finge que se rinde. | 🤐 Evelin no sabe nada; Memo la ayuda con el plan y ella le agarra confianza. | Memo se lleva a Evelin en la parte 8. |
-| Parte 8 | 🐕 Sacas a Chispa del camino. Ves a Memo arrastrar a Evelin hacia el estadio. | 👩 Corres tras Memo y casi lo alcanzas en la puerta del estadio; te cierran en la cara. Chispa se salva sola: sin audífonos, aúlla, se los lleva y corre de regreso al 402 (se sabe el camino). | Evelin está en el estadio con la Coordinación. Tú y Chispa vuelven con Rosa. |
+| Parte 8 | 🐕 Corres al poste entre ellos y sacas a Chispa; le pones los audífonos y vuelve en sí. Ves a Memo arrastrar a Evelin hacia el estadio. | 👩 Corres tras Memo y casi lo alcanzas en la puerta del estadio; te cierran en la cara. Chispa se salva sola: cuando la alerta se calla, el jalón se va, se escabulle entre ellos quietos y corre de regreso al 402 (se sabe el camino). | Evelin está en el estadio con la Coordinación. Tú y Chispa vuelven con Rosa. |
 | Parte 9 | 🪢 Rosa baja por la ventana con el mecate del tendedero (el de la botella de la temporada 1). | 🚪 Bajan por la escalera, entre los infectados quietos, sin respirar. | Llegan al tablero viejo justo antes de las 3:14. |
 
 Para que el público sienta que su voto cuenta, cada parte abre con la tarjeta "GANÓ" y la opción ganadora, como en la temporada 1 (partes 7 y 8).
@@ -494,3 +494,69 @@ La parte 8 se hace con lo que gane.
 ```
 
 Desde esta parte Chispa trae puestos los audífonos de Evelin y Evelin ya no los tiene.
+
+## Parte 8 · Noventa segundos (gana 🗣️)
+
+**Estado:** terminada. Video en `episodios/t2-parte-08-noventa-segundos/` (75.8 s, 17 escenas).
+**Título:** Le conté a Evelin. Igual se la llevó | Temporada 2, parte 8
+**Portada:** NOVENTA SEGUNDOS.
+
+En los comentarios de la parte 7 iba ganando 🗣️ (le cuentas a Evelin). Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": 🗣️ LE CUENTAS A EVELIN encendida, 🤐 TE LO CALLAS tachada.
+Voz: "Ganó contarle a Evelin."
+
+**2** En la azotea señalas el tinaco. Evelin aprieta la consola contra el pecho.
+Voz: "Memo está detrás del tinaco, le dices. Evelin aprieta la consola contra el pecho."
+
+**3** Memo sale de detrás del tinaco con las manos arriba (la derecha gris y vendada) y el radio en el cinturón.
+Voz: "Memo sale con las manos arriba. Me rindo, dice. Llévenme con ustedes."
+
+**4** Evelin, con la consola abrazada, lo mira con desconfianza y luego te mira a ti.
+Voz: "Evelin no le cree. Pero te cuenta la primera noche."
+
+**5** Recuerdo en la sala de control (letrero "La primera noche · 3:14"): Evelin aprieta el botón de prueba y se prende la zona del Edificio C.
+Voz: "A las tres catorce mandé una prueba. Solo para el edificio de mi abuela."
+
+**6** Recuerdo ("3:14 y 5 segundos"): todas las zonas se prenden en rojo, "TODAS LAS ZONAS" y "USUARIO: COORDINACIÓN". Evelin se lleva las manos a la cabeza.
+Voz: "Tres segundos después, alguien tomó el sistema. La Coordinación."
+
+**7** La ciudad desde arriba, de noche: la gente en los patios de las unidades y los infectados que entran desde las avenidas. Las avenidas quedan vacías, marcadas en rojo.
+Voz: "Querían a todos en los patios. Y las avenidas vacías."
+
+**8** Hoja de cuaderno "EL PLAN": CENTRO, zona 1 (90 s), el puente, zona 2 (90 s) y la casa de ROSA, con la ruta punteada.
+Voz: "El plan: alertas de noventa segundos, zona por zona, hasta llegar con Rosa."
+
+**9** Una avenida: el poste suena, los infectados corren hacia él y ustedes pasan corriendo (Memo con las manos arriba).
+Voz: "Primera alerta. Corren al poste. Ustedes pasan."
+
+**10** Un paso a desnivel: abajo, cientos de infectados quietos con la cara hacia arriba.
+Voz: "Bajo el puente no hay poste. Y está lleno."
+
+**11** Le quitas los audífonos a Chispa (de cerca) y aúlla.
+Voz: "Le quitas los audífonos a Chispa. Aúlla. Y se los lleva."
+
+**12** Chispa corre y los infectados tras ella; los deja atrás y regresa contigo.
+Voz: "Es más rápida que ellos. Regresa."
+
+**13** La consola de cerca: "ZONA 2 · 1:30". Evelin aprieta el botón y la alerta suena.
+Voz: "Última zona. Evelin aprieta el botón. La alerta suena."
+
+**14** Memo baja las manos, agarra a Evelin por detrás con el brazo gris y se la lleva; ella no suelta la consola. Tú tienes los audífonos de Chispa en la mano.
+Voz: "Y Memo ya no tiene las manos arriba. La agarra por detrás. Evelin no suelta la consola. Memo se lleva las dos."
+
+**15** Chispa, sin audífonos, voltea hacia la alerta y la jala.
+Voz: "Chispa todavía no trae los audífonos. La alerta la jala."
+
+**16** Ojos blancos de cerca. Luego, de lejos: Chispa (marcada con un círculo rojo) corre al poste entre la estampida, y del otro lado Memo arrastra a Evelin.
+Voz: "Ojos blancos. Corre al poste. Entre ellos."
+
+**17** Tarjeta de decisión: "¿QUÉ HACES?", 🐕 SALVAS A CHISPA · 👩 VAS POR EVELIN.
+Voz: "¿Salvas a Chispa, o vas por Evelin? Comenta."
+
+**Comentario fijado:**
+```
+Chispa corre al poste y Memo se lleva a Evelin. ¿Qué haces?
+🐕 Salvo a Chispa · 👩 Voy por Evelin
+La parte 9 se hace con lo que gane.
+```
