@@ -113,7 +113,7 @@ Cada carpeta tiene `FICHA.md` con el código, la voz, los recursos y los comando
 1. Fusionar el PR a `main` para que una sesión nueva lo vea todo en la rama principal.
 2. Que el usuario revise el audio de las partes 1 a 7, sobre todo los aullidos de la parte 5, los golpes de la parte 6, los pitidos en clave de la temporada 2, parte 1, y la voz de radio de la temporada 2, parte 7.
 3. Publicar las partes 1 a 7 de la temporada 2 con el comentario fijado de cada `FICHA.md`.
-4. Con el voto de la parte 7 (🗣️ o 🤐), hacer la parte 8, "Noventa segundos".
+4. Parte 8, "Noventa segundos" (va ganando 🗣️): escenas (`video/t2parte8/escenas.js`), cortes y mezcla hechos con tiempos provisionales. Falta la voz: el 07/11 ElevenLabs llegó al límite del mes (quedaban 541 de 40,000 créditos y la voz pide unos 2,000; el texto está en `video/audio/t2parte8/texto_voz.txt` y el flujo es `Z1ltizgcQE2ET1qI3mFQ`). Con créditos: generar la voz, transcribir, recortar pausas, correr `./hacer_t2parte8.sh`, revisar niveles y cuadros (los tiempos cambian), publicar y documentar.
 5. Decidir si se rehace el inicio de las partes 1 y 2 con flash-forward.
 6. Versión larga y portadas.
 
