@@ -67,7 +67,7 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 | 6 | El centro de alerta | Centro de alerta | La sala de control abandonada. El registro de la primera noche: 3:14:02, prueba en zona "U.H. EDIFICIO C" (usuario EVELIN); 3:14:05, "TODAS LAS ZONAS" (usuario COORDINACIÓN). Antes, en el túnel, un infectado le muerde a Chispa una pata trasera; al llegar, la pata ya está gris. Memo aparece: los siguió por el ruido, tiene tarjeta de acceso y el gris ya le llega al cuello. Ve la pata de Chispa: "Ya somos dos." Dice que conoce el camino a la antena. | 🤝 lo dejas venir · 🔐 lo encierras en la sala de control |
 | 7 | La antena | Azotea del centro | Encuentras a Evelin. Te apunta con una llave de tuercas hasta que Chispa la huele y la reconoce: huele a la casa de Rosa. Entonces el ruido del viento jala a Chispa: ojos blancos, te tira una mordida. Evelin le pone sus audífonos de operadora y se calma (regla 5: sin ruido, se calman). Detrás del tinaco, el radio de Memo truena con la voz de la Coordinación: "Tráenos a la operadora y te curamos." Solo tú ves a Memo. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
 | 8 | Noventa segundos | Azotea y avenidas | Evelin cuenta la primera noche desde su lado: a las 3:14 mandó una prueba solo para el edificio de su abuela y tres segundos después la Coordinación tomó el sistema; querían a todos en los patios y las avenidas vacías. Plan: alertas de 90 segundos con la consola, zona por zona, hasta llegar con Rosa. Bajo el puente no hay poste: Chispa, sin audífonos, aúlla y se los lleva; es más rápida y regresa. En la última zona Memo agarra a Evelin y se la lleva con la consola. Chispa todavía no trae los audífonos: la alerta la jala, ojos blancos, corre al poste entre ellos. | 🐕 salvas a Chispa · 👩 vas por Evelin |
-| 9 | Bajen al patio | Estadio y unidad | Memo entrega a Evelin en el estadio. La Coordinación se queda con ella y con la consola, y a él lo deja afuera: "No evacuamos mordidos." Memo se transforma del todo. Por todos los radios: "Mañana a las 3:14, bajen al punto de reunión. Orden y calma." Evelin le manda a Rosa pitidos: "EL TABLERO VIEJO. HAY CURA." El gris de Chispa ya le pasa la cadera. Rosa decide salir del 402 por primera vez, pero la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
+| 9 | Bajen al patio | Avenida, estadio y 402 | Salvas a Chispa del poste y le pones los audífonos. Memo arrastra a Evelin al estadio: se abre una reja y unos guantes negros se llevan a Evelin y la consola. Memo estira el brazo gris; una bocina: "No evacuamos mordidos." La reja se cierra y a Memo se le van las pupilas: ya no es Memo. Tú y Chispa vuelven con Rosa. A medianoche el radio de Rosa habla solo: "Hoy a las 3:14, bajen al punto de reunión. Orden y calma." (lo mismo que escribió Memo la primera noche). Pitidos de Evelin: "EL TABLERO VIEJO. HAY CURA." El gris de Chispa ya pasó la cadera. Rosa apaga la vela: por primera vez va a salir. Abre la puerta: el radio los trajo y la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
 | 10 | La última alerta | Centro de alerta, ciudad y unidad | Llegan al tablero viejo: Rosa en el micrófono, tú en la señal. 3:14. Suena la alerta de la Coordinación, pero la ciudad oye la voz de Rosa: "No bajen. Quédense en silencio. Esta alerta es mentira." La última alerta tiene que ir al estadio, donde está Evelin. Pitidos: "MANDALA ABUELA." Rosa la manda. Los infectados caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: Evelin llega al patio con un frasco del suero y se abraza con Rosa. Le pone la cura a Chispa: el gris se retira. Le quitas los audífonos, le mueves la placa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? |
 
 De la parte 2 a la 9, todas terminan con una decisión para los comentarios, y la parte siguiente se hace con lo que gane. Lo que cambia es cómo pasa el principio de la parte siguiente: el camino, el peligro, quién está dónde. Lo que está en la columna "Qué pasa" ocurre igual gane lo que gane, así que todas las opciones llegan al mismo final. La 10 cierra preguntando de qué quieren la siguiente historia.
@@ -559,4 +559,67 @@ Voz: "¿Salvas a Chispa, o vas por Evelin? Comenta."
 Chispa corre al poste y Memo se lleva a Evelin. ¿Qué haces?
 🐕 Salvo a Chispa · 👩 Voy por Evelin
 La parte 9 se hace con lo que gane.
+```
+
+## Parte 9 · Bajen al patio (gana 🐕)
+
+**Estado:** terminada. Video en `episodios/t2-parte-09-bajen-al-patio/` (75.0 s, 16 escenas).
+**Título:** Salvé a Chispa. A Evelin se la llevaron | Temporada 2, parte 9
+**Portada:** NO EVACUAMOS MORDIDOS.
+
+En los comentarios de la parte 8 gana 🐕 (salvas a Chispa). Abre con la tarjeta del voto.
+
+**1** Tarjeta "GANÓ": 🐕 SALVAS A CHISPA encendida, 👩 VAS POR EVELIN tachada.
+Voz: "Ganó salvar a Chispa."
+
+**2** El poste suena; los infectados se amontonan con los brazos arriba y Chispa está entre ellos (círculo rojo). Corres hacia ella.
+Voz: "Corres al poste, entre ellos. El ruido es gratis."
+
+**3** Chispa de cerca, con los ojos blancos y gruñendo. La agarras y le pones los audífonos: se calma y los ojos le vuelven.
+Voz: "La agarras. Le pones los audífonos. Vuelve a ser Chispa."
+
+**4** Atardecer. Al fondo de la avenida, el estadio con sus reflectores y un helicóptero. Memo arrastra a Evelin hacia allá. Tú cargas a Chispa.
+Voz: "A lo lejos, Memo arrastra a Evelin hacia el estadio."
+
+**5** La reja del estadio (letrero ESTADIO, el emblema rojo de la Coordinación, una bocina). La reja se abre; dos brazos con guantes negros salen de lo oscuro, agarran a Evelin de los hombros y la jalan adentro; otro guante le quita la consola.
+Voz: "Ahí se abre una reja. Unos guantes negros se llevan a Evelin. Y la consola."
+
+**6** Memo estira el brazo gris hacia adentro. La bocina habla (voz con filtro de megáfono).
+Voz: "Memo estira el brazo gris. No evacuamos mordidos, dice una bocina."
+
+**7** La reja se cierra ("¡CLANG!"). Memo de cerca detrás de los barrotes: se le ponen los ojos blancos, la cabeza se le pone gris y voltea hacia arriba, como ellos.
+Voz: "La reja se cierra. Y a Memo se le van las pupilas. Ya no es Memo."
+
+**8** La cocina de Rosa con la vela. Rosa abre los brazos; tú llegas con Chispa.
+Voz: "Tú y Chispa vuelven con Rosa."
+
+**9** Medianoche (reloj en las 12). El radio viejo se prende solo, con estática.
+Voz: "A medianoche, el radio de Rosa habla solo."
+
+**10** El radio de cerca y la libreta de Rosa con "3:14" escrito muchas veces (el último en rojo). La voz sale con filtro de radio.
+Voz: "Hoy a las tres catorce, bajen al punto de reunión. Orden y calma."
+
+**11** Recuerdo: el chat "Vecinos Edificio C", la primera noche, 3:14: Memo 101, "bajen al punto de reunion. orden y calma 🙏" (marcado en rojo).
+Voz: "Lo mismo que escribió Memo la primera noche."
+
+**12** El radio pita en clave y Rosa escribe en la libreta, letra por letra: "EL TABLERO / VIEJO" y, en rojo, "HAY CURA" (subrayado).
+Voz: "Luego, pitidos. Rosa escribe: el tablero viejo. Hay cura."
+
+**13** Chispa de lado, temblando, con los audífonos: el gris de la pata ya le cubre la cadera (círculo rojo).
+Voz: "Chispa tiembla. El gris ya le pasó la cadera."
+
+**14** Rosa sopla la vela; queda la luz de la luna. Rosa mira al frente.
+Voz: "Rosa apaga la vela. Por primera vez, va a salir."
+
+**15** El Edificio C en corte: Rosa se asoma por la puerta del 402 y la escalera, de la planta baja al cuarto piso, está llena de infectados con la cara hacia arriba.
+Voz: "Abre la puerta. El radio los trajo. La escalera está llena."
+
+**16** Tarjeta de decisión: "¿POR DÓNDE BAJAN?", 🪢 POR LA VENTANA, CON EL MECATE · 🚪 POR LA ESCALERA, ENTRE ELLOS.
+Voz: "¿Bajan por la ventana con el mecate, o por la escalera, entre ellos? Comenta."
+
+**Comentario fijado:**
+```
+La escalera está llena. ¿Por dónde bajan?
+🪢 Por la ventana, con el mecate · 🚪 Por la escalera, entre ellos
+La parte 10 es la última. Se hace con lo que gane.
 ```

@@ -29,5 +29,6 @@ Diseño completo en `guiones/la-alerta-temporada-2.md`. Son 10 partes y la histo
 | 6 | El centro de alerta (interactiva, ganó 🤫) | 70.7 s | 16 | Tarjeta del voto: "GANÓ" 🤫. Muerden a Chispa; el registro de la primera noche; Memo. Termina con decisión: 🤝 lo dejas venir o 🔐 lo encierras aquí | `t2-parte-06-el-centro-de-alerta/` |
 | 7 | La antena (interactiva, ganó 🔐) | 67.7 s | 17 | Tarjeta del voto: "GANÓ" 🔐. Evelin en la azotea; los ojos blancos de Chispa y los audífonos; Memo detrás del tinaco. Termina con decisión: 🗣️ le cuentas a Evelin o 🤐 te lo callas | `t2-parte-07-la-antena/` |
 | 8 | Noventa segundos (interactiva, gana 🗣️) | 75.8 s | 17 | Tarjeta del voto: "GANÓ" 🗣️. Evelin cuenta la primera noche; el plan de alertas por zona; Chispa aúlla bajo el puente; Memo se lleva a Evelin. Termina con decisión: 🐕 salvas a Chispa o 👩 vas por Evelin | `t2-parte-08-noventa-segundos/` |
+| 9 | Bajen al patio (interactiva, gana 🐕) | 75.0 s | 16 | Tarjeta del voto: "GANÓ" 🐕. Salvas a Chispa; la Coordinación se lleva a Evelin y Memo se transforma; el radio anuncia la alerta de las 3:14; "EL TABLERO VIEJO. HAY CURA"; la escalera llena. Termina con decisión: 🪢 por la ventana con el mecate o 🚪 por la escalera | `t2-parte-09-bajen-al-patio/` |
 
 Los videos se regeneran desde `video/` con `./hacer_parteN.sh --publicar` (temporada 2: `./hacer_t2parteN.sh --publicar`).
