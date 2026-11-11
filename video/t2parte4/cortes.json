@@ -1,0 +1,129 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "mostrador",
+      "chispa tiembla"
+    ],
+    [
+      "minutos",
+      "diez minutos"
+    ],
+    [
+      "suena",
+      "entonces la alerta"
+    ],
+    [
+      "aulla",
+      "pero chispa no"
+    ],
+    [
+      "recuerdo",
+      "hace tres años"
+    ],
+    [
+      "losa",
+      "sonaba la alerta"
+    ],
+    [
+      "silbas",
+      "silbas"
+    ],
+    [
+      "cuenta",
+      "cinco"
+    ],
+    [
+      "calla",
+      "la alerta se calla"
+    ],
+    [
+      "regresan",
+      "ellos regresan"
+    ],
+    [
+      "salida",
+      "pero a media cuadra"
+    ],
+    [
+      "tunel",
+      "debajo de los dos"
+    ],
+    [
+      "decide",
+      "bajas por el metro"
+    ]
+  ],
+  "marcas": {
+    "esperar": "ganó esperar",
+    "escondes": "te escondes",
+    "tiembla": "chispa tiembla",
+    "nadie": "nadie se mueve",
+    "diez": "diez minutos",
+    "veinteM": "veinte@1",
+    "vuelve": "vuelve a sonar",
+    "evelin": "evelin",
+    "corren": "corren al poste",
+    "chispano": "pero chispa no",
+    "aulla": "chispa aúlla",
+    "siempre": "siempre aúlla",
+    "encontraste": "así la encontraste",
+    "hace": "hace tres años",
+    "sismo": "gran sismo",
+    "escombros": "entre los escombros",
+    "sonaba": "sonaba la alerta",
+    "losa": "debajo de una losa",
+    "aullaba": "algo aullaba",
+    "silbas": "silbas",
+    "corre": "chispa corre",
+    "entre": "entre ellos",
+    "dura": "la alerta dura",
+    "veinte": "veinte segundos",
+    "cinco": "cinco",
+    "cuatro": "cuatro",
+    "salta": "chispa salta",
+    "calla": "se calla",
+    "tapas": "le tapas",
+    "regresan": "ellos regresan",
+    "ahora": "ahora están",
+    "casa": "tu casa",
+    "novolver": "no puedes volver",
+    "media": "a media cuadra",
+    "metro": "del metro",
+    "lado": "y al lado",
+    "caido": "edificio caído",
+    "debajo": "debajo de los dos",
+    "tunel": "el túnel",
+    "centro": "centro de alerta",
+    "bajas": "bajas por el metro",
+    "escombros2": "por los escombros",
+    "comenta": "comenta"
+  },
+  "rojas": [
+    "esperar",
+    "chispa",
+    "evelin",
+    "aúlla",
+    "encontraste",
+    "aullaba",
+    "silbas",
+    "veinte",
+    "calla",
+    "hocico",
+    "volver",
+    "metro",
+    "túnel"
+  ],
+  "reemplazos": [],
+  "sin_subs": [
+    [
+      "escena:decide",
+      "fin"
+    ]
+  ]
+}

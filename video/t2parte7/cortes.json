@@ -1,0 +1,158 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "encierras",
+      "lo encierras"
+    ],
+    [
+      "azotea",
+      "subes a la azotea"
+    ],
+    [
+      "apunta",
+      "y alguien te apunta"
+    ],
+    [
+      "evelin",
+      "evelin audífonos"
+    ],
+    [
+      "huele",
+      "chispa la huele"
+    ],
+    [
+      "baja",
+      "evelin baja"
+    ],
+    [
+      "viento",
+      "entonces el viento"
+    ],
+    [
+      "ojos",
+      "los ojos blancos"
+    ],
+    [
+      "mordida",
+      "te tira"
+    ],
+    [
+      "audifonos",
+      "evelin se quita"
+    ],
+    [
+      "silencio",
+      "silencio"
+    ],
+    [
+      "regla",
+      "a los mordidos"
+    ],
+    [
+      "radio",
+      "detrás del tinaco"
+    ],
+    [
+      "voz",
+      "tráenos"
+    ],
+    [
+      "memo",
+      "es memo"
+    ],
+    [
+      "decide",
+      "le cuentas"
+    ]
+  ],
+  "marcas": {
+    "candado": "el candado",
+    "encierrasM": "lo encierras",
+    "salaM": "sala de control",
+    "golpea": "memo golpea",
+    "vidrio": "el vidrio",
+    "pero": "pero tiene",
+    "tarjeta": "la tarjeta",
+    "subes": "subes a la azotea",
+    "conChispa": "con chispa",
+    "vientoM": "viento",
+    "antena": "la antena",
+    "alguien": "y alguien",
+    "apuntaM": "te apunta",
+    "llave": "una llave",
+    "tuercas": "tuercas",
+    "evelinM": "evelin audífonos",
+    "cuello": "al cuello",
+    "consola": "una consola",
+    "quien": "quién eres",
+    "susurra": "susurra",
+    "laHuele": "la huele",
+    "cola": "mueve la cola",
+    "huele2": "huele a la casa",
+    "rosa": "de rosa",
+    "bajaM": "baja la llave",
+    "mando": "te mandó",
+    "abuela": "mi abuela",
+    "entonces": "entonces el viento",
+    "sopla": "sopla fuerte",
+    "voltea": "voltea",
+    "ruido": "hacia el ruido",
+    "ojosM": "los ojos blancos",
+    "tira": "te tira",
+    "mordidaM": "una mordida",
+    "quita": "se quita",
+    "pone": "se los pone",
+    "silencioM": "silencio",
+    "vuelve": "vuelve a ser",
+    "mordidos": "a los mordidos",
+    "jala": "los jala",
+    "dice": "dice evelin",
+    "sinRuido": "sin ruido",
+    "calman": "se calman",
+    "detras": "detrás del tinaco",
+    "radioM": "un radio",
+    "truena": "truena",
+    "traenos": "tráenos",
+    "operadora": "operadora",
+    "diceVoz": "dice una voz",
+    "unaVoz": "una voz",
+    "yTe": "y te curamos",
+    "curamos": "te curamos",
+    "esMemo": "es memo",
+    "salio": "ya salió",
+    "nadie": "y nadie",
+    "masQueTu": "más que tú",
+    "cuentas": "le cuentas",
+    "callas": "te lo callas",
+    "comenta": "comenta"
+  },
+  "rojas": [
+    "candado",
+    "memo",
+    "tarjeta",
+    "antena",
+    "evelin",
+    "rosa",
+    "abuela",
+    "blancos",
+    "mordida",
+    "silencio",
+    "ruido",
+    "operadora",
+    "curamos",
+    "tú"
+  ],
+  "reemplazos": [],
+  "sin_subs": [
+    [
+      "escena:decide",
+      "fin"
+    ]
+  ]
+}

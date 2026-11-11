@@ -1,0 +1,29 @@
+{
+  "intro": 1.2,
+  "cola": 1.8,
+  "cortes": [
+    ["alerta", null],
+    ["unidad", "y esa noche"],
+    ["cama", "te levantas"],
+    ["objetos", "celular"],
+    ["puerta", "ya estás"],
+    ["patio", "te asomas"],
+    ["vaso", "la alerta se calla"],
+    ["avenida", "entonces los ves"],
+    ["ojos", "alguien grita"],
+    ["piso", "cierras la cortina"],
+    ["chat", "a las tres cuarenta"],
+    ["parte2", "sígueme"]
+  ],
+  "marcas": {
+    "celular": "celular", "llaves": "llaves", "chanclas": "chanclas",
+    "gruñe": "le gruñe", "nunca": "chispa nunca",
+    "reunion": "punto de reunión", "simulacros": "simulacros",
+    "decenas": "decenas", "ruido": "hacia el ruido",
+    "grita": "grita", "voltean": "voltean",
+    "mensaje": "mensaje", "susurro": "no hagan ruido"
+  },
+  "rojas": ["3:14", "3:40", "alerta", "sísmica", "peor", "gruñe", "simulacros", "movió", "decenas", "ruido", "grito", "escaleras", "hocico"],
+  "reemplazos": [["tres catorce", "3:14"], ["tres cuarenta", "3:40"], ["parte dos", "parte 2"]],
+  "sin_subs": [["marca:susurro", "fin"], ["escena:parte2", "fin"]]
+}

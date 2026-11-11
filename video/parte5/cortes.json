@@ -1,0 +1,45 @@
+{
+  "intro": 0.15,
+  "cola": 1.8,
+  "cortes": [
+    ["noche", null],
+    ["aullido", "y chispa empieza"],
+    ["notiembla", "no tiembla"],
+    ["lanzas", "te lanzas"],
+    ["esquina", "pero allá abajo"],
+    ["amontonan", "se amontonan"],
+    ["vacio", "el patio queda vacío"],
+    ["nadie", "y chispa sigue aullando"],
+    ["cronometro", "tomas el tiempo"],
+    ["prueba", "pruebas"],
+    ["diez", "diez segundos"],
+    ["cinco", "cinco le tapas"],
+    ["silencio", "la alerta se calla"],
+    ["giran", "abajo todas las cabezas"],
+    ["regla4", "regla cuatro"],
+    ["memo", "alguien está activando"],
+    ["parte6", "sígueme"]
+  ],
+  "marcas": {
+    "suena": "vuelve a sonar", "aullar": "empieza a aullar", "otravez": "otra vez",
+    "hocico": "taparle el hocico", "nadie": "nadie voltea", "corren": "todos corren", "poste": "hacia el poste",
+    "empujan": "se empujan", "estiran": "estiran los brazos", "primera": "por primera vez",
+    "escucha": "nadie la escucha", "noventa": "noventa segundos",
+    "silla": "arrastras una silla", "nada1": "nada", "lata": "tiras una lata", "nada2": "nada@2",
+    "diez": "diez segundos", "nocalla": "no se calla", "cinco": "cinco", "tapas": "le tapas", "retuerce": "se retuerce",
+    "tres": "tres", "dos": "dos", "calla": "la alerta se calla", "ultimo": "el último aullido", "silencio": "en el silencio",
+    "giran": "cabezas giran", "edificio": "tu edificio",
+    "mientras": "mientras suena", "gratis": "es gratis", "paga": "se paga",
+    "proposito": "a propósito", "memo": "y memo ya"
+  },
+  "rojas": ["3:14", "aullar", "aullando", "nadie", "vacío", "90 segundos", "10 segundos", "calla", "retuerce",
+            "silencio", "edificio", "gratis", "paga", "propósito"],
+  "reemplazos": [
+    ["tres catorce", "3:14"], ["tres días", "3 días"], ["noventa segundos", "90 segundos"],
+    ["diez segundos", "10 segundos"], ["regla cuatro", "regla 4"], ["parte seis", "parte 6"]
+  ],
+  "sin_subs": [
+    ["marca:mientras", "escena:memo"],
+    ["escena:parte6", "fin"]
+  ]
+}

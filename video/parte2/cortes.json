@@ -1,0 +1,54 @@
+{
+  "intro": 0.3,
+  "cola": 1.8,
+  "cortes": [
+    ["dia1", null],
+    ["regla1", "regla uno"],
+    ["regla2", "regla dos"],
+    ["inventario", "haces inventario"],
+    ["silencio", "pones el celular"],
+    ["reloj", "le quitas la pila"],
+    ["cinta", "y le pones cinta"],
+    ["chat", "en la tarde"],
+    ["tamales", "la que te regala"],
+    ["corte", "vive justo debajo"],
+    ["oreja", "pegas la oreja"],
+    ["parte3", "sígueme"]
+  ],
+  "marcas": {
+    "ruido": "te encuentran por el ruido",
+    "r1texto": "si suena la alerta",
+    "nosalgas": "no salgas",
+    "todo": "todo lo que te",
+    "mata": "ahora te mata",
+    "r2texto": "si haces ruido",
+    "encontraron": "ya te encontraron",
+    "garrafon": "garrafón",
+    "comida": "comida para",
+    "croquetas": "croquetas",
+    "bateria": "cuarenta y uno por ciento",
+    "silencio": "silencio",
+    "pila": "pila",
+    "tictac": "tic tac",
+    "tambor": "tambor",
+    "cinta": "cinta",
+    "tintinee": "tintinee",
+    "mensaje": "un mensaje",
+    "rosa": "doña rosa",
+    "debajo": "debajo de ti",
+    "escaleras": "piso de escaleras",
+    "esas": "en esas escaleras",
+    "respira": "algo respira"
+  },
+  "rojas": ["ruido", "mata", "salgas", "encontraron", "tambor", "respira", "debajo", "41%"],
+  "reemplazos": [
+    ["día uno", "día 1"], ["regla uno", "regla 1"], ["regla dos", "regla 2"],
+    ["cuarenta y uno por ciento", "41%"], ["cuatrocientos dos", "402"], ["parte tres", "parte 3"]
+  ],
+  "sin_subs": [
+    ["marca:r1texto", "marca:todo"],
+    ["marca:r2texto", "escena:inventario"],
+    ["marca:garrafon", "escena:silencio"],
+    ["escena:parte3", "fin"]
+  ]
+}

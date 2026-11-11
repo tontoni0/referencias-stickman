@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Hoja de personajes</title>
+<link rel="stylesheet" href="../lib/estilo.css">
+<style>
+  .et { position: absolute; font-family: Caveat; font-weight: 700; font-size: 52px; color: #f4f1e8; text-align: center; width: 360px; }
+  .fn { position: absolute; font: 500 22px Inter, sans-serif; color: #9aa3ad; text-align: center; width: 360px; }
+  .tit { position: absolute; top: 50px; width: 100%; text-align: center; font-family: Oswald; font-weight: 700; font-size: 84px; color: #fff; }
+  .sub { position: absolute; top: 180px; width: 100%; text-align: center; font: 500 30px Inter, sans-serif; color: #9aa3ad; }
+</style>
+</head>
+<body>
+<!-- Hoja de referencia: se dibuja con las mismas funciones que los episodios.
+     npm run hoja-personajes  (deja la imagen en referencias/personajes/hoja_personajes.png) -->
+<div id="stage"></div>
+<script src="../lib/dibujo.js"></script>
+<script>
+  document.body.insertAdjacentHTML('afterbegin', defsSVG);
+  const pie = (x, y, r, extra = {}) => ({ head: [x, y - 4.3 * r], r, neck: [x, y - 3.3 * r], hip: [x, y - 1.7 * r],
+    legL: [[x - 0.17 * r, y - 0.85 * r], [x - 0.3 * r, y]], legR: [[x + 0.17 * r, y - 0.85 * r], [x + 0.3 * r, y]], footL: -1, footR: 1,
+    armL: [[x - 0.5 * r, y - 2.2 * r], [x - 0.65 * r, y - 1.3 * r]], armR: [[x + 0.5 * r, y - 2.2 * r], [x + 0.65 * r, y - 1.3 * r]], ...extra });
+  const celdas = [
+    // [x centro, y piso, etiqueta, función, svg]
+    [180, 640, 'Tú', 'stick()', stick(pie(180, 640, 72))],
+    [540, 640, 'Chispa', "perro('gruñe')", `<g transform="translate(530 520)">${perro('gruñe')}</g>`],
+    [900, 640, 'Chispa echada', "perro('echada')", `<g transform="translate(880 580)">${perro('echada')}</g>`],
+    [180, 1210, 'Rosa · 402', 'rosa()', rosa(pie(180, 1210, 72))],
+    [540, 1210, 'Memo · 101', 'memo()', memo(pie(540, 1210, 72, { brazosAlFrente: true }))],
+    [900, 1210, 'Infectado', 'infectado()', infectado(pie(900, 1210, 72, { armL: [[860, 1060], [825, 1110]], armR: [[940, 1060], [975, 1110]], headFill: 'url(#headInfectadoOscuro)', ojosBrillan: true }))],
+    [180, 1780, 'Corriendo', 'infectadoCorriendo()', `<g transform="translate(180 1780) scale(360)">${infectadoCorriendo(1.2)}</g>`],
+    [540, 1780, 'Vecino', 'vecino()', vecino(540, 1780, 340, '#7aa6d8', { celular: true })],
+    [900, 1780, 'Evelin · T2', 'evelin()', evelin(pie(900, 1780, 72, { look: -8 }))],
+  ];
+  const stage = document.getElementById('stage');
+  stage.innerHTML = `<svg class="lienzo" width="1080" height="1920" viewBox="0 0 1080 1920">
+      <rect width="1080" height="1920" fill="#1b2230"/>
+      ${[230, 790, 1350].map(y => `<rect x="20" y="${y}" width="1040" height="${y === 1350 ? 560 : 540}" rx="24" fill="#222b3b"/>`).join('')}
+      <g filter="url(#ink)">${celdas.map(c => c[4]).join('')}</g></svg>
+    <div class="tit">La alerta · Personajes</div>
+    <div class="sub">Dibujados con video/lib/dibujo.js</div>
+    ${celdas.map(([x, y, et, fn]) => `<div class="et" style="left:${x - 180}px;top:${y + 4}px">${et}</div><div class="fn" style="left:${x - 180}px;top:${y + 64}px">${fn}</div>`).join('')}`;
+  function render() {}
+</script>
+</body>
+</html>

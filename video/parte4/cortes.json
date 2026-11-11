@@ -1,0 +1,48 @@
+{
+  "intro": 0.15,
+  "cola": 1.8,
+  "cortes": [
+    ["gancho", null],
+    ["ganchoAbajo", "abajo hay veinte"],
+    ["ganchoPata", "si resbala"],
+    ["rebobina", "veinte minutos antes"],
+    ["dia3", "día tres"],
+    ["chatMemo", "memo insiste"],
+    ["chatRosa", "y rosa te escribe"],
+    ["recuerdo", "memo cerró la puerta"],
+    ["regla3", "regla tres"],
+    ["paloma", "entonces una paloma"],
+    ["salta", "y chispa salta"],
+    ["cornisa", "ahora está en la cornisa"],
+    ["cabezas", "abajo veinte cabezas"],
+    ["alcanzar", "sacas medio cuerpo"],
+    ["grune", "la paloma aletea"],
+    ["resbala", "da un paso"],
+    ["collar", "la agarras del collar"],
+    ["adentro", "la jalas hacia adentro"],
+    ["alerta", "esa noche"],
+    ["parte5", "sígueme"]
+  ],
+  "marcas": {
+    "quinto": "quinto piso", "ladra": "si ladra", "resbalaH": "si resbala", "pierdes": "la pierdes",
+    "litros": "dieciocho litros", "comida": "comida para", "latas": "latas a cambio",
+    "noche": "la noche de la alerta", "afuera": "con los vecinos afuera", "desconfia": "desconfía",
+    "paloma": "una paloma", "salta": "chispa salta", "tiembla": "tiembla", "giran": "cabezas giran",
+    "ven": "chispa ven", "despacio": "despacio", "aletea": "aletea", "gruneM": "chispa gruñe", "ladrar": "va a ladrar",
+    "paso": "da un paso", "pata": "la pata resbala", "agarras": "la agarras", "placa": "la placa con cinta",
+    "ruido": "ni un ruido", "jalas": "la jalas", "lame": "te lame", "temblar": "dejar de temblar",
+    "suena": "la alerta suena", "mueve": "el piso no se mueve"
+  },
+  "rojas": ["cornisa", "veinte", "ladra", "resbala", "pierdes", "cerró", "afuera", "desconfía", "salta", "tiembla",
+            "ladrar", "collar", "ruido", "temblar", "3:14", "alerta"],
+  "reemplazos": [
+    ["veinte minutos antes", "20 minutos antes"], ["día tres", "día 3"], ["dieciocho litros", "18 litros"],
+    ["tres días", "3 días"], ["regla tres", "regla 3"], ["tres catorce", "3:14"], ["parte cinco", "parte 5"]
+  ],
+  "sin_subs": [
+    ["escena:rebobina", "escena:dia3"],
+    ["marca:litros", "escena:chatMemo"],
+    ["marca:desconfia", "escena:paloma"],
+    ["escena:parte5", "fin"]
+  ]
+}

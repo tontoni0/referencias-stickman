@@ -1,0 +1,144 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    [
+      "gano",
+      null
+    ],
+    [
+      "rozan",
+      "ellos se acercan"
+    ],
+    [
+      "muerde",
+      "y se agacha"
+    ],
+    [
+      "chilla",
+      "chispa chilla"
+    ],
+    [
+      "corres",
+      "corres"
+    ],
+    [
+      "centro",
+      "estás en el centro"
+    ],
+    [
+      "pata",
+      "chispa tiembla"
+    ],
+    [
+      "dias",
+      "en una pata"
+    ],
+    [
+      "sala",
+      "en la sala de control"
+    ],
+    [
+      "registro",
+      "tres catorce con dos"
+    ],
+    [
+      "registro2",
+      "tres catorce con cinco"
+    ],
+    [
+      "bip",
+      "detrás de ti"
+    ],
+    [
+      "memo",
+      "memo gris"
+    ],
+    [
+      "somos",
+      "mira la pata"
+    ],
+    [
+      "antena",
+      "yo sé llegar"
+    ],
+    [
+      "decide",
+      "lo dejas venir"
+    ]
+  ],
+  "marcas": {
+    "moverte": "no moverte",
+    "piedra": "como piedra",
+    "acercan": "se acercan",
+    "rozan": "te rozan",
+    "huelen": "te huelen",
+    "cara": "pega la cara",
+    "agacha": "se agacha",
+    "cuelga": "que cuelga",
+    "muerdeM": "la muerde",
+    "chillaM": "chispa chilla",
+    "tunel": "el túnel entero",
+    "encima": "viene encima",
+    "corresM": "corres",
+    "escalera": "una escalera",
+    "puerta": "una puerta",
+    "luz": "luz",
+    "centroM": "centro de alerta",
+    "tiembla": "chispa tiembla",
+    "atras": "de atrás",
+    "gris": "está gris",
+    "tarda": "tarda días",
+    "dias2": "días@2",
+    "salaM": "la sala de control",
+    "pantalla": "una pantalla",
+    "registroM": "el registro",
+    "dos": "con dos segundos",
+    "prueba": "prueba",
+    "zona": "zona edificio",
+    "usuario1": "usuario evelin",
+    "cinco": "con cinco segundos",
+    "todas": "todas las zonas",
+    "usuario2": "usuario coordinación",
+    "detras": "detrás de ti",
+    "tarjeta": "una tarjeta",
+    "abre": "abre la puerta",
+    "memoM": "memo gris",
+    "cuello": "hasta el cuello",
+    "mira": "mira la pata",
+    "rie": "se ríe",
+    "somos": "ya somos dos",
+    "yose": "yo sé llegar",
+    "antenaM": "a la antena",
+    "dejas": "lo dejas venir",
+    "encierras": "lo encierras",
+    "comenta": "comenta"
+  },
+  "rojas": [
+    "moverte",
+    "chispa",
+    "muerde",
+    "chilla",
+    "luz",
+    "gris",
+    "días",
+    "evelin",
+    "coordinación",
+    "memo",
+    "cuello",
+    "dos",
+    "antena"
+  ],
+  "reemplazos": [
+    [
+      "tres catorce",
+      "3:14"
+    ]
+  ],
+  "sin_subs": [
+    [
+      "escena:decide",
+      "fin"
+    ]
+  ]
+}

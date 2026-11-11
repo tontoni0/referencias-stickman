@@ -1,0 +1,35 @@
+{
+  "intro": 0.15,
+  "cola": 3.0,
+  "cortes": [
+    ["votos", null],
+    ["radio", "la alerta sigue sonando"],
+    ["blanca", "rosa se queda blanca"],
+    ["evelin", "evelin su nieta"],
+    ["clave", "cuando evelin era niña"],
+    ["primera", "la primera noche"],
+    ["pita", "el radio empieza a pitar"],
+    ["lampara", "arriba la lámpara"],
+    ["grune", "chispa le gruñe"],
+    ["fuiyo", "el radio pita otra vez"],
+    ["centro", "evelin quería salvar"],
+    ["pregunta", "quién hizo que sonara"]
+  ],
+  "marcas": {
+    "casi": "casi", "prende": "se prende solo", "nolahice": "esta no la hice", "persona": "solo una persona",
+    "nieta": "su nieta", "operadora": "operadora de noche",
+    "claveM": "inventaron una clave", "peligro": "si hay peligro", "tres": "3:14", "esconde": "la otra se esconde",
+    "tres2": "3:14@2", "bajaron": "todos bajaron", "rosano": "rosa no", "entendio": "rosa entendió",
+    "cortos": "cortos", "largos": "largos", "letra": "letra por letra", "viva": "estoy viva",
+    "mueve": "se mueve", "baja": "baja por la escalera", "luz": "la luz del radio",
+    "otravez": "pita otra vez", "fui": "fui yo", "perdon": "perdóname",
+    "salvar": "salvar a una sola", "toda": "en toda la ciudad", "comenta": "comenta"
+  },
+  "rojas": ["casi.", "solo.", "evelin.", "3:14.", "esconde.", "entendió.", "viva.", "memo", "puerta.", "yo.", "abuela.", "ciudad."],
+  "reemplazos": [
+    ["tres catorce", "3:14"]
+  ],
+  "sin_subs": [
+    ["escena:pregunta", "fin"]
+  ]
+}

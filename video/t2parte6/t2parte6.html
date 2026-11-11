@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>La alerta · Temporada 2 · Parte 6</title>
+<link rel="stylesheet" href="../lib/estilo.css">
+</head>
+<body>
+<div id="stage"><div id="fade"></div><div id="sub"></div></div>
+<script src="../lib/dibujo.js"></script>
+<script src="../lib/motor.js"></script>
+<script src="tl.js"></script>
+<script src="../lib/escena_base.js"></script>
+<script src="../lib/edificio.js"></script>
+<script src="escenas.js"></script>
+<script>
+  montar();
+  // las escenas van debajo del fundido y de los subtítulos
+  const stage = document.getElementById('stage');
+  stage.appendChild(document.getElementById('fade'));
+  stage.appendChild(document.getElementById('sub'));
+  const q = new URLSearchParams(location.search);
+  render(q.has('t') ? parseFloat(q.get('t')) : 0);
+</script>
+</body>
+</html>
