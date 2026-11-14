@@ -1,6 +1,6 @@
 # referencias-stickman
 
-Serie de videos cortos de stickman en español: **La alerta**, una historia de zombies en una unidad habitacional de la Ciudad de México.
+Serie de videos cortos de stickman en español: **La alerta**, una historia de zombies en una unidad habitacional de la Ciudad de México. Está completa: temporada 1 (8 partes) y temporada 2 (10 partes, con el final).
 
 | Carpeta | Qué hay |
 |---|---|

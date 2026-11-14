@@ -68,7 +68,7 @@ Los comentarios del final de la temporada 1 votaron por Memo. La respuesta es "c
 | 7 | La antena | Azotea del centro | Encuentras a Evelin. Te apunta con una llave de tuercas hasta que Chispa la huele y la reconoce: huele a la casa de Rosa. Entonces el ruido del viento jala a Chispa: ojos blancos, te tira una mordida. Evelin le pone sus audífonos de operadora y se calma (regla 5: sin ruido, se calman). Detrás del tinaco, el radio de Memo truena con la voz de la Coordinación: "Tráenos a la operadora y te curamos." Solo tú ves a Memo. | 🗣️ le cuentas a Evelin lo que oíste · 🤐 te lo callas |
 | 8 | Noventa segundos | Azotea y avenidas | Evelin cuenta la primera noche desde su lado: a las 3:14 mandó una prueba solo para el edificio de su abuela y tres segundos después la Coordinación tomó el sistema; querían a todos en los patios y las avenidas vacías. Plan: alertas de 90 segundos con la consola, zona por zona, hasta llegar con Rosa. Bajo el puente no hay poste: Chispa, sin audífonos, aúlla y se los lleva; es más rápida y regresa. En la última zona Memo agarra a Evelin y se la lleva con la consola. Chispa todavía no trae los audífonos: la alerta la jala, ojos blancos, corre al poste entre ellos. | 🐕 salvas a Chispa · 👩 vas por Evelin |
 | 9 | Bajen al patio | Avenida, estadio y 402 | Salvas a Chispa del poste y le pones los audífonos. Memo arrastra a Evelin al estadio: se abre una reja y unos guantes negros se llevan a Evelin y la consola. Memo estira el brazo gris; una bocina: "No evacuamos mordidos." La reja se cierra y a Memo se le van las pupilas: ya no es Memo. Tú y Chispa vuelven con Rosa. A medianoche el radio de Rosa habla solo: "Hoy a las 3:14, bajen al punto de reunión. Orden y calma." (lo mismo que escribió Memo la primera noche). Pitidos de Evelin: "EL TABLERO VIEJO. HAY CURA." El gris de Chispa ya pasó la cadera. Rosa apaga la vela: por primera vez va a salir. Abre la puerta: el radio los trajo y la escalera está llena. | 🪢 bajan por la ventana con el mecate · 🚪 bajan por la escalera, entre ellos |
-| 10 | La última alerta | Centro de alerta, ciudad y unidad | Llegan al tablero viejo: Rosa en el micrófono, tú en la señal. 3:14. Suena la alerta de la Coordinación, pero la ciudad oye la voz de Rosa: "No bajen. Quédense en silencio. Esta alerta es mentira." La última alerta tiene que ir al estadio, donde está Evelin. Pitidos: "MANDALA ABUELA." Rosa la manda. Los infectados caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: Evelin llega al patio con un frasco del suero y se abraza con Rosa. Le pone la cura a Chispa: el gris se retira. Le quitas los audífonos, le mueves la placa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? |
+| 10 | La última alerta | Centro de alerta, ciudad y unidad | Rosa baja por la ventana con el mecate; por calles oscuras, en silencio, llegan al centro de alerta. El tablero viejo (1995) se opera entre dos: Rosa en el micrófono, tú en la señal. 3:14: suena la alerta de la Coordinación; Rosa habla y la ciudad oye su voz en vez de la sirena: "No bajen. Quédense en silencio. Esta alerta es mentira." Ellos ya corren a los postes: hay que mandarlos a una sola zona, el estadio, donde está Evelin. A Rosa le tiembla la mano; pitidos: "MANDALA ABUELA." Rosa la manda: todos caminan al estadio, Memo entre ellos; los helicópteros huyen. Amanece: los vecinos se asoman. Evelin entra al patio (se escondió en silencio) con un frasco del suero. Rosa y Evelin se abrazan. El suero: el gris se retira de la pata de Chispa. Le quitas los audífonos, le mueves la placa: suena y no viene nadie. Fin. | Pregunta: ¿de qué quieren la siguiente historia? (👻 fantasmas · 🛸 ovnis · 🔪 un asesino · su idea) |
 
 De la parte 2 a la 9, todas terminan con una decisión para los comentarios, y la parte siguiente se hace con lo que gane. Lo que cambia es cómo pasa el principio de la parte siguiente: el camino, el peligro, quién está dónde. Lo que está en la columna "Qué pasa" ocurre igual gane lo que gane, así que todas las opciones llegan al mismo final. La 10 cierra preguntando de qué quieren la siguiente historia.
 
@@ -622,4 +622,79 @@ Voz: "¿Bajan por la ventana con el mecate, o por la escalera, entre ellos? Come
 La escalera está llena. ¿Por dónde bajan?
 🪢 Por la ventana, con el mecate · 🚪 Por la escalera, entre ellos
 La parte 10 es la última. Se hace con lo que gane.
+```
+
+## Parte 10 · La última alerta (gana 🪢, final de la historia)
+
+**Estado:** terminada. Video en `episodios/t2-parte-10-la-ultima-alerta/` (82.5 s, 20 escenas). Con esta parte termina "La alerta".
+**Título:** La última alerta. Así termina | Temporada 2, parte 10 (final)
+**Portada:** Y NO VIENE NADIE.
+
+En los comentarios de la parte 9 gana 🪢 (por la ventana, con el mecate). Abre con la tarjeta del voto. Dura más que las otras partes (unos 83 s) porque es el final.
+
+**1** Tarjeta "GANÓ": 🪢 POR LA VENTANA, CON EL MECATE encendida, 🚪 POR LA ESCALERA, ENTRE ELLOS tachada.
+Voz: "Ganó el mecate."
+
+**2** De noche, la fachada del Edificio C: Rosa baja por el mecate del tendedero desde la ventana del 402; tú y Chispa miran desde arriba. En las ventanas de la escalera, ellos con la cara hacia arriba.
+Voz: "Rosa baja primero por la ventana, con el mecate del tendedero."
+
+**3** Calles oscuras con infectados quietos; los tres pasan en silencio. Al fondo, la antena del centro de alerta con su luz roja.
+Voz: "Por calles oscuras, en silencio, llegan al centro de alerta."
+
+**4** El tablero viejo ("SISTEMA DE ALERTA · 1995"): mapa de zonas con focos, un foco grande ESTADIO, dos medidores y la palanca SEÑAL. Rosa en el micrófono de pie; tú en la palanca; Chispa en el piso con sus audífonos.
+Voz: "El tablero viejo. Se opera entre dos, corazón, dice Rosa. Yo en el micrófono. Tú en la señal."
+
+**5** "3:14" en rojo. Todos los focos del tablero se prenden en rojo.
+Voz: "Tres catorce. Suena la alerta de la Coordinación."
+
+**6** Rosa toma el micrófono. La ciudad de noche: de los postes salen ondas blancas (su voz) y se prenden las ventanas.
+Voz: "Rosa habla. Y la ciudad oye su voz en vez de la sirena."
+
+**7** La fachada con los vecinos en las ventanas; el poste habla. Uno por uno cierran las cortinas. La voz sale con filtro de megáfono y eco de ciudad.
+Voz: "No bajen. Quédense en silencio. Esta alerta es mentira."
+
+**8** Una avenida de noche: ellos corren al poste.
+Voz: "Pero ellos ya corren a los postes."
+
+**9** El mapa del tablero: el foco ESTADIO marcado. En una burbuja, Evelin escondida en las gradas, con un dedo en la boca.
+Voz: "Hay que mandarlos a una sola zona: el estadio. Donde está Evelin."
+
+**10** La mano arrugada de Rosa tiembla sobre el botón rojo ESTADIO.
+Voz: "A Rosa le tiembla la mano."
+
+**11** El radio pita en clave; Rosa escribe temblando "MANDALA" y, en rojo, "ABUELA".
+Voz: "El radio pita: mándala, abuela."
+
+**12** Rosa baja la palanca: el foco ESTADIO se prende; "ZONA: ESTADIO".
+Voz: "Rosa la manda."
+
+**13** De noche, todos caminan hacia el estadio (las ondas rojas salen de ahí). Memo entre ellos, gris y con los ojos blancos. Los dos helicópteros se van.
+Voz: "Todos caminan al estadio. Memo entre ellos. Los helicópteros huyen."
+
+**14** Amanece sobre el Edificio C; los vecinos se asoman a las ventanas; en el patio, la chancla rosa.
+Voz: "Amanece. Los vecinos se asoman."
+
+**15** Evelin entra al patio y levanta un frasco del suero (líquido verde, emblema rojo de la Coordinación). Rosa la ve.
+Voz: "Evelin entra al patio. Se escondió en silencio. Trae un frasco del suero."
+
+**16** Rosa y Evelin se abrazan.
+Voz: "Rosa y Evelin se abrazan."
+
+**17** Chispa de lado: la mano de Evelin le acerca el frasco; con unos brillos, el gris se retira de la pata y de la cadera.
+Voz: "Evelin le pone el suero a Chispa. El gris se retira de su pata."
+
+**18** La cara de Chispa: le quitas los audífonos; le mueves la placa: "tin". Chispa saca la lengua.
+Voz: "Le quitas los audífonos. Le mueves la placa. Suena."
+
+**19** El patio al amanecer: tú, Chispa (moviendo la cola), Evelin y Rosa. No viene nadie.
+Voz: "Y no viene nadie."
+
+**20** Tarjeta final: "FIN · LA ALERTA" y "¿DE QUÉ QUIEREN LA SIGUIENTE HISTORIA?": 👻 FANTASMAS · 🛸 OVNIS · 🔪 UN ASESINO · COMENTA TU IDEA.
+Voz (susurro): "Aquí termina La alerta. ¿De qué quieren la siguiente historia? Comenta."
+
+**Comentario fijado:**
+```
+Aquí termina La alerta. Gracias por votar en cada parte.
+¿De qué quieren la siguiente historia?
+👻 Fantasmas · 🛸 Ovnis · 🔪 Un asesino · o comenten su idea
 ```
